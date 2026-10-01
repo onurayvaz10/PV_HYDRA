@@ -1,0 +1,23 @@
+{
+  "source_title": "High-resolution (1 km) Köppen-Geiger maps for 1901–2099 based on constrained CMIP6 projections",
+  "publisher": "Figshare",
+  "article_id": 21789074,
+  "article_version": 2,
+  "article_doi": "10.6084/m9.figshare.21789074.v2",
+  "paper_doi": "10.1038/s41597-023-02549-6",
+  "published_at_utc": "2026-01-14T12:04:18Z",
+  "license": "CC BY 4.0",
+  "archive_file_id": 61012822,
+  "archive_file_name": "koppen_geiger_tif.zip",
+  "archive_md5": "7fc2f5a15d4f5fe0ce59c9a9b502aa09",
+  "archive_sha256": "bb84453d4541f1a0bc5a804ead83f483c19ce70f16a5197f6d3a7b6a63e65562",
+  "raster_archive_path": "1991_2020/koppen_geiger_0p00833333.tif",
+  "raster_file": "koppen_geiger_1991_2020_0p00833333.tif",
+  "raster_sha256": "2130f0071dfb2904947d8ec3a0d807fac71004df76e769262004f1602e4d6a13",
+  "legend_file": "legend.txt",
+  "legend_sha256": "2ede2ad270a036cc11c31705a2c1dbf0314a8cf011fc972cd4a9665e3339e5e5",
+  "climate_period": "1991–2020",
+  "grid_degrees": 0.008333333333333333,
+  "nodata_code": 0,
+  "retrieved_at_utc_date": "2026-09-27"
+}

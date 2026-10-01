@@ -1,0 +1,14 @@
+location,lat,lon,climate,systems,country,group
+"Alice Springs, NT",-23.7618,133.8748,BWh,12,Australia,paper
+"Arbuckle, CA",38.996306,-122.134111,Csa,1,United States,paper
+"Golden, CO",39.7438,-105.1779,Dfb,1,United States,paper
+"Henderson, NV",36.0275,-114.9215,BWh,1,United States,paper
+"Golden, CO",39.7404,-105.1773,Dfb,2,United States,expansion
+"Helsinki, Finland",60.2046,24.9621,Dfb,1,Finland,short record
+Hong Kong,22.3,114.17,Cwa,3,China (Hong Kong),short record
+"Kuopio, Finland",62.8917,27.6317,Dfc,1,Finland,short record
+"Las Vegas, NV",36.1952,-115.1582,BWh,1,United States,expansion
+"New Orleans, LA",29.981633333333335,-90.07443333333333,Cfa,3,United States,expansion
+"Port Chester, NY",40.995,-73.668,Dfa,3,United States,expansion
+"Sodankyla, Finland",67.3668,26.6289,Dfc,1,Finland,short record
+Utrecht,52.03819444166667,5.221111111333333,Cfb,3,Netherlands,short record

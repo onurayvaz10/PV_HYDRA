@@ -1,0 +1,28 @@
+system_id,tier,source,first,last,pre_1990_year_folders_ignored,power_channel,power_metrics,power_units,time_basis,status,rows,native_interval_min,weather_channels,cache_sha256,seconds,files
+pvdaq_1246,R,PVDAQ parquet archive,2012-02-27,2015-09-18,0.0,reported_watt_average,W_avg,W,measured_on,ok,371209.0,5.0,,dea97f0ebbf7e3a85eadd96f25f3be1d572e46f5919d3960f0e05c68b07efc5e,32.1,
+pvdaq_1255,R,PVDAQ parquet archive,2012-03-06,2015-09-25,0.0,reported_watt_average,W_avg,W,measured_on,ok,374140.0,5.0,,7ad3c6d2bc5696846b279d8dd1bab77c932770f890eba7100ce32ec321d02991,34.9,
+pvdaq_1272,R,PVDAQ parquet archive,2011-12-21,2015-09-12,0.0,reported_watt_average,W_avg,W,measured_on,ok,387871.0,5.0,,633ae14027765ff0b56098ff54788d2730df3a23bc3791d2a67e6f0cd6e14000,34.5,
+pvdaq_1217,R,PVDAQ parquet archive,2011-04-21,2015-01-21,0.0,reported_watt_average,W_avg,W,measured_on,ok,375387.0,5.0,,ec9a595f9de9b66c2dd6fd4b3d6b821aadf498d16637400da16c5e02870e68d7,32.6,
+pvdaq_1221,R,PVDAQ parquet archive,2011-04-21,2015-01-21,0.0,reported_watt_average,W_avg,W,measured_on,ok,375362.0,5.0,,6e456a6ac2ebd2bbdce4e8a4899a3eac2557b0f9b74bcd850caedd32528eeefd,33.8,
+pvdaq_1225,R,PVDAQ parquet archive,2011-04-21,2015-01-21,0.0,reported_watt_average,W_avg,W,measured_on,ok,375367.0,5.0,,ec8daa47b793b0cf318f09811ad3ce157920919e7b618c79c962ef18212f91e0,34.8,
+pvdaq_2105,R,2023 Solar Data Prize files,2018-12-15,2023-11-09,,prize_documented_units,,,,ok,171648.0,15.0,onsite_ghi_wm2;onsite_ambient_temp_c,903fc4a2a157d9a7c9d7cda2878b8ee2cbdfa4e8d65bc486bad42cc5914e6b75,20.5,2105_meter_data.csv; 2105_irradiance_data.csv; 2105_environment_1_data.csv
+pvdaq_4,S,PVDAQ parquet archive,2007-08-26,2023-02-28,0.0,exact_ac_power_total,ac_power,W,measured_on,ok,6346379.0,1.0,onsite_ambient_temp_c;onsite_poa_wm2,1056e61822ecd6028a634ba999da7620fdef5be7a276f9c6858b49e05929cce9,189.4,
+pvdaq_10,S,PVDAQ parquet archive,2000-04-23,2023-02-28,0.0,exact_ac_power_total,ac_power,W,measured_on,ok,6652303.0,1.0,onsite_ambient_temp_c;onsite_poa_wm2,e8139eba03c51af1a6248f77d760808c8efdf7d7f50a96eefbd0e5c8b5b806f7,193.5,
+pvdaq_33,S,PVDAQ parquet archive,2010-11-08,2023-02-28,0.0,exact_ac_power_total,ac_power,W,measured_on,ok,6254150.0,1.0,onsite_ambient_temp_c;onsite_poa_wm2,d13909190c30925abf2a0cd3f99f0ab3d14f286f3d1a09a540e573957c2a9908,199.4,
+pvdaq_50,S,PVDAQ parquet archive,1994-05-13,2023-02-28,1.0,exact_ac_power_total,ac_power,W,measured_on,ok,5713820.0,1.0,onsite_ambient_temp_c;onsite_poa_wm2,2606fcef9fc00e668405e8211c79afbda708563cccbf8aa9769a0668e40749b8,278.4,
+pvdaq_51,S,PVDAQ parquet archive,1994-05-13,2023-02-28,0.0,exact_ac_power_total,ac_power,W,measured_on,ok,4157443.0,1.0,onsite_ambient_temp_c;onsite_poa_wm2,afce3e4133be1d173554607c3efae607fe88243430bae8c7fff286197951cc10,284.7,
+pvdaq_1208,S,,,,,,,,,not downloaded: no on-site POA channel,,,,,,
+pvdaq_1283,S,PVDAQ parquet archive,2012-01-09,2022-02-08,0.0,exact_ac_power_total,ac_power,W,measured_on,ok,16235686.0,0.0,onsite_ambient_temp_c;onsite_module_temp_c;onsite_poa_wm2,a30c5ea6129bab95f87eb325d613f591c49c2c22d62fe32d1cd7437d707c9fb3,557.0,
+pvdaq_1289,S,PVDAQ parquet archive,2012-09-27,2020-05-19,0.0,exact_ac_power_total,ac_power,W,measured_on,ok,3713043.0,1.0,onsite_ambient_temp_c;onsite_poa_wm2,5da4376637f606fe3969ae3272100c532925a5c3df944c6f3cf19bcbd062a961,162.4,
+pvdaq_1332,S,,,,,,,,,not downloaded: no on-site POA channel,,,,,,
+pvdaq_1239,S,,,,,,,,,error: OSError: When listing objects under key 'pvdaq/parquet/pvdata/system_id=1239/' in bucket 'oedi-data-lake': AWS Error NETWORK_CONNECTION during ListObjectsV2 operation: Encountered network error when sending http request,,,,,,
+pvdaq_34,S,PVDAQ parquet archive,2010-08-23,2020-07-26,0.0,single_ac_power_channel,ac_power_hW,W,measured_on,ok,340003.0,15.0,onsite_poa_wm2,30825997e8290a73701901c0789a2c810bb3da2f44d919e67f9c52d74a917a7a,99.3,
+pvdaq_35,S,PVDAQ parquet archive,2010-08-23,2020-07-26,0.0,single_ac_power_channel,ac_power_hW,W,measured_on,ok,338027.0,15.0,onsite_poa_wm2,d8ef256215b20eba8ad2c902280e0161a8688a958dc8c250b1b4fd118826b0f5,111.4,
+pvdaq_1276,S,PVDAQ parquet archive,2011-08-30,2020-07-26,0.0,single_ac_power_channel,ac_power_hW,W,measured_on,ok,306320.0,15.0,onsite_poa_wm2,f6e3f45d8c5d6e97767d3dca8bc35f2212a985a1287b10389e85b4ffff6493ba,84.7,
+pvdaq_1277,S,PVDAQ parquet archive,2011-08-30,2020-07-26,0.0,single_ac_power_channel,ac_power_hW,W,measured_on,ok,300176.0,15.0,onsite_poa_wm2,fed89f0f88f36af64ece78243ee4a60dd4797a3a6ccd0b2560eb2823d030b2dc,86.7,
+pvdaq_1278,S,PVDAQ parquet archive,2011-08-30,2020-07-26,0.0,exact_ac_power_total,ac_power,W,measured_on,ok,236276.0,15.0,onsite_poa_wm2,ffcb4bcdf2c3508b7f54d9b4c5365ca12d4da3536667d5bd2befd5290eeb48c6,84.9,
+pvdaq_1367,S,PVDAQ parquet archive,2013-05-08,2020-05-24,0.0,exact_ac_power_total,ac_power,W,measured_on,ok,914702.0,1.0,onsite_poa_wm2,9358fe97659d8ab7b69d774b92bc7b98e008fd68506153f6a5d9882544f0b65e,68.0,
+pvdaq_1368,S,,,,,,,,,not downloaded: no on-site POA channel,,,,,,
+pvdaq_1369,S,,,,,,,,,not downloaded: no on-site POA channel,,,,,,
+pvdaq_9069,S,2023 Solar Data Prize files,2016-02-17,2023-11-29,,prize_documented_units,,,,ok,589349.0,5.0,meter2_power_w;onsite_poa_wm2;onsite_ambient_temp_c,9e58bea55de86358fa7dd98ea2dc55ce85627ebdca646e2f906f2195a4fa9e8b,987.8,9069_meter_data.csv; 9069_meter_data.csv; 9069_irradiance_data.csv; 9069_environment_data.csv
+pvdaq_9068,S,2023 Solar Data Prize files,2017-08-23,2025-04-30,,prize_documented_units,,,,ok,749288.0,5.0,onsite_poa_wm2,2ca2f4628b7ffa25a4856043946a10ee8883d5e33e647441753f7185d4fe11db,248.4,9068_ac_power_data.csv; 9068_ac_power_data_20240101_20250430.csv; 9068_irradiance_data.csv; 9068_irradiance_data_20240101_20250430.csv

@@ -1,0 +1,43 @@
+system_id,role,group,location,country,koppen_geiger,tier,irradiance,technology,dc_kw,first,last,development_system,exclusion_reason
+dkasc_7,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,CdTe,7.0,2008-09-12,2025-08-23,True,
+dkasc_8,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,Amorphous Silicon,6.0,2008-09-12,2025-09-04,False,
+dkasc_10,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,mono-Si,5.8,2008-09-12,2025-08-23,False,
+dkasc_11,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,poly-Si,5.0,2008-09-12,2025-08-23,False,
+dkasc_13,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,mono-Si,5.3,2008-09-12,2025-08-23,False,
+dkasc_17,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,HIT Hybrid Silicon,6.3,2008-09-12,2025-08-23,False,
+dkasc_12,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,mono-Si,5.1,2008-09-12,2025-08-23,True,
+dkasc_14,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,poly-Si,5.4,2008-09-12,2025-09-04,True,
+dkasc_18,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,mono-Si,5.2,2008-09-12,2025-09-04,False,
+dkasc_19,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,mono-Si,5.0,2009-12-15,2025-08-23,False,
+dkasc_20,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,poly-Si,5.0,2009-12-15,2025-08-23,False,
+dkasc_21,main,long sensor-grade,"Alice Springs, NT",Australia,BWh,sensor-grade,on-site POA,poly-Si,4.9,2009-12-15,2025-08-23,False,
+pvdaq_1430,main,long sensor-grade,"Golden, CO",United States,Dfb,sensor-grade,on-site POA,not reported,720.72,2009-02-23,2017-11-21,False,
+pvdaq_1432,excluded,,"Golden, CO",United States,Dfb,sensor-grade,on-site POA,not reported,94.05,2009-09-28,2018-01-14,False,POA sensor drift (> 1 %/yr vs ERA5 and vs clear-sky envelope)
+pvdaq_1433,excluded,,"Golden, CO",United States,Dfb,sensor-grade,on-site POA,not reported,449.28,2010-12-31,2018-01-14,False,POA sensor drift (> 1 %/yr vs ERA5 and vs clear-sky envelope)
+pvdaq_1423,main,long sensor-grade,"Henderson, NV",United States,BWh,sensor-grade,on-site POA,not reported,6.0,2015-11-24,2023-02-28,False,
+pvdaq_1199,excluded,,"Cockeysville, MD",United States,Cfa,sensor-grade,on-site POA,not reported,52.92,2011-07-22,2018-08-03,False,no usable on-site POA
+pvdaq_1200,excluded,,"Linthicum Heights, MD",United States,Cfa,sensor-grade,on-site POA,not reported,51.84,2013-11-29,2016-01-25,False,no usable on-site POA
+pvdaq_1201,excluded,,"Cherry Hill, NJ",United States,Cfa,sensor-grade,on-site POA,not reported,140.14,2011-01-24,2016-01-25,False,no usable on-site POA
+pvdaq_1202,excluded,,"Cherry Hill, NJ",United States,Cfa,sensor-grade,on-site POA,not reported,51.84,2011-01-04,2016-11-14,False,no usable on-site POA
+pvdaq_1203,excluded,,"Wilmington, DE",United States,Cfa,sensor-grade,on-site POA,not reported,197.47,2011-01-19,2016-01-25,False,no usable on-site POA
+pvdaq_1204,excluded,,"Chester, PA",United States,Cfa,sensor-grade,on-site POA,not reported,78.645,2011-02-08,2015-01-06,False,< 4 years of valid days
+pvdaq_2107,main,long sensor-grade,"Arbuckle, CA",United States,Csa,sensor-grade,on-site POA,not reported,893.0,2017-01-01,2025-12-31,False,
+pvdaq_9068,excluded,,"Kersey, CO",United States,BSk,sensor-grade,on-site POA,not reported,4738.0,2017-08-23,2025-04-30,False,night power above 1 % of rating; < 4 years of valid days
+pvdaq_10,main,long expansion,"Golden, CO",United States,Dfb,S,on-site POA,,,,,False,
+pvdaq_33,main,long expansion,"Golden, CO",United States,Dfb,S,on-site POA,,,,,False,
+fmi_helsinki,main,short expansion,"Helsinki, Finland",Finland,Dfb,S-short,on-site POA,,,,,False,
+fmi_kuopio,main,short expansion,"Kuopio, Finland",Finland,Dfc,S-short,on-site POA,,,,,False,
+pvdaq_1278,main,long expansion,"Las Vegas, NV",United States,BWh,S,on-site POA,,,,,False,
+hk_sq19,main,short expansion,"Hong Kong SAR, China","Hong Kong SAR, China",Cwa,R-short,"ERA5 GHI (on-site sensor step, Feb. 2023)",,,,,False,
+hk_sq15,main,short expansion,"Hong Kong SAR, China","Hong Kong SAR, China",Cwa,R-short,"ERA5 GHI (on-site sensor step, Feb. 2023)",,,,,False,
+hk_sq12,main,short expansion,"Hong Kong SAR, China","Hong Kong SAR, China",Cwa,R-short,"ERA5 GHI (on-site sensor step, Feb. 2023)",,,,,False,
+pvdaq_1272,main,long expansion,"New Orleans, LA",United States,Cfa,R,"ERA5, transposed",,,,,False,
+pvdaq_1255,main,long expansion,"New Orleans, LA",United States,Cfa,R,"ERA5, transposed",,,,,False,
+pvdaq_1246,main,long expansion,"New Orleans, LA",United States,Cfa,R,"ERA5, transposed",,,,,False,
+pvdaq_1217,main,long expansion,"Port Chester, NY",United States,Dfa,R,"ERA5, transposed",,,,,False,
+pvdaq_1221,main,long expansion,"Port Chester, NY",United States,Dfa,R,"ERA5, transposed",,,,,False,
+pvdaq_1225,main,long expansion,"Port Chester, NY",United States,Dfa,R,"ERA5, transposed",,,,,False,
+fmi_sodankyla20,main,short expansion,"Sodankyla, Finland",Finland,Dfc,R-short,"ERA5, transposed",,,,,False,
+ut_ID009,main,short expansion,Utrecht,Netherlands,Cfb,R-short,"ERA5, transposed",,,,,False,
+ut_ID002,main,short expansion,Utrecht,Netherlands,Cfb,R-short,"ERA5, transposed",,,,,False,
+ut_ID012,main,short expansion,Utrecht,Netherlands,Cfb,R-short,"ERA5, transposed",,,,,False,

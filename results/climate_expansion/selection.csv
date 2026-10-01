@@ -1,0 +1,179 @@
+system_id,raw_id,tier,location,climate,rank_in_location,existing_main_at_location,role,status
+pvdaq_10,10,S,"Golden, CO",Dfb,1,1,main,final
+pvdaq_33,33,S,"Golden, CO",Dfb,2,1,main,final
+pvdaq_4,4,S,"Golden, CO",Dfb,3,1,sensitivity,final
+pvdaq_1283,1283,S,"Golden, CO",Dfb,4,1,sensitivity,final
+pvdaq_1289,1289,S,"Golden, CO",Dfb,5,1,sensitivity,final
+fmi_helsinki,fmi:Helsinki,S,"Helsinki, Finland",Dfb,1,0,main,final
+fmi_kuopio,fmi:Kuopio,S,"Kuopio, Finland",Dfc,1,0,main,final
+pvdaq_1278,1278,S,"Las Vegas, NV",BWh,1,0,main,final
+hk_sq19,hongkong:SQ19,R,Hong Kong,Cwa,1,0,main,final
+hk_sq15,hongkong:SQ15,R,Hong Kong,Cwa,2,0,main,final
+hk_sq12,hongkong:SQ12,R,Hong Kong,Cwa,3,0,main,final
+hk_sq13,hongkong:SQ13,R,Hong Kong,Cwa,4,0,sensitivity,final
+hk_sq16,hongkong:SQ16,R,Hong Kong,Cwa,5,0,sensitivity,final
+hk_sq14,hongkong:SQ14,R,Hong Kong,Cwa,6,0,sensitivity,final
+hk_lsknorth,hongkong:LSK_North,R,Hong Kong,Cwa,7,0,sensitivity,final
+hk_sq1,hongkong:SQ1,R,Hong Kong,Cwa,8,0,sensitivity,final
+hk_sq2,hongkong:SQ2,R,Hong Kong,Cwa,9,0,sensitivity,final
+hk_sq3,hongkong:SQ3,R,Hong Kong,Cwa,10,0,sensitivity,final
+hk_sq4,hongkong:SQ4,R,Hong Kong,Cwa,11,0,sensitivity,final
+hk_ughall6,hongkong:UG_Hall6,R,Hong Kong,Cwa,12,0,sensitivity,final
+hk_ughall7,hongkong:UG_Hall7,R,Hong Kong,Cwa,13,0,sensitivity,final
+hk_sq17,hongkong:SQ17,R,Hong Kong,Cwa,14,0,sensitivity,final
+hk_cytstation2,hongkong:CYT__Station_2_,R,Hong Kong,Cwa,15,0,sensitivity,final
+hk_sq8,hongkong:SQ8,R,Hong Kong,Cwa,16,0,sensitivity,final
+hk_sq9,hongkong:SQ9,R,Hong Kong,Cwa,17,0,sensitivity,final
+hk_sq567,hongkong:SQ567,R,Hong Kong,Cwa,18,0,sensitivity,final
+hk_ughall4,hongkong:UG_Hall4,R,Hong Kong,Cwa,19,0,sensitivity,final
+hk_zonea1,hongkong:Zone_A1,R,Hong Kong,Cwa,20,0,sensitivity,final
+hk_ughall3,hongkong:UG_Hall3,R,Hong Kong,Cwa,21,0,sensitivity,final
+hk_zonea4,hongkong:Zone_A4,R,Hong Kong,Cwa,22,0,sensitivity,final
+hk_ughall22f,hongkong:UG_Hall2_2F,R,Hong Kong,Cwa,23,0,sensitivity,final
+hk_ughall2rf,hongkong:UG_Hall2_RF,R,Hong Kong,Cwa,24,0,sensitivity,final
+hk_zonea2,hongkong:Zone_A2,R,Hong Kong,Cwa,25,0,sensitivity,final
+hk_lsksouth,hongkong:LSK_South,R,Hong Kong,Cwa,26,0,sensitivity,final
+hk_cytstation1,hongkong:CYT__Station_1_,R,Hong Kong,Cwa,27,0,sensitivity,final
+hk_sqapartment1324,hongkong:SQ_Apartment13_24,R,Hong Kong,Cwa,28,0,sensitivity,final
+hk_sqapartment112,hongkong:SQ_Apartment1_12,R,Hong Kong,Cwa,29,0,sensitivity,final
+hk_sqapartment2536,hongkong:SQ_Apartment25_36,R,Hong Kong,Cwa,30,0,sensitivity,final
+hk_sqapartment3748,hongkong:SQ_Apartment37_48,R,Hong Kong,Cwa,31,0,sensitivity,final
+hk_sq10,hongkong:SQ10,R,Hong Kong,Cwa,32,0,sensitivity,final
+hk_sq11,hongkong:SQ11,R,Hong Kong,Cwa,33,0,sensitivity,final
+hk_sq567flexiblepv,hongkong:SQ567_Flexible_PV,R,Hong Kong,Cwa,34,0,sensitivity,final
+hk_ughall7flexiblepv,hongkong:UG_Hall7_Flexible_PV,R,Hong Kong,Cwa,35,0,sensitivity,final
+hk_sqblockr,hongkong:SQ_Block_R,R,Hong Kong,Cwa,36,0,sensitivity,final
+hk_sqblocks,hongkong:SQ_Block_S,R,Hong Kong,Cwa,37,0,sensitivity,final
+hk_zonea5,hongkong:Zone_A5,R,Hong Kong,Cwa,38,0,sensitivity,final
+hk_zonea6,hongkong:Zone_A6,R,Hong Kong,Cwa,39,0,sensitivity,final
+hk_zonea7,hongkong:Zone_A7,R,Hong Kong,Cwa,40,0,sensitivity,final
+hk_wongchecksheresearchcent,hongkong:Wong_Check_She_Research_Centre,R,Hong Kong,Cwa,41,0,sensitivity,final
+hk_indoorsportcenter,hongkong:Indoor_Sport_Center,R,Hong Kong,Cwa,42,0,sensitivity,final
+hk_shhosporthall,hongkong:S_H_Ho_Sports_Hall,R,Hong Kong,Cwa,43,0,sensitivity,final
+pvdaq_1272,1272,R,"New Orleans, LA",Cfa,1,0,main,final
+pvdaq_1255,1255,R,"New Orleans, LA",Cfa,2,0,main,final
+pvdaq_1246,1246,R,"New Orleans, LA",Cfa,3,0,main,final
+pvdaq_1217,1217,R,"Port Chester, NY",Dfa,1,0,main,final
+pvdaq_1221,1221,R,"Port Chester, NY",Dfa,2,0,main,final
+pvdaq_1225,1225,R,"Port Chester, NY",Dfa,3,0,main,final
+fmi_sodankyla20,fmi:Sodankyla20,R,"Sodankyla, Finland",Dfc,1,0,main,final
+ut_ID009,utrecht:ID009,R,Utrecht,Cfb,1,0,main,final
+ut_ID002,utrecht:ID002,R,Utrecht,Cfb,2,0,main,final
+ut_ID012,utrecht:ID012,R,Utrecht,Cfb,3,0,main,final
+ut_ID053,utrecht:ID053,R,Utrecht,Cfb,4,0,sensitivity,final
+ut_ID014,utrecht:ID014,R,Utrecht,Cfb,5,0,sensitivity,final
+ut_ID153,utrecht:ID153,R,Utrecht,Cfb,6,0,sensitivity,final
+ut_ID103,utrecht:ID103,R,Utrecht,Cfb,7,0,sensitivity,final
+ut_ID138,utrecht:ID138,R,Utrecht,Cfb,8,0,sensitivity,final
+ut_ID048,utrecht:ID048,R,Utrecht,Cfb,9,0,sensitivity,final
+ut_ID003,utrecht:ID003,R,Utrecht,Cfb,10,0,sensitivity,final
+ut_ID070,utrecht:ID070,R,Utrecht,Cfb,11,0,sensitivity,final
+ut_ID097,utrecht:ID097,R,Utrecht,Cfb,12,0,sensitivity,final
+ut_ID101,utrecht:ID101,R,Utrecht,Cfb,13,0,sensitivity,final
+ut_ID054,utrecht:ID054,R,Utrecht,Cfb,14,0,sensitivity,final
+ut_ID142,utrecht:ID142,R,Utrecht,Cfb,15,0,sensitivity,final
+ut_ID013,utrecht:ID013,R,Utrecht,Cfb,16,0,sensitivity,final
+ut_ID020,utrecht:ID020,R,Utrecht,Cfb,17,0,sensitivity,final
+ut_ID064,utrecht:ID064,R,Utrecht,Cfb,18,0,sensitivity,final
+ut_ID120,utrecht:ID120,R,Utrecht,Cfb,19,0,sensitivity,final
+ut_ID052,utrecht:ID052,R,Utrecht,Cfb,20,0,sensitivity,final
+ut_ID096,utrecht:ID096,R,Utrecht,Cfb,21,0,sensitivity,final
+ut_ID017,utrecht:ID017,R,Utrecht,Cfb,22,0,sensitivity,final
+ut_ID021,utrecht:ID021,R,Utrecht,Cfb,23,0,sensitivity,final
+ut_ID022,utrecht:ID022,R,Utrecht,Cfb,24,0,sensitivity,final
+ut_ID095,utrecht:ID095,R,Utrecht,Cfb,25,0,sensitivity,final
+ut_ID149,utrecht:ID149,R,Utrecht,Cfb,26,0,sensitivity,final
+ut_ID165,utrecht:ID165,R,Utrecht,Cfb,27,0,sensitivity,final
+ut_ID039,utrecht:ID039,R,Utrecht,Cfb,28,0,sensitivity,final
+ut_ID126,utrecht:ID126,R,Utrecht,Cfb,29,0,sensitivity,final
+ut_ID143,utrecht:ID143,R,Utrecht,Cfb,30,0,sensitivity,final
+ut_ID040,utrecht:ID040,R,Utrecht,Cfb,31,0,sensitivity,final
+ut_ID167,utrecht:ID167,R,Utrecht,Cfb,32,0,sensitivity,final
+ut_ID154,utrecht:ID154,R,Utrecht,Cfb,33,0,sensitivity,final
+ut_ID005,utrecht:ID005,R,Utrecht,Cfb,34,0,sensitivity,final
+ut_ID089,utrecht:ID089,R,Utrecht,Cfb,35,0,sensitivity,final
+ut_ID102,utrecht:ID102,R,Utrecht,Cfb,36,0,sensitivity,final
+ut_ID163,utrecht:ID163,R,Utrecht,Cfb,37,0,sensitivity,final
+ut_ID042,utrecht:ID042,R,Utrecht,Cfb,38,0,sensitivity,final
+ut_ID026,utrecht:ID026,R,Utrecht,Cfb,39,0,sensitivity,final
+ut_ID108,utrecht:ID108,R,Utrecht,Cfb,40,0,sensitivity,final
+ut_ID133,utrecht:ID133,R,Utrecht,Cfb,41,0,sensitivity,final
+ut_ID092,utrecht:ID092,R,Utrecht,Cfb,42,0,sensitivity,final
+ut_ID122,utrecht:ID122,R,Utrecht,Cfb,43,0,sensitivity,final
+ut_ID110,utrecht:ID110,R,Utrecht,Cfb,44,0,sensitivity,final
+ut_ID061,utrecht:ID061,R,Utrecht,Cfb,45,0,sensitivity,final
+ut_ID137,utrecht:ID137,R,Utrecht,Cfb,46,0,sensitivity,final
+ut_ID128,utrecht:ID128,R,Utrecht,Cfb,47,0,sensitivity,final
+ut_ID010,utrecht:ID010,R,Utrecht,Cfb,48,0,sensitivity,final
+ut_ID113,utrecht:ID113,R,Utrecht,Cfb,49,0,sensitivity,final
+ut_ID019,utrecht:ID019,R,Utrecht,Cfb,50,0,sensitivity,final
+ut_ID028,utrecht:ID028,R,Utrecht,Cfb,51,0,sensitivity,final
+ut_ID057,utrecht:ID057,R,Utrecht,Cfb,52,0,sensitivity,final
+ut_ID024,utrecht:ID024,R,Utrecht,Cfb,53,0,sensitivity,final
+ut_ID119,utrecht:ID119,R,Utrecht,Cfb,54,0,sensitivity,final
+ut_ID015,utrecht:ID015,R,Utrecht,Cfb,55,0,sensitivity,final
+ut_ID150,utrecht:ID150,R,Utrecht,Cfb,56,0,sensitivity,final
+ut_ID100,utrecht:ID100,R,Utrecht,Cfb,57,0,sensitivity,final
+ut_ID023,utrecht:ID023,R,Utrecht,Cfb,58,0,sensitivity,final
+ut_ID078,utrecht:ID078,R,Utrecht,Cfb,59,0,sensitivity,final
+ut_ID099,utrecht:ID099,R,Utrecht,Cfb,60,0,sensitivity,final
+ut_ID038,utrecht:ID038,R,Utrecht,Cfb,61,0,sensitivity,final
+ut_ID069,utrecht:ID069,R,Utrecht,Cfb,62,0,sensitivity,final
+ut_ID107,utrecht:ID107,R,Utrecht,Cfb,63,0,sensitivity,final
+ut_ID084,utrecht:ID084,R,Utrecht,Cfb,64,0,sensitivity,final
+ut_ID168,utrecht:ID168,R,Utrecht,Cfb,65,0,sensitivity,final
+ut_ID166,utrecht:ID166,R,Utrecht,Cfb,66,0,sensitivity,final
+ut_ID098,utrecht:ID098,R,Utrecht,Cfb,67,0,sensitivity,final
+ut_ID085,utrecht:ID085,R,Utrecht,Cfb,68,0,sensitivity,final
+ut_ID058,utrecht:ID058,R,Utrecht,Cfb,69,0,sensitivity,final
+ut_ID047,utrecht:ID047,R,Utrecht,Cfb,70,0,sensitivity,final
+ut_ID109,utrecht:ID109,R,Utrecht,Cfb,71,0,sensitivity,final
+ut_ID123,utrecht:ID123,R,Utrecht,Cfb,72,0,sensitivity,final
+ut_ID044,utrecht:ID044,R,Utrecht,Cfb,73,0,sensitivity,final
+ut_ID073,utrecht:ID073,R,Utrecht,Cfb,74,0,sensitivity,final
+ut_ID152,utrecht:ID152,R,Utrecht,Cfb,75,0,sensitivity,final
+ut_ID129,utrecht:ID129,R,Utrecht,Cfb,76,0,sensitivity,final
+ut_ID157,utrecht:ID157,R,Utrecht,Cfb,77,0,sensitivity,final
+ut_ID159,utrecht:ID159,R,Utrecht,Cfb,78,0,sensitivity,final
+ut_ID059,utrecht:ID059,R,Utrecht,Cfb,79,0,sensitivity,final
+ut_ID068,utrecht:ID068,R,Utrecht,Cfb,80,0,sensitivity,final
+ut_ID125,utrecht:ID125,R,Utrecht,Cfb,81,0,sensitivity,final
+ut_ID065,utrecht:ID065,R,Utrecht,Cfb,82,0,sensitivity,final
+ut_ID076,utrecht:ID076,R,Utrecht,Cfb,83,0,sensitivity,final
+ut_ID105,utrecht:ID105,R,Utrecht,Cfb,84,0,sensitivity,final
+ut_ID145,utrecht:ID145,R,Utrecht,Cfb,85,0,sensitivity,final
+ut_ID032,utrecht:ID032,R,Utrecht,Cfb,86,0,sensitivity,final
+ut_ID080,utrecht:ID080,R,Utrecht,Cfb,87,0,sensitivity,final
+ut_ID106,utrecht:ID106,R,Utrecht,Cfb,88,0,sensitivity,final
+ut_ID124,utrecht:ID124,R,Utrecht,Cfb,89,0,sensitivity,final
+ut_ID140,utrecht:ID140,R,Utrecht,Cfb,90,0,sensitivity,final
+ut_ID030,utrecht:ID030,R,Utrecht,Cfb,91,0,sensitivity,final
+ut_ID072,utrecht:ID072,R,Utrecht,Cfb,92,0,sensitivity,final
+ut_ID164,utrecht:ID164,R,Utrecht,Cfb,93,0,sensitivity,final
+ut_ID170,utrecht:ID170,R,Utrecht,Cfb,94,0,sensitivity,final
+ut_ID162,utrecht:ID162,R,Utrecht,Cfb,95,0,sensitivity,final
+ut_ID127,utrecht:ID127,R,Utrecht,Cfb,96,0,sensitivity,final
+ut_ID141,utrecht:ID141,R,Utrecht,Cfb,97,0,sensitivity,final
+ut_ID151,utrecht:ID151,R,Utrecht,Cfb,98,0,sensitivity,final
+ut_ID025,utrecht:ID025,R,Utrecht,Cfb,99,0,sensitivity,final
+ut_ID090,utrecht:ID090,R,Utrecht,Cfb,100,0,sensitivity,final
+ut_ID111,utrecht:ID111,R,Utrecht,Cfb,101,0,sensitivity,final
+ut_ID075,utrecht:ID075,R,Utrecht,Cfb,102,0,sensitivity,final
+ut_ID077,utrecht:ID077,R,Utrecht,Cfb,103,0,sensitivity,final
+ut_ID118,utrecht:ID118,R,Utrecht,Cfb,104,0,sensitivity,final
+ut_ID045,utrecht:ID045,R,Utrecht,Cfb,105,0,sensitivity,final
+ut_ID104,utrecht:ID104,R,Utrecht,Cfb,106,0,sensitivity,final
+ut_ID007,utrecht:ID007,R,Utrecht,Cfb,107,0,sensitivity,final
+ut_ID050,utrecht:ID050,R,Utrecht,Cfb,108,0,sensitivity,final
+ut_ID086,utrecht:ID086,R,Utrecht,Cfb,109,0,sensitivity,final
+ut_ID131,utrecht:ID131,R,Utrecht,Cfb,110,0,sensitivity,final
+ut_ID081,utrecht:ID081,R,Utrecht,Cfb,111,0,sensitivity,final
+ut_ID083,utrecht:ID083,R,Utrecht,Cfb,112,0,sensitivity,final
+ut_ID006,utrecht:ID006,R,Utrecht,Cfb,113,0,sensitivity,final
+ut_ID056,utrecht:ID056,R,Utrecht,Cfb,114,0,sensitivity,final
+ut_ID043,utrecht:ID043,R,Utrecht,Cfb,115,0,sensitivity,final
+ut_ID171,utrecht:ID171,R,Utrecht,Cfb,116,0,sensitivity,final
+ut_ID055,utrecht:ID055,R,Utrecht,Cfb,117,0,sensitivity,final
+ut_ID114,utrecht:ID114,R,Utrecht,Cfb,118,0,sensitivity,final
+ut_ID169,utrecht:ID169,R,Utrecht,Cfb,119,0,sensitivity,final
+ut_ID134,utrecht:ID134,R,Utrecht,Cfb,120,0,sensitivity,final

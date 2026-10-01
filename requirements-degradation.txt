@@ -1,0 +1,17 @@
+# Exact versions used for the degradation paper (Python 3.13.2, CUDA 12.8)
+numpy==2.5.3
+pandas==3.0.6
+torch==2.11.0
+xgboost==3.4.1
+scikit-learn==1.9.1
+optuna==4.9.0
+rdtools==3.2.1
+pvlib==0.15.2
+shap==0.52.0
+scipy==1.18.1
+pyarrow==25.0.1
+requests==2.34.2
+PyYAML==6.0.3
+rasterio==1.5.1
+statsmodels
+matplotlib

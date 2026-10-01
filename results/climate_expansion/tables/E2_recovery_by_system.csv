@@ -1,0 +1,721 @@
+system_id,tier,role,location,climate,method,rate,error,naive_error
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,gru,-2.0,0.00548276668183556,0.06572194278087218
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,gru,-1.0,0.021266034776562415,0.056259393740404784
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,gru,-0.5,0.0239584208335073,0.042664381820486375
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,gru,-0.25,0.023791436552957956,0.03344560230240057
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,informer,-2.0,0.0328737582718297,0.08991733041597993
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,informer,-1.0,0.018917837281464345,0.05232142342352897
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,informer,-0.5,0.012745470814498172,0.030658537587106904
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,informer,-0.25,0.03456442412296706,0.04382263894433236
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,khd_full,-0.25,0.010202978523674994,0.019795376164698952
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,khd_full,-0.5,0.006683085889389262,0.025265355852241766
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,khd_full,-1.0,0.0020151002571691112,0.036760455609823106
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,khd_full,-2.0,-0.010469876214268536,0.0492707875754097
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,lstm,-2.0,-0.03329778782359538,0.023239034461695063
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,lstm,-1.0,0.0011909397108885722,0.03434242416437483
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,lstm,-0.5,0.013033684990005345,0.030821016835227866
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,lstm,-0.25,0.006020278924114719,0.01521570496446989
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,patchtst,-2.0,-0.02530588111112486,0.03475844151998353
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,patchtst,-1.0,-0.037117767451740336,-0.002211395891540624
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,patchtst,-0.5,-0.007358695490903455,0.011303880801025734
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,patchtst,-0.25,-0.006416313717152733,0.0032161868341360478
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,random_forest,-2.0,0.1323305346098358,0.1822445324586499
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,random_forest,-1.0,0.12029052233166804,0.15014723482931924
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,random_forest,-0.5,0.04661996149868308,0.06276403615290016
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,random_forest,-0.25,0.024536749644107347,0.03291157541010559
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,rdtools,-0.25,-0.018074645005265455,-0.008265390487181667
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,rdtools,-0.5,-0.015284006316722942,0.0037325209011942473
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,rdtools,-1.0,-0.009547190149999163,0.02606886191004576
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,rdtools,-2.0,0.05194123833699216,0.11343209045768865
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,tcn,-2.0,-0.001878059531832621,0.05783482477852386
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,tcn,-1.0,-4.93356514482679e-05,0.03468219975923159
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,tcn,-0.5,0.0327855528131521,0.05136093012324061
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,tcn,-0.25,0.0063435689787255944,0.015932524606667164
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,xgboost,-2.0,0.10857797673983716,0.16339473970951612
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,xgboost,-1.0,0.06276030270163524,0.09505607925439008
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,xgboost,-0.5,0.02866608821594624,0.04602663842646815
+fmi_helsinki,S,main,"Helsinki, Finland",Dfb,xgboost,-0.25,0.020734815996241412,0.02971711829160839
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,gru,-2.0,0.0779701723536308,0.13112013930273436
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,gru,-1.0,0.05420447908506254,0.08567104555722971
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,gru,-0.5,-0.016089672420483203,0.0008573118601215013
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,gru,-0.25,-0.005946913948237792,0.0028288641843795537
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,informer,-2.0,0.020258223173117873,0.05445017290206433
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,informer,-1.0,-0.012534298840840452,0.009500892230343894
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,informer,-0.5,-0.002447190278404343,0.009795925067875633
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,informer,-0.25,0.019171899997722508,0.025598687260758424
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,khd_full,-0.25,0.003091349521197828,0.00906508826069119
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,khd_full,-0.5,-0.003040238244619353,0.008295644594616736
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,khd_full,-1.0,-0.0057212763484651985,0.014494890751309608
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,khd_full,-2.0,-0.014629563434531034,0.01590596437208691
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,lstm,-2.0,0.1167609225495172,0.1576075512844528
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,lstm,-1.0,0.09331074206188283,0.11865655233705186
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,lstm,-0.5,0.01620057175117745,0.03009484805383067
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,lstm,-0.25,-0.015485371363981232,-0.0082340368899404
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,patchtst,-2.0,-0.031194989238740645,0.02606367239143781
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,patchtst,-1.0,-0.02228114621690369,0.011229444242330855
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,patchtst,-0.5,-0.004246952745159016,0.013719482095411628
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,patchtst,-0.25,0.026883524590348484,0.03616839004890626
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,random_forest,-2.0,0.22909885844732103,0.26300386710154067
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,random_forest,-1.0,0.13293041061905986,0.15482285211035507
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,random_forest,-0.5,0.07060166031691922,0.08277357975743993
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,random_forest,-0.25,0.03676128136093457,0.043152515224223364
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,rdtools,-0.25,0.04961173811503314,0.06137530856878626
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,rdtools,-0.5,0.05756210308543619,0.08049216020961847
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,rdtools,-1.0,0.09131051475541596,0.13477329260741966
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,rdtools,-2.0,0.0862703681624526,0.1635339317235509
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,tcn,-2.0,-0.008609182188736408,0.028741526372171977
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,tcn,-1.0,0.004780315856643735,0.028386949763829383
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,tcn,-0.5,0.02905043840463728,0.0420773059423063
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,tcn,-0.25,-0.05553262372770229,-0.04871445082716419
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,xgboost,-2.0,0.19132770086944095,0.22274990393716387
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,xgboost,-1.0,0.10114208228835064,0.12179935919138862
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,xgboost,-0.5,0.04236089973837415,0.05391678471006478
+fmi_kuopio,S,main,"Kuopio, Finland",Dfc,xgboost,-0.25,-0.009642171812725864,-0.0035585696804297795
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,gru,-2.0,0.06809687725133773,0.2267536046076426
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,gru,-1.0,-0.006135567362556271,0.07781928695037932
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,gru,-0.5,-0.0018942608343470724,0.041231092569848915
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,gru,-0.25,0.08361141902156921,0.10545999975783227
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,informer,-2.0,0.04671422166095529,0.200301748194196
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,informer,-1.0,0.04399878754994535,0.12543177813683393
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,informer,-0.5,0.15282380515981187,0.19469138693121746
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,informer,-0.25,-0.04028023954237453,-0.019059757531372234
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,khd_full,-0.25,0.024786630347082533,0.04641717780998178
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,khd_full,-0.5,0.04156389410579192,0.0842526345139536
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,khd_full,-1.0,0.06157211839577981,0.14465155268149088
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,khd_full,-2.0,0.08630535027221398,0.24320239494753215
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,lstm,-2.0,0.040324627975449445,0.20012530257670225
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,lstm,-1.0,0.058507228204616735,0.14303118190071729
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,lstm,-0.5,-0.005625703855323461,0.03778348608333326
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,lstm,-0.25,0.02284706062630268,0.044837382009937254
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,patchtst,-2.0,0.029801022718858095,0.21109206739086428
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,patchtst,-1.0,0.09204165294949695,0.18725679577627385
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,patchtst,-0.5,0.11724128764665825,0.1659826746705395
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,patchtst,-0.25,0.12753145531007734,0.15218453844215318
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,random_forest,-2.0,0.6540396479982065,0.7873610988614339
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,random_forest,-1.0,0.29968238757829124,0.37103326011828885
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,random_forest,-0.5,0.22902977271264863,0.2658689296937502
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,random_forest,-0.25,0.14151228637486288,0.1602217026895807
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,rdtools,-0.25,0.39566957890103155,0.4159575110376683
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,rdtools,-0.5,-0.06600419741166541,-0.026004052606721118
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,rdtools,-1.0,0.22573912472894087,0.30342785727754773
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,rdtools,-2.0,0.1801234813926882,0.32618467106110005
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,tcn,-2.0,0.18729328116274635,0.3428155966086921
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,tcn,-1.0,0.13259208662424626,0.2149876103888122
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,tcn,-0.5,0.19275924946624218,0.23510689164455956
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,tcn,-0.25,-0.01911681432602183,0.002343397475165432
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,xgboost,-2.0,0.5931621177626478,0.7431193739193569
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,xgboost,-1.0,0.2525340474154114,0.33216102409638726
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,xgboost,-0.5,0.11740366960980936,0.1583705076035793
+fmi_sodankyla20,R,main,"Sodankyla, Finland",Dfc,xgboost,-0.25,0.024711916635355713,0.04548259042698799
+hk_sq12,R,main,Hong Kong,Cwa,gru,-2.0,0.09301046520595246,0.211683095416336
+hk_sq12,R,main,Hong Kong,Cwa,gru,-1.0,-0.5142489380799369,-0.45018566978431895
+hk_sq12,R,main,Hong Kong,Cwa,gru,-0.5,-0.465264935388697,-0.4320604481936394
+hk_sq12,R,main,Hong Kong,Cwa,gru,-0.25,-0.4332709320029635,-0.41637657606951173
+hk_sq12,R,main,Hong Kong,Cwa,informer,-2.0,0.01865560519517473,0.13397512477170004
+hk_sq12,R,main,Hong Kong,Cwa,informer,-1.0,-0.5089871202669076,-0.4465919823871287
+hk_sq12,R,main,Hong Kong,Cwa,informer,-0.5,-0.8688199630869792,-0.8364474507108488
+hk_sq12,R,main,Hong Kong,Cwa,informer,-0.25,-0.7597828340913585,-0.7433039449323147
+hk_sq12,R,main,Hong Kong,Cwa,khd_full,-0.25,0.10079918823394565,0.10593788963601902
+hk_sq12,R,main,Hong Kong,Cwa,khd_full,-0.5,0.07870617940963492,0.088369894748624
+hk_sq12,R,main,Hong Kong,Cwa,khd_full,-1.0,0.16481957706701866,0.18168300631453937
+hk_sq12,R,main,Hong Kong,Cwa,khd_full,-2.0,0.439323578321567,0.4631197643847653
+hk_sq12,R,main,Hong Kong,Cwa,lstm,-2.0,-1.4829860523724356,-1.4444160175138139
+hk_sq12,R,main,Hong Kong,Cwa,lstm,-1.0,-1.5518838037564224,-1.527670570334294
+hk_sq12,R,main,Hong Kong,Cwa,lstm,-0.5,-1.4049145209249545,-1.391585113779582
+hk_sq12,R,main,Hong Kong,Cwa,lstm,-0.25,-1.943190344409273,-1.9362210910287931
+hk_sq12,R,main,Hong Kong,Cwa,patchtst,-2.0,-0.8435640044958908,-0.7549794983177591
+hk_sq12,R,main,Hong Kong,Cwa,patchtst,-1.0,-1.1318603539063798,-1.0827655493252992
+hk_sq12,R,main,Hong Kong,Cwa,patchtst,-0.5,-0.7094353832509448,-0.6836963704398293
+hk_sq12,R,main,Hong Kong,Cwa,patchtst,-0.25,-1.0064472756262766,-0.9932809851236044
+hk_sq12,R,main,Hong Kong,Cwa,random_forest,-2.0,-1.057514957682525,-0.9598269803863984
+hk_sq12,R,main,Hong Kong,Cwa,random_forest,-1.0,-1.3347604698887803,-1.2811368027917123
+hk_sq12,R,main,Hong Kong,Cwa,random_forest,-0.5,-1.4078715338611243,-1.379873765058326
+hk_sq12,R,main,Hong Kong,Cwa,random_forest,-0.25,-1.345198553971583,-1.3309042989624258
+hk_sq12,R,main,Hong Kong,Cwa,rdtools,-0.25,0.03537727866995877,0.03591430105765006
+hk_sq12,R,main,Hong Kong,Cwa,rdtools,-0.5,0.0762004150897378,0.07664923936985146
+hk_sq12,R,main,Hong Kong,Cwa,rdtools,-1.0,0.1569820492196622,0.1553693903642116
+hk_sq12,R,main,Hong Kong,Cwa,rdtools,-2.0,0.33264237984310485,0.31929976254780534
+hk_sq12,R,main,Hong Kong,Cwa,tcn,-2.0,-0.5499090075200332,-0.43146950355569036
+hk_sq12,R,main,Hong Kong,Cwa,tcn,-1.0,-0.4270205287856502,-0.3630732378687158
+hk_sq12,R,main,Hong Kong,Cwa,tcn,-0.5,-0.9012142694888434,-0.8680676256480666
+hk_sq12,R,main,Hong Kong,Cwa,tcn,-0.25,-0.6651814725091155,-0.648316002055461
+hk_sq12,R,main,Hong Kong,Cwa,xgboost,-2.0,-0.6522717590455409,-0.5089257095446262
+hk_sq12,R,main,Hong Kong,Cwa,xgboost,-1.0,-0.6051939738198372,-0.5288559893947591
+hk_sq12,R,main,Hong Kong,Cwa,xgboost,-0.5,-0.6831596243646074,-0.643833160954606
+hk_sq12,R,main,Hong Kong,Cwa,xgboost,-0.25,-0.9529975068327884,-0.9330459938157789
+hk_sq13,R,sensitivity,Hong Kong,Cwa,khd_full,-0.25,-0.050988301253139134,-0.04445775038290645
+hk_sq13,R,sensitivity,Hong Kong,Cwa,khd_full,-0.5,0.1116164869990488,0.12406738961888819
+hk_sq13,R,sensitivity,Hong Kong,Cwa,khd_full,-1.0,0.1368871491667908,0.1593389589422476
+hk_sq13,R,sensitivity,Hong Kong,Cwa,khd_full,-2.0,0.35675453232120224,0.3917839277284336
+hk_sq13,R,sensitivity,Hong Kong,Cwa,rdtools,-0.25,-0.07549049194286012,-0.08084554652064169
+hk_sq13,R,sensitivity,Hong Kong,Cwa,rdtools,-0.5,-0.06257294491982479,-0.07392304168084607
+hk_sq13,R,sensitivity,Hong Kong,Cwa,rdtools,-1.0,0.39628427035426306,0.3710144783560345
+hk_sq13,R,sensitivity,Hong Kong,Cwa,rdtools,-2.0,0.3635547524920115,0.30265890797031947
+hk_sq14,R,sensitivity,Hong Kong,Cwa,khd_full,-0.25,-0.02397003465938985,-0.023983293156353724
+hk_sq14,R,sensitivity,Hong Kong,Cwa,khd_full,-0.5,0.13024729954226516,0.12959418290298158
+hk_sq14,R,sensitivity,Hong Kong,Cwa,khd_full,-1.0,0.1436572439770616,0.13983516589126177
+hk_sq14,R,sensitivity,Hong Kong,Cwa,khd_full,-2.0,0.4005627309124604,0.3827789577904992
+hk_sq14,R,sensitivity,Hong Kong,Cwa,rdtools,-0.25,-0.026958589181595327,-0.050201060248028284
+hk_sq14,R,sensitivity,Hong Kong,Cwa,rdtools,-0.5,-0.05378629791105405,-0.10095605826714404
+hk_sq14,R,sensitivity,Hong Kong,Cwa,rdtools,-1.0,0.0714348388943673,-0.025654278603521874
+hk_sq14,R,sensitivity,Hong Kong,Cwa,rdtools,-2.0,0.2088949022181521,0.003634958964819468
+hk_sq15,R,main,Hong Kong,Cwa,gru,-2.0,-0.22222249044564002,-0.14399247819254768
+hk_sq15,R,main,Hong Kong,Cwa,gru,-1.0,-1.9148553047548105,-1.8709117308198548
+hk_sq15,R,main,Hong Kong,Cwa,gru,-0.5,-1.9293165925547644,-1.9061467398904632
+hk_sq15,R,main,Hong Kong,Cwa,gru,-0.25,-1.9517667640707235,-1.9398834459066983
+hk_sq15,R,main,Hong Kong,Cwa,informer,-2.0,0.5854291351708911,0.6965090706505017
+hk_sq15,R,main,Hong Kong,Cwa,informer,-1.0,0.22415311506713653,0.2844391131198072
+hk_sq15,R,main,Hong Kong,Cwa,informer,-0.5,-0.06263099144996787,-0.031310405955026877
+hk_sq15,R,main,Hong Kong,Cwa,informer,-0.25,-0.6765022397317976,-0.6605486557362013
+hk_sq15,R,main,Hong Kong,Cwa,khd_full,-0.25,0.07235770167363534,0.0747667687327116
+hk_sq15,R,main,Hong Kong,Cwa,khd_full,-0.5,0.07499030767182557,0.07918791313599083
+hk_sq15,R,main,Hong Kong,Cwa,khd_full,-1.0,0.2414699472392433,0.24737368884829813
+hk_sq15,R,main,Hong Kong,Cwa,khd_full,-2.0,0.36206730550243904,0.36383341237316547
+hk_sq15,R,main,Hong Kong,Cwa,lstm,-2.0,0.1738092768760442,0.22687164763889855
+hk_sq15,R,main,Hong Kong,Cwa,lstm,-1.0,1.0261517988811542,1.057574787351117
+hk_sq15,R,main,Hong Kong,Cwa,lstm,-0.5,0.8801716290623125,0.8970968789508402
+hk_sq15,R,main,Hong Kong,Cwa,lstm,-0.25,0.8773652355938559,0.8861301601314311
+hk_sq15,R,main,Hong Kong,Cwa,patchtst,-2.0,-1.377192906519149,-1.3396723911845916
+hk_sq15,R,main,Hong Kong,Cwa,patchtst,-1.0,-0.892074083058633,-0.868382972414808
+hk_sq15,R,main,Hong Kong,Cwa,patchtst,-0.5,-0.7401988829476456,-0.727129882902229
+hk_sq15,R,main,Hong Kong,Cwa,patchtst,-0.25,-1.3645352080113675,-1.3576959952227303
+hk_sq15,R,main,Hong Kong,Cwa,random_forest,-2.0,-0.06558060098768759,-0.0006092671483797218
+hk_sq15,R,main,Hong Kong,Cwa,random_forest,-1.0,-0.10508020183478128,-0.06773265384437188
+hk_sq15,R,main,Hong Kong,Cwa,random_forest,-0.5,-0.10290902552250791,-0.08302892013380747
+hk_sq15,R,main,Hong Kong,Cwa,random_forest,-0.25,-0.16412674543774475,-0.1538862422461409
+hk_sq15,R,main,Hong Kong,Cwa,rdtools,-0.25,0.6459291432970374,0.6349325155864896
+hk_sq15,R,main,Hong Kong,Cwa,rdtools,-0.5,0.6262192358405572,0.6035718535329688
+hk_sq15,R,main,Hong Kong,Cwa,rdtools,-1.0,0.641848384008628,0.5939272506381368
+hk_sq15,R,main,Hong Kong,Cwa,rdtools,-2.0,0.509595491052965,0.4031681623587451
+hk_sq15,R,main,Hong Kong,Cwa,tcn,-2.0,0.5045396936210971,0.64674304518865
+hk_sq15,R,main,Hong Kong,Cwa,tcn,-1.0,0.6932508816750703,0.7690203882338027
+hk_sq15,R,main,Hong Kong,Cwa,tcn,-0.5,0.5124854388329569,0.551528375688064
+hk_sq15,R,main,Hong Kong,Cwa,tcn,-0.25,-0.1694354459136462,-0.14962551874820473
+hk_sq15,R,main,Hong Kong,Cwa,xgboost,-2.0,-0.33383669350718637,-0.2443222527500324
+hk_sq15,R,main,Hong Kong,Cwa,xgboost,-1.0,-0.3409148030378758,-0.2913573676863268
+hk_sq15,R,main,Hong Kong,Cwa,xgboost,-0.5,-0.3560904616489016,-0.3301207131903596
+hk_sq15,R,main,Hong Kong,Cwa,xgboost,-0.25,-0.23584338625452592,-0.22256187231840796
+hk_sq16,R,sensitivity,Hong Kong,Cwa,khd_full,-0.25,-0.11917010797652286,-0.11832664110430291
+hk_sq16,R,sensitivity,Hong Kong,Cwa,khd_full,-0.5,0.0655535104907991,0.06661599177125965
+hk_sq16,R,sensitivity,Hong Kong,Cwa,khd_full,-1.0,0.3451972595916949,0.3448149984404575
+hk_sq16,R,sensitivity,Hong Kong,Cwa,khd_full,-2.0,0.4428981026940355,0.4320287090668007
+hk_sq16,R,sensitivity,Hong Kong,Cwa,rdtools,-0.25,-0.014508229331951006,-0.017594586477925056
+hk_sq16,R,sensitivity,Hong Kong,Cwa,rdtools,-0.5,-0.016436643293221365,-0.02324365923215177
+hk_sq16,R,sensitivity,Hong Kong,Cwa,rdtools,-1.0,0.10660928344748122,0.09044848264530403
+hk_sq16,R,sensitivity,Hong Kong,Cwa,rdtools,-2.0,0.62042699574074,0.5778411436232325
+hk_sq19,R,main,Hong Kong,Cwa,gru,-2.0,-0.3155947767958811,-0.25295427063179865
+hk_sq19,R,main,Hong Kong,Cwa,gru,-1.0,-1.168489229662815,-1.1323012391590757
+hk_sq19,R,main,Hong Kong,Cwa,gru,-0.5,-1.1774491945570602,-1.1581474148321376
+hk_sq19,R,main,Hong Kong,Cwa,gru,-0.25,-1.5045314861429553,-1.494579783877318
+hk_sq19,R,main,Hong Kong,Cwa,informer,-2.0,-0.6815872497333502,-0.6224018821369461
+hk_sq19,R,main,Hong Kong,Cwa,informer,-1.0,-0.16888800475280907,-0.13441890228022624
+hk_sq19,R,main,Hong Kong,Cwa,informer,-0.5,-0.6554053908289603,-0.6369609011245894
+hk_sq19,R,main,Hong Kong,Cwa,informer,-0.25,-0.27163348462111864,-0.26210989088889836
+hk_sq19,R,main,Hong Kong,Cwa,khd_full,-0.25,0.1110566791566735,0.1106185562189203
+hk_sq19,R,main,Hong Kong,Cwa,khd_full,-0.5,0.34558393213729444,0.34408002179327235
+hk_sq19,R,main,Hong Kong,Cwa,khd_full,-1.0,0.3679296306645252,0.36240168982399856
+hk_sq19,R,main,Hong Kong,Cwa,khd_full,-2.0,0.46478777378699787,0.44357504421866656
+hk_sq19,R,main,Hong Kong,Cwa,lstm,-2.0,-0.6125725136313416,-0.6074060302364828
+hk_sq19,R,main,Hong Kong,Cwa,lstm,-1.0,-1.0883734986546365,-1.0807781124431237
+hk_sq19,R,main,Hong Kong,Cwa,lstm,-0.5,-1.175558826821212,-1.1705175189112096
+hk_sq19,R,main,Hong Kong,Cwa,lstm,-0.25,-1.113216609890823,-1.1103862195828242
+hk_sq19,R,main,Hong Kong,Cwa,patchtst,-2.0,-0.48258495315189576,-0.4516422282115298
+hk_sq19,R,main,Hong Kong,Cwa,patchtst,-1.0,-0.8775778136484664,-0.857159071090194
+hk_sq19,R,main,Hong Kong,Cwa,patchtst,-0.5,-0.7470732091553474,-0.7356362924408204
+hk_sq19,R,main,Hong Kong,Cwa,patchtst,-0.25,-0.9160846789084575,-0.9100604864565223
+hk_sq19,R,main,Hong Kong,Cwa,random_forest,-2.0,-0.3647968773876582,-0.3655877859711447
+hk_sq19,R,main,Hong Kong,Cwa,random_forest,-1.0,-0.8835197659651014,-0.8788881074212078
+hk_sq19,R,main,Hong Kong,Cwa,random_forest,-0.5,-0.7530470953100828,-0.7494839372894442
+hk_sq19,R,main,Hong Kong,Cwa,random_forest,-0.25,-0.8385646159040275,-0.8364723755407799
+hk_sq19,R,main,Hong Kong,Cwa,rdtools,-0.25,0.014466761593544819,0.008412584818628721
+hk_sq19,R,main,Hong Kong,Cwa,rdtools,-0.5,0.04724342900897105,0.03449333566772306
+hk_sq19,R,main,Hong Kong,Cwa,rdtools,-1.0,0.34411255514012073,0.31603573482274405
+hk_sq19,R,main,Hong Kong,Cwa,rdtools,-2.0,1.019390181278857,0.9528519262974637
+hk_sq19,R,main,Hong Kong,Cwa,tcn,-2.0,-0.7617239032801995,-0.6959313953379183
+hk_sq19,R,main,Hong Kong,Cwa,tcn,-1.0,-0.738567547839458,-0.7008114760490769
+hk_sq19,R,main,Hong Kong,Cwa,tcn,-0.5,-0.7527474232781077,-0.7326635679240079
+hk_sq19,R,main,Hong Kong,Cwa,tcn,-0.25,-1.253960095086458,-1.2436178444152617
+hk_sq19,R,main,Hong Kong,Cwa,xgboost,-2.0,-1.1364158307127057,-1.1101924037367277
+hk_sq19,R,main,Hong Kong,Cwa,xgboost,-1.0,-1.2494497019564852,-1.2313787508478327
+hk_sq19,R,main,Hong Kong,Cwa,xgboost,-0.5,-1.2913498935578906,-1.2810839304736255
+hk_sq19,R,main,Hong Kong,Cwa,xgboost,-0.25,-1.3818165404815161,-1.3763770920827403
+pvdaq_10,S,main,"Golden, CO",Dfb,gru,-2.0,-0.040809344544773696,0.27515884202372165
+pvdaq_10,S,main,"Golden, CO",Dfb,gru,-1.0,-0.01938243297494402,0.1428328960214431
+pvdaq_10,S,main,"Golden, CO",Dfb,gru,-0.5,-0.0031231515766876883,0.07903436839895406
+pvdaq_10,S,main,"Golden, CO",Dfb,gru,-0.25,0.00463392956352679,0.04597416794936038
+pvdaq_10,S,main,"Golden, CO",Dfb,informer,-2.0,-0.03991871688349091,0.2600173898178988
+pvdaq_10,S,main,"Golden, CO",Dfb,informer,-1.0,-0.014143567503237087,0.14009600316730353
+pvdaq_10,S,main,"Golden, CO",Dfb,informer,-0.5,-0.006283973332842752,0.07189566216449461
+pvdaq_10,S,main,"Golden, CO",Dfb,informer,-0.25,-0.007100266354585133,0.032253519081506976
+pvdaq_10,S,main,"Golden, CO",Dfb,khd_full,-0.25,-0.005927409326731109,0.03456865708138657
+pvdaq_10,S,main,"Golden, CO",Dfb,khd_full,-0.5,-0.002249414875184208,0.07821764542578324
+pvdaq_10,S,main,"Golden, CO",Dfb,khd_full,-1.0,-0.005446734413617205,0.15337918046118681
+pvdaq_10,S,main,"Golden, CO",Dfb,khd_full,-2.0,-0.021048781835616648,0.28810633998343405
+pvdaq_10,S,main,"Golden, CO",Dfb,lstm,-2.0,-0.03636406258805902,0.2753553866130902
+pvdaq_10,S,main,"Golden, CO",Dfb,lstm,-1.0,-0.013690590940203973,0.14641104459202614
+pvdaq_10,S,main,"Golden, CO",Dfb,lstm,-0.5,-0.0004211386576026821,0.08068218332463739
+pvdaq_10,S,main,"Golden, CO",Dfb,lstm,-0.25,-0.0012277377275372592,0.03958606135996434
+pvdaq_10,S,main,"Golden, CO",Dfb,patchtst,-2.0,-0.037633568009116436,0.2517989282435744
+pvdaq_10,S,main,"Golden, CO",Dfb,patchtst,-1.0,-0.016669834694989394,0.13234432173222865
+pvdaq_10,S,main,"Golden, CO",Dfb,patchtst,-0.5,-0.010360135372912582,0.06521334114091304
+pvdaq_10,S,main,"Golden, CO",Dfb,patchtst,-0.25,-0.001182242673490208,0.0368700941588207
+pvdaq_10,S,main,"Golden, CO",Dfb,random_forest,-2.0,-0.12097971572092647,0.15512825040257328
+pvdaq_10,S,main,"Golden, CO",Dfb,random_forest,-1.0,-0.05323243631769925,0.08915293376384081
+pvdaq_10,S,main,"Golden, CO",Dfb,random_forest,-0.5,-0.0356427985774147,0.03662459151337849
+pvdaq_10,S,main,"Golden, CO",Dfb,random_forest,-0.25,-0.013348728540704263,0.023052633970217506
+pvdaq_10,S,main,"Golden, CO",Dfb,rdtools,-0.25,-0.006152976140688132,0.03419541644429236
+pvdaq_10,S,main,"Golden, CO",Dfb,rdtools,-0.5,-0.01506765503461338,0.06510368751024731
+pvdaq_10,S,main,"Golden, CO",Dfb,rdtools,-1.0,-0.0016519903503784406,0.15658100299333721
+pvdaq_10,S,main,"Golden, CO",Dfb,rdtools,-2.0,-0.01023939345897551,0.2977238961915236
+pvdaq_10,S,main,"Golden, CO",Dfb,tcn,-2.0,-0.07529962444391058,0.22888013821821218
+pvdaq_10,S,main,"Golden, CO",Dfb,tcn,-1.0,-0.06189138433633368,0.09445935186241083
+pvdaq_10,S,main,"Golden, CO",Dfb,tcn,-0.5,-0.013996310372245468,0.06523626231835644
+pvdaq_10,S,main,"Golden, CO",Dfb,tcn,-0.25,-0.012258190865357566,0.027621404257984317
+pvdaq_10,S,main,"Golden, CO",Dfb,xgboost,-2.0,-0.027889890514124493,0.2829122504683834
+pvdaq_10,S,main,"Golden, CO",Dfb,xgboost,-1.0,-0.0163326409641108,0.14331264525331777
+pvdaq_10,S,main,"Golden, CO",Dfb,xgboost,-0.5,-0.017578410106964648,0.06329730908418396
+pvdaq_10,S,main,"Golden, CO",Dfb,xgboost,-0.25,-0.00377997016632306,0.03692016995541447
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,gru,-2.0,0.37984566703961264,0.4512938539111724
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,gru,-1.0,-0.0512487664775485,-0.010679065471094207
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,gru,-0.5,-0.10418821564561065,-0.08270107153462214
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,gru,-0.25,0.188281236345943,0.1993242532424191
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,informer,-2.0,0.2680808039675113,0.34545357528809784
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,informer,-1.0,0.1381517372204556,0.18166884456084786
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,informer,-0.5,0.1418158509390332,0.16477300472534417
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,informer,-0.25,0.06451899750766404,0.07629609933587189
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,khd_full,-0.25,-0.009202237168509902,-0.005093818304802045
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,khd_full,-0.5,0.024024272486618536,0.031624840587126224
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,khd_full,-1.0,0.11614919434773163,0.12887596154422698
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,khd_full,-2.0,0.13740711816689255,0.15288819566287803
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,lstm,-2.0,0.16379097617399951,0.218387062368965
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,lstm,-1.0,0.06499213247336011,0.09717812510301638
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,lstm,-0.5,0.0897485105516585,0.10705430637446955
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,lstm,-0.25,-0.15799863351923787,-0.14904367415340358
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,patchtst,-2.0,0.3729298885181014,0.43602098034044223
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,patchtst,-1.0,0.07419926862319137,0.11061141983129064
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,patchtst,-0.5,0.2843165644935037,0.303730143667468
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,patchtst,-0.25,0.17874133733979478,0.18874886936784452
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,random_forest,-2.0,0.4357071806898052,0.434070081875384
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,random_forest,-1.0,0.1754728311637791,0.17968352069831317
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,random_forest,-0.5,0.15311461114475977,0.15646781219080563
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,random_forest,-0.25,0.09339591376790377,0.09538330703119824
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,rdtools,-0.25,-0.03938422468880526,-0.035974729473403855
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,rdtools,-0.5,-0.007124198129658421,-0.0009232290141052424
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,rdtools,-1.0,0.035068168495896,0.044988704561753856
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,rdtools,-2.0,0.2237562440097931,0.23359651347550736
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,tcn,-2.0,0.4648288665107765,0.5654671418380075
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,tcn,-1.0,0.38187929671251997,0.4369707000160168
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,tcn,-0.5,0.3051326958430157,0.3338624934805994
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,tcn,-0.25,0.03586024584132655,0.050520057177241284
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,xgboost,-2.0,0.38235030938852343,0.3948382888809532
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,xgboost,-1.0,0.17637634145502112,0.18761407999648116
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,xgboost,-0.5,0.04369946301451372,0.05055738273819932
+pvdaq_1217,R,main,"Port Chester, NY",Dfa,xgboost,-0.25,0.10792751853557844,0.11166507794703096
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,gru,-2.0,0.46179017826166,0.541648415868188
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,gru,-1.0,0.2867642609202722,0.33151785651346954
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,gru,-0.5,0.024356181052053782,0.04793002948074121
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,gru,-0.25,0.03446659802547675,0.04655166125832566
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,informer,-2.0,0.11136887890128122,0.18180659861272552
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,informer,-1.0,0.3797985397185135,0.41986554600712145
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,informer,-0.5,0.18813797470844273,0.2093744014037635
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,informer,-0.25,-0.19239401263963143,-0.18147619755648625
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,khd_full,-0.25,0.09600878537792701,0.09788324252589953
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,khd_full,-0.5,0.13550210424511067,0.13862915001260456
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,khd_full,-1.0,0.17076988311104724,0.17452712562979122
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,khd_full,-2.0,0.2676976303358578,0.26514905721696946
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,lstm,-2.0,0.32688577643155337,0.37440479762567014
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,lstm,-1.0,0.10009654144818703,0.12876178314777276
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,lstm,-0.5,0.03752352475930909,0.05307335708566896
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,lstm,-0.25,0.08659632247656737,0.0946743989449248
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,patchtst,-2.0,0.13168278121476318,0.1997003513006519
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,patchtst,-1.0,0.07420578932067057,0.11306880157445431
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,patchtst,-0.5,0.2141587299508007,0.2347946683931641
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,patchtst,-0.25,-0.03474913794118095,-0.024131191209637803
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,random_forest,-2.0,0.5788509135387685,0.5793254966095867
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,random_forest,-1.0,0.4286196636702825,0.43388088841405636
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,random_forest,-0.5,0.15101176548746548,0.15488891767796925
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,random_forest,-0.25,0.1589480113175816,0.1611970522737906
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,rdtools,-0.25,0.03869875664021849,0.041888635640319416
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,rdtools,-0.5,0.06081102192010618,0.06657220818847875
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,rdtools,-1.0,0.0861574519344338,0.09519621234187414
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,rdtools,-2.0,0.06279079236767515,0.07085860369172203
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,tcn,-2.0,0.37539139928860976,0.47463660101534755
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,tcn,-1.0,0.09737601265781104,0.15177437934598714
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,tcn,-0.5,-0.048694763431487376,-0.02031061563462755
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,tcn,-0.25,0.6024716926940483,0.6169588954111285
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,xgboost,-2.0,0.32858995788883205,0.3699552382990845
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,xgboost,-1.0,0.2071442734469745,0.23274810641488908
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,xgboost,-0.5,-0.03997103719653128,-0.02594807288421297
+pvdaq_1221,R,main,"Port Chester, NY",Dfa,xgboost,-0.25,0.05405024120671989,0.061365839154923885
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,gru,-2.0,0.3291968278332946,0.46320907940269374
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,gru,-1.0,0.27509445662199106,0.34678899383490824
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,gru,-0.5,-0.15789695618848099,-0.12088639752840447
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,gru,-0.25,0.008820027823766702,0.027615037717847457
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,informer,-2.0,-0.10724869198516918,0.00790615230777858
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,informer,-1.0,0.028092918330401395,0.09040613232538552
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,informer,-0.5,0.326600042226816,0.3589316953220587
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,informer,-0.25,-0.06601634303051748,-0.04955785794290568
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,khd_full,-0.25,0.022894962079636982,0.0326228253057419
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,khd_full,-0.5,0.06825609982767206,0.08710964047343106
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,khd_full,-1.0,0.09238040206071407,0.12766966194844187
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,khd_full,-2.0,0.15832129018303331,0.2191552570280617
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,lstm,-2.0,0.13897975533973073,0.2578570400447884
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,lstm,-1.0,-0.009318655801434206,0.05484642553424779
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,lstm,-0.5,0.038030738871404346,0.07128600500123072
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,lstm,-0.25,0.027780959736783628,0.04470067336106487
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,patchtst,-2.0,0.2775167163393677,0.38512132990974557
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,patchtst,-1.0,-0.08020185627715126,-0.021644787214500916
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,patchtst,-0.5,-0.07703311049965877,-0.04657482292204618
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,patchtst,-0.25,-0.0016344885818694033,0.013888486065774419
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,random_forest,-2.0,0.5278519006838924,0.5723377677506472
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,random_forest,-1.0,0.2435702466270031,0.27072653225317755
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,random_forest,-0.5,0.1256273072512588,0.14042455246331076
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,random_forest,-0.25,0.12603388769688859,0.13373614156373304
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,rdtools,-0.25,0.0020152725435280128,0.015274191557715255
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,rdtools,-0.5,-0.00026063670258758,0.02566386528321596
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,rdtools,-1.0,0.04242143331064341,0.0918881483475058
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,rdtools,-2.0,0.4009485309440841,0.4902806147050498
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,tcn,-2.0,0.28242193894837486,0.4167507075239616
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,tcn,-1.0,0.07300949822753722,0.14486149867468834
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,tcn,-0.5,0.08192324542096713,0.11901233837581193
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,tcn,-0.25,0.18723805735172974,0.20607228524782872
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,xgboost,-2.0,0.2573523419595096,0.353357881848531
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,xgboost,-1.0,-0.013583701284330174,0.03920297433885134
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,xgboost,-0.5,-0.16222663340071036,-0.13464631147335915
+pvdaq_1225,R,main,"Port Chester, NY",Dfa,xgboost,-0.25,-0.03937036785924025,-0.025284575056971015
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,gru,-2.0,0.1417543380435673,0.2091382172165126
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,gru,-1.0,-0.06327373654066315,-0.02472597755512762
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,gru,-0.5,-0.11969652999733982,-0.0992178231348797
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,gru,-0.25,0.03449700156355093,0.045036430897870794
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,informer,-2.0,0.18314873963840728,0.28934324718387483
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,informer,-1.0,0.2622791201329774,0.32013467916313454
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,informer,-0.5,0.2672472276268824,0.29735563927350217
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,informer,-0.25,0.2362549057970313,0.25160316142531824
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,khd_full,-0.25,0.021104412530913552,0.027831592961898854
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,khd_full,-0.5,0.017696480160270422,0.030541134707531725
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,khd_full,-1.0,0.10592649605349991,0.12916778833670217
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,khd_full,-2.0,0.16323831334639105,0.19985464833989863
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,lstm,-2.0,0.3377093819212835,0.42658722162315943
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,lstm,-1.0,0.11308679849751802,0.16232753282156676
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,lstm,-0.5,0.0529432710142384,0.07875506582748582
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,lstm,-0.25,0.014222157246730593,0.027424793204785303
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,patchtst,-2.0,0.5043884224397044,0.5767275737413331
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,patchtst,-1.0,-0.032801900893055125,0.008211043724338118
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,patchtst,-0.5,-0.029908253135623952,-0.008200042662287466
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,patchtst,-0.25,0.04704897401583427,0.05820238575408365
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,random_forest,-2.0,0.5026960471219659,0.5441329625248397
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,random_forest,-1.0,0.37189744569480265,0.39753691617160913
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,random_forest,-0.5,0.056075099425092145,0.07011583783332398
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,random_forest,-0.25,0.03359986647516805,0.04092434034861547
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,rdtools,-0.25,-0.009229177411503003,0.0052919937118143245
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,rdtools,-0.5,-0.006558447153768077,0.021893722589416242
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,rdtools,-1.0,0.12350247416917037,0.17803722656882126
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,rdtools,-2.0,0.6591170478140684,0.7586363985972051
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,tcn,-2.0,0.17913377154359567,0.2608770550818855
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,tcn,-1.0,0.042326674509756246,0.0880180567725235
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,tcn,-0.5,0.22454744453355385,0.24858901112576115
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,tcn,-0.25,-0.03133346403690718,-0.019014834412012682
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,xgboost,-2.0,0.12614474096182016,0.21985676778940766
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,xgboost,-1.0,-0.06179659544912386,-0.010150913761027613
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,xgboost,-0.5,-0.009801207641144283,0.017210047135625572
+pvdaq_1246,R,main,"New Orleans, LA",Cfa,xgboost,-0.25,-0.04318149079484551,-0.02937987545575771
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,gru,-2.0,0.1838610111738579,0.2451852715738756
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,gru,-1.0,0.014081799439691345,0.04961497421155947
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,gru,-0.5,-0.06975982641282785,-0.05078463398274824
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,gru,-0.25,-0.11713292782130391,-0.10734431483056328
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,informer,-2.0,0.3708460821753845,0.4542557747628013
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,informer,-1.0,0.05349551147027698,0.10001591130019793
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,informer,-0.5,0.33577104971705357,0.3602260862237059
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,informer,-0.25,0.5097362566547188,0.5222613624947117
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,khd_full,-0.25,0.038996482588440184,0.05179465224628821
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,khd_full,-0.5,0.03858749964440228,0.06358934815723583
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,khd_full,-1.0,0.08788292233189199,0.13549969397320138
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,khd_full,-2.0,0.18614012547177738,0.2717536361447124
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,lstm,-2.0,0.35372801025218314,0.4310920474192721
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,lstm,-1.0,0.2387448452388945,0.2822576074476473
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,lstm,-0.5,0.16134908145638538,0.1843040681219037
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,lstm,-0.25,0.1123647578846573,0.12414077750861452
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,patchtst,-2.0,0.13846125711976454,0.20553447425628857
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,patchtst,-1.0,-0.020563794846707895,0.017829413678497552
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,patchtst,-0.5,0.0950814842838475,0.11548310958839858
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,patchtst,-0.25,0.10691083406524321,0.1174117708568776
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,random_forest,-2.0,0.6652878959794299,0.6945606226835681
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,random_forest,-1.0,0.41066475602213093,0.43025269543775746
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,random_forest,-0.5,0.28969842734528933,0.3007209835951883
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,random_forest,-0.25,0.1604292528928255,0.16624652441186138
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,rdtools,-0.25,0.04086879359840365,0.05629399048437378
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,rdtools,-0.5,0.012392598071458483,0.04265508506867688
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,rdtools,-1.0,0.23857516529016953,0.2967396492695169
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,rdtools,-2.0,0.4890921246314175,0.5959076025292975
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,tcn,-2.0,0.1958731602554873,0.24411845760886108
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,tcn,-1.0,0.23408175600320147,0.2631083109679453
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,tcn,-0.5,-0.07779344708080177,-0.062063410895378146
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,tcn,-0.25,0.09433330845332685,0.10250137408284377
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,xgboost,-2.0,0.2687327552470853,0.34993598852068564
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,xgboost,-1.0,0.30897283982504486,0.3543955538656802
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,xgboost,-0.5,-0.015241594340322073,0.008665974817789301
+pvdaq_1255,R,main,"New Orleans, LA",Cfa,xgboost,-0.25,0.11720408789424516,0.12945580265530454
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,gru,-2.0,0.2692554727655534,0.4020902944792768
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,gru,-1.0,-0.0715185348552595,-0.00040975420370870097
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,gru,-0.5,0.1023544062220818,0.1390728206322538
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,gru,-0.25,0.18359763690244088,0.2022467574902489
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,informer,-2.0,-0.08320001752240969,0.03600407339981837
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,informer,-1.0,-0.04204849504079111,0.022279168282327344
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,informer,-0.5,-0.09491165722473027,-0.06157530383801202
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,informer,-0.25,-0.15441666376024732,-0.1374564572504844
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,khd_full,-0.25,0.020127962332855937,0.03354271754939453
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,khd_full,-0.5,0.018687100441485693,0.044923665398915125
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,khd_full,-1.0,0.07775264423163475,0.12784505336738516
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,khd_full,-2.0,0.1927315919571373,0.283321384058292
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,lstm,-2.0,-0.028649464898437005,0.07564573310330935
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,lstm,-1.0,-0.0006296351250364429,0.0562810412677921
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,lstm,-0.5,-0.14890704805215849,-0.1192698936607477
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,lstm,-0.25,-0.07713170287355331,-0.06201878096845581
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,patchtst,-2.0,0.19213956373940344,0.3263216714909021
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,patchtst,-1.0,-0.054778215856582935,0.017000822673057137
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,patchtst,-0.5,0.0211099534926113,0.05816265691967493
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,patchtst,-0.25,-0.03787484306469621,-0.01905878716056808
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,random_forest,-2.0,0.559877048314398,0.613396352960434
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,random_forest,-1.0,0.22389581747681908,0.2555461248132893
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,random_forest,-0.5,0.07804537530084649,0.09508399976189308
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,random_forest,-0.25,0.07215504412496998,0.08097658500101201
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,rdtools,-0.25,-0.031427344243828315,-0.015647207806330332
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,rdtools,-0.5,-0.16843387099759977,-0.1374606153245148
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,rdtools,-1.0,-0.19527855726765198,-0.1356889642346828
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,rdtools,-2.0,-0.2697046888754495,-0.16002459782938017
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,tcn,-2.0,0.3309127675528394,0.4699815293034457
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,tcn,-1.0,0.1851998811049671,0.25940996860903764
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,tcn,-0.5,0.35160272273008214,0.38986790421707473
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,tcn,-0.25,0.38530464929945263,0.4047261854863238
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,xgboost,-2.0,0.14249142587694696,0.2429003123220972
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,xgboost,-1.0,0.4053304487474082,0.4603077339638397
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,xgboost,-0.5,0.13551088969519792,0.16418377129437056
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,xgboost,-0.25,0.0724764563740608,0.08710784530781535
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,gru,-2.0,0.008846946192163418,-0.009889712873365486
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,gru,-1.0,0.009976990088092719,0.005680863216296905
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,gru,-0.5,-0.005736813668944074,-0.006626360655127894
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,gru,-0.25,0.00782620190348643,0.007694876186981614
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,informer,-2.0,0.03935877390430553,0.02773055690046311
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,informer,-1.0,0.026163734118322735,0.025403967870179844
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,informer,-0.5,0.02116127868630646,0.02203548048234555
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,informer,-0.25,0.02514850705127042,0.02589795200323486
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,khd_full,-0.25,0.0027554384386373476,0.0001769526484142192
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,khd_full,-0.5,0.01816210078884206,0.012372100421954135
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,khd_full,-1.0,0.02177606261669096,0.007654403589614223
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,khd_full,-2.0,0.0566858488216464,0.01819887764600714
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,lstm,-2.0,0.033193858652204256,0.013652671621134704
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,lstm,-1.0,0.014967456087585429,0.010271086660068596
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,lstm,-0.5,0.026583384420949097,0.025494217713992073
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,lstm,-0.25,0.02988285854584341,0.02965184788742556
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,patchtst,-2.0,0.023819763316413223,0.018235156979815592
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,patchtst,-1.0,0.011130492254718294,0.013377346388772748
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,patchtst,-0.5,0.022182334642166235,0.024556078934589387
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,patchtst,-0.25,0.006844581824451218,0.008342859637563649
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,random_forest,-2.0,0.3152000814554037,0.3033456396788754
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,random_forest,-1.0,0.19336638963804043,0.1924940794075063
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,random_forest,-0.5,0.10608106179825139,0.1068991326356542
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,random_forest,-0.25,0.07210597209268399,0.07282738669108663
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,rdtools,-0.25,-0.010070406584273384,-0.010088236777833381
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,rdtools,-0.5,-0.011637546376794705,-0.012299817867156726
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,rdtools,-1.0,-0.026341921045438754,-0.030182354837672065
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,rdtools,-2.0,0.011073413739028926,-0.006747256206975472
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,tcn,-2.0,0.056545712004057336,0.03683383358071879
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,tcn,-1.0,0.02593698485184026,0.021155698601033723
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,tcn,-0.5,0.009851549410656468,0.008720030704113868
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,tcn,-0.25,0.012868330613807877,0.012616170458725873
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,xgboost,-2.0,0.09888394534415168,0.0869535588360657
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,xgboost,-1.0,0.04170747424551735,0.040797382465112775
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,xgboost,-0.5,0.0254735662967972,0.026272793704565367
+pvdaq_1278,S,main,"Las Vegas, NV",BWh,xgboost,-0.25,0.01086299832201637,0.011575002997485068
+pvdaq_1283,S,sensitivity,"Golden, CO",Dfb,khd_full,-0.25,-0.01516093122563722,-0.02083349049122729
+pvdaq_1283,S,sensitivity,"Golden, CO",Dfb,khd_full,-0.5,-0.02679392480860998,-0.0387798266963455
+pvdaq_1283,S,sensitivity,"Golden, CO",Dfb,khd_full,-1.0,0.000510682229024173,-0.02603391502326957
+pvdaq_1283,S,sensitivity,"Golden, CO",Dfb,khd_full,-2.0,0.0016758951024664626,-0.06178243674810391
+pvdaq_1283,S,sensitivity,"Golden, CO",Dfb,rdtools,-0.25,0.01252505905868262,0.0011482185084563667
+pvdaq_1283,S,sensitivity,"Golden, CO",Dfb,rdtools,-0.5,0.028953635444014303,0.005544874542684042
+pvdaq_1283,S,sensitivity,"Golden, CO",Dfb,rdtools,-1.0,0.09877413990817008,0.0493264233271109
+pvdaq_1283,S,sensitivity,"Golden, CO",Dfb,rdtools,-2.0,0.0926990715410363,-0.0167968436067496
+pvdaq_1289,S,sensitivity,"Golden, CO",Dfb,khd_full,-0.25,-0.0034719970055175076,0.04312952369106826
+pvdaq_1289,S,sensitivity,"Golden, CO",Dfb,khd_full,-0.5,-0.011236394330985,0.08145687643736599
+pvdaq_1289,S,sensitivity,"Golden, CO",Dfb,khd_full,-1.0,-0.024576995691210524,0.1587627783619152
+pvdaq_1289,S,sensitivity,"Golden, CO",Dfb,khd_full,-2.0,-0.048422892506948534,0.3100075624079204
+pvdaq_1289,S,sensitivity,"Golden, CO",Dfb,rdtools,-0.25,0.006842765040537491,0.048025400367469384
+pvdaq_1289,S,sensitivity,"Golden, CO",Dfb,rdtools,-0.5,-0.02422455573468618,0.05761736312801702
+pvdaq_1289,S,sensitivity,"Golden, CO",Dfb,rdtools,-1.0,-0.01247083358317147,0.14911170725209777
+pvdaq_1289,S,sensitivity,"Golden, CO",Dfb,rdtools,-2.0,-0.0965807855370151,0.21811543290963709
+pvdaq_33,S,main,"Golden, CO",Dfb,gru,-2.0,0.0452488419442405,0.12331503543536981
+pvdaq_33,S,main,"Golden, CO",Dfb,gru,-1.0,0.01255799282856418,0.05642006898746765
+pvdaq_33,S,main,"Golden, CO",Dfb,gru,-0.5,0.008767338464536978,0.03189654436835104
+pvdaq_33,S,main,"Golden, CO",Dfb,gru,-0.25,0.00957238219702422,0.021435402416826232
+pvdaq_33,S,main,"Golden, CO",Dfb,informer,-2.0,0.030904725738357453,0.11041171646604298
+pvdaq_33,S,main,"Golden, CO",Dfb,informer,-1.0,0.030167251907725068,0.0747461065913475
+pvdaq_33,S,main,"Golden, CO",Dfb,informer,-0.5,0.010102905062672973,0.033589602010143826
+pvdaq_33,S,main,"Golden, CO",Dfb,informer,-0.25,0.0022267977665314242,0.014268339796620122
+pvdaq_33,S,main,"Golden, CO",Dfb,khd_full,-0.25,0.0025037273789094427,0.012320092441876207
+pvdaq_33,S,main,"Golden, CO",Dfb,khd_full,-0.5,0.006880247094838032,0.02591101322343564
+pvdaq_33,S,main,"Golden, CO",Dfb,khd_full,-1.0,0.0062178645474895156,0.04186246598121035
+pvdaq_33,S,main,"Golden, CO",Dfb,khd_full,-2.0,0.01194119445674846,0.07348943370230843
+pvdaq_33,S,main,"Golden, CO",Dfb,lstm,-2.0,0.022813454919493825,0.10485510536035392
+pvdaq_33,S,main,"Golden, CO",Dfb,lstm,-1.0,0.003812551323610247,0.04965236737207834
+pvdaq_33,S,main,"Golden, CO",Dfb,lstm,-0.5,-0.00019095897500143177,0.023924638502806017
+pvdaq_33,S,main,"Golden, CO",Dfb,lstm,-0.25,-0.0011788330037430794,0.01117676573673898
+pvdaq_33,S,main,"Golden, CO",Dfb,patchtst,-2.0,0.002193610675738533,0.09311515427398231
+pvdaq_33,S,main,"Golden, CO",Dfb,patchtst,-1.0,0.005722160877603466,0.05597961221542325
+pvdaq_33,S,main,"Golden, CO",Dfb,patchtst,-0.5,-0.0028419995097789807,0.023476879728883016
+pvdaq_33,S,main,"Golden, CO",Dfb,patchtst,-0.25,0.0080145827968508,0.021470443643191395
+pvdaq_33,S,main,"Golden, CO",Dfb,random_forest,-2.0,0.08399980595925216,0.156119466506502
+pvdaq_33,S,main,"Golden, CO",Dfb,random_forest,-1.0,0.07701361248529393,0.11791736320980517
+pvdaq_33,S,main,"Golden, CO",Dfb,random_forest,-0.5,0.05844726588994742,0.08010101625129512
+pvdaq_33,S,main,"Golden, CO",Dfb,random_forest,-0.25,0.04481347718028658,0.05593969294271178
+pvdaq_33,S,main,"Golden, CO",Dfb,rdtools,-0.25,0.004575610901086047,0.015643579129666407
+pvdaq_33,S,main,"Golden, CO",Dfb,rdtools,-0.5,0.0054283043539006814,0.026965413663764592
+pvdaq_33,S,main,"Golden, CO",Dfb,rdtools,-1.0,0.0065720213991685705,0.047241903884775116
+pvdaq_33,S,main,"Golden, CO",Dfb,rdtools,-2.0,0.026563716597926224,0.09821327836192317
+pvdaq_33,S,main,"Golden, CO",Dfb,tcn,-2.0,0.04054785020901264,0.11961542462391894
+pvdaq_33,S,main,"Golden, CO",Dfb,tcn,-1.0,0.008945627900071806,0.05330587848839197
+pvdaq_33,S,main,"Golden, CO",Dfb,tcn,-0.5,0.0387201963757513,0.062097865215540116
+pvdaq_33,S,main,"Golden, CO",Dfb,tcn,-0.25,0.01014994043119627,0.022137036635296037
+pvdaq_33,S,main,"Golden, CO",Dfb,xgboost,-2.0,0.01944104620408127,0.10441836783011582
+pvdaq_33,S,main,"Golden, CO",Dfb,xgboost,-1.0,-0.005895982989729709,0.041404292593071323
+pvdaq_33,S,main,"Golden, CO",Dfb,xgboost,-0.5,-0.0022793862153344113,0.022564610879847125
+pvdaq_33,S,main,"Golden, CO",Dfb,xgboost,-0.25,0.00031375688652762745,0.013033099616161448
+pvdaq_4,S,sensitivity,"Golden, CO",Dfb,khd_full,-0.25,0.010368504475643359,0.023421274892893307
+pvdaq_4,S,sensitivity,"Golden, CO",Dfb,khd_full,-0.5,0.008270804215018024,0.033782492343796766
+pvdaq_4,S,sensitivity,"Golden, CO",Dfb,khd_full,-1.0,0.0109975533134814,0.05963656619480151
+pvdaq_4,S,sensitivity,"Golden, CO",Dfb,khd_full,-2.0,0.013981159400615839,0.10164947822266335
+pvdaq_4,S,sensitivity,"Golden, CO",Dfb,rdtools,-0.25,0.027604323471714848,0.030649818639140403
+pvdaq_4,S,sensitivity,"Golden, CO",Dfb,rdtools,-0.5,0.06826385115130745,0.07373590789008694
+pvdaq_4,S,sensitivity,"Golden, CO",Dfb,rdtools,-1.0,0.08896620661222132,0.0974252550482666
+pvdaq_4,S,sensitivity,"Golden, CO",Dfb,rdtools,-2.0,0.1851934022998034,0.19209593400458136
+ut_ID002,R,main,Utrecht,Cfb,gru,-2.0,-0.02243532779804891,0.12507870576755709
+ut_ID002,R,main,Utrecht,Cfb,gru,-1.0,-0.11243788408201594,-0.034026379946362706
+ut_ID002,R,main,Utrecht,Cfb,gru,-0.5,-0.16668500294291022,-0.1263243780732486
+ut_ID002,R,main,Utrecht,Cfb,gru,-0.25,-0.01300212274588139,0.007465823841096064
+ut_ID002,R,main,Utrecht,Cfb,informer,-2.0,0.0052438265010537055,0.11266047817773694
+ut_ID002,R,main,Utrecht,Cfb,informer,-1.0,-0.27710957954624704,-0.21864601916437953
+ut_ID002,R,main,Utrecht,Cfb,informer,-0.5,-0.4664094563403384,-0.43599780592431925
+ut_ID002,R,main,Utrecht,Cfb,informer,-0.25,-0.2568154025638473,-0.2413157173122933
+ut_ID002,R,main,Utrecht,Cfb,khd_full,-0.25,0.09448487944917455,0.0981132450290435
+ut_ID002,R,main,Utrecht,Cfb,khd_full,-0.5,0.14100933717833314,0.1476485955701008
+ut_ID002,R,main,Utrecht,Cfb,khd_full,-1.0,0.1530789087274258,0.16387822580438705
+ut_ID002,R,main,Utrecht,Cfb,khd_full,-2.0,0.4252804959198917,0.4368872039836824
+ut_ID002,R,main,Utrecht,Cfb,lstm,-2.0,-0.15797244674001742,-0.03103252707698001
+ut_ID002,R,main,Utrecht,Cfb,lstm,-1.0,-0.08158164748838892,-0.013405506550495883
+ut_ID002,R,main,Utrecht,Cfb,lstm,-0.5,-0.12150288027657069,-0.0862471107361178
+ut_ID002,R,main,Utrecht,Cfb,lstm,-0.25,-0.012182053334594212,0.005736660115519321
+ut_ID002,R,main,Utrecht,Cfb,patchtst,-2.0,-0.1270742221308594,-0.017789307440353674
+ut_ID002,R,main,Utrecht,Cfb,patchtst,-1.0,-0.032515149956609646,0.026877847803993715
+ut_ID002,R,main,Utrecht,Cfb,patchtst,-0.5,0.018930325647260493,0.04980553004415289
+ut_ID002,R,main,Utrecht,Cfb,patchtst,-0.25,0.027011996795564125,0.042743168953711885
+ut_ID002,R,main,Utrecht,Cfb,random_forest,-2.0,0.1316979301860608,0.1674491018298392
+ut_ID002,R,main,Utrecht,Cfb,random_forest,-1.0,0.20530194802261592,0.22811283240821423
+ut_ID002,R,main,Utrecht,Cfb,random_forest,-0.5,-0.06077719635921869,-0.048147206402491705
+ut_ID002,R,main,Utrecht,Cfb,random_forest,-0.25,0.17879327124263503,0.18541325371163886
+ut_ID002,R,main,Utrecht,Cfb,rdtools,-0.25,0.2156196977275107,0.23638684678023525
+ut_ID002,R,main,Utrecht,Cfb,rdtools,-0.5,0.5956237792508899,0.6365835589329123
+ut_ID002,R,main,Utrecht,Cfb,rdtools,-1.0,0.519712375803342,0.5993252003919194
+ut_ID002,R,main,Utrecht,Cfb,rdtools,-2.0,0.30167319210733057,0.45160200112881466
+ut_ID002,R,main,Utrecht,Cfb,tcn,-2.0,0.06682518019219397,0.17644722103000388
+ut_ID002,R,main,Utrecht,Cfb,tcn,-1.0,0.16202249815093106,0.2215832119345651
+ut_ID002,R,main,Utrecht,Cfb,tcn,-0.5,0.00943187627501102,0.04039072851296388
+ut_ID002,R,main,Utrecht,Cfb,tcn,-0.25,-0.1363043401517255,-0.12053139641837984
+ut_ID002,R,main,Utrecht,Cfb,xgboost,-2.0,0.17714218763760003,0.280243294964301
+ut_ID002,R,main,Utrecht,Cfb,xgboost,-1.0,0.032639514857156104,0.0889561461402888
+ut_ID002,R,main,Utrecht,Cfb,xgboost,-0.5,-0.0020684219815587657,0.027272454272434743
+ut_ID002,R,main,Utrecht,Cfb,xgboost,-0.25,-0.037782563531128466,-0.02281759528914673
+ut_ID009,R,main,Utrecht,Cfb,gru,-2.0,0.21071118541652112,0.32620652063682476
+ut_ID009,R,main,Utrecht,Cfb,gru,-1.0,0.06431753332197332,0.12680013727579276
+ut_ID009,R,main,Utrecht,Cfb,gru,-0.5,-0.06295677477883149,-0.03054063897228998
+ut_ID009,R,main,Utrecht,Cfb,gru,-0.25,-0.06153148702899594,-0.04503081345351401
+ut_ID009,R,main,Utrecht,Cfb,informer,-2.0,0.042824500314299074,0.218771575357672
+ut_ID009,R,main,Utrecht,Cfb,informer,-1.0,-0.14073177258602765,-0.048175187514198914
+ut_ID009,R,main,Utrecht,Cfb,informer,-0.5,-0.07414093679549089,-0.026725497123075037
+ut_ID009,R,main,Utrecht,Cfb,informer,-0.25,-0.007615491197380614,0.016375448013250082
+ut_ID009,R,main,Utrecht,Cfb,khd_full,-0.25,0.06973058629324672,0.07387855728938542
+ut_ID009,R,main,Utrecht,Cfb,khd_full,-0.5,0.1908948939897005,0.19857466548322134
+ut_ID009,R,main,Utrecht,Cfb,khd_full,-1.0,0.2968240894229144,0.30970966141243605
+ut_ID009,R,main,Utrecht,Cfb,khd_full,-2.0,0.5100827408024242,0.5258830319732808
+ut_ID009,R,main,Utrecht,Cfb,lstm,-2.0,0.06272331678326748,0.23697853237524846
+ut_ID009,R,main,Utrecht,Cfb,lstm,-1.0,-0.049448603029626614,0.042266303219650414
+ut_ID009,R,main,Utrecht,Cfb,lstm,-0.5,-0.06967413086897822,-0.022678475872471626
+ut_ID009,R,main,Utrecht,Cfb,lstm,-0.25,-0.07032454050109471,-0.046543230934628976
+ut_ID009,R,main,Utrecht,Cfb,patchtst,-2.0,0.17148803376361244,0.3618983868136474
+ut_ID009,R,main,Utrecht,Cfb,patchtst,-1.0,-0.1201167100818904,-0.020364825901219685
+ut_ID009,R,main,Utrecht,Cfb,patchtst,-0.5,-0.2849951652814736,-0.2339910927201867
+ut_ID009,R,main,Utrecht,Cfb,patchtst,-0.25,0.023275363957840967,0.049058373910223274
+ut_ID009,R,main,Utrecht,Cfb,random_forest,-2.0,0.3999765152067738,0.5010625666258102
+ut_ID009,R,main,Utrecht,Cfb,random_forest,-1.0,0.25463454693038157,0.3099487132142238
+ut_ID009,R,main,Utrecht,Cfb,random_forest,-0.5,0.2906420521118519,0.3194829520880038
+ut_ID009,R,main,Utrecht,Cfb,random_forest,-0.25,0.1585929526571832,0.17330824563651315
+ut_ID009,R,main,Utrecht,Cfb,rdtools,-0.25,-0.029921166156531204,-0.016519937042848598
+ut_ID009,R,main,Utrecht,Cfb,rdtools,-0.5,-0.00964532199089102,0.016564156860819246
+ut_ID009,R,main,Utrecht,Cfb,rdtools,-1.0,-0.28403900452399344,-0.23400090371076532
+ut_ID009,R,main,Utrecht,Cfb,rdtools,-2.0,-0.07212573390658683,0.018354892980608994
+ut_ID009,R,main,Utrecht,Cfb,tcn,-2.0,0.027660566917195872,0.21133162163211772
+ut_ID009,R,main,Utrecht,Cfb,tcn,-1.0,0.07691549529286468,0.17331466321636846
+ut_ID009,R,main,Utrecht,Cfb,tcn,-0.5,0.04567302767420167,0.09500494350572364
+ut_ID009,R,main,Utrecht,Cfb,tcn,-0.25,-0.014736004113380635,0.01021197388008277
+ut_ID009,R,main,Utrecht,Cfb,xgboost,-2.0,0.39150526778357086,0.5799780334094922
+ut_ID009,R,main,Utrecht,Cfb,xgboost,-1.0,0.2258392486792523,0.324627207457977
+ut_ID009,R,main,Utrecht,Cfb,xgboost,-0.5,0.13620630012636864,0.18672961791325138
+ut_ID009,R,main,Utrecht,Cfb,xgboost,-0.25,-0.03451655153208466,-0.008973618119110682
+ut_ID012,R,main,Utrecht,Cfb,gru,-2.0,0.30327352546996966,0.3628326354600515
+ut_ID012,R,main,Utrecht,Cfb,gru,-1.0,-0.09514069285903848,-0.060485658240857054
+ut_ID012,R,main,Utrecht,Cfb,gru,-0.5,0.1024877552461827,0.12102497802567669
+ut_ID012,R,main,Utrecht,Cfb,gru,-0.25,-0.007433486574324716,0.0021364156647467603
+ut_ID012,R,main,Utrecht,Cfb,informer,-2.0,0.26170715748442763,0.3319388100210685
+ut_ID012,R,main,Utrecht,Cfb,informer,-1.0,0.2513420680159225,0.29130655847384945
+ut_ID012,R,main,Utrecht,Cfb,informer,-0.5,-0.0947439244067459,-0.0735586271608124
+ut_ID012,R,main,Utrecht,Cfb,informer,-0.25,0.021050085979215732,0.031942368333568005
+ut_ID012,R,main,Utrecht,Cfb,khd_full,-0.25,0.05527423416771379,0.06284438258016056
+ut_ID012,R,main,Utrecht,Cfb,khd_full,-0.5,0.12246804241920023,0.13700074563109244
+ut_ID012,R,main,Utrecht,Cfb,khd_full,-1.0,0.3870893451114106,0.4137152173804808
+ut_ID012,R,main,Utrecht,Cfb,khd_full,-2.0,0.5126931238118548,0.5561128064537233
+ut_ID012,R,main,Utrecht,Cfb,lstm,-2.0,-0.05190930212952116,0.03728682751779866
+ut_ID012,R,main,Utrecht,Cfb,lstm,-1.0,0.1643880466115386,0.2137871261848283
+ut_ID012,R,main,Utrecht,Cfb,lstm,-0.5,0.07580967240751901,0.10170044141775625
+ut_ID012,R,main,Utrecht,Cfb,lstm,-0.25,-0.029372217133382145,-0.01613014349748143
+ut_ID012,R,main,Utrecht,Cfb,patchtst,-2.0,-0.15432810665196195,-0.09487247989574854
+ut_ID012,R,main,Utrecht,Cfb,patchtst,-1.0,-0.016830809636702693,0.017772743372669764
+ut_ID012,R,main,Utrecht,Cfb,patchtst,-0.5,-0.018580532860211274,-6.898637182750633e-05
+ut_ID012,R,main,Utrecht,Cfb,patchtst,-0.25,-0.08409599826827543,-0.07453891810699242
+ut_ID012,R,main,Utrecht,Cfb,random_forest,-2.0,0.377004698506207,0.31637203069712516
+ut_ID012,R,main,Utrecht,Cfb,random_forest,-1.0,0.1105185674929674,0.08537970260302208
+ut_ID012,R,main,Utrecht,Cfb,random_forest,-0.5,-0.07132081343579033,-0.0826056107117279
+ut_ID012,R,main,Utrecht,Cfb,random_forest,-0.25,-0.2331008111174495,-0.2384232568159465
+ut_ID012,R,main,Utrecht,Cfb,rdtools,-0.25,0.01652506855960545,0.01513908157235161
+ut_ID012,R,main,Utrecht,Cfb,rdtools,-0.5,-0.18450675026147922,-0.18790876430362413
+ut_ID012,R,main,Utrecht,Cfb,rdtools,-1.0,-0.1275244612829698,-0.1368581477292803
+ut_ID012,R,main,Utrecht,Cfb,rdtools,-2.0,0.07378124588773671,0.04491858323303166
+ut_ID012,R,main,Utrecht,Cfb,tcn,-2.0,0.6347743086131901,0.7284445005324904
+ut_ID012,R,main,Utrecht,Cfb,tcn,-1.0,0.4100307190700363,0.46165558841682386
+ut_ID012,R,main,Utrecht,Cfb,tcn,-0.5,0.24451756515864098,0.2715184398453847
+ut_ID012,R,main,Utrecht,Cfb,tcn,-0.25,-0.08563197875048809,-0.07183554696073746
+ut_ID012,R,main,Utrecht,Cfb,xgboost,-2.0,0.08248712387456658,0.06764888427352478
+ut_ID012,R,main,Utrecht,Cfb,xgboost,-1.0,-0.023599407264030425,-0.025956119427362756
+ut_ID012,R,main,Utrecht,Cfb,xgboost,-0.5,0.09640098295259197,0.09647871297639365
+ut_ID012,R,main,Utrecht,Cfb,xgboost,-0.25,-0.04258851081401843,-0.04223680333029267
+ut_ID014,R,sensitivity,Utrecht,Cfb,khd_full,-0.5,0.1652032003669865,0.183408651056715
+ut_ID014,R,sensitivity,Utrecht,Cfb,khd_full,-1.0,0.24061287916128893,0.27460270240350826
+ut_ID014,R,sensitivity,Utrecht,Cfb,khd_full,-2.0,0.412006973189569,0.47022894112089886
+ut_ID014,R,sensitivity,Utrecht,Cfb,khd_full,-0.25,0.13276967878655843,0.1421739025978246
+ut_ID014,R,sensitivity,Utrecht,Cfb,rdtools,-0.25,-0.04245030858826035,-0.024965468964291304
+ut_ID014,R,sensitivity,Utrecht,Cfb,rdtools,-0.5,-0.0847737966571736,-0.05038686217208266
+ut_ID014,R,sensitivity,Utrecht,Cfb,rdtools,-1.0,-0.3599920090195977,-0.2935579041977321
+ut_ID014,R,sensitivity,Utrecht,Cfb,rdtools,-2.0,-0.3235581556038005,-0.20011990449722195
+ut_ID053,R,sensitivity,Utrecht,Cfb,khd_full,-0.25,0.003518704929781735,0.028114886750019163
+ut_ID053,R,sensitivity,Utrecht,Cfb,khd_full,-0.5,0.05234282651998812,0.10097026831038836
+ut_ID053,R,sensitivity,Utrecht,Cfb,khd_full,-1.0,0.11631561438449545,0.2113022941551974
+ut_ID053,R,sensitivity,Utrecht,Cfb,khd_full,-2.0,0.2866006000806909,0.46743241093291
+ut_ID053,R,sensitivity,Utrecht,Cfb,rdtools,-0.25,0.09205379900041155,0.1248407668632785
+ut_ID053,R,sensitivity,Utrecht,Cfb,rdtools,-0.5,0.13830994920795775,0.20333949136943819
+ut_ID053,R,sensitivity,Utrecht,Cfb,rdtools,-1.0,0.06448212195320824,0.19235542508100067
+ut_ID053,R,sensitivity,Utrecht,Cfb,rdtools,-2.0,0.42566711948765157,0.6726043651687696
+ut_ID153,R,sensitivity,Utrecht,Cfb,khd_full,-0.25,0.08159724326364837,0.08428705221630073
+ut_ID153,R,sensitivity,Utrecht,Cfb,khd_full,-0.5,0.10372404802275487,0.10848384088784069
+ut_ID153,R,sensitivity,Utrecht,Cfb,khd_full,-1.0,0.2976346658912473,0.30466560736445947
+ut_ID153,R,sensitivity,Utrecht,Cfb,khd_full,-2.0,0.5030002832980085,0.5070321757542633
+ut_ID153,R,sensitivity,Utrecht,Cfb,rdtools,-0.25,0.11819770923011574,0.13125550929222052
+ut_ID153,R,sensitivity,Utrecht,Cfb,rdtools,-0.5,0.0749223232880244,0.10044408331213894
+ut_ID153,R,sensitivity,Utrecht,Cfb,rdtools,-1.0,0.11302993887482804,0.16168914615935925
+ut_ID153,R,sensitivity,Utrecht,Cfb,rdtools,-2.0,0.18786369188854257,0.275572603500883

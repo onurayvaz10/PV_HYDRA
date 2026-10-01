@@ -1,0 +1,139 @@
+{
+  "xgboost": {
+    "params": {
+      "n_estimators": 1500,
+      "max_depth": 3,
+      "learning_rate": 0.04407984038169244,
+      "subsample": 0.5171942605576092,
+      "colsample_bytree": 0.954660201039391,
+      "min_child_weight": 6
+    },
+    "val_rmse": 0.034284903978308044,
+    "trials": 20,
+    "development_systems": [
+      "dkasc_7",
+      "dkasc_12",
+      "dkasc_14"
+    ],
+    "training_period": "first 24 calendar months",
+    "validation_period": "next 12 calendar months"
+  },
+  "random_forest": {
+    "params": {
+      "n_estimators": 500,
+      "max_depth": 18,
+      "min_samples_leaf": 20,
+      "max_features": 0.5
+    },
+    "val_rmse": 0.03539916190008322,
+    "trials": 20,
+    "development_systems": [
+      "dkasc_7",
+      "dkasc_12",
+      "dkasc_14"
+    ],
+    "training_period": "first 24 calendar months",
+    "validation_period": "next 12 calendar months"
+  },
+  "lstm": {
+    "params": {
+      "hidden": 32,
+      "dropout": 0.011617559988354953,
+      "learning_rate": 0.0029122145358296725,
+      "batch_size": 256
+    },
+    "val_rmse": 0.025005686407287914,
+    "trials": 20,
+    "development_systems": [
+      "dkasc_7",
+      "dkasc_12",
+      "dkasc_14"
+    ],
+    "training_period": "first 24 calendar months",
+    "validation_period": "next 12 calendar months"
+  },
+  "gru": {
+    "params": {
+      "hidden": 32,
+      "dropout": 0.0017991548867452023,
+      "learning_rate": 0.0027967803877874393,
+      "batch_size": 256
+    },
+    "val_rmse": 0.027585489054520924,
+    "trials": 20,
+    "development_systems": [
+      "dkasc_7",
+      "dkasc_12",
+      "dkasc_14"
+    ],
+    "training_period": "first 24 calendar months",
+    "validation_period": "next 12 calendar months"
+  },
+  "tcn": {
+    "params": {
+      "hidden": 64,
+      "dropout": 0.29798488301302956,
+      "learning_rate": 0.0017401081787302537,
+      "batch_size": 256
+    },
+    "val_rmse": 0.02576601877808571,
+    "trials": 20,
+    "development_systems": [
+      "dkasc_7",
+      "dkasc_12",
+      "dkasc_14"
+    ],
+    "training_period": "first 24 calendar months",
+    "validation_period": "next 12 calendar months"
+  },
+  "patchtst": {
+    "params": {
+      "hidden": 32,
+      "dropout": 0.15166742310877968,
+      "learning_rate": 0.0021570918616401038,
+      "batch_size": 256
+    },
+    "val_rmse": 0.030802854647239048,
+    "trials": 20,
+    "development_systems": [
+      "dkasc_7",
+      "dkasc_12",
+      "dkasc_14"
+    ],
+    "training_period": "first 24 calendar months",
+    "validation_period": "next 12 calendar months"
+  },
+  "informer": {
+    "params": {
+      "hidden": 64,
+      "dropout": 0.16873511341494185,
+      "learning_rate": 0.0017401081787302537,
+      "batch_size": 512
+    },
+    "val_rmse": 0.027860074614485104,
+    "trials": 20,
+    "development_systems": [
+      "dkasc_7",
+      "dkasc_12",
+      "dkasc_14"
+    ],
+    "training_period": "first 24 calendar months",
+    "validation_period": "next 12 calendar months"
+  },
+  "kappa_hydra_d": {
+    "params": {
+      "hidden": 32,
+      "lr": 0.0010134885861800085,
+      "steps": 3000
+    },
+    "val_rmse": 0.03009839604298274,
+    "trials": 20,
+    "development_systems": [
+      "dkasc_7",
+      "dkasc_12",
+      "dkasc_14"
+    ],
+    "training_period": "first 24 calendar months",
+    "validation_period": "next 12 calendar months"
+  }
+}

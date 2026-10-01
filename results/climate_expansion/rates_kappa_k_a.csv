@@ -1,0 +1,2 @@
+system_id,tier,role,location,climate,injection,variant,status,plr,plr_seed_sd,plr_mid_reference,t_center_years,rows,span_years,val_rmse,val_mae,val_r2,coverage_80,interval_width_80,plr_se,ci_low,ci_high,jackknife_years,fit_seconds
+pvdaq_1272,R,main,"New Orleans, LA",Cfa,0.0,full,ok,-1.9601124606968352,0.058522454612410936,-2.0144782587885857,1.8989489937371984,10670,3.6448779374857407,0.14814328400497165,0.105410192098583,0.5348678284751385,0.7952941176470588,0.3191220649649562,0.9821995195345008,-3.8852235189844566,-0.03500140240921379,4,789.3186364109997

@@ -1,0 +1,12 @@
+{
+  "stage": "experiments_complete_awaiting_manuscript_integration",
+  "updated_local": "2026-09-29 21:28:07",
+  "hpo_models_complete": 8,
+  "hpo_models_expected": 8,
+  "chronological_complete": 600,
+  "chronological_expected": 600,
+  "geographic_complete": 600,
+  "geographic_expected": 600,
+  "rate_ci_complete": 48,
+  "rate_ci_expected": 48
+}

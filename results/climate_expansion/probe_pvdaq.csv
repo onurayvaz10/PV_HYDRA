@@ -1,0 +1,19 @@
+system_id,site,poa,module_temp,ambient_temp,power_rule,first,last,archived_years,irradiance_channels
+4,"Golden, CO",True,False,True,exact_ac_power_total,2007-08-26,2023-02-28,15.509924709103354,poa_irradiance
+10,"Golden, CO",True,False,True,exact_ac_power_total,2000-04-23,2023-02-28,22.850102669404517,poa_irradiance
+33,"Golden, CO",True,False,True,exact_ac_power_total,2010-11-08,2023-02-28,12.306639288158795,poa_irradiance
+50,"Golden, CO",True,False,True,exact_ac_power_total,1822-03-01,2023-02-28,200.99383983572895,poa_irradiance
+51,"Golden, CO",True,False,True,exact_ac_power_total,1994-05-13,2023-02-28,28.79671457905544,poa_irradiance
+1208,"Golden, CO",False,False,False,metered_ac_power,2011-07-26,2022-02-08,10.54072553045859,
+1283,"Golden, CO",True,True,True,exact_ac_power_total,2012-01-09,2022-02-08,10.08350444900753,POA_irradiance;POA_irradiance_refcell
+1289,Golden CO,True,False,True,exact_ac_power_total,2012-09-27,2020-05-19,7.641341546885695,poa_irradiance;poa_irradiance_2
+1332,"Golden, CO",False,False,False,metered_ac_power,2013-03-29,2022-01-18,8.80766598220397,
+1239,"Presque Isle, ME",True,False,False,metered_ac_power,2011-09-18,2020-07-26,8.854209445585216,poa_irradiance
+34,"Las Vegas, NV",True,False,False,single_ac_power_channel,2010-08-23,2020-07-26,9.924709103353868,poa_irradiance
+35,"Las Vegas, NV",True,False,False,single_ac_power_channel,2010-08-23,2020-07-26,9.924709103353868,poa_irradiance
+1276,"Las Vegas, NV",True,False,False,single_ac_power_channel,2011-08-30,2020-07-26,8.906228610540726,poa_irradiance
+1277,"Las Vegas, NV",True,False,False,single_ac_power_channel,2011-08-30,2020-07-26,8.906228610540726,poa_irradiance
+1278,"Las Vegas, NV",True,False,False,exact_ac_power_total,2011-08-30,2020-07-26,8.906228610540726,poa_irradiance
+1367,"Henderson, NV",True,False,False,exact_ac_power_total,2013-05-08,2020-05-24,7.044490075290897,poa_irradiance
+1368,"Henderson, NV",False,False,False,exact_ac_power_total,2013-05-29,2020-07-24,7.15400410677618,
+1369,"Henderson, NV",False,False,False,exact_ac_power_total,2013-05-20,2020-07-26,7.184120465434634,

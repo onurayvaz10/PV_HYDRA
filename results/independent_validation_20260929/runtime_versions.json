@@ -1,0 +1,18 @@
+{
+  "python": "3.13.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "torch": "2.11.0+cu128",
+    "xgboost": "3.4.1",
+    "scikit-learn": "1.9.1",
+    "rdtools": "3.2.1",
+    "pvlib": "0.15.2",
+    "optuna": "4.9.0",
+    "pyarrow": "25.0.1",
+    "shap": "0.52.0",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "decisions": [
+    {
+      "tier": "R",
+      "decision": "fail",
+      "n": 73
+    },
+    {
+      "tier": "R",
+      "decision": "pass",
+      "n": 170
+    },
+    {
+      "tier": "S",
+      "decision": "fail",
+      "n": 14
+    },
+    {
+      "tier": "S",
+      "decision": "pass",
+      "n": 8
+    }
+  ],
+  "pending_reasons": [
+    "POA drift vs ERA5"
+  ],
+  "not_screened_here": {
+    "utrecht": "Utrecht systems, Zenodo 10953360"
+  },
+  "era5_reachable": true,
+  "raster_reachable": true,
+  "transposition": {
+    "model": "perez",
+    "albedo": 0.2
+  }
+}

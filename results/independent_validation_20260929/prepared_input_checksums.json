@@ -1,0 +1,152 @@
+[
+  {
+    "file": "cache\\dkasc_10.json",
+    "bytes": 813,
+    "sha256": "e60cb3e623d055a1f2461de3bd6a60d23e5f2ff4453a2c1d1d7e8975e6877e02"
+  },
+  {
+    "file": "cache\\dkasc_10.npz",
+    "bytes": 1725710,
+    "sha256": "3961293d3e04f49da650a9ed10a77ee6e3102764609967bebc6d1247b40e3b8b"
+  },
+  {
+    "file": "cache\\dkasc_11.json",
+    "bytes": 807,
+    "sha256": "f3d9ce782d0df439cad413faf9fbb9c6d7d4c269faccd17578ac7d8c8723af54"
+  },
+  {
+    "file": "cache\\dkasc_11.npz",
+    "bytes": 1772196,
+    "sha256": "3e2571f78a782532ccb6e81ae6ffacc946b2924f650d277dd0001251ecc17e49"
+  },
+  {
+    "file": "cache\\dkasc_12.json",
+    "bytes": 807,
+    "sha256": "5b796bb51ddf9977420c1f8c3cd1691660708eab179553d972fede6f9b4a93dd"
+  },
+  {
+    "file": "cache\\dkasc_12.npz",
+    "bytes": 1773616,
+    "sha256": "71abbec9189beb5c2fa2be99f0f3c6e032280bafd1ef7b4f5a023e1b08becc7e"
+  },
+  {
+    "file": "cache\\dkasc_13.json",
+    "bytes": 804,
+    "sha256": "5f752e20389ae3801ffd1b5fcc2671f4cd2f31fe2b77d177ed1b2752c40362c5"
+  },
+  {
+    "file": "cache\\dkasc_13.npz",
+    "bytes": 1773389,
+    "sha256": "1c3148fdfda3f31adc39ab6fdcd242371f3515451c0d087f5a6c5b3479087287"
+  },
+  {
+    "file": "cache\\dkasc_14.json",
+    "bytes": 806,
+    "sha256": "a435c5d21b09f36b5cb4c7613deb664afdd0435ea01756f8cb0e19ba7df58981"
+  },
+  {
+    "file": "cache\\dkasc_14.npz",
+    "bytes": 1776222,
+    "sha256": "b313f0c7959901d272b08a0fbb4b9854d58150847af6fa0870b9911e6958c706"
+  },
+  {
+    "file": "cache\\dkasc_17.json",
+    "bytes": 814,
+    "sha256": "83727e5a1614f682331710c099650077f47c54cd537e6edc845f3f10e509306c"
+  },
+  {
+    "file": "cache\\dkasc_17.npz",
+    "bytes": 1768692,
+    "sha256": "b801990ece6358775aa7e14736f7af5652da40dc6c6063233e5936527ff987d9"
+  },
+  {
+    "file": "cache\\dkasc_18.json",
+    "bytes": 806,
+    "sha256": "748e1003dd2ae96f0f992d43d10ff0de1ae44409ba2d136231c934405833cf75"
+  },
+  {
+    "file": "cache\\dkasc_18.npz",
+    "bytes": 1775626,
+    "sha256": "80c84f95069d2c658d62edd2520983548538cd04518841f2754280aa4ea0b00a"
+  },
+  {
+    "file": "cache\\dkasc_19.json",
+    "bytes": 805,
+    "sha256": "36ee993636ec91ba81068a15b87f01a90e0c9f7a6612f09ee25468da01482f8a"
+  },
+  {
+    "file": "cache\\dkasc_19.npz",
+    "bytes": 1772860,
+    "sha256": "e7c54d5399e73b7dac17af3b884d5184c843a8bd7e054a35400a1fb1d3b794e9"
+  },
+  {
+    "file": "cache\\dkasc_20.json",
+    "bytes": 806,
+    "sha256": "b095502257a3168a68170c5ef5f923a73323ecc8f11d5c9dd87dc492487d6e52"
+  },
+  {
+    "file": "cache\\dkasc_20.npz",
+    "bytes": 1777002,
+    "sha256": "5b62315897f0176be5caf1df83da617dd7f66816a8f90ade386d5455d780351c"
+  },
+  {
+    "file": "cache\\dkasc_21.json",
+    "bytes": 814,
+    "sha256": "56e2682de616faf00f3f77afc1a6e504298e72aa292a8c0338920f5ab7b18711"
+  },
+  {
+    "file": "cache\\dkasc_21.npz",
+    "bytes": 1639300,
+    "sha256": "b015a06718a07956c76329e81278dbf7c17535cdec2623b0f16471657ede8213"
+  },
+  {
+    "file": "cache\\dkasc_7.json",
+    "bytes": 806,
+    "sha256": "a2e05dd01a0f0054abccd787b22bf71af7ef52e0ed8c71e338b07c42c1325c26"
+  },
+  {
+    "file": "cache\\dkasc_7.npz",
+    "bytes": 1464883,
+    "sha256": "824fe36dc3e5fc31253bb3cf501e5152d1a655b5aa3c28dc310ef6e18c747af0"
+  },
+  {
+    "file": "cache\\dkasc_8.json",
+    "bytes": 813,
+    "sha256": "8bf4bdd25761066ca4c550a8c61c8d8766a98eda200c29091860c87868ba2df5"
+  },
+  {
+    "file": "cache\\dkasc_8.npz",
+    "bytes": 1771895,
+    "sha256": "badc1e0437388dc246ad7fb79793ea88b834deab0bf3a597d0bc5034bcfe20b4"
+  },
+  {
+    "file": "cache\\pvdaq_1423.json",
+    "bytes": 783,
+    "sha256": "b3459857fd200a96610ea50e3988652262985ab3866a7154e63fe4eee7bf3861"
+  },
+  {
+    "file": "cache\\pvdaq_1423.npz",
+    "bytes": 1053085,
+    "sha256": "08987425876253b1a79c86fd6ad0e3f464fb5c21cbb5984669e43eacd40e34ac"
+  },
+  {
+    "file": "cache\\pvdaq_1430.json",
+    "bytes": 792,
+    "sha256": "5978c70806833e2a6bbb357faedd256a44b8d5961c42033df8b9c88d4aa08234"
+  },
+  {
+    "file": "cache\\pvdaq_1430.npz",
+    "bytes": 1582811,
+    "sha256": "c746299af096ad4b1d85bf838bec86205bb0a72c115bf1ee6f1c821c41e140a2"
+  },
+  {
+    "file": "cache\\pvdaq_2107.json",
+    "bytes": 801,
+    "sha256": "d4869f68828dabcc086041e281dbf3a4f80a1c966ee00420b8fc9a5a430a3954"
+  },
+  {
+    "file": "cache\\pvdaq_2107.npz",
+    "bytes": 965043,
+    "sha256": "218d9f36049d44093f2bc17d588af612d9b2930e277fca14317dba7c0d376c0f"
+  }
+]

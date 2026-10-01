@@ -1,0 +1,91 @@
+{
+  "xgboost": {
+    "params": {
+      "n_estimators": 1500,
+      "max_depth": 8,
+      "learning_rate": 0.010624374119444292,
+      "subsample": 0.6922289733757395,
+      "colsample_bytree": 0.9952343890849406,
+      "min_child_weight": 18
+    },
+    "val_rmse": 0.018705317750573158,
+    "trials": 20,
+    "hpo_seconds": 267.58581419999246
+  },
+  "random_forest": {
+    "params": {
+      "n_estimators": 400,
+      "max_depth": 21,
+      "min_samples_leaf": 1,
+      "max_features": 0.5
+    },
+    "val_rmse": 0.01893596351146698,
+    "trials": 20,
+    "hpo_seconds": 64.1867043999955
+  },
+  "lstm": {
+    "params": {
+      "hidden": 32,
+      "dropout": 0.046735137957955655,
+      "learning_rate": 0.002153555608042741,
+      "batch_size": 256
+    },
+    "val_rmse": 0.020694986606637638,
+    "trials": 20,
+    "hpo_seconds": 1127.724987499998
+  },
+  "gru": {
+    "params": {
+      "hidden": 128,
+      "dropout": 0.05910501474035068,
+      "learning_rate": 0.0021372238322445295,
+      "batch_size": 256
+    },
+    "val_rmse": 0.021059367184837658,
+    "trials": 20,
+    "hpo_seconds": 1916.9011527000112
+  },
+  "tcn": {
+    "params": {
+      "hidden": 128,
+      "dropout": 0.04237361274363219,
+      "learning_rate": 0.000669035029932953,
+      "batch_size": 256
+    },
+    "val_rmse": 0.019816796605785687,
+    "trials": 20,
+    "hpo_seconds": 132.75981279999542
+  },
+  "patchtst": {
+    "params": {
+      "hidden": 32,
+      "dropout": 0.021283240926875023,
+      "learning_rate": 0.0006289378344542927,
+      "batch_size": 256
+    },
+    "val_rmse": 0.02286611745754878,
+    "trials": 20,
+    "hpo_seconds": 650.8999051999999
+  },
+  "informer": {
+    "params": {
+      "hidden": 64,
+      "dropout": 0.2637803871745251,
+      "learning_rate": 0.0005720486958695042,
+      "batch_size": 256
+    },
+    "val_rmse": 0.02092571184039116,
+    "trials": 20,
+    "hpo_seconds": 373.5102353000111
+  },
+  "kappa_hydra_d": {
+    "params": {
+      "hidden": 128,
+      "lr": 0.006209242139167795,
+      "steps": 3000
+    },
+    "val_rmse": 0.051268224686494286,
+    "trials": 20,
+    "hpo_seconds": 493.22675859999435
+  }
+}

@@ -1,0 +1,25 @@
+system_id,source,name,location,country,latitude,longitude,elevation_m,climate,catalogue_climate,mounting,technology,manufacturer,installed,dc_kw,interval_min,first,last,retained,reason
+dkasc_7,DKASC,"Array 7: First Solar, 7.0kW, CdTe, Fixed, 2008","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,CdTe,First Solar,2008,7.0,5,2008-09-12,2025-08-23,True,
+dkasc_8,DKASC,"Array 8: Kaneka, 6.0kW, Amorphous Silicon, Fixed, 2008","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,Amorphous Silicon,Kaneka,2008,6.0,5,2008-09-12,2025-09-04,True,
+dkasc_10,DKASC,"Array 10: SunPower, 5.8kW, mono-Si, Fixed, 2009, 215W","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,mono-Si,SunPower,2009,5.8,5,2008-09-12,2025-08-23,True,
+dkasc_11,DKASC,"Array 11: BP Solar, 5.0kW, poly-Si, Fixed, 2008","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,poly-Si,BP Solar,2008,5.0,5,2008-09-12,2025-08-23,True,
+dkasc_13,DKASC,"Array 13: Trina, 5.3kW, mono-Si, Fixed, 2009","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,mono-Si,Trina,2009,5.3,5,2008-09-12,2025-08-23,True,
+dkasc_17,DKASC,"Array 17: Sanyo, 6.3kW, HIT Hybrid Silicon, Fixed, 2010","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,HIT Hybrid Silicon,Sanyo,2010,6.3,5,2008-09-12,2025-08-23,True,
+dkasc_12,DKASC,"Array 12: BP Solar, 5.1kW, mono-Si, Fixed, 2008","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,mono-Si,BP Solar,2008,5.1,5,2008-09-12,2025-08-23,True,
+dkasc_14,DKASC,"Array 14: Kyocera, 5.4kW, poly-Si, Fixed, 2008","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,poly-Si,Kyocera,2008,5.4,5,2008-09-12,2025-09-04,True,
+dkasc_18,DKASC,"Array 18: SunPower, 5.2kW, mono-Si, Fixed, 2011","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,mono-Si,SunPower,2011,5.2,5,2008-09-12,2025-09-04,True,
+dkasc_19,DKASC,"Array 19: Sungrid, 5.0kW, mono-Si, Fixed, 2010","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,mono-Si,Sungrid,2010,5.0,5,2009-12-15,2025-08-23,True,
+dkasc_20,DKASC,"Array 20: Sungrid, 5.0kW, poly-Si, Fixed, 2010","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,poly-Si,Sungrid,2010,5.0,5,2009-12-15,2025-08-23,True,
+dkasc_21,DKASC,"Array 21: Evergreen Solar, 4.9kW, poly-Si, Fixed, 2010","Alice Springs, NT",Australia,-23.7618,133.8748,546.0,BWh,,fixed,poly-Si,Evergreen Solar,2010,4.9,5,2009-12-15,2025-08-23,True,
+pvdaq_1430,PVDAQ,NREL Mesa 1-axis,"Golden, CO",USA,39.7438,-105.1779,1831.0,Dfb,BSk,single-axis tracker,not reported,,,720.72,15,2009-02-23,2017-11-21,True,
+pvdaq_1432,PVDAQ,NREL S and TF,"Golden, CO",USA,39.7422,-105.1719,1780.0,Dfb,BSk,"fixed, roof",not reported,,,94.05,15,2009-09-28,2018-01-14,False,POA sensor drift (> 1 %/yr vs ERA5 and vs clear-sky envelope)
+pvdaq_1433,PVDAQ,NREL RSF1,"Golden, CO",USA,39.7404,-105.1719,1780.0,Dfb,BSk,"fixed, roof",not reported,,,449.28,15,2010-12-31,2018-01-14,False,POA sensor drift (> 1 %/yr vs ERA5 and vs clear-sky envelope)
+pvdaq_1423,PVDAQ,RTC-NV-Baseline,"Henderson, NV",USA,36.0275,-114.9215,697.0,BWh,BWh,fixed,not reported,,,6.0,1,2015-11-24,2023-02-28,True,
+pvdaq_1199,PVDAQ,Distributed Sun - Hunt Valley,"Cockeysville, MD",USA,39.4856,-76.6636,325.0,Cfa,Cfa,"fixed, roof",not reported,,,52.92,5,2011-07-22,2018-08-03,False,no usable on-site POA
+pvdaq_1200,PVDAQ,Distributed Sun - BWI Hilton,"Linthicum Heights, MD",USA,39.1958,-76.6808,155.0,Cfa,Cfa,"fixed, roof",not reported,,,51.84,3,2013-11-29,2016-01-25,False,no usable on-site POA
+pvdaq_1201,PVDAQ,Distributed Sun - 5 Executive Campus,"Cherry Hill, NJ",USA,39.9283,-75.0481,18.0,Cfa,Cfa,"fixed, roof",not reported,,,140.14,3,2011-01-24,2016-01-25,False,no usable on-site POA
+pvdaq_1202,PVDAQ,Distributed Sun - 6 Executive Campus,"Cherry Hill, NJ",USA,39.9292,-75.0472,19.0,Cfa,Cfa,"fixed, roof",not reported,,,51.84,6,2011-01-04,2016-11-14,False,no usable on-site POA
+pvdaq_1203,PVDAQ,Distributed Sun - EJ DeSeta,"Wilmington, DE",USA,39.7325,-75.5511,4.0,Cfa,Cfa,"fixed, roof",not reported,,,197.47,3,2011-01-19,2016-01-25,False,no usable on-site POA
+pvdaq_1204,PVDAQ,Distributed Sun - The Wharf,"Chester, PA",USA,39.8256,-75.3828,10.0,Cfa,Cfa,"fixed, roof",not reported,,,78.645,5,2011-02-08,2015-01-06,False,< 4 years of valid days
+pvdaq_2107,PVDAQ,Farm Solar Array,"Arbuckle, CA",USA,38.996306,-122.134111,10.0,Csa,Csa,"fixed, ground",not reported,,,893.0,15,2017-01-01,2025-12-31,True,
+pvdaq_9068,PVDAQ,SR_CO,"Kersey, CO",USA,40.3864,-104.5512,1407.0,BSk,BSk,single-axis tracker,not reported,,,4738.0,5,2017-08-23,2025-04-30,False,night power above 1 % of rating; < 4 years of valid days

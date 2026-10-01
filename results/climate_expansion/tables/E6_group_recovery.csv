@@ -1,0 +1,37 @@
+group,method,mae_equal_country,n_countries,n_systems,rank_in_group
+all measured (country-weighted),khd_full,0.11843255788510505,5,,1.0
+all measured (country-weighted),informer,0.15052597020049235,5,,2.0
+all measured (country-weighted),rdtools,0.15211086550939334,5,,3.0
+all measured (country-weighted),tcn,0.19996931518589095,5,,4.0
+all measured (country-weighted),xgboost,0.22163613142556926,5,,5.0
+all measured (country-weighted),patchtst,0.22771743012390538,5,,6.0
+all measured (country-weighted),gru,0.24125496496691584,5,,7.0
+all measured (country-weighted),lstm,0.26101071365975576,5,,8.0
+all measured (country-weighted),random_forest,0.2639511658041137,5,,9.0
+expansion PVDAQ (3-17 y),khd_full,0.06747446764101117,1,9.0,1.0
+expansion PVDAQ (3-17 y),lstm,0.08515376577461484,1,9.0,2.0
+expansion PVDAQ (3-17 y),patchtst,0.08975090201948213,1,9.0,3.0
+expansion PVDAQ (3-17 y),rdtools,0.09386088825539415,1,9.0,4.0
+expansion PVDAQ (3-17 y),xgboost,0.10527682743720575,1,9.0,5.0
+expansion PVDAQ (3-17 y),gru,0.10692263777557867,1,9.0,6.0
+expansion PVDAQ (3-17 y),informer,0.13495169489572206,1,9.0,7.0
+expansion PVDAQ (3-17 y),tcn,0.15654673505128933,1,9.0,8.0
+expansion PVDAQ (3-17 y),random_forest,0.2165766015241397,1,9.0,9.0
+paper (long record),informer,0.023805984610549197,2,15.0,1.0
+paper (long record),patchtst,0.02504211703423824,2,15.0,2.0
+paper (long record),rdtools,0.02667875823279974,2,15.0,3.0
+paper (long record),lstm,0.026726700084333976,2,15.0,4.0
+paper (long record),gru,0.030752370594344908,2,15.0,5.0
+paper (long record),tcn,0.031649524164321784,2,15.0,6.0
+paper (long record),xgboost,0.038554807319213576,2,15.0,7.0
+paper (long record),khd_full,0.047206018549429435,2,15.0,8.0
+paper (long record),random_forest,0.10882952166559552,2,15.0,9.0
+short-record (2-3 y),khd_full,0.1681356649920076,3,9.0,1.0
+short-record (2-3 y),informer,0.21720943034503828,3,9.0,2.0
+short-record (2-3 y),rdtools,0.22577342466287928,3,9.0,3.0
+short-record (2-3 y),tcn,0.2920930493589619,3,9.0,4.0
+short-record (2-3 y),xgboost,0.33486500127887675,3,9.0,5.0
+short-record (2-3 y),patchtst,0.35264699602499666,3,9.0,6.0
+short-record (2-3 y),random_forest,0.3614657172365354,3,9.0,7.0
+short-record (2-3 y),gru,0.36946894191802726,3,9.0,8.0
+short-record (2-3 y),lstm,0.40832466355599495,3,9.0,9.0

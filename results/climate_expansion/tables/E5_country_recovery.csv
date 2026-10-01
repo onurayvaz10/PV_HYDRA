@@ -1,0 +1,55 @@
+group,country,method,mae,n_systems
+expansion PVDAQ (3-17 y),United States,gru,0.10692263777557867,9
+expansion PVDAQ (3-17 y),United States,informer,0.13495169489572206,9
+expansion PVDAQ (3-17 y),United States,khd_full,0.06747446764101117,9
+expansion PVDAQ (3-17 y),United States,lstm,0.08515376577461484,9
+expansion PVDAQ (3-17 y),United States,patchtst,0.08975090201948213,9
+expansion PVDAQ (3-17 y),United States,random_forest,0.2165766015241397,9
+expansion PVDAQ (3-17 y),United States,rdtools,0.09386088825539415,9
+expansion PVDAQ (3-17 y),United States,tcn,0.15654673505128933,9
+expansion PVDAQ (3-17 y),United States,xgboost,0.10527682743720575,9
+paper (long record),Australia,gru,0.02730861919672629,12
+paper (long record),Australia,informer,0.019439455817873454,12
+paper (long record),Australia,khd_full,0.013625084159134736,12
+paper (long record),Australia,lstm,0.021551989318304602,12
+paper (long record),Australia,patchtst,0.02145718900111576,12
+paper (long record),Australia,random_forest,0.03648170976659376,12
+paper (long record),Australia,rdtools,0.01924970239566409,12
+paper (long record),Australia,tcn,0.027289072325205277,12
+paper (long record),Australia,xgboost,0.02478486450679891,12
+paper (long record),United States,gru,0.03419612199196353,3
+paper (long record),United States,informer,0.028172513403224936,3
+paper (long record),United States,khd_full,0.08078695293972414,3
+paper (long record),United States,lstm,0.031901410850363354,3
+paper (long record),United States,patchtst,0.028627045067360718,3
+paper (long record),United States,random_forest,0.18117733356459728,3
+paper (long record),United States,rdtools,0.0341078140699354,3
+paper (long record),United States,tcn,0.03600997600343829,3
+paper (long record),United States,xgboost,0.05232475013162824,3
+short-record (2-3 y),China (Hong Kong),gru,0.9741684258051834,3
+short-record (2-3 y),China (Hong Kong),informer,0.4568729278330376,3
+short-record (2-3 y),China (Hong Kong),khd_full,0.23532431673873333,3
+short-record (2-3 y),China (Hong Kong),lstm,1.1108495092395387,3
+short-record (2-3 y),China (Hong Kong),patchtst,0.9240523960567044,3
+short-record (2-3 y),China (Hong Kong),random_forest,0.7019142036461337,3
+short-record (2-3 y),China (Hong Kong),rdtools,0.3708339420035954,3
+short-record (2-3 y),China (Hong Kong),tcn,0.6608363089858863,3
+short-record (2-3 y),China (Hong Kong),xgboost,0.7682783479349884,3
+short-record (2-3 y),Finland,gru,0.03237066842684062,3
+short-record (2-3 y),Finland,informer,0.03644417972449424,3
+short-record (2-3 y),Finland,khd_full,0.022506788462848582,3
+short-record (2-3 y),Finland,lstm,0.03521707665307121,3
+short-record (2-3 y),Finland,patchtst,0.04395172409893027,3
+short-record (2-3 y),Finland,random_forest,0.17645283945771148,3
+short-record (2-3 y),Finland,rdtools,0.1039281821968036,3
+short-record (2-3 y),Finland,tcn,0.055899209061011194,3
+short-record (2-3 y),Finland,xgboost,0.12941864914881462,3
+short-record (2-3 y),Netherlands,gru,0.10186773152205779,3
+short-record (2-3 y),Netherlands,informer,0.158311183477583,3
+short-record (2-3 y),Netherlands,khd_full,0.24657588977444087,3
+short-record (2-3 y),Netherlands,lstm,0.0789074047753749,3
+short-record (2-3 y),Netherlands,patchtst,0.08993686791935517,3
+short-record (2-3 y),Netherlands,random_forest,0.20603010860576124,3
+short-record (2-3 y),Netherlands,rdtools,0.20255814978823886,3
+short-record (2-3 y),Netherlands,tcn,0.15954363002998828,3
+short-record (2-3 y),Netherlands,xgboost,0.10689800675282723,3

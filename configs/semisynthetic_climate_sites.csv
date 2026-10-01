@@ -1,0 +1,21 @@
+site_id,name,latitude,longitude,expected_class,basis,country
+alice_springs,"Alice Springs NT (DKASC)",-23.7618,133.8748,BWh,measured site of the paper,Australia
+golden,"Golden CO (PVDAQ)",39.7438,-105.1779,Dfb,measured site of the paper,United States
+utrecht,"Utrecht",52.0907,5.1214,Cfb,Tier-R-short location,Netherlands
+hong_kong,"Hong Kong Observatory",22.302,114.174,Cwa,Tier-R-short location,China (Hong Kong)
+sodankyla,"Sodankyla (FMI)",67.3667,26.6333,Dfc,FMI measured site,Finland
+singapore,"Singapore",1.3521,103.8198,Af,one site per country,Singapore
+madrid,"Madrid",40.4168,-3.7038,BSk,one site per country,Spain
+marrakech,"Marrakech",31.6295,-7.9811,BSh,one site per country,Morocco
+nairobi,"Nairobi",-1.2921,36.8219,Cwb,one site per country,Kenya
+lagos,"Lagos",6.5244,3.3792,Aw,one site per country,Nigeria
+cape_town,"Cape Town",-33.9249,18.4241,Csb,one site per country,South Africa
+sao_paulo,"Sao Paulo",-23.5505,-46.6333,Cfa,one site per country,Brazil
+calama,"Calama (Atacama)",-22.4545,-68.9292,BWk,one site per country,Chile
+ushuaia,"Ushuaia",-54.8019,-68.303,ET,one site per country,Argentina
+tokyo,"Tokyo",35.6762,139.6503,Cfa,one site per country,Japan
+delhi,"New Delhi",28.6139,77.209,Cwa,one site per country,India
+dubai,"Dubai",25.2048,55.2708,BWh,one site per country,United Arab Emirates
+antalya,"Antalya",36.8969,30.7133,Csa,one site per country,Turkey
+ulaanbaatar,"Ulaanbaatar",47.8864,106.9057,Dwc,one site per country,Mongolia
+auckland,"Auckland",-36.8485,174.7633,Cfb,one site per country,New Zealand

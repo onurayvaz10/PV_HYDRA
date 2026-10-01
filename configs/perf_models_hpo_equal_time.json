@@ -1,0 +1,75 @@
+{
+  "budget_seconds": 373.5102353000111,
+  "xgboost": {
+    "params": {
+      "n_estimators": 1500,
+      "max_depth": 9,
+      "learning_rate": 0.01001104438971198,
+      "subsample": 0.5459346527403055,
+      "colsample_bytree": 0.9886560717813244,
+      "min_child_weight": 20
+    },
+    "val_rmse": 0.018647971873482067,
+    "trials": 27
+  },
+  "random_forest": {
+    "params": {
+      "n_estimators": 300,
+      "max_depth": 23,
+      "min_samples_leaf": 2,
+      "max_features": 0.5
+    },
+    "val_rmse": 0.0189257866392533,
+    "trials": 116
+  },
+  "lstm": {
+    "params": {
+      "hidden": 64,
+      "dropout": 0.29097295564859826,
+      "learning_rate": 0.0020396887264773375,
+      "batch_size": 256
+    },
+    "val_rmse": 0.021191275368134182,
+    "trials": 6
+  },
+  "gru": {
+    "params": {
+      "hidden": 64,
+      "dropout": 0.29097295564859826,
+      "learning_rate": 0.0020396887264773375,
+      "batch_size": 256
+    },
+    "val_rmse": 0.021234508603811264,
+    "trials": 3
+  },
+  "tcn": {
+    "params": {
+      "hidden": 128,
+      "dropout": 0.05574133545736275,
+      "learning_rate": 0.00030551810705882026,
+      "batch_size": 256
+    },
+    "val_rmse": 0.019685419276356697,
+    "trials": 56
+  },
+  "patchtst": {
+    "params": {
+      "hidden": 32,
+      "dropout": 0.0017991548867452023,
+      "learning_rate": 0.0003052590680789646,
+      "batch_size": 256
+    },
+    "val_rmse": 0.023191602279742558,
+    "trials": 11
+  },
+  "informer": {
+    "params": {
+      "hidden": 64,
+      "dropout": 0.2637803871745251,
+      "learning_rate": 0.0005720486958695042,
+      "batch_size": 256
+    },
+    "val_rmse": 0.02092571184039116,
+    "trials": 20
+  }
+}

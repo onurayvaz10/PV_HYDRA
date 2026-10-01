@@ -1,0 +1,21 @@
+site_id,name,latitude,longitude,expected_class,climate,tilt,azimuth,country,hours,poa_kwh_m2_yr,t_mean_c,era5
+alice_springs,Alice Springs NT (DKASC),-23.7618,133.8748,BWh,BWh,23.8,0.0,Australia,70128,2428.5,22.33,ok
+golden,Golden CO (PVDAQ),39.7438,-105.1779,Dfb,Dfb,39.7,180.0,United States,70128,2351.4,9.27,ok
+utrecht,Utrecht,52.0907,5.1214,Cfb,Cfb,52.1,180.0,Netherlands,70128,1391.1,11.07,ok
+hong_kong,Hong Kong Observatory,22.302,114.174,Cwa,Cwa,22.3,180.0,China (Hong Kong),70128,1720.0,23.73,ok
+sodankyla,Sodankyla (FMI),67.3667,26.6333,Dfc,Dfc,67.4,180.0,Finland,70128,923.5,1.5,ok
+singapore,Singapore,1.3521,103.8198,Af,Af,1.4,180.0,Singapore,70128,1761.6,27.2,ok
+madrid,Madrid,40.4168,-3.7038,BSk,BSk,40.4,180.0,Spain,70128,2086.7,15.45,ok
+marrakech,Marrakech,31.6295,-7.9811,BSh,BSh,31.6,180.0,Morocco,70128,2346.1,20.19,ok
+nairobi,Nairobi,-1.2921,36.8219,Cwb,Aw,1.3,0.0,Kenya,70128,1995.1,19.7,ok
+lagos,Lagos,6.5244,3.3792,Aw,Aw,6.5,180.0,Nigeria,70128,1737.9,27.13,ok
+cape_town,Cape Town,-33.9249,18.4241,Csb,Csb,33.9,0.0,South Africa,70128,2291.7,17.4,ok
+sao_paulo,Sao Paulo,-23.5505,-46.6333,Cfa,Cfa,23.6,0.0,Brazil,70128,1894.8,20.48,ok
+calama,Calama (Atacama),-22.4545,-68.9292,BWk,BWk,22.5,0.0,Chile,70128,2809.1,15.64,ok
+ushuaia,Ushuaia,-54.8019,-68.303,ET,Dfc,54.8,0.0,Argentina,70128,1422.5,5.95,ok
+tokyo,Tokyo,35.6762,139.6503,Cfa,Cfa,35.7,180.0,Japan,70128,1633.3,16.11,ok
+delhi,New Delhi,28.6139,77.209,Cwa,BSh,28.6,180.0,India,70128,2174.2,25.07,ok
+dubai,Dubai,25.2048,55.2708,BWh,BWh,25.2,180.0,United Arab Emirates,70128,2441.6,29.28,ok
+antalya,Antalya,36.8969,30.7133,Csa,Csa,36.9,180.0,Turkey,70128,2167.3,20.43,ok
+ulaanbaatar,Ulaanbaatar,47.8864,106.9057,Dwc,BSk,47.9,180.0,Mongolia,70128,2073.7,0.25,ok
+auckland,Auckland,-36.8485,174.7633,Cfb,Cfb,36.8,0.0,New Zealand,70128,1901.1,16.38,ok

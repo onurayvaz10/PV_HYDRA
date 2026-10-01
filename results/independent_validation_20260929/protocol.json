@@ -1,0 +1,51 @@
+{
+  "status": "post-development supplementary validation; not preregistered",
+  "training_months": 24,
+  "validation_months": 12,
+  "test": "remaining observed years",
+  "embargo_hours": 24,
+  "imputation": false,
+  "normalization": "fixed physical constants only",
+  "hpo_trials_per_model": 20,
+  "final_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "chronological_expected": 600,
+  "geographic_expected": 600,
+  "rate_ci_expected": 48,
+  "gamma_expected": 45,
+  "geographic_hpo": "20 per model and excluded location; no target-location measurements",
+  "geographic_models": [
+    "xgboost",
+    "tcn"
+  ],
+  "source_hashes": {
+    "scripts/run_independent_validation.py": "be12a809c485ded30df718f39dad7b1df2b5e522ba774aafbd06b521b739cb70",
+    "scripts/run_independent_transfer.py": "ba61eaac1780fcf17ca1f9d6bd9095d34c532e3ad21428da584a124d56f4c942",
+    "scripts/run_gamma_sensitivity.py": "f3aad06bfdf501c4fb08d399b72228bb126e63c17c3371866d3681276e2b6ccc",
+    "scripts/summarize_independent_validation.py": "7c2cd1935319a8d23288bc1ffffbfb88748528f65ff6d30b97f714579a001f5b",
+    "src/degradation/perf_models.py": "6eb362da99151da4ffd4a523db4a028d6922ccd2a89299ed9cefeb5176695047",
+    "src/degradation/kappa_hydra_d.py": "c2002b0ea93eec6a98a5e9a4adb92a1cb9ef274f3431b9f2adcc0284ff9f1f20",
+    "src/degradation/tier_a.py": "872163614dd68319d31002378fcfa478cf79d06b8db9884cfc97ad511b974002",
+    "src/degradation/ml_plr.py": "1305a8ba22623ba27b4edd2dfa77be16b3cbf56469dd8465441ca93d0fb81514",
+    "src/degradation/rdtools_pipeline.py": "93bd65e49b64f717e721c60c59bd6c5682b65ae5f6776e24fe8997bc84e1bfd5",
+    "src/models/baselines.py": "a305ce5974ad0524251bc615504b6029c5c0ce2383a9ab0c254855972c72542d",
+    "src/evaluation/stats.py": "4f3a8b318f2ea4305b226c49fc5033d1f9ada913f970dbf6515f9e62765ad814",
+    "scripts/run_ml_plr.py": "78df737e37f351f1f5fccb4c9359d221256504d01b273bbcd1777e3d776f5276",
+    "scripts/report_candidate_window_coverage.py": "6a3b7a6cfd70b3f9180ad189ce412f34575843f5fa7c07bba22b1561516148fc"
+  },
+  "gamma_window_note": "Uses original untrimmed RdTools input period; initial ML-cleaned-window sensitivity retained separately and excluded from final tables.",
+  "geographic_rate_extension": "Same later-period samples: RdTools reference and YoY of seed-ensemble ML normalized power. Reference agreement only, not measured degradation truth.",
+  "documentation_only_amendment": {
+    "reason": "Correct historical docstrings claiming preregistration, undegraded reference power and guaranteed identifiability; numerical code unchanged",
+    "previous_hashes": {
+      "src/degradation/tier_a.py": "8531bee4f4743dd4e2799894a0663a343d963c05d262e323a6107ac84973e474",
+      "src/degradation/perf_models.py": "b8b16804d1e96a4977778bcf747e5618334548b966517af513a6bd175483f602",
+      "src/degradation/kappa_hydra_d.py": "213a88a08a8279c2e80eefa1c1b236c4c2660e498ac39d056c83676fa70d7a56"
+    }
+  }
+}

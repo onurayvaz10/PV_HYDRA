@@ -1,0 +1,15 @@
+climate,paper_systems,paper_locations,expansion_systems,expansion_locations,expansion_tier,semi_synthetic_sites,measured
+BWh,13,2,1,1,S,alice_springs;dubai,True
+Cfa,0,0,3,1,R,sao_paulo;tokyo,True
+Cfb,0,0,120,1,R,utrecht;auckland,True
+Csa,1,1,0,0,,antalya,True
+Cwa,0,0,43,1,R,hong_kong,True
+Dfa,0,0,3,1,R,,True
+Dfb,1,1,6,2,S,golden,True
+Dfc,0,0,2,2,R+S,sodankyla;ushuaia,True
+Af,0,0,0,0,,singapore,False
+Aw,0,0,0,0,,nairobi;lagos,False
+BSh,0,0,0,0,,marrakech;delhi,False
+BSk,0,0,0,0,,madrid;ulaanbaatar,False
+BWk,0,0,0,0,,calama,False
+Csb,0,0,0,0,,cape_town,False

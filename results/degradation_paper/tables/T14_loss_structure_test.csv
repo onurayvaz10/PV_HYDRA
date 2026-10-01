@@ -1,0 +1,3 @@
+test,role,n,spearman_rho,p_one_sided,supported_at_0.05
+tail_index,primary,15,0.12142857142857141,0.33320055686169464,False
+nonlinearity,secondary,15,0.2571428571428571,0.1774301818253046,False

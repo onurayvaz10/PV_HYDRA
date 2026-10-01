@@ -1,0 +1,8 @@
+model,comparator,locations,mean_location_rmse_difference,exact_sign_permutation_p
+gru,xgboost,4,-0.003130203889062006,0.125
+informer,xgboost,4,-0.0011743668001145124,0.875
+kappa_hydra_d,xgboost,4,0.011619438921722274,0.625
+lstm,xgboost,4,0.002897013017597299,0.875
+patchtst,xgboost,4,-0.0024130767754589506,0.25
+random_forest,xgboost,4,-0.0020071448913464955,0.625
+tcn,xgboost,4,-0.0020123432235171386,0.25

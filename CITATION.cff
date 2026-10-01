@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "PV_HYDRA: machine-learning normalization and photovoltaic performance loss rates"
+version: "1.0"
+date-released: "2026-10-02"
+repository-code: "https://github.com/onurayvaz10/PV_HYDRA"
+authors:
+  - family-names: Ayvaz
+    given-names: Onur
+    orcid: "https://orcid.org/0009-0000-9522-7790"
+    affiliation: "Giresun University"
+  - family-names: Tomak
+    given-names: "Özgür"
+    orcid: "https://orcid.org/0000-0003-2993-6913"
+    affiliation: "Giresun University"

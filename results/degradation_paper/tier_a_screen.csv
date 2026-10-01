@@ -1,0 +1,25 @@
+system_id,climate,label,first,last,p999_over_dc,night95_over_dc,poa_p999,valid_years,poa_era5_ratio_trend_per_year,drift_months,poa_clearsky_envelope_trend_per_year,pass,reason
+dkasc_7,BWh,"First Solar, 7.0kW, CdTe, Fixed, 2008",2008-09-12,2025-08-23,0.878,0.0014,1190.8,9.43,-0.0005,136.0,0.0038,True,
+dkasc_8,BWh,"Kaneka, 6.0kW, Amorphous Silicon, Fixed, 2008",2008-09-12,2025-09-04,0.946,0.0,1191.2,9.33,-0.0005,134.0,0.0033,True,
+dkasc_10,BWh,"SunPower, 5.8kW, mono-Si, Fixed, 2009, 215W",2008-09-12,2025-08-23,0.894,0.0,1190.8,9.48,-0.0004,136.0,0.0038,True,
+dkasc_11,BWh,"BP Solar, 5.0kW, poly-Si, Fixed, 2008",2008-09-12,2025-08-23,0.858,0.0,1191.0,9.34,-0.0005,133.0,0.0036,True,
+dkasc_13,BWh,"Trina, 5.3kW, mono-Si, Fixed, 2009",2008-09-12,2025-08-23,0.868,0.0,1190.9,9.42,-0.0004,135.0,0.0038,True,
+dkasc_17,BWh,"Sanyo, 6.3kW, HIT Hybrid Silicon, Fixed, 2010",2008-09-12,2025-08-23,0.953,0.0,1191.1,9.28,-0.0005,133.0,0.0034,True,
+dkasc_12,BWh,"BP Solar, 5.1kW, mono-Si, Fixed, 2008",2008-09-12,2025-08-23,0.837,0.0001,1190.9,9.39,-0.0005,136.0,0.0038,True,
+dkasc_14,BWh,"Kyocera, 5.4kW, poly-Si, Fixed, 2008",2008-09-12,2025-09-04,0.914,0.0,1191.2,9.32,-0.0006,135.0,0.0033,True,
+dkasc_18,BWh,"SunPower, 5.2kW, mono-Si, Fixed, 2011",2008-09-12,2025-09-04,0.96,0.0,1191.1,9.31,-0.0006,136.0,0.0033,True,
+dkasc_19,BWh,"Sungrid, 5.0kW, mono-Si, Fixed, 2010",2009-12-15,2025-08-23,0.888,0.0,1190.9,9.48,-0.0004,134.0,0.004,True,
+dkasc_20,BWh,"Sungrid, 5.0kW, poly-Si, Fixed, 2010",2009-12-15,2025-08-23,0.867,0.0018,1190.8,9.55,-0.0004,136.0,0.0038,True,
+dkasc_21,BWh,"Evergreen Solar, 4.9kW, poly-Si, Fixed, 2010",2009-12-15,2025-08-23,0.859,0.0002,1190.8,9.51,-0.0005,136.0,0.0038,True,
+pvdaq_1430,Dfb,NREL Golden roof array,2009-02-23,2017-11-21,0.898,0.0,1091.9,8.2,-0.011,105.0,-0.0086,True,
+pvdaq_1432,Dfb,NREL Golden S&TF roof,2009-09-28,2018-01-14,0.792,0.0018,1031.9,7.29,-0.0175,100.0,-0.0278,False,POA sensor drift (> 1 %/yr vs ERA5 and vs clear-sky envelope)
+pvdaq_1433,Dfb,NREL RSF1 roof,2010-12-31,2018-01-14,0.792,0.0,1224.0,5.47,-0.043,79.0,-0.0529,False,POA sensor drift (> 1 %/yr vs ERA5 and vs clear-sky envelope)
+pvdaq_1423,BWh,Henderson NV,2015-11-24,2023-02-28,0.977,0.0005,1122.6,5.75,0.0035,73.0,0.005,True,
+pvdaq_1199,Cfa,Cockeysville MD,2011-07-22,2018-08-03,,,,,,,,False,no usable on-site POA
+pvdaq_1200,Cfa,Linthicum Heights MD,2013-11-29,2016-01-25,,,,,,,,False,no usable on-site POA
+pvdaq_1201,Cfa,Cherry Hill NJ,2011-01-24,2016-01-25,,,,,,,,False,no usable on-site POA
+pvdaq_1202,Cfa,Cherry Hill NJ,2011-01-04,2016-11-14,,,,,,,,False,no usable on-site POA
+pvdaq_1203,Cfa,Wilmington DE,2011-01-19,2016-01-25,,,,,,,,False,no usable on-site POA
+pvdaq_1204,Cfa,Chester PA,2011-02-08,2015-01-06,0.83,0.0002,981.4,3.35,0.0088,47.0,0.0311,False,< 4 years of valid days
+pvdaq_2107,Csa,"Farm Solar Array, Arbuckle CA",2017-01-01,2025-12-31,0.789,0.0,1057.8,6.11,0.0026,79.0,0.0013,True,
+pvdaq_9068,BSk,"SR_CO single-axis tracker, Kersey CO",2017-08-23,2025-04-30,0.796,0.7505,1047.5,3.47,-0.0006,49.0,0.0658,False,night power above 1 % of rating; < 4 years of valid days

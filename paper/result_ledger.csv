@@ -1,0 +1,230 @@
+id,text,value,source,selector,kind
+n_main,33,33,E10_measured_locations.csv,sum(systems),count
+n_locations,12,12,E10_measured_locations.csv,nunique(location),count
+n_countries,5,5,E10_measured_locations.csv,nunique(country),count
+n_classes_measured,8,8,E10_measured_locations.csv,nunique(climate),count
+n_bwh,14/33,14,E10_measured_locations.csv,sum(systems | climate == BWh),count
+n_long_sensor,15,15,E10_measured_locations.csv,group == paper,count
+n_dkasc,12,12,E10_measured_locations.csv,"Alice Springs, NT systems",count
+n_pvdaq_long,3,3,E10_measured_locations.csv,paper systems outside DKASC,count
+n_long_locations,4,4,E10_measured_locations.csv,rows with group == paper,count
+n_long_expansion,9,9,selection.csv,"main & final, PVDAQ",count
+n_long_expansion_S,3,3,selection.csv,tier S,count
+n_long_expansion_R,6,6,selection.csv,tier R,count
+n_short,9,9,selection.csv,"main & final, hk_/ut_/fmi_",count
+n_short_per_country,3,3,selection.csv,"3 per country (HK, NL, FI)",count
+hk_candidates,43 of 60,"[43, 60]",E0a_screen_by_source.csv,Hong Kong (Dryad),count
+ut_candidates,120 of 175,"[120, 175]",E0a_screen_by_source.csv,Utrecht (Zenodo),count
+pvdaq_S_candidates,6 of 20,"[6, 20]",E0a_screen_by_source.csv,"tier S, PVDAQ",count
+pvdaq_R_candidates,6 of 7,"[6, 7]",E0a_screen_by_source.csv,"tier R, PVDAQ",count
+orig_candidates,15 of 24,"[15, 24]",T0_sites.csv,retained / rows,count
+n_weather_sites,20,20,semisynthetic_sites.csv,rows,count
+n_weather_classes,13,13,semisynthetic_sites.csv,nunique(climate),count
+n_classes_all,14,14,E10 + semisynthetic_sites,union of classes,count
+n_semi_records,240,240,semisynthetic_climate_runs*.csv,unique site x response x rate x seed,count
+n_semi_runs,"2,160",2160,semisynthetic_climate_runs*.csv,unique records x method,count
+span_long_sensor,6.9–12.3,"[6.91854893908282, 12.254620123203283]",T1_plr_by_system.csv,span_years min-max,result
+drift_pvdaq_1432,−1.75 and −2.78,"[-1.7500000000000002, -2.78]",tier_a_screen.csv,"poa_era5_ratio_trend_per_year, poa_clearsky_envelope_trend_per_year",result
+drift_pvdaq_1433,−4.30 and −5.29,"[-4.3, -5.29]",tier_a_screen.csv,"poa_era5_ratio_trend_per_year, poa_clearsky_envelope_trend_per_year",result
+drift_pvdaq_1430,−1.10 and −0.86,"[-1.0999999999999999, -0.86]",tier_a_screen.csv,"poa_era5_ratio_trend_per_year, poa_clearsky_envelope_trend_per_year",result
+fit_rmse_range,0.028–0.031,"{""xgboost"": 0.02867686574657754, ""random_forest"": 0.02843081057071683, ""lstm"": 0.029249635090430527, ""gru"": 0.02892635874450201, ""tcn"": 0.02785420430203274, ""patchtst"": 0.03149359300732608, ""informer"": 0.029195998609065955}",T3b_common_domain_fit.csv,mean rmse per model over 15 systems,result
+fit_r2_range,0.971–0.977,"{""xgboost"": 0.9747197190920512, ""random_forest"": 0.9753782590230305, ""lstm"": 0.9747690677642822, ""gru"": 0.9751003662745158, ""tcn"": 0.9766217112541199, ""patchtst"": 0.9709889769554139, ""informer"": 0.9745825409889222}",T3b_common_domain_fit.csv,mean r2 per model,result
+fit_rmse_xgboost,0.029,0.02867686574657754,T3b_common_domain_fit.csv,"mean rmse, model == xgboost",result
+fit_rmse_random_forest,0.028,0.02843081057071683,T3b_common_domain_fit.csv,"mean rmse, model == random_forest",result
+fit_rmse_lstm,0.029,0.029249635090430527,T3b_common_domain_fit.csv,"mean rmse, model == lstm",result
+fit_rmse_gru,0.029,0.02892635874450201,T3b_common_domain_fit.csv,"mean rmse, model == gru",result
+fit_rmse_tcn,0.028,0.02785420430203274,T3b_common_domain_fit.csv,"mean rmse, model == tcn",result
+fit_rmse_patchtst,0.031,0.03149359300732608,T3b_common_domain_fit.csv,"mean rmse, model == patchtst",result
+fit_rmse_informer,0.029,0.029195998609065955,T3b_common_domain_fit.csv,"mean rmse, model == informer",result
+fit_rmse_khd-full,0.033,0.033057247897083926,T3b_common_domain_fit.csv,"mean rmse, model == khd-full",result
+inj_mae_rdtools,0.022,0.02222132473051835,T2_recovery_by_system.csv,"mean |error| over 15 systems x 4 rates, method == rdtools",result
+inj_mae_khd_full,0.027,0.027057457915252617,T2_recovery_by_system.csv,"mean |error| over 15 systems x 4 rates, method == khd_full",result
+inj_mae_xgboost,0.030,0.030292841631764777,T2_recovery_by_system.csv,"mean |error| over 15 systems x 4 rates, method == xgboost",result
+inj_mae_random_forest,0.065,0.06542083452619446,T2_recovery_by_system.csv,"mean |error| over 15 systems x 4 rates, method == random_forest",result
+inj_mae_lstm,0.024,0.023621873624716353,T2_recovery_by_system.csv,"mean |error| over 15 systems x 4 rates, method == lstm",result
+inj_mae_gru,0.029,0.028686119755773738,T2_recovery_by_system.csv,"mean |error| over 15 systems x 4 rates, method == gru",result
+inj_mae_tcn,0.029,0.029033253060851878,T2_recovery_by_system.csv,"mean |error| over 15 systems x 4 rates, method == tcn",result
+inj_mae_patchtst,0.023,0.02289116021436475,T2_recovery_by_system.csv,"mean |error| over 15 systems x 4 rates, method == patchtst",result
+inj_mae_informer,0.021,0.02118606733494375,T2_recovery_by_system.csv,"mean |error| over 15 systems x 4 rates, method == informer",result
+inj_mae_range_main,0.021–0.030,null,T2_recovery_by_system.csv,reference and six models (no random forest),result
+n_injection_units,60,60,T2_recovery_by_system.csv,rows per method,count
+injected_rates,"−0.25, −0.5, −1 and −2","[-2.0, -1.0, -0.5, -0.25]",T2_recovery_by_system.csv,unique rate,design
+exact_mae_rdtools,0.030,0.030262634007140448,E7_semisynthetic_by_site.csv,"mean mae over 20 sites, method == rdtools",result
+exact_worst_rdtools,0.091,0.0905013969291654,E7_semisynthetic_by_site.csv,"max mae over sites, method == rdtools",result
+exact_best_rdtools,0,0,E11_rank_tests.csv,"blocks_best, known-truth, rdtools",result
+exact_mae_khd_full,0.008,0.007721317987821649,E7_semisynthetic_by_site.csv,"mean mae over 20 sites, method == khd_full",result
+exact_worst_khd_full,0.011,0.0111958899779944,E7_semisynthetic_by_site.csv,"max mae over sites, method == khd_full",result
+exact_best_khd_full,11,11,E11_rank_tests.csv,"blocks_best, known-truth, khd_full",result
+exact_mae_xgboost,0.021,0.021406905018539712,E7_semisynthetic_by_site.csv,"mean mae over 20 sites, method == xgboost",result
+exact_worst_xgboost,0.059,0.0593607326193272,E7_semisynthetic_by_site.csv,"max mae over sites, method == xgboost",result
+exact_best_xgboost,0,0,E11_rank_tests.csv,"blocks_best, known-truth, xgboost",result
+exact_mae_random_forest,0.050,0.05042596095650387,E7_semisynthetic_by_site.csv,"mean mae over 20 sites, method == random_forest",result
+exact_worst_random_forest,0.100,0.0997228660454606,E7_semisynthetic_by_site.csv,"max mae over sites, method == random_forest",result
+exact_best_random_forest,0,0,E11_rank_tests.csv,"blocks_best, known-truth, random_forest",result
+exact_mae_lstm,0.013,0.01279139017812321,E7_semisynthetic_by_site.csv,"mean mae over 20 sites, method == lstm",result
+exact_worst_lstm,0.032,0.0322309615412981,E7_semisynthetic_by_site.csv,"max mae over sites, method == lstm",result
+exact_best_lstm,2,2,E11_rank_tests.csv,"blocks_best, known-truth, lstm",result
+exact_mae_gru,0.011,0.01087464614912631,E7_semisynthetic_by_site.csv,"mean mae over 20 sites, method == gru",result
+exact_worst_gru,0.023,0.0233067066354749,E7_semisynthetic_by_site.csv,"max mae over sites, method == gru",result
+exact_best_gru,6,6,E11_rank_tests.csv,"blocks_best, known-truth, gru",result
+exact_mae_tcn,0.011,0.011115861848314545,E7_semisynthetic_by_site.csv,"mean mae over 20 sites, method == tcn",result
+exact_worst_tcn,0.028,0.0282040941169397,E7_semisynthetic_by_site.csv,"max mae over sites, method == tcn",result
+exact_best_tcn,1,1,E11_rank_tests.csv,"blocks_best, known-truth, tcn",result
+exact_mae_patchtst,0.016,0.016368206950144085,E7_semisynthetic_by_site.csv,"mean mae over 20 sites, method == patchtst",result
+exact_worst_patchtst,0.033,0.033494591359075,E7_semisynthetic_by_site.csv,"max mae over sites, method == patchtst",result
+exact_best_patchtst,0,0,E11_rank_tests.csv,"blocks_best, known-truth, patchtst",result
+exact_mae_informer,0.014,0.014092602141951172,E7_semisynthetic_by_site.csv,"mean mae over 20 sites, method == informer",result
+exact_worst_informer,0.026,0.0258066823621495,E7_semisynthetic_by_site.csv,"max mae over sites, method == informer",result
+exact_best_informer,0,0,E11_rank_tests.csv,"blocks_best, known-truth, informer",result
+exact_mean_rank_khd,2.0,2.0,E11_rank_tests.csv,mean_rank khd_full known-truth,result
+friedman_sites_p,10⁻⁴,2.1243606429259145e-17,E11_rank_tests.csv,friedman_p known-truth (< 1e-4),result
+exact_ref_NL,0.091,0.0905013969291654,E7_semisynthetic_by_site.csv,"rdtools, Netherlands",result
+exact_ref_FI,0.075,0.075130004433196,E7_semisynthetic_by_site.csv,"rdtools, Finland",result
+four_loc_rdtools,0.030,0.0303932861513675,T27_site_dependence.csv,"four sites weighted equally, rdtools",result
+four_loc_khd_full,0.064,0.0639964857445768,T27_site_dependence.csv,"four sites weighted equally, khd_full",result
+four_loc_xgboost,0.045,0.0454397787254209,T27_site_dependence.csv,"four sites weighted equally, xgboost",result
+four_loc_random_forest,0.145,0.1450034276150963,T27_site_dependence.csv,"four sites weighted equally, random_forest",result
+four_loc_lstm,0.029,0.0293140554673486,T27_site_dependence.csv,"four sites weighted equally, lstm",result
+four_loc_gru,0.032,0.0324742462931542,T27_site_dependence.csv,"four sites weighted equally, gru",result
+four_loc_tcn,0.034,0.03382975008388,T27_site_dependence.csv,"four sites weighted equally, tcn",result
+four_loc_patchtst,0.027,0.0268345810507994,T27_site_dependence.csv,"four sites weighted equally, patchtst",result
+four_loc_informer,0.026,0.025989249006887,T27_site_dependence.csv,"four sites weighted equally, informer",result
+dkasc_khd,0.014,0.0136250841591347,T27_site_dependence.csv,"DKASC only, khd_full",result
+dkasc_ref,0.019,0.019249702395664,T27_site_dependence.csv,"DKASC only, rdtools",result
+us_khd,0.081,0.0807869529397241,T27_site_dependence.csv,"US only, khd_full",result
+arbuckle_khd_err,+0.20,0.2042276081727552,T2_recovery_by_system.csv,"khd_full, pvdaq_2107, rate -1",result
+longexp_rdtools,0.094,0.0938608882553941,E5_country_recovery.csv,"expansion PVDAQ, United States, rdtools",result
+short_rdtools,0.226,0.2257734246628792,E6_group_recovery.csv,"short-record, country-weighted, rdtools",result
+longexp_khd_full,0.067,0.0674744676410111,E5_country_recovery.csv,"expansion PVDAQ, United States, khd_full",result
+short_khd_full,0.168,0.1681356649920076,E6_group_recovery.csv,"short-record, country-weighted, khd_full",result
+longexp_xgboost,0.105,0.1052768274372057,E5_country_recovery.csv,"expansion PVDAQ, United States, xgboost",result
+short_xgboost,0.335,0.3348650012788767,E6_group_recovery.csv,"short-record, country-weighted, xgboost",result
+longexp_random_forest,0.217,0.2165766015241397,E5_country_recovery.csv,"expansion PVDAQ, United States, random_forest",result
+short_random_forest,0.361,0.3614657172365354,E6_group_recovery.csv,"short-record, country-weighted, random_forest",result
+longexp_lstm,0.085,0.0851537657746148,E5_country_recovery.csv,"expansion PVDAQ, United States, lstm",result
+short_lstm,0.408,0.4083246635559949,E6_group_recovery.csv,"short-record, country-weighted, lstm",result
+longexp_gru,0.107,0.1069226377755786,E5_country_recovery.csv,"expansion PVDAQ, United States, gru",result
+short_gru,0.369,0.3694689419180272,E6_group_recovery.csv,"short-record, country-weighted, gru",result
+longexp_tcn,0.157,0.1565467350512893,E5_country_recovery.csv,"expansion PVDAQ, United States, tcn",result
+short_tcn,0.292,0.2920930493589619,E6_group_recovery.csv,"short-record, country-weighted, tcn",result
+longexp_patchtst,0.090,0.0897509020194821,E5_country_recovery.csv,"expansion PVDAQ, United States, patchtst",result
+short_patchtst,0.353,0.3526469960249966,E6_group_recovery.csv,"short-record, country-weighted, patchtst",result
+longexp_informer,0.135,0.134951694895722,E5_country_recovery.csv,"expansion PVDAQ, United States, informer",result
+short_informer,0.217,0.2172094303450382,E6_group_recovery.csv,"short-record, country-weighted, informer",result
+short_range_FI,0.023–0.176,"[0.0225067884628485, 0.1764528394577114]",E5_country_recovery.csv,"short-record, Finland, min-max over methods",result
+short_range_NL,0.079–0.247,"[0.0789074047753749, 0.2465758897744408]",E5_country_recovery.csv,"short-record, Netherlands, min-max over methods",result
+short_range_HK,0.235–1.111,"[0.2353243167387333, 1.1108495092395387]",E5_country_recovery.csv,"short-record, China (Hong Kong), min-max over methods",result
+country_best_khd,3 of 5,3,E11_rank_tests.csv,"measured (5 countries), khd_full blocks_best",result
+friedman_countries_p,0.17,0.1686544119112409,E11_rank_tests.csv,friedman_p measured (5 countries),result
+spearman_fit_rate,−0.79,-0.7857142857142859,T3b + T2,"spearman(mean rmse, recovery mae), seven models",result
+spearman_fit_rate_p,0.04,0.03623846267982715,T3b + T2,p of the Spearman test,result
+friedman_injection_p,3 × 10⁻⁹,2.7377623502773357e-09,T5_friedman_recovery.csv,p_value (rounded to 1 significant digit),result
+nemenyi_cd,1.55,1.5508651706516898,T5_friedman_recovery.csv,nemenyi_cd,result
+mixed_rf,+0.043,0.0431995097956762,T21_mixed_model_recovery.csv,random_forest diff_vs_rdtools,result
+spread_median,0.20,0.20171618360771548,T1_plr_by_system.csv,median over 15 systems of max-min of seven two-stage means,result
+spread_max,0.41,0.4079386619203045,T1_plr_by_system.csv,max of the same,result
+window_max,0.27,0.2713817262014942,T12_refwindow_sensitivity.csv,max window_range,result
+window_median,0.06,0.0649673035077382,T12_refwindow_sensitivity.csv,median window_range,result
+spread_longexp,1.26,1.258320526863435,E1_field_rates.csv,"median spread, long expansion mains",result
+spread_short,1.63,1.6256304392632055,E1_field_rates.csv,"median spread, short mains",result
+half_longexp,1.62,1.6233334936046293,E1_field_rates.csv,"median CI half-width, reference, long expansion",result
+half_short,3.03,3.0250054306247276,E1_field_rates.csv,"median CI half-width, reference, short",result
+ci_width_khd,0.46,null,T1_plr_by_system.csv,median khd CI width,result
+ci_width_ref,0.33,null,T1_plr_by_system.csv,median reference CI width,result
+abl_semi_thin_film_full,0.008,0.0082142100542045,T25_khd_ablation_exact_rate.csv,semi/thin_film/full mae,result
+abl_semi_thin_film_no_physics,0.007,0.0073935714586795,T25_khd_ablation_exact_rate.csv,semi/thin_film/no_physics mae,result
+abl_semi_thin_film_no_correction,0.121,0.1208309980119774,T25_khd_ablation_exact_rate.csv,semi/thin_film/no_correction mae,result
+abl_semi_thin_film_rdtools,0.070,0.0704424292112064,T25_khd_ablation_exact_rate.csv,semi/thin_film/rdtools mae,result
+abl_n_semi_thin_film,24,24,T25_khd_ablation_exact_rate.csv,semi/thin_film/full n,count
+abl_short_thin_film_full,0.013,0.0129672629901102,T25_khd_ablation_exact_rate.csv,short/thin_film/full mae,result
+abl_short_thin_film_no_physics,0.022,0.022149263937641,T25_khd_ablation_exact_rate.csv,short/thin_film/no_physics mae,result
+abl_short_thin_film_no_correction,0.501,0.5009285405230638,T25_khd_ablation_exact_rate.csv,short/thin_film/no_correction mae,result
+abl_short_thin_film_rdtools,0.169,0.1692797923924036,T25_khd_ablation_exact_rate.csv,short/thin_film/rdtools mae,result
+abl_n_short_thin_film,12,12,T25_khd_ablation_exact_rate.csv,short/thin_film/full n,count
+abl_hard_non_pvwatts_full,0.006,0.0062797592056446,T25_khd_ablation_exact_rate.csv,hard/non_pvwatts/full mae,result
+abl_hard_non_pvwatts_no_physics,0.009,0.0088465166196138,T25_khd_ablation_exact_rate.csv,hard/non_pvwatts/no_physics mae,result
+abl_hard_non_pvwatts_no_correction,0.038,0.0379585277874684,T25_khd_ablation_exact_rate.csv,hard/non_pvwatts/no_correction mae,result
+abl_hard_non_pvwatts_rdtools,0.038,0.0378788457286875,T25_khd_ablation_exact_rate.csv,hard/non_pvwatts/rdtools mae,result
+abl_n_hard_non_pvwatts,12,12,T25_khd_ablation_exact_rate.csv,hard/non_pvwatts/full n,count
+abl_hard_soiling_full,0.112,0.1123950064020818,T25_khd_ablation_exact_rate.csv,hard/soiling/full mae,result
+abl_hard_soiling_no_physics,0.142,0.1417825830159499,T25_khd_ablation_exact_rate.csv,hard/soiling/no_physics mae,result
+abl_hard_soiling_no_correction,0.092,0.0922637116306256,T25_khd_ablation_exact_rate.csv,hard/soiling/no_correction mae,result
+abl_hard_soiling_rdtools,0.243,0.2434935316982539,T25_khd_ablation_exact_rate.csv,hard/soiling/rdtools mae,result
+abl_n_hard_soiling,12,12,T25_khd_ablation_exact_rate.csv,hard/soiling/full n,count
+abl_hard_step_full,0.184,0.184089633781024,T25_khd_ablation_exact_rate.csv,hard/step/full mae,result
+abl_hard_step_no_physics,0.177,0.177067995949622,T25_khd_ablation_exact_rate.csv,hard/step/no_physics mae,result
+abl_hard_step_no_correction,0.187,0.1868656910840684,T25_khd_ablation_exact_rate.csv,hard/step/no_correction mae,result
+abl_hard_step_rdtools,0.259,0.2587629149465686,T25_khd_ablation_exact_rate.csv,hard/step/rdtools mae,result
+abl_n_hard_step,12,12,T25_khd_ablation_exact_rate.csv,hard/step/full n,count
+abl_semi_pvwatts_full,0.008,0.008244047558522,T25_khd_ablation_exact_rate.csv,semi/pvwatts/full mae,result
+abl_semi_pvwatts_no_physics,0.008,0.0083431156217044,T25_khd_ablation_exact_rate.csv,semi/pvwatts/no_physics mae,result
+abl_semi_pvwatts_no_correction,0.008,0.0082852156936071,T25_khd_ablation_exact_rate.csv,semi/pvwatts/no_correction mae,result
+abl_semi_pvwatts_rdtools,0.009,0.0092906334227379,T25_khd_ablation_exact_rate.csv,semi/pvwatts/rdtools mae,result
+abl_n_semi_pvwatts,24,24,T25_khd_ablation_exact_rate.csv,semi/pvwatts/full n,count
+abl_short_tf_p,0.04,null,T25_khd_ablation_exact_rate.csv,short thin_film no_physics p,result
+changepoint_step,0.105,0.1054665038050287,T18_semisynthetic_hard.csv,"step, changepoint mae",result
+rate_ci_cov,48/48,48,T16_semisynthetic_ci.csv,khd_full covered / n,result
+rate_ci_width,0.09,0.09108783864663975,T16_semisynthetic_ci.csv,mean of the two median widths,result
+ref_ci_cov_pvw,24/24,null,T16_semisynthetic_ci.csv,rdtools pvwatts covered,result
+ref_ci_cov_tf,20/24,null,T16_semisynthetic_ci.csv,rdtools thin_film covered,result
+ref_ci_width_pvw,0.05,null,T16_semisynthetic_ci.csv,rdtools pvwatts median width,result
+hourly_cov_measured,76–81,null,T1_plr_by_system.csv,khd_coverage_80 min-max,result
+hourly_cov_semi,81,0.8087188778425434,semisynthetic_runs.csv,"mean coverage_80, khd_full",result
+forward_cov,43,0.427579635667113,T22_forward_by_model.csv,kappa coverage_80,result
+forward_rmse_increase,21–39,null,T22_forward_by_model.csv,"ratio_equal_location - 1, seven models",result
+forward_rmse_retro,0.046–0.050,null,T22_forward_by_model.csv,retrospective_rmse_equal_location,result
+forward_rmse_later,0.059–0.065,null,T22_forward_by_model.csv,"rmse, later years",result
+forward_runs,600,600,protocol: 15 arrays x 8 models x 5 seeds,derived count,count
+eq2_exact_dev,0.006,0.0060072261749581,T26_injection_truth_check.csv,max |err_exact_t05|,result
+eq2_centred_dev,0.007,0.0067858652659935,T26_injection_truth_check.csv,max |err_exact|,result
+eq2_first_order_dev,0.058,0.057811949997875,T26_injection_truth_check.csv,max |err_eq2|,result
+span_max,12.3,12.254506046087156,T30_centering.csv,max kappa_span_years,result
+positivity,0.163,0.16320527261387224,T30_centering.csv,2 / max span (fraction per year),derived
+equal_time_budget,374,373.5102353000111,configs/perf_models_hpo.json,median hpo_seconds of the seven models,design
+equal_time_lstm,6,null,T20_equal_time_budget.csv,lstm trials_equal_time,result
+equal_time_gru,3,null,T20_equal_time_budget.csv,gru trials_equal_time,result
+design_trials,20,20,configs/perf_models_hpo.json: trials,design constant,design
+design_dev_systems,3,3,protocol: three development systems,design constant,design
+design_seeds,5,5,protocol: seeds 0-4,design constant,design
+design_train_months,24,24,protocol: first 24 data months,design constant,design
+design_tree_window_h,3,3,protocol: tree input window,design constant,design
+design_seq_window_h,24,24,protocol: sequence window,design constant,design
+design_val_week,5,5,protocol: every fifth ISO week,design constant,design
+design_data_month_hours,150,150,protocol: data month,design constant,design
+design_tune_months,12,12,forward protocol: 12 tuning months,design constant,design
+design_gap_h,24,24,forward protocol: 24-h gaps,design constant,design
+design_a_center,0.5,0.5,Eq. (1): first-year centre a,design constant,design
+design_warmup,30,30,protocol: 30 % warm-up of rho,design constant,design
+design_q_levels,"0.1, 0.5, 0.9","0.1, 0.5, 0.9",model quantiles,design constant,design
+design_hourly_band,80,80,nominal 80 % band,design constant,design
+design_rate_ci,95,95,nominal 95 % interval,design constant,design
+design_noise,1,1,semi-synthetic: 1 % noise,design constant,design
+design_semi_rates,−0.5 and −1,−0.5 and −1,semi-synthetic rates (configs),design constant,design
+design_semi_seeds,three,three,seeds 0-2,design constant,design
+design_semi_years,2015–2022,2015–2022,ERA5 weather years,design constant,design
+design_drift_threshold,1,1,drift rule: 1 %/yr,design constant,design
+design_drift_months,36,36,"drift rule: matched months, long records",design constant,design
+design_drift_months_short,24,24,drift rule: short records,design constant,design
+design_min_years_long,4,4,screen: valid years (sensor tiers),design constant,design
+design_min_years_R,3,3,screen: valid years tier R,design constant,design
+design_min_years_short,2,2,screen: valid years short records,design constant,design
+design_ref_months_short,12,12,short records: 12-month reference,design constant,design
+design_per_location,three,three,at most three main systems per added location,design constant,design
+design_step,3,3,3 % step scenario,design constant,design
+design_example_years,25,25,illustrative 25-year profile,design constant,design
+design_dm_lag,23,23,autocovariances up to lag 23,design constant,design
+design_hk_step,37,37,"Hong Kong GHI sensor step, Feb. 2023 (hk_rescreen log)",design constant,design
+design_thin_film_gamma,half,half,thin-film-like response: half the datasheet coefficient,design constant,design
+design_ablation_runs,288,288,run_semisynthetic_ablation.py: 288 runs,design constant,design
+design_hk_step_date,February 2023,February 2023,hk_rescreen log / CLIMATE_EXPANSION_PLAN.md amendment of 2026-10-01,design constant,design
+design_kg_period,1991–2020,1991–2020,Koppen-Geiger map period (Beck et al. 2023),design constant,design
+design_golden_ids,"1430, 1432, 1433","1430, 1432, 1433",PVDAQ system identifiers (tier_a_screen.csv),design constant,design
+design_seed0,0,0,equal-time comparison on seed 0 (T20_equal_time_budget.csv seeds_equal_time),design constant,design
+design_windows,"1–24, 13–36, 25–48","1–24, 13–36, 25–48","T12_refwindow_sensitivity.csv columns plr_m1_24, plr_m13_36, plr_m25_48",design constant,design
+design_whiskers,5th–95th,5th–95th,"make_rev_figures.py boxplot whis=(5, 95)",design constant,design
+design_records_per_site,12,12,E7_semisynthetic_by_site.csv n (2 responses x 2 rates x 3 seeds),design constant,design
+design_formula_constants,"1, 2, 100, 200","1, 2, 100, 200",constants of Eq. (2) and its general form,design constant,design
+design_license,CC BY 4.0,CC BY 4.0,data licences (provider pages),design constant,design
+design_six_months,6,6,"transfer test: six local months (T9_transfer.csv conditions scratch_6, finetune_6)",design constant,design
+example_final_year_pp,5,5.0,derived: 0.20 %/yr x 25 yr,derived,derived
+example_lifetime,2.4,2.4000000000000004,derived: mean loss over years 0-24 at 0.20 %/yr,derived,derived

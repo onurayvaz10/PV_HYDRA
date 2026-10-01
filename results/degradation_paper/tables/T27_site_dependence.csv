@@ -1,0 +1,82 @@
+case,method,recovery_mae,rank_by_mae,n_units
+all 15 arrays (equal array),rdtools,0.02222132473051835,2.0,15
+all 15 arrays (equal array),xgboost,0.030292841631764777,8.0,15
+all 15 arrays (equal array),random_forest,0.06542083452619446,9.0,15
+all 15 arrays (equal array),lstm,0.023621873624716353,4.0,15
+all 15 arrays (equal array),gru,0.028686119755773735,6.0,15
+all 15 arrays (equal array),tcn,0.02903325306085188,7.0,15
+all 15 arrays (equal array),patchtst,0.02289116021436475,3.0,15
+all 15 arrays (equal array),informer,0.02118606733494375,1.0,15
+all 15 arrays (equal array),khd_full,0.027057457915252617,5.0,15
+four sites weighted equally,rdtools,0.030393286151367573,4.0,4
+four sites weighted equally,xgboost,0.04543977872542091,7.0,4
+four sites weighted equally,random_forest,0.14500342761509638,9.0,4
+four sites weighted equally,lstm,0.029314055467348662,3.0,4
+four sites weighted equally,gru,0.032474246293154214,5.0,4
+four sites weighted equally,tcn,0.03382975008388004,6.0,4
+four sites weighted equally,patchtst,0.02683458105079948,2.0,4
+four sites weighted equally,informer,0.025989249006887066,1.0,4
+four sites weighted equally,khd_full,0.0639964857445768,8.0,4
+DKASC only (12 arrays),rdtools,0.01924970239566409,2.0,12
+DKASC only (12 arrays),xgboost,0.02478486450679891,6.0,12
+DKASC only (12 arrays),random_forest,0.03648170976659376,9.0,12
+DKASC only (12 arrays),lstm,0.021551989318304602,5.0,12
+DKASC only (12 arrays),gru,0.02730861919672629,8.0,12
+DKASC only (12 arrays),tcn,0.027289072325205277,7.0,12
+DKASC only (12 arrays),patchtst,0.02145718900111576,4.0,12
+DKASC only (12 arrays),informer,0.019439455817873454,3.0,12
+DKASC only (12 arrays),khd_full,0.013625084159134736,1.0,12
+US sites only (3 systems),rdtools,0.0341078140699354,4.0,3
+US sites only (3 systems),xgboost,0.05232475013162824,7.0,3
+US sites only (3 systems),random_forest,0.18117733356459728,9.0,3
+US sites only (3 systems),lstm,0.03190141085036335,3.0,3
+US sites only (3 systems),gru,0.03419612199196353,5.0,3
+US sites only (3 systems),tcn,0.03600997600343829,6.0,3
+US sites only (3 systems),patchtst,0.028627045067360718,2.0,3
+US sites only (3 systems),informer,0.028172513403224936,1.0,3
+US sites only (3 systems),khd_full,0.08078695293972414,8.0,3
+development systems excluded (12),rdtools,0.021881817909398,3.0,12
+development systems excluded (12),xgboost,0.03164694927242162,7.0,12
+development systems excluded (12),random_forest,0.07637248876782742,9.0,12
+development systems excluded (12),lstm,0.023440839867226827,4.0,12
+development systems excluded (12),gru,0.029499281015180966,5.0,12
+development systems excluded (12),tcn,0.029605010684298133,6.0,12
+development systems excluded (12),patchtst,0.021655689974966013,2.0,12
+development systems excluded (12),informer,0.019486755108910427,1.0,12
+development systems excluded (12),khd_full,0.03192881683829998,8.0,12
+"without Alice Springs, NT",rdtools,0.0341078140699354,4.0,3
+"without Alice Springs, NT",xgboost,0.05232475013162824,7.0,3
+"without Alice Springs, NT",random_forest,0.18117733356459728,9.0,3
+"without Alice Springs, NT",lstm,0.03190141085036335,3.0,3
+"without Alice Springs, NT",gru,0.03419612199196353,5.0,3
+"without Alice Springs, NT",tcn,0.03600997600343829,6.0,3
+"without Alice Springs, NT",patchtst,0.028627045067360718,2.0,3
+"without Alice Springs, NT",informer,0.028172513403224936,1.0,3
+"without Alice Springs, NT",khd_full,0.08078695293972414,8.0,3
+"without Arbuckle, CA",rdtools,0.019282450774471455,2.0,14
+"without Arbuckle, CA",xgboost,0.028497346953800424,7.0,14
+"without Arbuckle, CA",random_forest,0.06028722605594768,9.0,14
+"without Arbuckle, CA",lstm,0.021566166670927516,5.0,14
+"without Arbuckle, CA",gru,0.029173698071600203,8.0,14
+"without Arbuckle, CA",tcn,0.02716928858124029,6.0,14
+"without Arbuckle, CA",patchtst,0.021474301189632627,4.0,14
+"without Arbuckle, CA",informer,0.019650846298581305,3.0,14
+"without Arbuckle, CA",khd_full,0.015460429428751686,1.0,14
+"without Golden, CO",rdtools,0.021520241834135263,2.0,14
+"without Golden, CO",xgboost,0.028859316929181582,8.0,14
+"without Golden, CO",random_forest,0.06020844408398323,9.0,14
+"without Golden, CO",lstm,0.023011593222147596,4.0,14
+"without Golden, CO",gru,0.026761578783470606,6.0,14
+"without Golden, CO",tcn,0.027756758023747993,7.0,14
+"without Golden, CO",patchtst,0.021837041351088188,3.0,14
+"without Golden, CO",informer,0.021143558694106546,1.0,14
+"without Golden, CO",khd_full,0.02578391581678107,5.0,14
+"without Henderson, NV",rdtools,0.023314176724501822,2.0,14
+"without Henderson, NV",xgboost,0.028800737762341582,6.0,14
+"without Henderson, NV",random_forest,0.05096186935899475,9.0,14
+"without Henderson, NV",lstm,0.024513674432721014,4.0,14
+"without Henderson, NV",gru,0.02894236764735258,7.0,14
+"without Henderson, NV",tcn,0.030678700518441706,8.0,14
+"without Henderson, NV",patchtst,0.024133019919588578,3.0,14
+"without Henderson, NV",informer,0.02126670142608314,1.0,14
+"without Henderson, NV",khd_full,0.02841456528069548,5.0,14

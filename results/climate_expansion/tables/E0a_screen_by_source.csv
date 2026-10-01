@@ -1,0 +1,7 @@
+tier,source,candidates,passed,failed,pending,main_failure_reason
+R,Finland (FMI),1,1,0,0,
+R,Hong Kong (Dryad),60,43,17,0,fewer than 2 valid years
+R,PVDAQ,7,6,1,0,night power above 1 % of rating
+R,Utrecht (Zenodo),175,120,55,0,fewer than 2 valid years
+S,Finland (FMI),2,2,0,0,
+S,PVDAQ,20,6,14,0,night power above 1 % of rating
