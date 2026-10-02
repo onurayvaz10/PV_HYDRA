@@ -180,6 +180,50 @@ eq2_centred_dev,0.007,0.0067858652659935,T26_injection_truth_check.csv,max |err_
 eq2_first_order_dev,0.058,0.057811949997875,T26_injection_truth_check.csv,max |err_eq2|,result
 span_max,12.3,12.254506046087156,T30_centering.csv,max kappa_span_years,result
 positivity,0.163,0.16320527261387224,T30_centering.csv,2 / max span (fraction per year),derived
+y20_A_pvwatts_rdtools_fitted_gamma_mae,0.008,0.0077250722386455,E12_fair_reference.csv,"part A, pvwatts, rdtools_fitted_gamma: mae (sites equal)",result
+y20_A_pvwatts_rdtools_fitted_gamma_worst,0.016,0.0164077590356971,E12_fair_reference.csv,"part A, pvwatts, rdtools_fitted_gamma: worst site",result
+y20_A_pvwatts_rdtools_fitted_gamma_n,120,120,E12_fair_reference.csv,"part A, pvwatts, rdtools_fitted_gamma: records",count
+y20_A_pvwatts_rdtools_true_gamma_mae,0.008,0.0075775141105346,E12_fair_reference.csv,"part A, pvwatts, rdtools_true_gamma: mae (sites equal)",result
+y20_A_pvwatts_rdtools_true_gamma_worst,0.016,0.0164172177181433,E12_fair_reference.csv,"part A, pvwatts, rdtools_true_gamma: worst site",result
+y20_A_pvwatts_rdtools_true_gamma_n,120,120,E12_fair_reference.csv,"part A, pvwatts, rdtools_true_gamma: records",count
+y20_A_thin_film_rdtools_fitted_gamma_mae,0.025,0.0245812882001336,E12_fair_reference.csv,"part A, thin_film, rdtools_fitted_gamma: mae (sites equal)",result
+y20_A_thin_film_rdtools_fitted_gamma_worst,0.056,0.0561963954109354,E12_fair_reference.csv,"part A, thin_film, rdtools_fitted_gamma: worst site",result
+y20_A_thin_film_rdtools_fitted_gamma_n,120,120,E12_fair_reference.csv,"part A, thin_film, rdtools_fitted_gamma: records",count
+y20_A_thin_film_rdtools_true_gamma_mae,0.012,0.0122225431096299,E12_fair_reference.csv,"part A, thin_film, rdtools_true_gamma: mae (sites equal)",result
+y20_A_thin_film_rdtools_true_gamma_worst,0.061,0.0607488035488365,E12_fair_reference.csv,"part A, thin_film, rdtools_true_gamma: worst site",result
+y20_A_thin_film_rdtools_true_gamma_n,120,120,E12_fair_reference.csv,"part A, thin_film, rdtools_true_gamma: records",count
+y20_B_adr_khd_full_mae,0.007,0.0070437553342992,E12_fair_reference.csv,"part B, adr, khd_full: mae (sites equal)",result
+y20_B_adr_khd_full_worst,0.012,0.0121001857038006,E12_fair_reference.csv,"part B, adr, khd_full: worst site",result
+y20_B_adr_khd_full_n,120,120,E12_fair_reference.csv,"part B, adr, khd_full: records",count
+y20_B_adr_khd_no_correction_mae,0.025,0.0248008573711029,E12_fair_reference.csv,"part B, adr, khd_no_correction: mae (sites equal)",result
+y20_B_adr_khd_no_correction_worst,0.069,0.0694523808241513,E12_fair_reference.csv,"part B, adr, khd_no_correction: worst site",result
+y20_B_adr_khd_no_correction_n,120,120,E12_fair_reference.csv,"part B, adr, khd_no_correction: records",count
+y20_B_adr_khd_no_physics_mae,0.008,0.0079870801259625,E12_fair_reference.csv,"part B, adr, khd_no_physics: mae (sites equal)",result
+y20_B_adr_khd_no_physics_worst,0.011,0.0109820167523571,E12_fair_reference.csv,"part B, adr, khd_no_physics: worst site",result
+y20_B_adr_khd_no_physics_n,120,120,E12_fair_reference.csv,"part B, adr, khd_no_physics: records",count
+y20_B_adr_pvusa_mae,0.012,0.0115157430591903,E12_fair_reference.csv,"part B, adr, pvusa: mae (sites equal)",result
+y20_B_adr_pvusa_worst,0.017,0.0171325577502825,E12_fair_reference.csv,"part B, adr, pvusa: worst site",result
+y20_B_adr_pvusa_n,120,120,E12_fair_reference.csv,"part B, adr, pvusa: records",count
+y20_B_adr_rdtools_mae,0.041,0.0408247965467369,E12_fair_reference.csv,"part B, adr, rdtools: mae (sites equal)",result
+y20_B_adr_rdtools_worst,0.164,0.1639614694791062,E12_fair_reference.csv,"part B, adr, rdtools: worst site",result
+y20_B_adr_rdtools_n,120,120,E12_fair_reference.csv,"part B, adr, rdtools: records",count
+y20_B_adr_rdtools_fitted_gamma_mae,0.021,0.0209620699622095,E12_fair_reference.csv,"part B, adr, rdtools_fitted_gamma: mae (sites equal)",result
+y20_B_adr_rdtools_fitted_gamma_worst,0.112,0.1124159280031965,E12_fair_reference.csv,"part B, adr, rdtools_fitted_gamma: worst site",result
+y20_B_adr_rdtools_fitted_gamma_n,120,120,E12_fair_reference.csv,"part B, adr, rdtools_fitted_gamma: records",count
+y20_B_adr_tcn_mae,0.013,0.0127386950981921,E12_fair_reference.csv,"part B, adr, tcn: mae (sites equal)",result
+y20_B_adr_tcn_worst,0.030,0.0295270341330837,E12_fair_reference.csv,"part B, adr, tcn: worst site",result
+y20_B_adr_tcn_n,120,120,E12_fair_reference.csv,"part B, adr, tcn: records",count
+y20_B_adr_xgboost_mae,0.021,0.0212902714196094,E12_fair_reference.csv,"part B, adr, xgboost: mae (sites equal)",result
+y20_B_adr_xgboost_worst,0.051,0.0510883942823883,E12_fair_reference.csv,"part B, adr, xgboost: worst site",result
+y20_B_adr_xgboost_n,120,120,E12_fair_reference.csv,"part B, adr, xgboost: records",count
+y20_A_both_rdtools_fitted_gamma_mae,0.016,0.0161531802193896,E12_fair_reference.csv,"part A, both, rdtools_fitted_gamma: mae (sites equal)",result
+y20_A_both_rdtools_fitted_gamma_worst,0.031,0.0314757007602953,E12_fair_reference.csv,"part A, both, rdtools_fitted_gamma: worst site",result
+y20_A_both_rdtools_fitted_gamma_n,240,240,E12_fair_reference.csv,"part A, both, rdtools_fitted_gamma: records",count
+y20_A_both_rdtools_true_gamma_mae,0.010,0.0099000286100823,E12_fair_reference.csv,"part A, both, rdtools_true_gamma: mae (sites equal)",result
+y20_A_both_rdtools_true_gamma_worst,0.035,0.0349293184620078,E12_fair_reference.csv,"part A, both, rdtools_true_gamma: worst site",result
+y20_A_both_rdtools_true_gamma_n,240,240,E12_fair_reference.csv,"part A, both, rdtools_true_gamma: records",count
+design_adr20_records,120,120,protocol Y20 v2: 20 sites x 2 rates x 3 seeds,design,design
+design_fit_months,12,12,protocol Y20 v2: coefficient fitted on the first 12 months,design,design
 equal_time_budget,374,373.5102353000111,configs/perf_models_hpo.json,median hpo_seconds of the seven models,design
 equal_time_lstm,6,null,T20_equal_time_budget.csv,lstm trials_equal_time,result
 equal_time_gru,3,null,T20_equal_time_budget.csv,gru trials_equal_time,result

@@ -183,7 +183,7 @@ def fig2() -> None:
     e7 = pd.read_csv(EXP / "tables/E7_semisynthetic_by_site.csv")
     colors = [OI["grey"], OI["verm"], OI["blue"], OI["sky"], OI["green"], OI["green"], OI["orange"], OI["purple"],
               OI["purple"]]
-    fig, axes = plt.subplots(2, 1, figsize=(88 * MM, 100 * MM), sharex=True)
+    fig, axes = plt.subplots(2, 1, figsize=(88 * MM, 88 * MM), sharex=True)
     va = [rec[rec.method == m].error.abs().to_numpy() for m in METHODS]
     vb = [e7[e7.method == m].mae.to_numpy() for m in METHODS]
     for ax, vals, ylab in ((axes[0], va, "Injected-change error (%/yr)"), (axes[1], vb, "Exact-rate error (%/yr)")):
@@ -192,14 +192,14 @@ def fig2() -> None:
         ax.set_ylabel(ylab)
         ax.grid(axis="y", lw=0.3, color="#cccccc")
         ax.spines[["top", "right"]].set_visible(False)
-    axes[0].set_ylim(1e-4, 0.8)
-    axes[1].set_ylim(1e-3, 0.2)
+    axes[0].set_ylim(1e-4, 4)
+    axes[1].set_ylim(1e-3, 0.5)
     axes[1].set_xticks(range(1, len(METHODS) + 1), [LABEL[m] for m in METHODS], rotation=45, ha="right")
-    panel(axes[0], "a", x=-0.12, y=1.0)
-    panel(axes[1], "b", x=-0.12, y=1.0)
+    for ax_, l_ in ((axes[0], "a"), (axes[1], "b")):
+        ax_.text(0.015, 0.97, f"({l_})", transform=ax_.transAxes, ha="left", va="top", fontsize=8, fontweight="bold")
     axes[0].text(0.99, 0.97, "unit: system × rate, n = 60", transform=axes[0].transAxes, ha="right", va="top")
     axes[1].text(0.99, 0.97, "unit: weather site, n = 20", transform=axes[1].transAxes, ha="right", va="top")
-    fig.subplots_adjust(left=0.15, right=0.98, top=0.96, bottom=0.17, hspace=0.18)
+    fig.subplots_adjust(left=0.15, right=0.98, top=0.955, bottom=0.19, hspace=0.2)
     save(fig, "Fig2")
 
 
@@ -221,7 +221,7 @@ def fig3() -> None:
     two = t1[[f"{m}_plr_mean" for m in ml]]
     x = np.arange(len(t1))
     labels = [short_label(s, l) for s, l in zip(t1.system_id, t1.label)]
-    fig, axes = plt.subplots(2, 1, figsize=(88 * MM, 95 * MM), sharex=True, gridspec_kw={"height_ratios": [1.5, 1]})
+    fig, axes = plt.subplots(2, 1, figsize=(88 * MM, 76 * MM), sharex=True, gridspec_kw={"height_ratios": [1.45, 1]})
     a = axes[0]
     a.vlines(x, two.min(axis=1), two.max(axis=1), color=OI["blue"], lw=3.2, alpha=0.45, zorder=2)
     for m in ml:
@@ -238,7 +238,7 @@ def fig3() -> None:
                       Line2D([], [], color=OI["blue"], lw=3.2, alpha=0.45, label="Seven two-stage rates"),
                       Line2D([], [], marker="D", color=OI["verm"], ms=3, lw=0.6, label="κ-HYDRA-D, 95 % CI")],
              loc="upper left", frameon=False, handlelength=1.4, borderaxespad=0.1)
-    panel(a, "a", x=-0.12, y=1.0)
+    a.text(0.62, 0.97, "(a)", transform=a.transAxes, ha="center", va="top", fontsize=8, fontweight="bold")
     bax = axes[1]
     rngw = t12.loc[t1.system_id, "window_range"].to_numpy()
     bax.bar(x, rngw, width=0.6, color=OI["orange"], edgecolor="black", lw=0.4)
@@ -247,8 +247,9 @@ def fig3() -> None:
     bax.set_ylabel("Window range (%/yr)")
     bax.spines[["top", "right"]].set_visible(False)
     bax.set_xticks(x, labels, rotation=90)
-    panel(bax, "b", x=-0.12, y=1.0)
-    fig.subplots_adjust(left=0.16, right=0.98, top=0.97, bottom=0.2, hspace=0.12)
+    bax.set_ylim(0, 0.33)
+    bax.text(0.985, 0.97, "(b)", transform=bax.transAxes, ha="right", va="top", fontsize=8, fontweight="bold")
+    fig.subplots_adjust(left=0.16, right=0.98, top=0.965, bottom=0.235, hspace=0.12)
     save(fig, "Fig3")
 
 

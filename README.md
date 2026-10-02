@@ -36,7 +36,7 @@ without cuDNN kernels).
 |---|---|
 | `python paper/scripts/build_result_ledger.py` | recomputes every number printed in the paper from `results/` → `paper/result_ledger.csv` |
 | `python paper/scripts/make_manifests.py` | system and split manifests → `paper/system_manifest.csv`, `paper/split_manifest.csv` |
-| `python paper/scripts/make_paper_figures.py` | Figures 1–3 → `paper/figures/` (Fig. 1 needs the Köppen–Geiger raster, see below) |
+| `python paper/scripts/make_paper_figures.py` | Figures 1–3 → `paper/figures/` |
 | `python paper/scripts/test_eq2_truth.py` | noise-free test of the exact expected change of an injected trend, Eq. (2) |
 | `python -m unittest tests.test_ml_plr -v` | unit tests of the reference period, outage screen, injection and known-rate recovery |
 | `python scripts/verify_reproduction.py --quick` | regenerates the summary tables from the shipped run files and checks the number ledger |
@@ -58,6 +58,7 @@ without cuDNN kernels).
 | 11. Diagnostics | `run_refwindow_sensitivity.py`, `run_loss_structure.py`, `test_loss_structure.py`, `run_bin_diagnostic.py`, `run_transfer.py`, `run_shap.py`, `benchmark_cost.py` | `T7`, `T9`, `T10`, `T12`–`T15` |
 | 12. Paper tables | `python scripts/summarize_degradation.py` | `T1`–`T11` |
 | 13. Climate and geographic expansion | `screen_climate_expansion.py`, `run_climate_expansion.py` (GPU: `run_climate_expansion_gpu.sh`/`.ps1`), `run_semisynthetic_climate.py`, `summarize_climate_expansion.py`, `summarize_global.py`, `test_global_ranks.py`, `make_world_map.py` | `results/climate_expansion/tables/E*` |
+| 13b. Fair reference and a non-PVWatts (ADR) response on the 20 weather sites | `run_climate_fair_reference.py a`, `run_climate_fair_reference.py b`, `run_climate_fair_reference.py summary` | `results/climate_expansion/tables/E12_fair_reference.csv` |
 | 14. Run manifest | `python scripts/make_run_manifest.py` | `results/RUN_MANIFEST.csv` |
 
 Each run script appends one row per finished unit, so an interrupted run resumes where it stopped.
@@ -68,9 +69,9 @@ Each run script appends one row per finished unit, so an interrupted run resumes
 written before the corresponding rates were computed, and every later amendment with its date and reason. Analyses
 defined after the retrospective results were known are labelled post hoc.
 
-Fig. 1(a) uses the 1-km Köppen–Geiger map of Beck et al. (2023, CC BY 4.0); place
-`koppen_geiger_1991_2020_0p00833333.tif` in `data/reference/climate/`.
+Fig. 1(a) uses the 1-km Köppen–Geiger map for 1991–2020 of Beck et al. (2023, CC BY 4.0), included in
+`data/reference/climate/` with its legend and source record.
 
-## Citation
+## Citation and licence
 
-See `CITATION.cff`.
+See `CITATION.cff`. The code is released under the MIT licence (`LICENSE`); data licences are listed in `LICENSES.md`.

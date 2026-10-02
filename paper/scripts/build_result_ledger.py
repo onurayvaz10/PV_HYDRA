@@ -239,6 +239,18 @@ def main() -> None:
     add("span_max", f"{tmax:.1f}", tmax, "T30_centering.csv", "max kappa_span_years")
     add("positivity", f"{2 / tmax:.3f}", 2 / tmax, "T30_centering.csv", "2 / max span (fraction per year)", "derived")
 
+    # ------------------------------------------------------------------ protocol Y20 v2 (2026-10-02): fair reference, ADR on 20 sites
+    e12f = ET / "E12_fair_reference.csv"
+    if e12f.exists():
+        e12 = pd.read_csv(e12f)
+        for r in e12.itertuples():
+            key = f"y20_{r.part}_{r.family}_{r.method}"
+            add(f"{key}_mae", f3(r.mae), r.mae, "E12_fair_reference.csv", f"part {r.part}, {r.family}, {r.method}: mae (sites equal)")
+            add(f"{key}_worst", f3(r.worst_site), r.worst_site, "E12_fair_reference.csv", f"part {r.part}, {r.family}, {r.method}: worst site")
+            add(f"{key}_n", str(int(r.n_records)), int(r.n_records), "E12_fair_reference.csv", f"part {r.part}, {r.family}, {r.method}: records", "count")
+        add("design_adr20_records", "120", 120, "protocol Y20 v2: 20 sites x 2 rates x 3 seeds", "design", "design")
+        add("design_fit_months", "12", 12, "protocol Y20 v2: coefficient fitted on the first 12 months", "design", "design")
+
     # ------------------------------------------------------------------ design constants (protocol / configs)
     hp = json.loads((ROOT / "configs/perf_models_hpo.json").read_text())
     budget = float(np.median([hp[m]["hpo_seconds"] for m in MODELS]))

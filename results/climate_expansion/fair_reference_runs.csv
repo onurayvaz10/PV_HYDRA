@@ -1,0 +1,1441 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+A,alice_springs,BWh,Australia,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0039850574208562,-1.015370096530864,-1.0,-0.0153700965308638
+A,alice_springs,BWh,Australia,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0173124113361076,-1.0,-0.0173124113361076
+A,alice_springs,BWh,Australia,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0039784553218782,-1.0050737697669787,-1.0,-0.0050737697669787
+A,alice_springs,BWh,Australia,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0017445770627122,-1.0,-0.0017445770627122
+A,alice_springs,BWh,Australia,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040119439702423,-0.993346870804778,-1.0,0.0066531291952219
+A,alice_springs,BWh,Australia,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9892333697519684,-1.0,0.0107666302480315
+A,alice_springs,BWh,Australia,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0039892045402199,-0.5075455182037447,-0.5,-0.0075455182037447
+A,alice_springs,BWh,Australia,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5084775877277015,-0.5,-0.0084775877277014
+A,alice_springs,BWh,Australia,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039826565866366,-0.507851736339741,-0.5,-0.007851736339741
+A,alice_springs,BWh,Australia,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5032549325116598,-0.5,-0.0032549325116597
+A,alice_springs,BWh,Australia,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004016093983044,-0.4958787090341841,-0.5,0.0041212909658159
+A,alice_springs,BWh,Australia,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4916624006180663,-0.5,0.0083375993819336
+A,alice_springs,BWh,Australia,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0004588610639053,-1.0067465716035562,-1.0,-0.0067465716035561
+A,alice_springs,BWh,Australia,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0120786209027988,-1.0,-0.0120786209027987
+A,alice_springs,BWh,Australia,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0004501585015135,-1.0051016652675655,-1.0,-0.0051016652675657
+A,alice_springs,BWh,Australia,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0073285666963965,-1.0,-0.0073285666963962
+A,alice_springs,BWh,Australia,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0004908334135619,-0.990197662489678,-1.0,0.009802337510322
+A,alice_springs,BWh,Australia,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0036431208908905,-1.0,-0.0036431208908902
+A,alice_springs,BWh,Australia,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0004642615080264,-0.489360697358117,-0.5,0.0106393026418829
+A,alice_springs,BWh,Australia,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5118952657747755,-0.5,-0.0118952657747755
+A,alice_springs,BWh,Australia,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0004556279486887,-0.5015392751046195,-0.5,-0.0015392751046194
+A,alice_springs,BWh,Australia,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5075482324613225,-0.5,-0.0075482324613225
+A,alice_springs,BWh,Australia,thin_film,-0.5,2,rdtools_fitted_gamma,-0.000496236907567,-0.4831440017610489,-0.5,0.0168559982389511
+A,alice_springs,BWh,Australia,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5046415072659904,-0.5,-0.0046415072659904
+A,antalya,Csa,Turkey,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.00402920969103,-0.9959349782470316,-1.0,0.0040650217529684
+A,antalya,Csa,Turkey,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9966932250981442,-1.0,0.0033067749018558
+A,antalya,Csa,Turkey,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0040536251905626,-1.000486986117799,-1.0,-0.0004869861177989
+A,antalya,Csa,Turkey,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0007630043774365,-1.0,-0.0007630043774362
+A,antalya,Csa,Turkey,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040241373984212,-1.0040835510663593,-1.0,-0.0040835510663592
+A,antalya,Csa,Turkey,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0047918186398277,-1.0,-0.0047918186398274
+A,antalya,Csa,Turkey,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.00400115277959,-0.4937301764953893,-0.5,0.0062698235046106
+A,antalya,Csa,Turkey,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4949869147550628,-0.5,0.0050130852449371
+A,antalya,Csa,Turkey,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040254748271158,-0.4995069220787074,-0.5,0.0004930779212926
+A,antalya,Csa,Turkey,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5021183308611898,-0.5,-0.0021183308611898
+A,antalya,Csa,Turkey,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.003996026214772,-0.5006909817748345,-0.5,-0.0006909817748345
+A,antalya,Csa,Turkey,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5007414998441262,-0.5,-0.0007414998441261
+A,antalya,Csa,Turkey,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0007076944045896,-1.0318478816393473,-1.0,-0.0318478816393472
+A,antalya,Csa,Turkey,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9925294100336934,-1.0,0.0074705899663065
+A,antalya,Csa,Turkey,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0007353934085779,-1.019247559875136,-1.0,-0.019247559875136
+A,antalya,Csa,Turkey,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9962054671646016,-1.0,0.0037945328353985
+A,antalya,Csa,Turkey,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0007006660946743,-1.029484197489905,-1.0,-0.0294841974899049
+A,antalya,Csa,Turkey,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.992842761206958,-1.0,0.007157238793042
+A,antalya,Csa,Turkey,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0006743052074362,-0.5224391529576544,-0.5,-0.0224391529576544
+A,antalya,Csa,Turkey,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4916209179737341,-0.5,0.0083790820262659
+A,antalya,Csa,Turkey,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0007018995611477,-0.5074151714455466,-0.5,-0.0074151714455465
+A,antalya,Csa,Turkey,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4952602030527053,-0.5,0.0047397969472946
+A,antalya,Csa,Turkey,thin_film,-0.5,2,rdtools_fitted_gamma,-0.000667211311742,-0.5253169375793454,-0.5,-0.0253169375793453
+A,antalya,Csa,Turkey,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4904246817169611,-0.5,0.0095753182830389
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0037789725734074,-1.0137319810627607,-1.0,-0.0137319810627607
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0022785688894749,-1.0,-0.0022785688894748
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.003881516053788,-1.0049734960423804,-1.0,-0.0049734960423803
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0093246218074947,-1.0,-0.0093246218074947
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.003978234428744,-0.9951093819681752,-1.0,0.0048906180318246
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9996284428363866,-1.0,0.0003715571636133
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0038639467407274,-0.5091912589073821,-0.5,-0.0091912589073821
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.500777423329519,-0.5,-0.000777423329519
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039661090030699,-0.5045857282886757,-0.5,-0.0045857282886756
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5047009231679966,-0.5,-0.0047009231679966
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0040625056513126,-0.5002731652398396,-0.5,-0.0002731652398395
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4983088334062096,-0.5,0.0016911665937903
+A,auckland,Cfb,New Zealand,thin_film,-1.0,0,rdtools_fitted_gamma,0.0004197033565843,-1.0506314152252072,-1.0,-0.0506314152252072
+A,auckland,Cfb,New Zealand,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0112460977668158,-1.0,-0.0112460977668158
+A,auckland,Cfb,New Zealand,thin_film,-1.0,1,rdtools_fitted_gamma,0.0002949261064206,-1.0581537267496,-1.0,-0.0581537267495999
+A,auckland,Cfb,New Zealand,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0182020163049257,-1.0,-0.0182020163049254
+A,auckland,Cfb,New Zealand,thin_film,-1.0,2,rdtools_fitted_gamma,0.0001872995923483,-1.067332486088035,-1.0,-0.0673324860880351
+A,auckland,Cfb,New Zealand,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9942051939283214,-1.0,0.0057948060716785
+A,auckland,Cfb,New Zealand,thin_film,-0.5,0,rdtools_fitted_gamma,0.0003209002258853,-0.5464764834127722,-0.5,-0.0464764834127722
+A,auckland,Cfb,New Zealand,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5080751632957514,-0.5,-0.0080751632957514
+A,auckland,Cfb,New Zealand,thin_film,-0.5,1,rdtools_fitted_gamma,0.000196613649159,-0.5449134386816157,-0.5,-0.0449134386816156
+A,auckland,Cfb,New Zealand,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5129665437705877,-0.5,-0.0129665437705877
+A,auckland,Cfb,New Zealand,thin_film,-0.5,2,rdtools_fitted_gamma,8.937092230229958e-05,-0.5495602111438624,-0.5,-0.0495602111438624
+A,auckland,Cfb,New Zealand,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4909948397504471,-0.5,0.0090051602495528
+A,calama,BWk,Chile,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040764495128163,-1.009029825625715,-1.0,-0.009029825625715
+A,calama,BWk,Chile,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0058469858683194,-1.0,-0.0058469858683194
+A,calama,BWk,Chile,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0039940779050614,-1.0036596159603284,-1.0,-0.0036596159603283
+A,calama,BWk,Chile,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0039999102645667,-1.0,-0.0039999102645666
+A,calama,BWk,Chile,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040187894048884,-0.9931614293192405,-1.0,0.0068385706807596
+A,calama,BWk,Chile,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9943418676099935,-1.0,0.0056581323900064
+A,calama,BWk,Chile,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004052602235813,-0.503069747166307,-0.5,-0.003069747166307
+A,calama,BWk,Chile,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4998265843254134,-0.5,0.0001734156745865
+A,calama,BWk,Chile,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039701203456385,-0.4985164045015193,-0.5,0.0014835954984806
+A,calama,BWk,Chile,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4992471525586572,-0.5,0.0007528474413427
+A,calama,BWk,Chile,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0039947584422584,-0.4970173727284255,-0.5,0.0029826272715745
+A,calama,BWk,Chile,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4981143098404472,-0.5,0.0018856901595527
+A,calama,BWk,Chile,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0007385825550968,-1.0007747330194494,-1.0,-0.0007747330194494
+A,calama,BWk,Chile,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9956712637715692,-1.0,0.0043287362284307
+A,calama,BWk,Chile,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0006433040008049,-1.0025952380165015,-1.0,-0.0025952380165015
+A,calama,BWk,Chile,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.999406501311022,-1.0,0.0005934986889779
+A,calama,BWk,Chile,thin_film,-1.0,2,rdtools_fitted_gamma,-0.000670938998172,-1.0020512907419563,-1.0,-0.0020512907419565
+A,calama,BWk,Chile,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9911425262832424,-1.0,0.0088574737167576
+A,calama,BWk,Chile,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0007094826116869,-0.4961933098493657,-0.5,0.0038066901506342
+A,calama,BWk,Chile,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5004221976727119,-0.5,-0.0004221976727118
+A,calama,BWk,Chile,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0006140610898525,-0.4926280993115428,-0.5,0.0073719006884571
+A,calama,BWk,Chile,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4973872034681359,-0.5,0.002612796531864
+A,calama,BWk,Chile,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0006416105490056,-0.4890663823197472,-0.5,0.0109336176802528
+A,calama,BWk,Chile,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4941781650704422,-0.5,0.0058218349295577
+A,cape_town,Csb,South Africa,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0039931382053453,-1.0024203447490665,-1.0,-0.0024203447490664
+A,cape_town,Csb,South Africa,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.001484104525452,-1.0,-0.0014841045254518
+A,cape_town,Csb,South Africa,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0039690185450438,-0.990160184983746,-1.0,0.0098398150162539
+A,cape_town,Csb,South Africa,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9879749034857976,-1.0,0.0120250965142023
+A,cape_town,Csb,South Africa,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040031566139629,-1.005734109413392,-1.0,-0.005734109413392
+A,cape_town,Csb,South Africa,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0047069674019582,-1.0,-0.0047069674019581
+A,cape_town,Csb,South Africa,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040144107881716,-0.4975962061602446,-0.5,0.0024037938397554
+A,cape_town,Csb,South Africa,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4996753790184167,-0.5,0.0003246209815832
+A,cape_town,Csb,South Africa,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039902988215295,-0.4868840389123163,-0.5,0.0131159610876836
+A,cape_town,Csb,South Africa,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4834758728385013,-0.5,0.0165241271614986
+A,cape_town,Csb,South Africa,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0040244162129168,-0.5002092804763159,-0.5,-0.0002092804763158
+A,cape_town,Csb,South Africa,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4976031842717221,-0.5,0.0023968157282778
+A,cape_town,Csb,South Africa,thin_film,-1.0,0,rdtools_fitted_gamma,-0.000459302560165,-1.047427263245169,-1.0,-0.0474272632451693
+A,cape_town,Csb,South Africa,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0043245743800444,-1.0,-0.0043245743800444
+A,cape_town,Csb,South Africa,thin_film,-1.0,1,rdtools_fitted_gamma,-0.00043364628589,-1.032790754951968,-1.0,-0.0327907549519681
+A,cape_town,Csb,South Africa,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.997657603385349,-1.0,0.0023423966146509
+A,cape_town,Csb,South Africa,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0004721243071543,-1.049498436632701,-1.0,-0.0494984366327009
+A,cape_town,Csb,South Africa,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0108746393965375,-1.0,-0.0108746393965375
+A,cape_town,Csb,South Africa,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0004844798937136,-0.5358769315560563,-0.5,-0.0358769315560563
+A,cape_town,Csb,South Africa,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5007899971230301,-0.5,-0.00078999712303
+A,cape_town,Csb,South Africa,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0004588304939686,-0.5192063969725158,-0.5,-0.0192063969725158
+A,cape_town,Csb,South Africa,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5035202696730021,-0.5,-0.0035202696730021
+A,cape_town,Csb,South Africa,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0004972809706045,-0.5422979847356402,-0.5,-0.0422979847356401
+A,cape_town,Csb,South Africa,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5151174394453117,-0.5,-0.0151174394453117
+A,delhi,BSh,India,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040043688267257,-0.99812728758788,-1.0,0.00187271241212
+A,delhi,BSh,India,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9968032457388576,-1.0,0.0031967542611425
+A,delhi,BSh,India,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0040156957840887,-1.0111490766325448,-1.0,-0.0111490766325448
+A,delhi,BSh,India,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0114896359567194,-1.0,-0.0114896359567193
+A,delhi,BSh,India,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0039699511702779,-1.013307183929774,-1.0,-0.013307183929774
+A,delhi,BSh,India,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.007842085604027,-1.0,-0.0078420856040273
+A,delhi,BSh,India,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0039997499407835,-0.491836549976743,-0.5,0.008163450023257
+A,delhi,BSh,India,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.492067022734266,-0.5,0.0079329772657339
+A,delhi,BSh,India,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040110125918241,-0.5057653265608676,-0.5,-0.0057653265608675
+A,delhi,BSh,India,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5061222305098867,-0.5,-0.0061222305098866
+A,delhi,BSh,India,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0039653197700682,-0.5108289625090793,-0.5,-0.0108289625090792
+A,delhi,BSh,India,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5058663497777582,-0.5,-0.0058663497777582
+A,delhi,BSh,India,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0003068212949193,-1.035481280269368,-1.0,-0.035481280269368
+A,delhi,BSh,India,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9869711016766592,-1.0,0.0130288983233408
+A,delhi,BSh,India,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0003207975905749,-1.0430021643093037,-1.0,-0.0430021643093034
+A,delhi,BSh,India,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0089706111934396,-1.0,-0.0089706111934395
+A,delhi,BSh,India,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0002631333517659,-1.0406671694761729,-1.0,-0.0406671694761726
+A,delhi,BSh,India,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9978912317815558,-1.0,0.0021087682184441
+A,delhi,BSh,India,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0003024678483894,-0.5275363036422595,-0.5,-0.0275363036422594
+A,delhi,BSh,India,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4848649986559317,-0.5,0.0151350013440683
+A,delhi,BSh,India,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0003163643169732,-0.5329643597533101,-0.5,-0.0329643597533101
+A,delhi,BSh,India,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5032977779554915,-0.5,-0.0032977779554914
+A,delhi,BSh,India,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0002587664709374,-0.5340884220194297,-0.5,-0.0340884220194297
+A,delhi,BSh,India,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4987213782526645,-0.5,0.0012786217473355
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040505427618972,-0.999308644897845,-1.0,0.000691355102155
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0000971250363255,-1.0,-9.712503632552938e-05
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0040425780232552,-1.0045789947575878,-1.0,-0.0045789947575878
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0073176210966484,-1.0,-0.0073176210966483
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040017095068011,-1.0072030926584077,-1.0,-0.0072030926584074
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.007056063230105,-1.0,-0.0070560632301051
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040228331805964,-0.4943245302988619,-0.5,0.005675469701138
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4951947793248013,-0.5,0.0048052206751986
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040148659095565,-0.5021283653811159,-0.5,-0.0021283653811159
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5036085416022296,-0.5,-0.0036085416022295
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0039739181370476,-0.5029126308990328,-0.5,-0.0029126308990328
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5031312387886677,-0.5,-0.0031312387886677
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0003666408142187,-1.0123815095683275,-1.0,-0.0123815095683275
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9883670431842462,-1.0,0.0116329568157538
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0003562097944588,-1.0071465892380644,-1.0,-0.0071465892380644
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9993261759185468,-1.0,0.0006738240814532
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0003030432640776,-1.0196139089232106,-1.0,-0.0196139089232105
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0010677857588135,-1.0,-0.0010677857588134
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0003309304455129,-0.5113554007441401,-0.5,-0.01135540074414
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4916646462353704,-0.5,0.0083353537646295
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0003204889393745,-0.4978598638810754,-0.5,0.0021401361189245
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4998838413433848,-0.5,0.0001161586566151
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0002672067857431,-0.5138311608031494,-0.5,-0.0138311608031493
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.501619497855943,-0.5,-0.0016194978559429
+A,golden,Dfb,United States,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040301433824732,-0.9971679148141231,-1.0,0.0028320851858768
+A,golden,Dfb,United States,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9986258715770302,-1.0,0.0013741284229698
+A,golden,Dfb,United States,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0040220153537308,-1.0076556953881766,-1.0,-0.0076556953881765
+A,golden,Dfb,United States,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.008484944946364,-1.0,-0.0084849449463639
+A,golden,Dfb,United States,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040367512061432,-1.0138312772936977,-1.0,-0.0138312772936974
+A,golden,Dfb,United States,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0103495266021725,-1.0,-0.0103495266021722
+A,golden,Dfb,United States,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040148333221237,-0.4945868929003283,-0.5,0.0054131070996716
+A,golden,Dfb,United States,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4953684809715031,-0.5,0.0046315190284969
+A,golden,Dfb,United States,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004006636338609,-0.5051923590628657,-0.5,-0.0051923590628657
+A,golden,Dfb,United States,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5060324604904465,-0.5,-0.0060324604904464
+A,golden,Dfb,United States,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004021477640858,-0.5058094457840021,-0.5,-0.0058094457840021
+A,golden,Dfb,United States,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5049251710269598,-0.5,-0.0049251710269597
+A,golden,Dfb,United States,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0009041073134998,-1.0025512174332258,-1.0,-0.0025512174332258
+A,golden,Dfb,United States,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9990228027398462,-1.0,0.0009771972601537
+A,golden,Dfb,United States,thin_film,-1.0,1,rdtools_fitted_gamma,-0.000896156494009,-1.0217582755722376,-1.0,-0.0217582755722376
+A,golden,Dfb,United States,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.005938357552072,-1.0,-0.0059383575520719
+A,golden,Dfb,United States,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0009133198548574,-0.9900644570475126,-1.0,0.0099355429524874
+A,golden,Dfb,United States,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0023785768204516,-1.0,-0.0023785768204516
+A,golden,Dfb,United States,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0008864599955427,-0.4996322652780827,-0.5,0.0003677347219173
+A,golden,Dfb,United States,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5093822102078316,-0.5,-0.0093822102078315
+A,golden,Dfb,United States,thin_film,-0.5,1,rdtools_fitted_gamma,-0.000878434368889,-0.5146954328609121,-0.5,-0.0146954328609121
+A,golden,Dfb,United States,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5003975516388426,-0.5,-0.0003975516388425
+A,golden,Dfb,United States,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0008957121801283,-0.4844142807015061,-0.5,0.0155857192984938
+A,golden,Dfb,United States,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4986044459699523,-0.5,0.0013955540300476
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0041060716922376,-1.0098363800868426,-1.0,-0.0098363800868426
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0125707956982524,-1.0,-0.0125707956982523
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0041118415377456,-1.000809865924238,-1.0,-0.0008098659242379
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0067843729883397,-1.0,-0.0067843729883396
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040889429745218,-1.00154939997828,-1.0,-0.0015493999782798
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0072787089393598,-1.0,-0.0072787089393597
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004039007833564,-0.5077856517366439,-0.5,-0.0077856517366439
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5097462695600796,-0.5,-0.0097462695600796
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040449007817318,-0.5060303544172617,-0.5,-0.0060303544172617
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5090798905795453,-0.5,-0.0090798905795452
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0040219696473577,-0.4988415799605625,-0.5,0.0011584200394374
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5008859786318133,-0.5,-0.0008859786318132
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,0,rdtools_fitted_gamma,5.608702905640158e-05,-1.0276176354826665,-1.0,-0.0276176354826662
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0000164055767924,-1.0,-1.6405576792388743e-05
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,1,rdtools_fitted_gamma,4.738767295332321e-05,-1.0214442146548708,-1.0,-0.0214442146548707
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9888841947041098,-1.0,0.0111158052958901
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,2,rdtools_fitted_gamma,7.364677579397177e-05,-1.0432641522682362,-1.0,-0.0432641522682362
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0129677378647783,-1.0,-0.0129677378647783
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,0,rdtools_fitted_gamma,0.0001372761654249,-0.5245571296716323,-0.5,-0.0245571296716322
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5011297816804428,-0.5,-0.0011297816804427
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,1,rdtools_fitted_gamma,0.0001284248488368,-0.5171848135631585,-0.5,-0.0171848135631584
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4853389651251284,-0.5,0.0146610348748715
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,2,rdtools_fitted_gamma,0.0001547231671228,-0.5359343540194402,-0.5,-0.0359343540194402
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4951494314526405,-0.5,0.0048505685473594
+A,lagos,Aw,Nigeria,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0039932557737674,-1.020632590481585,-1.0,-0.0206325904815849
+A,lagos,Aw,Nigeria,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0202611584389456,-1.0,-0.0202611584389456
+A,lagos,Aw,Nigeria,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0039502407475022,-1.011867878081718,-1.0,-0.011867878081718
+A,lagos,Aw,Nigeria,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0112034426671743,-1.0,-0.0112034426671745
+A,lagos,Aw,Nigeria,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0041571161320107,-1.0146920877610266,-1.0,-0.0146920877610265
+A,lagos,Aw,Nigeria,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0196276851457298,-1.0,-0.0196276851457297
+A,lagos,Aw,Nigeria,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0039872637912437,-0.5170995798468914,-0.5,-0.0170995798468913
+A,lagos,Aw,Nigeria,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.51488711413058,-0.5,-0.0148871141305799
+A,lagos,Aw,Nigeria,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039442859669175,-0.5122931616676932,-0.5,-0.0122931616676932
+A,lagos,Aw,Nigeria,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5101535586695571,-0.5,-0.0101535586695571
+A,lagos,Aw,Nigeria,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0041514406776673,-0.5180577334572556,-0.5,-0.0180577334572555
+A,lagos,Aw,Nigeria,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.522370347256873,-0.5,-0.022370347256873
+A,lagos,Aw,Nigeria,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0039471941768654,-0.940413044340227,-1.0,0.059586955659773
+A,lagos,Aw,Nigeria,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9787316196911756,-1.0,0.0212683803088244
+A,lagos,Aw,Nigeria,thin_film,-1.0,1,rdtools_fitted_gamma,-0.003901661803217,-0.9687189694936204,-1.0,0.0312810305063795
+A,lagos,Aw,Nigeria,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9948866038777204,-1.0,0.0051133961222795
+A,lagos,Aw,Nigeria,thin_film,-1.0,2,rdtools_fitted_gamma,-0.004110818023435,-0.9740674759926128,-1.0,0.0259325240073873
+A,lagos,Aw,Nigeria,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9987594230620234,-1.0,0.0012405769379766
+A,lagos,Aw,Nigeria,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0039416983935641,-0.4508122884136137,-0.5,0.0491877115863862
+A,lagos,Aw,Nigeria,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4865448391794924,-0.5,0.0134551608205075
+A,lagos,Aw,Nigeria,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0038962026306024,-0.4786639001023052,-0.5,0.0213360998976948
+A,lagos,Aw,Nigeria,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5019175236687268,-0.5,-0.0019175236687267
+A,lagos,Aw,Nigeria,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0041056347076709,-0.4778767722609059,-0.5,0.022123227739094
+A,lagos,Aw,Nigeria,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4970679613408468,-0.5,0.0029320386591531
+A,madrid,BSk,Spain,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040297672945725,-1.0183666080687184,-1.0,-0.0183666080687183
+A,madrid,BSk,Spain,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.019690919511287,-1.0,-0.0196909195112873
+A,madrid,BSk,Spain,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0040223275567725,-0.9914794228155,-1.0,0.0085205771844999
+A,madrid,BSk,Spain,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.99666707025387,-1.0,0.0033329297461298
+A,madrid,BSk,Spain,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040077621896137,-1.0246662896492371,-1.0,-0.0246662896492373
+A,madrid,BSk,Spain,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0273826201844027,-1.0,-0.0273826201844027
+A,madrid,BSk,Spain,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040127053431428,-0.5111323036716797,-0.5,-0.0111323036716797
+A,madrid,BSk,Spain,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5128079895725168,-0.5,-0.0128079895725168
+A,madrid,BSk,Spain,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040052078467765,-0.4906770715330633,-0.5,0.0093229284669367
+A,madrid,BSk,Spain,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4927427899018344,-0.5,0.0072572100981656
+A,madrid,BSk,Spain,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.003990647610839,-0.5264378471731113,-0.5,-0.0264378471731112
+A,madrid,BSk,Spain,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5264072550591581,-0.5,-0.026407255059158
+A,madrid,BSk,Spain,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0004491497276397,-1.0612957453099965,-1.0,-0.0612957453099962
+A,madrid,BSk,Spain,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0083429888562034,-1.0,-0.0083429888562034
+A,madrid,BSk,Spain,thin_film,-1.0,1,rdtools_fitted_gamma,-0.000441814436946,-1.0408242155844127,-1.0,-0.0408242155844127
+A,madrid,BSk,Spain,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.005352089300282,-1.0,-0.005352089300282
+A,madrid,BSk,Spain,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0004244052016823,-1.0307155381789337,-1.0,-0.0307155381789334
+A,madrid,BSk,Spain,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.016585939603276,-1.0,-0.0165859396032761
+A,madrid,BSk,Spain,thin_film,-0.5,0,rdtools_fitted_gamma,-0.000429266960285,-0.552859633299907,-0.5,-0.0528596332999069
+A,madrid,BSk,Spain,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5068022264458794,-0.5,-0.0068022264458793
+A,madrid,BSk,Spain,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0004218662334433,-0.5381948970846206,-0.5,-0.0381948970846206
+A,madrid,BSk,Spain,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5024400265779327,-0.5,-0.0024400265779327
+A,madrid,BSk,Spain,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0004044601938758,-0.525105081450361,-0.5,-0.025105081450361
+A,madrid,BSk,Spain,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5120850901255025,-0.5,-0.0120850901255025
+A,marrakech,BSh,Morocco,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040728785706194,-1.0075911161606406,-1.0,-0.0075911161606405
+A,marrakech,BSh,Morocco,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0112645006903231,-1.0,-0.0112645006903231
+A,marrakech,BSh,Morocco,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0040467814478151,-0.9963635729373644,-1.0,0.0036364270626356
+A,marrakech,BSh,Morocco,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0037631336625497,-1.0,-0.0037631336625496
+A,marrakech,BSh,Morocco,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040588478704733,-1.0137088442858573,-1.0,-0.0137088442858572
+A,marrakech,BSh,Morocco,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0155678274617386,-1.0,-0.0155678274617385
+A,marrakech,BSh,Morocco,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040393676194123,-0.5041131126881426,-0.5,-0.0041131126881426
+A,marrakech,BSh,Morocco,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5055409875274974,-0.5,-0.0055409875274974
+A,marrakech,BSh,Morocco,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040131918031817,-0.4976883721604042,-0.5,0.0023116278395957
+A,marrakech,BSh,Morocco,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4975885892111953,-0.5,0.0024114107888046
+A,marrakech,BSh,Morocco,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0040252610269772,-0.5091689086210605,-0.5,-0.0091689086210604
+A,marrakech,BSh,Morocco,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.511653496452397,-0.5,-0.0116534964523969
+A,marrakech,BSh,Morocco,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0005961608939802,-1.0372716743127453,-1.0,-0.0372716743127452
+A,marrakech,BSh,Morocco,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.994523804258958,-1.0,0.0054761957410418
+A,marrakech,BSh,Morocco,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0005653458288371,-1.075449930141359,-1.0,-0.0754499301413589
+A,marrakech,BSh,Morocco,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9840257541879338,-1.0,0.0159742458120661
+A,marrakech,BSh,Morocco,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0005789868448529,-1.059312182208738,-1.0,-0.0593121822087381
+A,marrakech,BSh,Morocco,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.014620408595146,-1.0,-0.014620408595146
+A,marrakech,BSh,Morocco,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0005572414616599,-0.5324094914579192,-0.5,-0.0324094914579191
+A,marrakech,BSh,Morocco,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4916019877185595,-0.5,0.0083980122814404
+A,marrakech,BSh,Morocco,thin_film,-0.5,1,rdtools_fitted_gamma,-0.000526327962458,-0.577468183617913,-0.5,-0.0774681836179129
+A,marrakech,BSh,Morocco,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4841850898436028,-0.5,0.0158149101563971
+A,marrakech,BSh,Morocco,thin_film,-0.5,2,rdtools_fitted_gamma,-0.000539973478324,-0.5552669107269385,-0.5,-0.0552669107269384
+A,marrakech,BSh,Morocco,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5107980055957584,-0.5,-0.0107980055957583
+A,nairobi,Aw,Kenya,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0039398955164033,-1.0060984469894896,-1.0,-0.0060984469894895
+A,nairobi,Aw,Kenya,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9979477555828508,-1.0,0.0020522444171491
+A,nairobi,Aw,Kenya,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0038798818721805,-0.999203467242646,-1.0,0.000796532757354
+A,nairobi,Aw,Kenya,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.99455536381039,-1.0,0.0054446361896101
+A,nairobi,Aw,Kenya,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0039785713332316,-1.008533515986898,-1.0,-0.008533515986898
+A,nairobi,Aw,Kenya,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.008743514520234,-1.0,-0.0087435145202339
+A,nairobi,Aw,Kenya,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004001593480357,-0.4944642993160541,-0.5,0.0055357006839458
+A,nairobi,Aw,Kenya,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4936552829100993,-0.5,0.0063447170899006
+A,nairobi,Aw,Kenya,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039417887617189,-0.4950863565559737,-0.5,0.0049136434440262
+A,nairobi,Aw,Kenya,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4913059914896656,-0.5,0.0086940085103344
+A,nairobi,Aw,Kenya,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0040402964985712,-0.5047835850787274,-0.5,-0.0047835850787274
+A,nairobi,Aw,Kenya,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5036736307375556,-0.5,-0.0036736307375555
+A,nairobi,Aw,Kenya,thin_film,-1.0,0,rdtools_fitted_gamma,-0.000592479347137,-1.023545312772698,-1.0,-0.0235453127726981
+A,nairobi,Aw,Kenya,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0193199788121217,-1.0,-0.0193199788121216
+A,nairobi,Aw,Kenya,thin_film,-1.0,1,rdtools_fitted_gamma,-0.000521513993325,-0.9982533495452246,-1.0,0.0017466504547754
+A,nairobi,Aw,Kenya,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0061461548772632,-1.0,-0.0061461548772632
+A,nairobi,Aw,Kenya,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0006387966625655,-1.0156591703114335,-1.0,-0.0156591703114337
+A,nairobi,Aw,Kenya,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0083694360965234,-1.0,-0.0083694360965234
+A,nairobi,Aw,Kenya,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0006670488377114,-0.5154833911161893,-0.5,-0.0154833911161893
+A,nairobi,Aw,Kenya,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5200042771751586,-0.5,-0.0200042771751586
+A,nairobi,Aw,Kenya,thin_film,-0.5,1,rdtools_fitted_gamma,-0.000596352220036,-0.4850566846024502,-0.5,0.0149433153975497
+A,nairobi,Aw,Kenya,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5074319659188031,-0.5,-0.0074319659188031
+A,nairobi,Aw,Kenya,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0007133785059779,-0.5106144845266115,-0.5,-0.0106144845266115
+A,nairobi,Aw,Kenya,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5090368982327851,-0.5,-0.009036898232785
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040465863611463,-1.0085714065624836,-1.0,-0.0085714065624835
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0126468510060271,-1.0,-0.0126468510060271
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.003954838689805,-0.9966889300747516,-1.0,0.0033110699252483
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9965956144871058,-1.0,0.0034043855128942
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040220476225474,-0.9922762151982734,-1.0,0.0077237848017266
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9905691265072348,-1.0,0.0094308734927652
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040442428091578,-0.5098484485417831,-0.5,-0.0098484485417831
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5097305055293975,-0.5,-0.0097305055293974
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039524958986882,-0.5005292833164906,-0.5,-0.0005292833164906
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5003126043359056,-0.5,-0.0003126043359056
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0040196991348557,-0.4914908587411948,-0.5,0.0085091412588051
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4922352309734365,-0.5,0.0077647690265634
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0006715449948098,-0.9832674481496716,-1.0,0.0167325518503282
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0078855846779031,-1.0,-0.0078855846779033
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0005614082661721,-0.992417969487347,-1.0,0.007582030512653
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9893554119832504,-1.0,0.0106445880167496
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0006401015609226,-0.984599047782464,-1.0,0.015400952217536
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9992998024163776,-1.0,0.0007001975836223
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0006690160610787,-0.4830455701587022,-0.5,0.0169544298412978
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5099663396416819,-0.5,-0.0099663396416819
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0005588792714821,-0.4911618579282795,-0.5,0.0088381420717205
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4873008915786792,-0.5,0.0126991084213208
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0006375642701663,-0.4813703174456278,-0.5,0.0186296825543721
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5050420634212016,-0.5,-0.0050420634212016
+A,singapore,Af,Singapore,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040063156718021,-1.014891335872864,-1.0,-0.0148913358728639
+A,singapore,Af,Singapore,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0154473184119133,-1.0,-0.0154473184119132
+A,singapore,Af,Singapore,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0039925146055646,-1.0038490086329233,-1.0,-0.0038490086329232
+A,singapore,Af,Singapore,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0018571697983814,-1.0,-0.0018571697983813
+A,singapore,Af,Singapore,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040766195803946,-1.0059681635104625,-1.0,-0.0059681635104622
+A,singapore,Af,Singapore,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0049969844135282,-1.0,-0.0049969844135282
+A,singapore,Af,Singapore,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004009303191137,-0.5126655838138094,-0.5,-0.0126655838138094
+A,singapore,Af,Singapore,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5120335776015394,-0.5,-0.0120335776015394
+A,singapore,Af,Singapore,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039957107393721,-0.5023344985355749,-0.5,-0.0023344985355748
+A,singapore,Af,Singapore,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5018141157825546,-0.5,-0.0018141157825546
+A,singapore,Af,Singapore,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0040799241872349,-0.5012790689781332,-0.5,-0.0012790689781332
+A,singapore,Af,Singapore,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5035200742684875,-0.5,-0.0035200742684875
+A,singapore,Af,Singapore,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0022750684062533,-1.0148162642457714,-1.0,-0.0148162642457714
+A,singapore,Af,Singapore,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0120635772944642,-1.0,-0.0120635772944641
+A,singapore,Af,Singapore,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0022596858728076,-1.0066119582973263,-1.0,-0.0066119582973263
+A,singapore,Af,Singapore,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0063376963348136,-1.0,-0.0063376963348136
+A,singapore,Af,Singapore,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0023523160216906,-1.0190127955186423,-1.0,-0.0190127955186423
+A,singapore,Af,Singapore,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0135777577461775,-1.0,-0.0135777577461775
+A,singapore,Af,Singapore,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0022790896495016,-0.522390963779451,-0.5,-0.022390963779451
+A,singapore,Af,Singapore,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5132833686369479,-0.5,-0.0132833686369479
+A,singapore,Af,Singapore,thin_film,-0.5,1,rdtools_fitted_gamma,-0.002263940758005,-0.508361090847731,-0.5,-0.0083610908477309
+A,singapore,Af,Singapore,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5064351324241457,-0.5,-0.0064351324241457
+A,singapore,Af,Singapore,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0023566798652995,-0.5194535441458314,-0.5,-0.0194535441458314
+A,singapore,Af,Singapore,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5103178459767683,-0.5,-0.0103178459767683
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0041435627368914,-0.9833909328903934,-1.0,0.0166090671096066
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0012414996598995,-1.0,-0.0012414996598995
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0040808339940368,-0.9770537782894868,-1.0,0.0229462217105133
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9793985568678832,-1.0,0.0206014431321168
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040400947081262,-1.003266978253603,-1.0,-0.003266978253603
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0051389231289345,-1.0,-0.0051389231289342
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040830218119498,-0.4878329645125644,-0.5,0.0121670354874355
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.499261140082019,-0.5,0.0007388599179809
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040202723521176,-0.4751899424946137,-0.5,0.0248100575053862
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4770573865261508,-0.5,0.0229426134738491
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0039794826605429,-0.5030694528101121,-0.5,-0.003069452810112
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5039956609382945,-0.5,-0.0039956609382945
+A,sodankyla,Dfc,Finland,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0012345707462906,-0.9895500244343935,-1.0,0.0104499755656064
+A,sodankyla,Dfc,Finland,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9369921054000075,-1.0,0.0630078945999924
+A,sodankyla,Dfc,Finland,thin_film,-1.0,1,rdtools_fitted_gamma,-0.001173434504528,-0.9766071679142784,-1.0,0.0233928320857215
+A,sodankyla,Dfc,Finland,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9304092659455708,-1.0,0.0695907340544291
+A,sodankyla,Dfc,Finland,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0011292913965826,-1.0190161079839324,-1.0,-0.0190161079839323
+A,sodankyla,Dfc,Finland,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.960289822535243,-1.0,0.039710177464757
+A,sodankyla,Dfc,Finland,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0011721507730996,-0.4759370650167072,-0.5,0.0240629349832928
+A,sodankyla,Dfc,Finland,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4198163336879503,-0.5,0.0801836663120497
+A,sodankyla,Dfc,Finland,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0011109920869149,-0.4777409039908198,-0.5,0.0222590960091801
+A,sodankyla,Dfc,Finland,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4324735153336355,-0.5,0.0675264846663645
+A,sodankyla,Dfc,Finland,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0010667991282235,-0.5184652658715594,-0.5,-0.0184652658715593
+A,sodankyla,Dfc,Finland,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4555261358045737,-0.5,0.0444738641954263
+A,tokyo,Cfa,Japan,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040782590348121,-1.0122467272933755,-1.0,-0.0122467272933755
+A,tokyo,Cfa,Japan,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0146106045416214,-1.0,-0.0146106045416214
+A,tokyo,Cfa,Japan,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0041016976395138,-1.010079792029428,-1.0,-0.0100797920294279
+A,tokyo,Cfa,Japan,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0043733621829198,-1.0,-0.0043733621829198
+A,tokyo,Cfa,Japan,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040208835835958,-0.9980044074386564,-1.0,0.0019955925613436
+A,tokyo,Cfa,Japan,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0019983802987469,-1.0,-0.0019983802987468
+A,tokyo,Cfa,Japan,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040326148815696,-0.5060862151103018,-0.5,-0.0060862151103018
+A,tokyo,Cfa,Japan,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5091355235471218,-0.5,-0.0091355235471217
+A,tokyo,Cfa,Japan,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040560364411611,-0.5055503309734144,-0.5,-0.0055503309734143
+A,tokyo,Cfa,Japan,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5016338914072754,-0.5,-0.0016338914072754
+A,tokyo,Cfa,Japan,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0039750727417453,-0.5043964075603369,-0.5,-0.0043964075603368
+A,tokyo,Cfa,Japan,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5012609331661921,-0.5,-0.0012609331661921
+A,tokyo,Cfa,Japan,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0003363850022887,-1.0343966828801343,-1.0,-0.0343966828801343
+A,tokyo,Cfa,Japan,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9891209097695476,-1.0,0.0108790902304525
+A,tokyo,Cfa,Japan,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0003640179339981,-1.0205931004845763,-1.0,-0.0205931004845763
+A,tokyo,Cfa,Japan,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9903681610410332,-1.0,0.0096318389589669
+A,tokyo,Cfa,Japan,thin_film,-1.0,2,rdtools_fitted_gamma,-0.000271729532884,-1.0268186195490858,-1.0,-0.0268186195490858
+A,tokyo,Cfa,Japan,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9848620808114712,-1.0,0.0151379191885289
+A,tokyo,Cfa,Japan,thin_film,-0.5,0,rdtools_fitted_gamma,-0.000284609863014,-0.5313302189555147,-0.5,-0.0313302189555146
+A,tokyo,Cfa,Japan,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4887861519240144,-0.5,0.0112138480759855
+A,tokyo,Cfa,Japan,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0003122268661992,-0.5230460024943698,-0.5,-0.0230460024943698
+A,tokyo,Cfa,Japan,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4982694488481987,-0.5,0.0017305511518013
+A,tokyo,Cfa,Japan,thin_film,-0.5,2,rdtools_fitted_gamma,-0.000219762166108,-0.5254372649560413,-0.5,-0.0254372649560412
+A,tokyo,Cfa,Japan,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4821940909861433,-0.5,0.0178059090138567
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040401160171523,-1.014510904899768,-1.0,-0.014510904899768
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0127071534944136,-1.0,-0.0127071534944136
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0040421867741112,-1.0161820645607889,-1.0,-0.0161820645607888
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.016550224095003,-1.0,-0.016550224095003
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040170866091871,-1.0195708319785668,-1.0,-0.0195708319785667
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.020618931231232,-1.0,-0.0206189312312319
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040224828525536,-0.5103332969404795,-0.5,-0.0103332969404794
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5095744547212844,-0.5,-0.0095744547212843
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040245551479145,-0.506263985573141,-0.5,-0.006263985573141
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5105365750026617,-0.5,-0.0105365750026616
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0039994634145315,-0.5201217396050286,-0.5,-0.0201217396050286
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5210027579553911,-0.5,-0.021002757955391
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0009593704789073,-0.9939698963253172,-1.0,0.0060301036746827
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9966825419655988,-1.0,0.003317458034401
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0009610267866494,-0.990742106625364,-1.0,0.0092578933746358
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9857728028426664,-1.0,0.0142271971573336
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0009350977585722,-0.9792660662824691,-1.0,0.0207339337175307
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.007312290512108,-1.0,-0.0073122905121079
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,0,rdtools_fitted_gamma,-0.000940782131551,-0.4940690336328296,-0.5,0.0059309663671703
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4944919100214329,-0.5,0.0055080899785671
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0009424387464047,-0.4822191754733973,-0.5,0.0177808245266026
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4843644208544551,-0.5,0.0156355791455449
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0009165216387452,-0.4739702604193763,-0.5,0.0260297395806237
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5039069343524494,-0.5,-0.0039069343524493
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0038857112160449,-0.9994749922031644,-1.0,0.0005250077968357
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.008187801971641,-1.0,-0.008187801971641
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0039133990619009,-1.0071738670020425,-1.0,-0.0071738670020424
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0052189154225455,-1.0,-0.0052189154225454
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0038379831074762,-0.994185917453816,-1.0,0.005814082546184
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9953229153603638,-1.0,0.0046770846396362
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0039338824490156,-0.5013730644606973,-0.5,-0.0013730644606972
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5055655901419175,-0.5,-0.0055655901419174
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039614882363315,-0.5020884213685184,-0.5,-0.0020884213685183
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5004600726174402,-0.5,-0.0004600726174401
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.003886077160856,-0.4914469796944209,-0.5,0.008553020305579
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4941758062025514,-0.5,0.0058241937974485
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0005004267777139,-1.011978905488553,-1.0,-0.011978905488553
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9955737800905308,-1.0,0.0044262199094693
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0005293808402344,-1.0252329665747628,-1.0,-0.0252329665747628
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9788905268109938,-1.0,0.0211094731890062
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0004522882972646,-1.0368816599407582,-1.0,-0.0368816599407582
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9977708963499698,-1.0,0.0022291036500301
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0005518938707577,-0.502425594094924,-0.5,-0.002425594094924
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4931715311708329,-0.5,0.0068284688291671
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0005807621286453,-0.514705059726539,-0.5,-0.014705059726539
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4825831478533104,-0.5,0.0174168521466895
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0005036742723791,-0.5316949864225151,-0.5,-0.0316949864225151
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.502387512188629,-0.5,-0.0023875121886289
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040516849687267,-1.0014365172362094,-1.0,-0.0014365172362094
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9989476248051102,-1.0,0.0010523751948897
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0041048411860767,-0.984761235691746,-1.0,0.0152387643082538
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9957758169098572,-1.0,0.0042241830901429
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004056039864842,-1.0021456541452034,-1.0,-0.0021456541452034
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0166064253599003,-1.0,-0.0166064253599005
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040100615424855,-0.4937360150879311,-0.5,0.0062639849120689
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4936426918688153,-0.5,0.0063573081311846
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040632532819456,-0.4856111200058133,-0.5,0.0143888799941866
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.494158614368786,-0.5,0.0058413856312139
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0040144041349652,-0.5047196816772348,-0.5,-0.0047196816772347
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5109681597426974,-0.5,-0.0109681597426973
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0007244883705642,-1.0070577440794588,-1.0,-0.0070577440794588
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9871269305272548,-1.0,0.0128730694727452
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0007852134524412,-1.0084839330921849,-1.0,-0.0084839330921848
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9499751304874045,-1.0,0.0500248695125956
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0007303246457796,-1.0463631669827,-1.0,-0.0463631669827
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9527930550264458,-1.0,0.0472069449735541
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0006796210896323,-0.5126709167896482,-0.5,-0.0126709167896481
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4843422621620075,-0.5,0.0156577378379925
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,1,rdtools_fitted_gamma,-0.00074039022347,-0.5118089702866863,-0.5,-0.0118089702866862
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4454432943099995,-0.5,0.0545567056900004
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0006854459741621,-0.5497816758334051,-0.5,-0.049781675833405
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4423140500027123,-0.5,0.0576859499972877
+B,alice_springs,BWh,Australia,adr,-1.0,0,khd_full,-0.004,-1.0043657014439449,-1.0,-0.0043657014439448
+B,alice_springs,BWh,Australia,adr,-1.0,0,khd_no_correction,-0.004,-0.9818223459032868,-1.0,0.0181776540967131
+B,alice_springs,BWh,Australia,adr,-1.0,0,khd_no_physics,-0.004,-1.003547058315843,-1.0,-0.003547058315843
+B,alice_springs,BWh,Australia,adr,-1.0,0,pvusa,-0.004,-1.0217225699654997,-1.0,-0.0217225699654997
+B,alice_springs,BWh,Australia,adr,-1.0,0,rdtools,-0.004,-0.9816761291944254,-1.0,0.0183238708055746
+B,alice_springs,BWh,Australia,adr,-1.0,0,rdtools_fitted_gamma,-0.0030390150702517,-0.9927709124060656,-1.0,0.0072290875939342
+B,alice_springs,BWh,Australia,adr,-1.0,0,tcn,-0.004,-1.0220291068786524,-1.0,-0.0220291068786524
+B,alice_springs,BWh,Australia,adr,-1.0,0,xgboost,-0.004,-0.980570627831634,-1.0,0.019429372168366
+B,alice_springs,BWh,Australia,adr,-1.0,1,khd_full,-0.004,-1.017269681228262,-1.0,-0.017269681228262
+B,alice_springs,BWh,Australia,adr,-1.0,1,khd_no_correction,-0.004,-0.9698960145753018,-1.0,0.0301039854246981
+B,alice_springs,BWh,Australia,adr,-1.0,1,khd_no_physics,-0.004,-0.9999864963090512,-1.0,1.3503690948768464e-05
+B,alice_springs,BWh,Australia,adr,-1.0,1,pvusa,-0.004,-1.0099430385030916,-1.0,-0.0099430385030916
+B,alice_springs,BWh,Australia,adr,-1.0,1,rdtools,-0.004,-0.9891154041373418,-1.0,0.0108845958626582
+B,alice_springs,BWh,Australia,adr,-1.0,1,rdtools_fitted_gamma,-0.0030316592701098,-0.9933296250670032,-1.0,0.0066703749329968
+B,alice_springs,BWh,Australia,adr,-1.0,1,tcn,-0.004,-1.012193174243836,-1.0,-0.0121931742438361
+B,alice_springs,BWh,Australia,adr,-1.0,1,xgboost,-0.004,-0.9897335362321956,-1.0,0.0102664637678042
+B,alice_springs,BWh,Australia,adr,-1.0,2,khd_full,-0.004,-0.9873259620347198,-1.0,0.0126740379652802
+B,alice_springs,BWh,Australia,adr,-1.0,2,khd_no_correction,-0.004,-0.9633072011014516,-1.0,0.0366927988985484
+B,alice_springs,BWh,Australia,adr,-1.0,2,khd_no_physics,-0.004,-0.9767635042356424,-1.0,0.0232364957643576
+B,alice_springs,BWh,Australia,adr,-1.0,2,pvusa,-0.004,-1.0062994185335403,-1.0,-0.0062994185335405
+B,alice_springs,BWh,Australia,adr,-1.0,2,rdtools,-0.004,-0.9652613467395376,-1.0,0.0347386532604623
+B,alice_springs,BWh,Australia,adr,-1.0,2,rdtools_fitted_gamma,-0.0030672058329374,-0.9924118281382288,-1.0,0.0075881718617711
+B,alice_springs,BWh,Australia,adr,-1.0,2,tcn,-0.004,-0.9828925430369728,-1.0,0.0171074569630271
+B,alice_springs,BWh,Australia,adr,-1.0,2,xgboost,-0.004,-0.9744360785894136,-1.0,0.0255639214105865
+B,alice_springs,BWh,Australia,adr,-0.5,0,khd_full,-0.004,-0.4964479230389022,-0.5,0.0035520769610977
+B,alice_springs,BWh,Australia,adr,-0.5,0,khd_no_correction,-0.004,-0.504413374516463,-0.5,-0.0044133745164629
+B,alice_springs,BWh,Australia,adr,-0.5,0,khd_no_physics,-0.004,-0.4948899939942675,-0.5,0.0051100060057324
+B,alice_springs,BWh,Australia,adr,-0.5,0,pvusa,-0.004,-0.5109044328058143,-0.5,-0.0109044328058143
+B,alice_springs,BWh,Australia,adr,-0.5,0,rdtools,-0.004,-0.4977291818383522,-0.5,0.0022708181616477
+B,alice_springs,BWh,Australia,adr,-0.5,0,rdtools_fitted_gamma,-0.0030435007235628,-0.4938916774860635,-0.5,0.0061083225139364
+B,alice_springs,BWh,Australia,adr,-0.5,0,tcn,-0.004,-0.5170183519580318,-0.5,-0.0170183519580318
+B,alice_springs,BWh,Australia,adr,-0.5,0,xgboost,-0.004,-0.4924839527185698,-0.5,0.0075160472814301
+B,alice_springs,BWh,Australia,adr,-0.5,1,khd_full,-0.004,-0.4958759500698852,-0.5,0.0041240499301147
+B,alice_springs,BWh,Australia,adr,-0.5,1,khd_no_correction,-0.004,-0.4912104944321681,-0.5,0.0087895055678318
+B,alice_springs,BWh,Australia,adr,-0.5,1,khd_no_physics,-0.004,-0.5122759520323077,-0.5,-0.0122759520323076
+B,alice_springs,BWh,Australia,adr,-0.5,1,pvusa,-0.004,-0.5055371406253673,-0.5,-0.0055371406253672
+B,alice_springs,BWh,Australia,adr,-0.5,1,rdtools,-0.004,-0.4950258054001357,-0.5,0.0049741945998642
+B,alice_springs,BWh,Australia,adr,-0.5,1,rdtools_fitted_gamma,-0.0030362029564732,-0.5045621465381452,-0.5,-0.0045621465381452
+B,alice_springs,BWh,Australia,adr,-0.5,1,tcn,-0.004,-0.5172672818051116,-0.5,-0.0172672818051116
+B,alice_springs,BWh,Australia,adr,-0.5,1,xgboost,-0.004,-0.4972898679532433,-0.5,0.0027101320467566
+B,alice_springs,BWh,Australia,adr,-0.5,2,khd_full,-0.004,-0.4945552109282431,-0.5,0.0054447890717568
+B,alice_springs,BWh,Australia,adr,-0.5,2,khd_no_correction,-0.004,-0.493744413753878,-0.5,0.0062555862461219
+B,alice_springs,BWh,Australia,adr,-0.5,2,khd_no_physics,-0.004,-0.4872354291619887,-0.5,0.0127645708380113
+B,alice_springs,BWh,Australia,adr,-0.5,2,pvusa,-0.004,-0.4984405533185465,-0.5,0.0015594466814534
+B,alice_springs,BWh,Australia,adr,-0.5,2,rdtools,-0.004,-0.4791103356779624,-0.5,0.0208896643220375
+B,alice_springs,BWh,Australia,adr,-0.5,2,rdtools_fitted_gamma,-0.0030716943043576,-0.496807098769306,-0.5,0.0031929012306939
+B,alice_springs,BWh,Australia,adr,-0.5,2,tcn,-0.004,-0.505276175294711,-0.5,-0.005276175294711
+B,alice_springs,BWh,Australia,adr,-0.5,2,xgboost,-0.004,-0.4886734509634693,-0.5,0.0113265490365306
+B,antalya,Csa,Turkey,adr,-1.0,0,khd_full,-0.004,-1.008733062417465,-1.0,-0.008733062417465
+B,antalya,Csa,Turkey,adr,-1.0,0,khd_no_correction,-0.004,-0.9664304076558368,-1.0,0.0335695923441632
+B,antalya,Csa,Turkey,adr,-1.0,0,khd_no_physics,-0.004,-1.0139941167563833,-1.0,-0.0139941167563832
+B,antalya,Csa,Turkey,adr,-1.0,0,pvusa,-0.004,-0.989849431878953,-1.0,0.0101505681210469
+B,antalya,Csa,Turkey,adr,-1.0,0,rdtools,-0.004,-0.9611849972537834,-1.0,0.0388150027462166
+B,antalya,Csa,Turkey,adr,-1.0,0,rdtools_fitted_gamma,-0.0031200034353249,-0.9764951273211752,-1.0,0.0235048726788247
+B,antalya,Csa,Turkey,adr,-1.0,0,tcn,-0.004,-0.9900849508684972,-1.0,0.0099150491315027
+B,antalya,Csa,Turkey,adr,-1.0,0,xgboost,-0.004,-0.9715189365607668,-1.0,0.0284810634392331
+B,antalya,Csa,Turkey,adr,-1.0,1,khd_full,-0.004,-1.0046366597255347,-1.0,-0.0046366597255347
+B,antalya,Csa,Turkey,adr,-1.0,1,khd_no_correction,-0.004,-0.9606023718793306,-1.0,0.0393976281206693
+B,antalya,Csa,Turkey,adr,-1.0,1,khd_no_physics,-0.004,-1.0082624228973935,-1.0,-0.0082624228973935
+B,antalya,Csa,Turkey,adr,-1.0,1,pvusa,-0.004,-1.004907157272088,-1.0,-0.004907157272088
+B,antalya,Csa,Turkey,adr,-1.0,1,rdtools,-0.004,-0.976859600629676,-1.0,0.023140399370324
+B,antalya,Csa,Turkey,adr,-1.0,1,rdtools_fitted_gamma,-0.0031453960495143,-0.9925578274759168,-1.0,0.007442172524083
+B,antalya,Csa,Turkey,adr,-1.0,1,tcn,-0.004,-0.993525227460268,-1.0,0.006474772539732
+B,antalya,Csa,Turkey,adr,-1.0,1,xgboost,-0.004,-0.9613990780539428,-1.0,0.0386009219460572
+B,antalya,Csa,Turkey,adr,-1.0,2,khd_full,-0.004,-0.9950320928362422,-1.0,0.0049679071637578
+B,antalya,Csa,Turkey,adr,-1.0,2,khd_no_correction,-0.004,-0.9437315384870052,-1.0,0.0562684615129948
+B,antalya,Csa,Turkey,adr,-1.0,2,khd_no_physics,-0.004,-0.9911588163451982,-1.0,0.0088411836548017
+B,antalya,Csa,Turkey,adr,-1.0,2,pvusa,-0.004,-1.0119016633291011,-1.0,-0.0119016633291011
+B,antalya,Csa,Turkey,adr,-1.0,2,rdtools,-0.004,-0.9456295345426136,-1.0,0.0543704654573864
+B,antalya,Csa,Turkey,adr,-1.0,2,rdtools_fitted_gamma,-0.0031146111360712,-0.9839157533149012,-1.0,0.0160842466850987
+B,antalya,Csa,Turkey,adr,-1.0,2,tcn,-0.004,-1.020959347727174,-1.0,-0.0209593477271738
+B,antalya,Csa,Turkey,adr,-1.0,2,xgboost,-0.004,-0.9972956100080712,-1.0,0.0027043899919287
+B,antalya,Csa,Turkey,adr,-0.5,0,khd_full,-0.004,-0.4972678830046899,-0.5,0.00273211699531
+B,antalya,Csa,Turkey,adr,-0.5,0,khd_no_correction,-0.004,-0.4848166564967225,-0.5,0.0151833435032774
+B,antalya,Csa,Turkey,adr,-0.5,0,khd_no_physics,-0.004,-0.5162766084706341,-0.5,-0.016276608470634
+B,antalya,Csa,Turkey,adr,-0.5,0,pvusa,-0.004,-0.4863624523832155,-0.5,0.0136375476167844
+B,antalya,Csa,Turkey,adr,-0.5,0,rdtools,-0.004,-0.4681853410898107,-0.5,0.0318146589101893
+B,antalya,Csa,Turkey,adr,-0.5,0,rdtools_fitted_gamma,-0.0030905506751207,-0.4794410300158925,-0.5,0.0205589699841074
+B,antalya,Csa,Turkey,adr,-0.5,0,tcn,-0.004,-0.484971204039536,-0.5,0.015028795960464
+B,antalya,Csa,Turkey,adr,-0.5,0,xgboost,-0.004,-0.4727995080852932,-0.5,0.0272004919147068
+B,antalya,Csa,Turkey,adr,-0.5,1,khd_full,-0.004,-0.4948716570296833,-0.5,0.0051283429703167
+B,antalya,Csa,Turkey,adr,-0.5,1,khd_no_correction,-0.004,-0.4459879757372442,-0.5,0.0540120242627557
+B,antalya,Csa,Turkey,adr,-0.5,1,khd_no_physics,-0.004,-0.4963639001375779,-0.5,0.003636099862422
+B,antalya,Csa,Turkey,adr,-0.5,1,pvusa,-0.004,-0.4961310387152772,-0.5,0.0038689612847228
+B,antalya,Csa,Turkey,adr,-0.5,1,rdtools,-0.004,-0.4926255327382889,-0.5,0.007374467261711
+B,antalya,Csa,Turkey,adr,-0.5,1,rdtools_fitted_gamma,-0.0031158467342989,-0.5014262902986011,-0.5,-0.001426290298601
+B,antalya,Csa,Turkey,adr,-0.5,1,tcn,-0.004,-0.4946683342372582,-0.5,0.0053316657627418
+B,antalya,Csa,Turkey,adr,-0.5,1,xgboost,-0.004,-0.4684988678850532,-0.5,0.0315011321149467
+B,antalya,Csa,Turkey,adr,-0.5,2,khd_full,-0.004,-0.5225807880177459,-0.5,-0.0225807880177458
+B,antalya,Csa,Turkey,adr,-0.5,2,khd_no_correction,-0.004,-0.4781115569982869,-0.5,0.0218884430017131
+B,antalya,Csa,Turkey,adr,-0.5,2,khd_no_physics,-0.004,-0.5021981644043754,-0.5,-0.0021981644043753
+B,antalya,Csa,Turkey,adr,-0.5,2,pvusa,-0.004,-0.5067235749725618,-0.5,-0.0067235749725618
+B,antalya,Csa,Turkey,adr,-0.5,2,rdtools,-0.004,-0.4464601818451874,-0.5,0.0535398181548125
+B,antalya,Csa,Turkey,adr,-0.5,2,rdtools_fitted_gamma,-0.0030851012622959,-0.4942046221274698,-0.5,0.0057953778725301
+B,antalya,Csa,Turkey,adr,-0.5,2,tcn,-0.004,-0.540724848912516,-0.5,-0.040724848912516
+B,antalya,Csa,Turkey,adr,-0.5,2,xgboost,-0.004,-0.4997053360891202,-0.5,0.0002946639108797
+B,auckland,Cfb,New Zealand,adr,-1.0,0,khd_full,-0.004,-0.9976191039310052,-1.0,0.0023808960689949
+B,auckland,Cfb,New Zealand,adr,-1.0,0,khd_no_correction,-0.004,-0.9716091586831482,-1.0,0.0283908413168517
+B,auckland,Cfb,New Zealand,adr,-1.0,0,khd_no_physics,-0.004,-1.009034115701654,-1.0,-0.009034115701654
+B,auckland,Cfb,New Zealand,adr,-1.0,0,pvusa,-0.004,-1.0233225738654712,-1.0,-0.0233225738654712
+B,auckland,Cfb,New Zealand,adr,-1.0,0,rdtools,-0.004,-1.0120628037867507,-1.0,-0.0120628037867507
+B,auckland,Cfb,New Zealand,adr,-1.0,0,rdtools_fitted_gamma,-0.0025542312995332,-1.0322145833983942,-1.0,-0.0322145833983942
+B,auckland,Cfb,New Zealand,adr,-1.0,0,tcn,-0.004,-1.01702449847636,-1.0,-0.0170244984763598
+B,auckland,Cfb,New Zealand,adr,-1.0,0,xgboost,-0.004,-0.9937361424894098,-1.0,0.0062638575105902
+B,auckland,Cfb,New Zealand,adr,-1.0,1,khd_full,-0.004,-1.0165272176546725,-1.0,-0.0165272176546724
+B,auckland,Cfb,New Zealand,adr,-1.0,1,khd_no_correction,-0.004,-1.0035257397527972,-1.0,-0.0035257397527972
+B,auckland,Cfb,New Zealand,adr,-1.0,1,khd_no_physics,-0.004,-1.005300210647342,-1.0,-0.0053002106473418
+B,auckland,Cfb,New Zealand,adr,-1.0,1,pvusa,-0.004,-1.0242523288802765,-1.0,-0.0242523288802762
+B,auckland,Cfb,New Zealand,adr,-1.0,1,rdtools,-0.004,-0.9867556400061892,-1.0,0.0132443599938106
+B,auckland,Cfb,New Zealand,adr,-1.0,1,rdtools_fitted_gamma,-0.0026624768066869,-0.9990247146090648,-1.0,0.0009752853909352
+B,auckland,Cfb,New Zealand,adr,-1.0,1,tcn,-0.004,-1.0254092306474876,-1.0,-0.0254092306474875
+B,auckland,Cfb,New Zealand,adr,-1.0,1,xgboost,-0.004,-0.9781398884651384,-1.0,0.0218601115348615
+B,auckland,Cfb,New Zealand,adr,-1.0,2,khd_full,-0.004,-0.9982715607695554,-1.0,0.0017284392304446
+B,auckland,Cfb,New Zealand,adr,-1.0,2,khd_no_correction,-0.004,-0.9607236789787188,-1.0,0.0392763210212813
+B,auckland,Cfb,New Zealand,adr,-1.0,2,khd_no_physics,-0.004,-1.000820807909409,-1.0,-0.0008208079094089
+B,auckland,Cfb,New Zealand,adr,-1.0,2,pvusa,-0.004,-0.9934906567973468,-1.0,0.0065093432026532
+B,auckland,Cfb,New Zealand,adr,-1.0,2,rdtools,-0.004,-1.0063356642710295,-1.0,-0.0063356642710297
+B,auckland,Cfb,New Zealand,adr,-1.0,2,rdtools_fitted_gamma,-0.0027629442141509,-1.0115892721901911,-1.0,-0.0115892721901911
+B,auckland,Cfb,New Zealand,adr,-1.0,2,tcn,-0.004,-1.0099730657957786,-1.0,-0.0099730657957786
+B,auckland,Cfb,New Zealand,adr,-1.0,2,xgboost,-0.004,-0.9721447756354324,-1.0,0.0278552243645675
+B,auckland,Cfb,New Zealand,adr,-0.5,0,khd_full,-0.004,-0.5157456329517178,-0.5,-0.0157456329517178
+B,auckland,Cfb,New Zealand,adr,-0.5,0,khd_no_correction,-0.004,-0.4844521631922285,-0.5,0.0155478368077714
+B,auckland,Cfb,New Zealand,adr,-0.5,0,khd_no_physics,-0.004,-0.5179240170665925,-0.5,-0.0179240170665925
+B,auckland,Cfb,New Zealand,adr,-0.5,0,pvusa,-0.004,-0.5098823917926487,-0.5,-0.0098823917926487
+B,auckland,Cfb,New Zealand,adr,-0.5,0,rdtools,-0.004,-0.5131732966730801,-0.5,-0.01317329667308
+B,auckland,Cfb,New Zealand,adr,-0.5,0,rdtools_fitted_gamma,-0.0026430228252996,-0.525635432471696,-0.5,-0.0256354324716959
+B,auckland,Cfb,New Zealand,adr,-0.5,0,tcn,-0.004,-0.5178849891054549,-0.5,-0.0178849891054548
+B,auckland,Cfb,New Zealand,adr,-0.5,0,xgboost,-0.004,-0.4891977244662235,-0.5,0.0108022755337764
+B,auckland,Cfb,New Zealand,adr,-0.5,1,khd_full,-0.004,-0.5096281861024465,-0.5,-0.0096281861024465
+B,auckland,Cfb,New Zealand,adr,-0.5,1,khd_no_correction,-0.004,-0.4738897196235684,-0.5,0.0261102803764315
+B,auckland,Cfb,New Zealand,adr,-0.5,1,khd_no_physics,-0.004,-0.4957799360864185,-0.5,0.0042200639135814
+B,auckland,Cfb,New Zealand,adr,-0.5,1,pvusa,-0.004,-0.5156576865147504,-0.5,-0.0156576865147504
+B,auckland,Cfb,New Zealand,adr,-0.5,1,rdtools,-0.004,-0.5049282875161376,-0.5,-0.0049282875161376
+B,auckland,Cfb,New Zealand,adr,-0.5,1,rdtools_fitted_gamma,-0.0027508586232856,-0.5018903422063727,-0.5,-0.0018903422063727
+B,auckland,Cfb,New Zealand,adr,-0.5,1,tcn,-0.004,-0.52396164843788,-0.5,-0.0239616484378799
+B,auckland,Cfb,New Zealand,adr,-0.5,1,xgboost,-0.004,-0.4856473513377979,-0.5,0.014352648662202
+B,auckland,Cfb,New Zealand,adr,-0.5,2,khd_full,-0.004,-0.498793192492882,-0.5,0.0012068075071179
+B,auckland,Cfb,New Zealand,adr,-0.5,2,khd_no_correction,-0.004,-0.5081566745855967,-0.5,-0.0081566745855966
+B,auckland,Cfb,New Zealand,adr,-0.5,2,khd_no_physics,-0.004,-0.5018729044797058,-0.5,-0.0018729044797057
+B,auckland,Cfb,New Zealand,adr,-0.5,2,pvusa,-0.004,-0.4899121203434942,-0.5,0.0100878796565058
+B,auckland,Cfb,New Zealand,adr,-0.5,2,rdtools,-0.004,-0.5093075417732518,-0.5,-0.0093075417732517
+B,auckland,Cfb,New Zealand,adr,-0.5,2,rdtools_fitted_gamma,-0.0028509855318093,-0.5201543808815979,-0.5,-0.0201543808815979
+B,auckland,Cfb,New Zealand,adr,-0.5,2,tcn,-0.004,-0.5134944043790575,-0.5,-0.0134944043790574
+B,auckland,Cfb,New Zealand,adr,-0.5,2,xgboost,-0.004,-0.4904774854609162,-0.5,0.0095225145390838
+B,calama,BWk,Chile,adr,-1.0,0,khd_full,-0.004,-1.0015230814899163,-1.0,-0.0015230814899163
+B,calama,BWk,Chile,adr,-1.0,0,khd_no_correction,-0.004,-0.97219440072595,-1.0,0.02780559927405
+B,calama,BWk,Chile,adr,-1.0,0,khd_no_physics,-0.004,-0.9851233089651916,-1.0,0.0148766910348084
+B,calama,BWk,Chile,adr,-1.0,0,pvusa,-0.004,-1.0136819557329302,-1.0,-0.0136819557329301
+B,calama,BWk,Chile,adr,-1.0,0,rdtools,-0.004,-0.9947855692224784,-1.0,0.0052144307775217
+B,calama,BWk,Chile,adr,-1.0,0,rdtools_fitted_gamma,-0.0028117666439512,-0.9963293250541412,-1.0,0.0036706749458587
+B,calama,BWk,Chile,adr,-1.0,0,tcn,-0.004,-1.012656261693906,-1.0,-0.0126562616939061
+B,calama,BWk,Chile,adr,-1.0,0,xgboost,-0.004,-0.9585647996209518,-1.0,0.0414352003790482
+B,calama,BWk,Chile,adr,-1.0,1,khd_full,-0.004,-0.9894960707518248,-1.0,0.0105039292481751
+B,calama,BWk,Chile,adr,-1.0,1,khd_no_correction,-0.004,-0.9719973076137108,-1.0,0.0280026923862891
+B,calama,BWk,Chile,adr,-1.0,1,khd_no_physics,-0.004,-0.9877818189331206,-1.0,0.0122181810668794
+B,calama,BWk,Chile,adr,-1.0,1,pvusa,-0.004,-1.0028048102760423,-1.0,-0.0028048102760422
+B,calama,BWk,Chile,adr,-1.0,1,rdtools,-0.004,-0.9845345686499308,-1.0,0.0154654313500692
+B,calama,BWk,Chile,adr,-1.0,1,rdtools_fitted_gamma,-0.0027248521684259,-0.9830036904787344,-1.0,0.0169963095212657
+B,calama,BWk,Chile,adr,-1.0,1,tcn,-0.004,-0.9982588801768578,-1.0,0.0017411198231421
+B,calama,BWk,Chile,adr,-1.0,1,xgboost,-0.004,-0.9809368422900644,-1.0,0.0190631577099356
+B,calama,BWk,Chile,adr,-1.0,2,khd_full,-0.004,-1.0040534961650789,-1.0,-0.0040534961650788
+B,calama,BWk,Chile,adr,-1.0,2,khd_no_correction,-0.004,-0.9720867298376222,-1.0,0.0279132701623777
+B,calama,BWk,Chile,adr,-1.0,2,khd_no_physics,-0.004,-0.9916972915165168,-1.0,0.0083027084834831
+B,calama,BWk,Chile,adr,-1.0,2,pvusa,-0.004,-0.9990869516502906,-1.0,0.0009130483497094
+B,calama,BWk,Chile,adr,-1.0,2,rdtools,-0.004,-0.9960566213201404,-1.0,0.0039433786798594
+B,calama,BWk,Chile,adr,-1.0,2,rdtools_fitted_gamma,-0.0027505877496169,-0.9776876264183332,-1.0,0.0223123735816668
+B,calama,BWk,Chile,adr,-1.0,2,tcn,-0.004,-0.9931087151755502,-1.0,0.0068912848244497
+B,calama,BWk,Chile,adr,-1.0,2,xgboost,-0.004,-0.9755895598656792,-1.0,0.0244104401343207
+B,calama,BWk,Chile,adr,-0.5,0,khd_full,-0.004,-0.5026076541303318,-0.5,-0.0026076541303318
+B,calama,BWk,Chile,adr,-0.5,0,khd_no_correction,-0.004,-0.4948312146252002,-0.5,0.0051687853747998
+B,calama,BWk,Chile,adr,-0.5,0,khd_no_physics,-0.004,-0.4876999509364261,-0.5,0.0123000490635738
+B,calama,BWk,Chile,adr,-0.5,0,pvusa,-0.004,-0.5058274837372201,-0.5,-0.00582748373722
+B,calama,BWk,Chile,adr,-0.5,0,rdtools,-0.004,-0.5088437852543426,-0.5,-0.0088437852543425
+B,calama,BWk,Chile,adr,-0.5,0,rdtools_fitted_gamma,-0.0027863865582168,-0.495881309186108,-0.5,0.0041186908138919
+B,calama,BWk,Chile,adr,-0.5,0,tcn,-0.004,-0.5054505331641932,-0.5,-0.0054505331641931
+B,calama,BWk,Chile,adr,-0.5,0,xgboost,-0.004,-0.4792029829052155,-0.5,0.0207970170947844
+B,calama,BWk,Chile,adr,-0.5,1,khd_full,-0.004,-0.489625603875937,-0.5,0.0103743961240629
+B,calama,BWk,Chile,adr,-0.5,1,khd_no_correction,-0.004,-0.4753280875935975,-0.5,0.0246719124064024
+B,calama,BWk,Chile,adr,-0.5,1,khd_no_physics,-0.004,-0.4958726087416052,-0.5,0.0041273912583947
+B,calama,BWk,Chile,adr,-0.5,1,pvusa,-0.004,-0.4945293228344694,-0.5,0.0054706771655306
+B,calama,BWk,Chile,adr,-0.5,1,rdtools,-0.004,-0.5007158163136127,-0.5,-0.0007158163136127
+B,calama,BWk,Chile,adr,-0.5,1,rdtools_fitted_gamma,-0.0026993520957331,-0.4833528318746704,-0.5,0.0166471681253296
+B,calama,BWk,Chile,adr,-0.5,1,tcn,-0.004,-0.4881704678164622,-0.5,0.0118295321835377
+B,calama,BWk,Chile,adr,-0.5,1,xgboost,-0.004,-0.4802519948833366,-0.5,0.0197480051166634
+B,calama,BWk,Chile,adr,-0.5,2,khd_full,-0.004,-0.4968337613300116,-0.5,0.0031662386699883
+B,calama,BWk,Chile,adr,-0.5,2,khd_no_correction,-0.004,-0.4985357261298286,-0.5,0.0014642738701713
+B,calama,BWk,Chile,adr,-0.5,2,khd_no_physics,-0.004,-0.496429740852874,-0.5,0.0035702591471259
+B,calama,BWk,Chile,adr,-0.5,2,pvusa,-0.004,-0.4980630628271016,-0.5,0.0019369371728983
+B,calama,BWk,Chile,adr,-0.5,2,rdtools,-0.004,-0.4978932743269881,-0.5,0.0021067256730118
+B,calama,BWk,Chile,adr,-0.5,2,rdtools_fitted_gamma,-0.0027250098362479,-0.4848183431171555,-0.5,0.0151816568828444
+B,calama,BWk,Chile,adr,-0.5,2,tcn,-0.004,-0.4898775403853336,-0.5,0.0101224596146664
+B,calama,BWk,Chile,adr,-0.5,2,xgboost,-0.004,-0.4838676806629058,-0.5,0.0161323193370941
+B,cape_town,Csb,South Africa,adr,-1.0,0,khd_full,-0.004,-1.0090247641088794,-1.0,-0.0090247641088794
+B,cape_town,Csb,South Africa,adr,-1.0,0,khd_no_correction,-0.004,-0.9696304815754176,-1.0,0.0303695184245824
+B,cape_town,Csb,South Africa,adr,-1.0,0,khd_no_physics,-0.004,-1.003153065728991,-1.0,-0.0031530657289913
+B,cape_town,Csb,South Africa,adr,-1.0,0,pvusa,-0.004,-1.0165893467304066,-1.0,-0.0165893467304065
+B,cape_town,Csb,South Africa,adr,-1.0,0,rdtools,-0.004,-0.9194077799405288,-1.0,0.0805922200594713
+B,cape_town,Csb,South Africa,adr,-1.0,0,rdtools_fitted_gamma,-0.0028208676727611,-0.986152094787074,-1.0,0.0138479052129261
+B,cape_town,Csb,South Africa,adr,-1.0,0,tcn,-0.004,-0.9828789323373224,-1.0,0.0171210676626776
+B,cape_town,Csb,South Africa,adr,-1.0,0,xgboost,-0.004,-0.9857801301685788,-1.0,0.0142198698314213
+B,cape_town,Csb,South Africa,adr,-1.0,1,khd_full,-0.004,-1.0065712527179804,-1.0,-0.0065712527179804
+B,cape_town,Csb,South Africa,adr,-1.0,1,khd_no_correction,-0.004,-0.973657777071691,-1.0,0.026342222928309
+B,cape_town,Csb,South Africa,adr,-1.0,1,khd_no_physics,-0.004,-1.0054246112286525,-1.0,-0.0054246112286524
+B,cape_town,Csb,South Africa,adr,-1.0,1,pvusa,-0.004,-1.0001787766022507,-1.0,-0.0001787766022507
+B,cape_town,Csb,South Africa,adr,-1.0,1,rdtools,-0.004,-0.9334736836934088,-1.0,0.0665263163065912
+B,cape_town,Csb,South Africa,adr,-1.0,1,rdtools_fitted_gamma,-0.0027960972162432,-0.9950713996824234,-1.0,0.0049286003175765
+B,cape_town,Csb,South Africa,adr,-1.0,1,tcn,-0.004,-1.002322281358492,-1.0,-0.0023222813584919
+B,cape_town,Csb,South Africa,adr,-1.0,1,xgboost,-0.004,-0.9593070531432624,-1.0,0.0406929468567376
+B,cape_town,Csb,South Africa,adr,-1.0,2,khd_full,-0.004,-1.013766293871051,-1.0,-0.0137662938710509
+B,cape_town,Csb,South Africa,adr,-1.0,2,khd_no_correction,-0.004,-0.9703707452950202,-1.0,0.0296292547049797
+B,cape_town,Csb,South Africa,adr,-1.0,2,khd_no_physics,-0.004,-1.0113032278530396,-1.0,-0.0113032278530396
+B,cape_town,Csb,South Africa,adr,-1.0,2,pvusa,-0.004,-1.001787347616756,-1.0,-0.001787347616756
+B,cape_town,Csb,South Africa,adr,-1.0,2,rdtools,-0.004,-0.929202108072294,-1.0,0.070797891927706
+B,cape_town,Csb,South Africa,adr,-1.0,2,rdtools_fitted_gamma,-0.0028318076224455,-0.9964449388338514,-1.0,0.0035550611661485
+B,cape_town,Csb,South Africa,adr,-1.0,2,tcn,-0.004,-0.9988156801059788,-1.0,0.0011843198940211
+B,cape_town,Csb,South Africa,adr,-1.0,2,xgboost,-0.004,-0.981101799519174,-1.0,0.018898200480826
+B,cape_town,Csb,South Africa,adr,-0.5,0,khd_full,-0.004,-0.4828495588409769,-0.5,0.017150441159023
+B,cape_town,Csb,South Africa,adr,-0.5,0,khd_no_correction,-0.004,-0.4756704655066003,-0.5,0.0243295344933996
+B,cape_town,Csb,South Africa,adr,-0.5,0,khd_no_physics,-0.004,-0.4793855951481107,-0.5,0.0206144048518893
+B,cape_town,Csb,South Africa,adr,-0.5,0,pvusa,-0.004,-0.5094769865355605,-0.5,-0.0094769865355605
+B,cape_town,Csb,South Africa,adr,-0.5,0,rdtools,-0.004,-0.4471806047479099,-0.5,0.0528193952520901
+B,cape_town,Csb,South Africa,adr,-0.5,0,rdtools_fitted_gamma,-0.0028434470707022,-0.4835604229356582,-0.5,0.0164395770643417
+B,cape_town,Csb,South Africa,adr,-0.5,0,tcn,-0.004,-0.4975859744483504,-0.5,0.0024140255516496
+B,cape_town,Csb,South Africa,adr,-0.5,0,xgboost,-0.004,-0.4798202243437188,-0.5,0.0201797756562811
+B,cape_town,Csb,South Africa,adr,-0.5,1,khd_full,-0.004,-0.4985698331104193,-0.5,0.0014301668895806
+B,cape_town,Csb,South Africa,adr,-0.5,1,khd_no_correction,-0.004,-0.4910234265468454,-0.5,0.0089765734531546
+B,cape_town,Csb,South Africa,adr,-0.5,1,khd_no_physics,-0.004,-0.4970443310015219,-0.5,0.0029556689984781
+B,cape_town,Csb,South Africa,adr,-0.5,1,pvusa,-0.004,-0.4970960050785122,-0.5,0.0029039949214877
+B,cape_town,Csb,South Africa,adr,-0.5,1,rdtools,-0.004,-0.4315105340012226,-0.5,0.0684894659987773
+B,cape_town,Csb,South Africa,adr,-0.5,1,rdtools_fitted_gamma,-0.0028186848238466,-0.496232839974516,-0.5,0.0037671600254839
+B,cape_town,Csb,South Africa,adr,-0.5,1,tcn,-0.004,-0.4929253551194971,-0.5,0.0070746448805029
+B,cape_town,Csb,South Africa,adr,-0.5,1,xgboost,-0.004,-0.474450591984682,-0.5,0.025549408015318
+B,cape_town,Csb,South Africa,adr,-0.5,2,khd_full,-0.004,-0.5213281360555624,-0.5,-0.0213281360555623
+B,cape_town,Csb,South Africa,adr,-0.5,2,khd_no_correction,-0.004,-0.4918438259869502,-0.5,0.0081561740130497
+B,cape_town,Csb,South Africa,adr,-0.5,2,khd_no_physics,-0.004,-0.5162169035787051,-0.5,-0.016216903578705
+B,cape_town,Csb,South Africa,adr,-0.5,2,pvusa,-0.004,-0.5022783487622584,-0.5,-0.0022783487622584
+B,cape_town,Csb,South Africa,adr,-0.5,2,rdtools,-0.004,-0.4438207534827388,-0.5,0.0561792465172611
+B,cape_town,Csb,South Africa,adr,-0.5,2,rdtools_fitted_gamma,-0.0028543714786944,-0.4997986881072003,-0.5,0.0002013118927997
+B,cape_town,Csb,South Africa,adr,-0.5,2,tcn,-0.004,-0.5124696425945818,-0.5,-0.0124696425945818
+B,cape_town,Csb,South Africa,adr,-0.5,2,xgboost,-0.004,-0.4944298309316808,-0.5,0.0055701690683191
+B,delhi,BSh,India,adr,-1.0,0,khd_full,-0.004,-0.992832748514146,-1.0,0.007167251485854
+B,delhi,BSh,India,adr,-1.0,0,khd_no_correction,-0.004,-0.9867536476466128,-1.0,0.0132463523533871
+B,delhi,BSh,India,adr,-1.0,0,khd_no_physics,-0.004,-0.982404407909458,-1.0,0.0175955920905419
+B,delhi,BSh,India,adr,-1.0,0,pvusa,-0.004,-1.018531945316261,-1.0,-0.0185319453162609
+B,delhi,BSh,India,adr,-1.0,0,rdtools,-0.004,-0.980558318184066,-1.0,0.0194416818159339
+B,delhi,BSh,India,adr,-1.0,0,rdtools_fitted_gamma,-0.0030897489228169,-0.9931917672103996,-1.0,0.0068082327896004
+B,delhi,BSh,India,adr,-1.0,0,tcn,-0.004,-0.984007320666987,-1.0,0.0159926793330129
+B,delhi,BSh,India,adr,-1.0,0,xgboost,-0.004,-0.9846803057092124,-1.0,0.0153196942907876
+B,delhi,BSh,India,adr,-1.0,1,khd_full,-0.004,-0.9818333446408506,-1.0,0.0181666553591494
+B,delhi,BSh,India,adr,-1.0,1,khd_no_correction,-0.004,-0.9848511325062382,-1.0,0.0151488674937617
+B,delhi,BSh,India,adr,-1.0,1,khd_no_physics,-0.004,-1.0031409229727066,-1.0,-0.0031409229727066
+B,delhi,BSh,India,adr,-1.0,1,pvusa,-0.004,-1.0121333261123393,-1.0,-0.0121333261123393
+B,delhi,BSh,India,adr,-1.0,1,rdtools,-0.004,-0.948895238881331,-1.0,0.051104761118669
+B,delhi,BSh,India,adr,-1.0,1,rdtools_fitted_gamma,-0.0031016027033045,-0.9840632663820736,-1.0,0.0159367336179263
+B,delhi,BSh,India,adr,-1.0,1,tcn,-0.004,-0.9942716222329062,-1.0,0.0057283777670937
+B,delhi,BSh,India,adr,-1.0,1,xgboost,-0.004,-0.9623741194596858,-1.0,0.0376258805403142
+B,delhi,BSh,India,adr,-1.0,2,khd_full,-0.004,-1.0119189855722417,-1.0,-0.0119189855722414
+B,delhi,BSh,India,adr,-1.0,2,khd_no_correction,-0.004,-0.990283900329684,-1.0,0.0097160996703159
+B,delhi,BSh,India,adr,-1.0,2,khd_no_physics,-0.004,-1.007637919919235,-1.0,-0.0076379199192346
+B,delhi,BSh,India,adr,-1.0,2,pvusa,-0.004,-1.018430449927199,-1.0,-0.018430449927199
+B,delhi,BSh,India,adr,-1.0,2,rdtools,-0.004,-0.9688248378410648,-1.0,0.0311751621589353
+B,delhi,BSh,India,adr,-1.0,2,rdtools_fitted_gamma,-0.0030529637789784,-1.0022127400150715,-1.0,-0.0022127400150715
+B,delhi,BSh,India,adr,-1.0,2,tcn,-0.004,-0.9949226798704036,-1.0,0.0050773201295963
+B,delhi,BSh,India,adr,-1.0,2,xgboost,-0.004,-1.0021983506516792,-1.0,-0.0021983506516791
+B,delhi,BSh,India,adr,-0.5,0,khd_full,-0.004,-0.5102697310949116,-0.5,-0.0102697310949115
+B,delhi,BSh,India,adr,-0.5,0,khd_no_correction,-0.004,-0.4963872245263864,-0.5,0.0036127754736136
+B,delhi,BSh,India,adr,-0.5,0,khd_no_physics,-0.004,-0.5133937847529789,-0.5,-0.0133937847529789
+B,delhi,BSh,India,adr,-0.5,0,pvusa,-0.004,-0.5152387254681701,-0.5,-0.01523872546817
+B,delhi,BSh,India,adr,-0.5,0,rdtools,-0.004,-0.4823910919904972,-0.5,0.0176089080095027
+B,delhi,BSh,India,adr,-0.5,0,rdtools_fitted_gamma,-0.0030851753485871,-0.4935314673193037,-0.5,0.0064685326806962
+B,delhi,BSh,India,adr,-0.5,0,tcn,-0.004,-0.4847594810074539,-0.5,0.015240518992546
+B,delhi,BSh,India,adr,-0.5,0,xgboost,-0.004,-0.4990019294611717,-0.5,0.0009980705388282
+B,delhi,BSh,India,adr,-0.5,1,khd_full,-0.004,-0.5090629140687788,-0.5,-0.0090629140687787
+B,delhi,BSh,India,adr,-0.5,1,khd_no_correction,-0.004,-0.495055555550133,-0.5,0.0049444444498669
+B,delhi,BSh,India,adr,-0.5,1,khd_no_physics,-0.004,-0.4974230745680877,-0.5,0.0025769254319122
+B,delhi,BSh,India,adr,-0.5,1,pvusa,-0.004,-0.5094910087396045,-0.5,-0.0094910087396045
+B,delhi,BSh,India,adr,-0.5,1,rdtools,-0.004,-0.4606749435089208,-0.5,0.0393250564910792
+B,delhi,BSh,India,adr,-0.5,1,rdtools_fitted_gamma,-0.0030969614114109,-0.4886309682960027,-0.5,0.0113690317039972
+B,delhi,BSh,India,adr,-0.5,1,tcn,-0.004,-0.4988212710371794,-0.5,0.0011787289628206
+B,delhi,BSh,India,adr,-0.5,1,xgboost,-0.004,-0.4655920697992255,-0.5,0.0344079302007744
+B,delhi,BSh,India,adr,-0.5,2,khd_full,-0.004,-0.5153166555261056,-0.5,-0.0153166555261056
+B,delhi,BSh,India,adr,-0.5,2,khd_no_correction,-0.004,-0.5048767465479989,-0.5,-0.0048767465479988
+B,delhi,BSh,India,adr,-0.5,2,khd_no_physics,-0.004,-0.5099574581639135,-0.5,-0.0099574581639134
+B,delhi,BSh,India,adr,-0.5,2,pvusa,-0.004,-0.5136661021262445,-0.5,-0.0136661021262445
+B,delhi,BSh,India,adr,-0.5,2,rdtools,-0.004,-0.4938705786459274,-0.5,0.0061294213540725
+B,delhi,BSh,India,adr,-0.5,2,rdtools_fitted_gamma,-0.0030483774340347,-0.5122160961042121,-0.5,-0.0122160961042121
+B,delhi,BSh,India,adr,-0.5,2,tcn,-0.004,-0.5082323651484533,-0.5,-0.0082323651484532
+B,delhi,BSh,India,adr,-0.5,2,xgboost,-0.004,-0.5152654510058474,-0.5,-0.0152654510058474
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,khd_full,-0.004,-0.9989383410099096,-1.0,0.0010616589900902
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,khd_no_correction,-0.004,-0.9660952001044714,-1.0,0.0339047998955286
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,khd_no_physics,-0.004,-0.9987652181003672,-1.0,0.0012347818996326
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,pvusa,-0.004,-1.003950628127459,-1.0,-0.003950628127459
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,rdtools,-0.004,-0.9904145334353934,-1.0,0.0095854665646065
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,rdtools_fitted_gamma,-0.0031207728462044,-0.9803393693139096,-1.0,0.0196606306860904
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,tcn,-0.004,-1.0023467240798334,-1.0,-0.0023467240798333
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,xgboost,-0.004,-0.990207398056936,-1.0,0.009792601943064
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,khd_full,-0.004,-0.9977304251232544,-1.0,0.0022695748767455
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,khd_no_correction,-0.004,-0.9930693378611604,-1.0,0.0069306621388395
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,khd_no_physics,-0.004,-1.004785253311348,-1.0,-0.0047852533113479
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,pvusa,-0.004,-1.010580994469007,-1.0,-0.0105809944690069
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,rdtools,-0.004,-0.964800588071204,-1.0,0.035199411928796
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,rdtools_fitted_gamma,-0.0031120697026492,-1.003798015419915,-1.0,-0.003798015419915
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,tcn,-0.004,-1.0039820688709344,-1.0,-0.0039820688709344
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,xgboost,-0.004,-0.981650103054088,-1.0,0.0183498969459119
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,khd_full,-0.004,-1.0010174675294998,-1.0,-0.0010174675294998
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,khd_no_correction,-0.004,-0.9736842026305658,-1.0,0.0263157973694342
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,khd_no_physics,-0.004,-1.0017143422941377,-1.0,-0.0017143422941374
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,pvusa,-0.004,-1.01690910627395,-1.0,-0.0169091062739499
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,rdtools,-0.004,-0.9997819529985464,-1.0,0.0002180470014536
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,rdtools_fitted_gamma,-0.003068405174459,-0.9957280921127032,-1.0,0.0042719078872967
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,tcn,-0.004,-1.0057614201957232,-1.0,-0.0057614201957232
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,xgboost,-0.004,-0.9877185290902646,-1.0,0.0122814709097354
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,khd_full,-0.004,-0.4973407356669531,-0.5,0.0026592643330469
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,khd_no_correction,-0.004,-0.4854985125479203,-0.5,0.0145014874520796
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,khd_no_physics,-0.004,-0.5000056219575914,-0.5,-5.621957591350757e-06
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,pvusa,-0.004,-0.4950469962319126,-0.5,0.0049530037680873
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,rdtools,-0.004,-0.5040524736765772,-0.5,-0.0040524736765772
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,rdtools_fitted_gamma,-0.0030911905100656,-0.4895518166233015,-0.5,0.0104481833766985
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,tcn,-0.004,-0.5038032395919887,-0.5,-0.0038032395919886
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,xgboost,-0.004,-0.4967698320207629,-0.5,0.003230167979237
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,khd_full,-0.004,-0.4924650028333183,-0.5,0.0075349971666817
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,khd_no_correction,-0.004,-0.4663194614981889,-0.5,0.033680538501811
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,khd_no_physics,-0.004,-0.4903333023193729,-0.5,0.009666697680627
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,pvusa,-0.004,-0.5069368284759068,-0.5,-0.0069368284759068
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,rdtools,-0.004,-0.4819707662580996,-0.5,0.0180292337419003
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,rdtools_fitted_gamma,-0.0030824829491996,-0.5140573369882606,-0.5,-0.0140573369882606
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,tcn,-0.004,-0.5028252758416024,-0.5,-0.0028252758416024
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,xgboost,-0.004,-0.4910564852486088,-0.5,0.0089435147513912
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,khd_full,-0.004,-0.5031448534891056,-0.5,-0.0031448534891056
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,khd_no_correction,-0.004,-0.4953055977292965,-0.5,0.0046944022707035
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,khd_no_physics,-0.004,-0.5115139938749128,-0.5,-0.0115139938749128
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,pvusa,-0.004,-0.5107375197333808,-0.5,-0.0107375197333807
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,rdtools,-0.004,-0.5050609867675915,-0.5,-0.0050609867675914
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,rdtools_fitted_gamma,-0.0030387313135369,-0.4917363434566145,-0.5,0.0082636565433854
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,tcn,-0.004,-0.5135348653335307,-0.5,-0.0135348653335306
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,xgboost,-0.004,-0.4869272902650656,-0.5,0.0130727097349343
+B,golden,Dfb,United States,adr,-1.0,0,khd_full,-0.004,-1.011144501133173,-1.0,-0.011144501133173
+B,golden,Dfb,United States,adr,-1.0,0,khd_no_correction,-0.004,-0.982804531351317,-1.0,0.017195468648683
+B,golden,Dfb,United States,adr,-1.0,0,khd_no_physics,-0.004,-1.0156552178393043,-1.0,-0.0156552178393043
+B,golden,Dfb,United States,adr,-1.0,0,pvusa,-0.004,-1.0073505115885897,-1.0,-0.0073505115885894
+B,golden,Dfb,United States,adr,-1.0,0,rdtools,-0.004,-0.96239599459903,-1.0,0.0376040054009698
+B,golden,Dfb,United States,adr,-1.0,0,rdtools_fitted_gamma,-0.0031300789258478,-0.9814763789042786,-1.0,0.0185236210957213
+B,golden,Dfb,United States,adr,-1.0,0,tcn,-0.004,-0.981033923548826,-1.0,0.0189660764511738
+B,golden,Dfb,United States,adr,-1.0,0,xgboost,-0.004,-0.9584164468164708,-1.0,0.0415835531835291
+B,golden,Dfb,United States,adr,-1.0,1,khd_full,-0.004,-0.9845344991896792,-1.0,0.0154655008103209
+B,golden,Dfb,United States,adr,-1.0,1,khd_no_correction,-0.004,-0.995332687384596,-1.0,0.0046673126154038
+B,golden,Dfb,United States,adr,-1.0,1,khd_no_physics,-0.004,-0.9883822134269012,-1.0,0.0116177865730988
+B,golden,Dfb,United States,adr,-1.0,1,pvusa,-0.004,-1.0139235422559794,-1.0,-0.0139235422559793
+B,golden,Dfb,United States,adr,-1.0,1,rdtools,-0.004,-0.9895313020710784,-1.0,0.0104686979289216
+B,golden,Dfb,United States,adr,-1.0,1,rdtools_fitted_gamma,-0.0031218498986524,-0.9867531372209304,-1.0,0.0132468627790696
+B,golden,Dfb,United States,adr,-1.0,1,tcn,-0.004,-1.0092424286828272,-1.0,-0.0092424286828272
+B,golden,Dfb,United States,adr,-1.0,1,xgboost,-0.004,-0.9897339507711684,-1.0,0.0102660492288315
+B,golden,Dfb,United States,adr,-1.0,2,khd_full,-0.004,-1.015184391694005,-1.0,-0.015184391694005
+B,golden,Dfb,United States,adr,-1.0,2,khd_no_correction,-0.004,-0.9707205730317549,-1.0,0.0292794269682452
+B,golden,Dfb,United States,adr,-1.0,2,khd_no_physics,-0.004,-0.9943183115330912,-1.0,0.0056816884669088
+B,golden,Dfb,United States,adr,-1.0,2,pvusa,-0.004,-1.0035183859107797,-1.0,-0.0035183859107796
+B,golden,Dfb,United States,adr,-1.0,2,rdtools,-0.004,-0.9972455638154633,-1.0,0.0027544361845368
+B,golden,Dfb,United States,adr,-1.0,2,rdtools_fitted_gamma,-0.0031374839073568,-0.9852462109833812,-1.0,0.0147537890166187
+B,golden,Dfb,United States,adr,-1.0,2,tcn,-0.004,-0.99052685787723,-1.0,0.0094731421227699
+B,golden,Dfb,United States,adr,-1.0,2,xgboost,-0.004,-0.972141891798578,-1.0,0.0278581082014219
+B,golden,Dfb,United States,adr,-0.5,0,khd_full,-0.004,-0.4909534427587271,-0.5,0.0090465572412729
+B,golden,Dfb,United States,adr,-0.5,0,khd_no_correction,-0.004,-0.4703195677707731,-0.5,0.0296804322292268
+B,golden,Dfb,United States,adr,-0.5,0,khd_no_physics,-0.004,-0.4921808256011972,-0.5,0.0078191743988027
+B,golden,Dfb,United States,adr,-0.5,0,pvusa,-0.004,-0.5068047309929269,-0.5,-0.0068047309929268
+B,golden,Dfb,United States,adr,-0.5,0,rdtools,-0.004,-0.4688403785688799,-0.5,0.03115962143112
+B,golden,Dfb,United States,adr,-0.5,0,rdtools_fitted_gamma,-0.0031141516043933,-0.4796622232186595,-0.5,0.0203377767813404
+B,golden,Dfb,United States,adr,-0.5,0,tcn,-0.004,-0.5031815266675954,-0.5,-0.0031815266675954
+B,golden,Dfb,United States,adr,-0.5,0,xgboost,-0.004,-0.475498583483086,-0.5,0.0245014165169139
+B,golden,Dfb,United States,adr,-0.5,1,khd_full,-0.004,-0.5106836669004232,-0.5,-0.0106836669004232
+B,golden,Dfb,United States,adr,-0.5,1,khd_no_correction,-0.004,-0.4822321523069146,-0.5,0.0177678476930853
+B,golden,Dfb,United States,adr,-0.5,1,khd_no_physics,-0.004,-0.4923943663913711,-0.5,0.0076056336086289
+B,golden,Dfb,United States,adr,-0.5,1,pvusa,-0.004,-0.5077907941347715,-0.5,-0.0077907941347714
+B,golden,Dfb,United States,adr,-0.5,1,rdtools,-0.004,-0.4962029130628487,-0.5,0.0037970869371513
+B,golden,Dfb,United States,adr,-0.5,1,rdtools_fitted_gamma,-0.0031058520006172,-0.4837878804017759,-0.5,0.0162121195982241
+B,golden,Dfb,United States,adr,-0.5,1,tcn,-0.004,-0.5159791304048089,-0.5,-0.0159791304048089
+B,golden,Dfb,United States,adr,-0.5,1,xgboost,-0.004,-0.4896072818722119,-0.5,0.010392718127788
+B,golden,Dfb,United States,adr,-0.5,2,khd_full,-0.004,-0.5110764964436089,-0.5,-0.0110764964436088
+B,golden,Dfb,United States,adr,-0.5,2,khd_no_correction,-0.004,-0.4884819347845263,-0.5,0.0115180652154736
+B,golden,Dfb,United States,adr,-0.5,2,khd_no_physics,-0.004,-0.5084421361639199,-0.5,-0.0084421361639198
+B,golden,Dfb,United States,adr,-0.5,2,pvusa,-0.004,-0.4956414454318506,-0.5,0.0043585545681493
+B,golden,Dfb,United States,adr,-0.5,2,rdtools,-0.004,-0.5027440254310631,-0.5,-0.0027440254310631
+B,golden,Dfb,United States,adr,-0.5,2,rdtools_fitted_gamma,-0.0031215939944233,-0.4867641757884566,-0.5,0.0132358242115433
+B,golden,Dfb,United States,adr,-0.5,2,tcn,-0.004,-0.4982790384348255,-0.5,0.0017209615651744
+B,golden,Dfb,United States,adr,-0.5,2,xgboost,-0.004,-0.4839860076636112,-0.5,0.0160139923363887
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,khd_full,-0.004,-1.0112740687126185,-1.0,-0.0112740687126182
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,khd_no_correction,-0.004,-0.9708171623920472,-1.0,0.0291828376079528
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,khd_no_physics,-0.004,-1.0155652928379622,-1.0,-0.0155652928379621
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,pvusa,-0.004,-1.0214743388245122,-1.0,-0.0214743388245122
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,rdtools,-0.004,-0.9820736541502948,-1.0,0.0179263458497053
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,rdtools_fitted_gamma,-0.0031433558730321,-1.0060876223528272,-1.0,-0.0060876223528272
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,tcn,-0.004,-1.016291750774223,-1.0,-0.016291750774223
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,xgboost,-0.004,-0.9754053903536232,-1.0,0.0245946096463769
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,khd_full,-0.004,-0.994058318940136,-1.0,0.0059416810598641
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,khd_no_correction,-0.004,-0.9688199500685122,-1.0,0.0311800499314878
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,khd_no_physics,-0.004,-0.9899672208013596,-1.0,0.0100327791986405
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,pvusa,-0.004,-1.0125950493027494,-1.0,-0.0125950493027493
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,rdtools,-0.004,-0.9618838930865016,-1.0,0.0381161069134985
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,rdtools_fitted_gamma,-0.0031498745581057,-0.9821829064597004,-1.0,0.0178170935402997
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,tcn,-0.004,-1.0189513196848166,-1.0,-0.0189513196848165
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,xgboost,-0.004,-0.9881066764762044,-1.0,0.0118933235237955
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,2,khd_full,-0.004,-0.9838383700057198,-1.0,0.0161616299942801
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,2,khd_no_correction,-0.004,-0.962795011464235,-1.0,0.037204988535765
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,2,khd_no_physics,-0.004,-0.9898632440290084,-1.0,0.0101367559709917
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,2,pvusa,-0.004,-1.0128466626245114,-1.0,-0.0128466626245113
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,2,rdtools,-0.004,-0.9599920951373352,-1.0,0.0400079048626647
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,2,rdtools_fitted_gamma,-0.0031263730985668,-0.9801176572078678,-1.0,0.0198823427921321
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,2,tcn,-0.004,-1.0125882264090946,-1.0,-0.0125882264090946
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,2,xgboost,-0.004,-0.9860317861015157,-1.0,0.0139682138984844
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,khd_full,-0.004,-0.4994895929107,-0.5,0.0005104070892999
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,khd_no_correction,-0.004,-0.4826078487768181,-0.5,0.0173921512231818
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,khd_no_physics,-0.004,-0.5008741538404229,-0.5,-0.0008741538404228
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,pvusa,-0.004,-0.5149167584982813,-0.5,-0.0149167584982813
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,rdtools,-0.004,-0.4850918136064586,-0.5,0.0149081863935414
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,rdtools_fitted_gamma,-0.0030729654801923,-0.5033274242160213,-0.5,-0.0033274242160212
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,tcn,-0.004,-0.522190591943406,-0.5,-0.022190591943406
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,xgboost,-0.004,-0.4841935812753284,-0.5,0.0158064187246715
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,khd_full,-0.004,-0.4883385459180046,-0.5,0.0116614540819953
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,khd_no_correction,-0.004,-0.4455185269614222,-0.5,0.0544814730385778
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,khd_no_physics,-0.004,-0.4954905818258978,-0.5,0.0045094181741022
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,pvusa,-0.004,-0.5003368518623041,-0.5,-0.0003368518623041
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,rdtools,-0.004,-0.4599982988219675,-0.5,0.0400017011780324
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,rdtools_fitted_gamma,-0.0030796144401412,-0.4813034922379888,-0.5,0.0186965077620111
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,tcn,-0.004,-0.5187399000470938,-0.5,-0.0187399000470938
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,xgboost,-0.004,-0.5043719940350825,-0.5,-0.0043719940350824
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,khd_full,-0.004,-0.5148427916498395,-0.5,-0.0148427916498394
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,khd_no_correction,-0.004,-0.4564567675261761,-0.5,0.0435432324738239
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,khd_no_physics,-0.004,-0.4956742192376382,-0.5,0.0043257807623617
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,pvusa,-0.004,-0.5032593926323987,-0.5,-0.0032593926323987
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,rdtools,-0.004,-0.466756812925817,-0.5,0.0332431870741829
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,rdtools_fitted_gamma,-0.0030560788651727,-0.4822111196996682,-0.5,0.0177888803003317
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,tcn,-0.004,-0.5034863462784274,-0.5,-0.0034863462784273
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,xgboost,-0.004,-0.481047664479778,-0.5,0.018952335520222
+B,lagos,Aw,Nigeria,adr,-1.0,0,khd_full,-0.004,-0.994149035974731,-1.0,0.0058509640252689
+B,lagos,Aw,Nigeria,adr,-1.0,0,khd_no_correction,-0.004,-0.9785333000275204,-1.0,0.0214666999724796
+B,lagos,Aw,Nigeria,adr,-1.0,0,khd_no_physics,-0.004,-0.998117127767856,-1.0,0.001882872232144
+B,lagos,Aw,Nigeria,adr,-1.0,0,pvusa,-0.004,-1.0166121240165356,-1.0,-0.0166121240165355
+B,lagos,Aw,Nigeria,adr,-1.0,0,rdtools,-0.004,-0.9543390058510994,-1.0,0.0456609941489005
+B,lagos,Aw,Nigeria,adr,-1.0,0,rdtools_fitted_gamma,-0.0023408727484778,-1.0005782920576292,-1.0,-0.0005782920576291
+B,lagos,Aw,Nigeria,adr,-1.0,0,tcn,-0.004,-0.9993725378924956,-1.0,0.0006274621075044
+B,lagos,Aw,Nigeria,adr,-1.0,0,xgboost,-0.004,-0.9862036489635296,-1.0,0.0137963510364702
+B,lagos,Aw,Nigeria,adr,-1.0,1,khd_full,-0.004,-1.0011010542533745,-1.0,-0.0011010542533742
+B,lagos,Aw,Nigeria,adr,-1.0,1,khd_no_correction,-0.004,-0.9578352273818754,-1.0,0.0421647726181245
+B,lagos,Aw,Nigeria,adr,-1.0,1,khd_no_physics,-0.004,-0.9898112050410798,-1.0,0.0101887949589202
+B,lagos,Aw,Nigeria,adr,-1.0,1,pvusa,-0.004,-1.010871959162059,-1.0,-0.0108719591620589
+B,lagos,Aw,Nigeria,adr,-1.0,1,rdtools,-0.004,-0.9862534399431188,-1.0,0.0137465600568811
+B,lagos,Aw,Nigeria,adr,-1.0,1,rdtools_fitted_gamma,-0.0022939114823241,-1.0049559313005825,-1.0,-0.0049559313005824
+B,lagos,Aw,Nigeria,adr,-1.0,1,tcn,-0.004,-1.0144164565863811,-1.0,-0.0144164565863811
+B,lagos,Aw,Nigeria,adr,-1.0,1,xgboost,-0.004,-0.9531197799961244,-1.0,0.0468802200038757
+B,lagos,Aw,Nigeria,adr,-1.0,2,khd_full,-0.004,-1.0021844920687129,-1.0,-0.0021844920687128
+B,lagos,Aw,Nigeria,adr,-1.0,2,khd_no_correction,-0.004,-1.0006644985732127,-1.0,-0.0006644985732127
+B,lagos,Aw,Nigeria,adr,-1.0,2,khd_no_physics,-0.004,-1.0043876127469595,-1.0,-0.0043876127469595
+B,lagos,Aw,Nigeria,adr,-1.0,2,pvusa,-0.004,-1.0297115269505552,-1.0,-0.0297115269505552
+B,lagos,Aw,Nigeria,adr,-1.0,2,rdtools,-0.004,-0.9688198873820107,-1.0,0.0311801126179891
+B,lagos,Aw,Nigeria,adr,-1.0,2,rdtools_fitted_gamma,-0.0025199202891828,-1.0008101588291465,-1.0,-0.0008101588291462
+B,lagos,Aw,Nigeria,adr,-1.0,2,tcn,-0.004,-1.01009114013671,-1.0,-0.0100911401367098
+B,lagos,Aw,Nigeria,adr,-1.0,2,xgboost,-0.004,-0.981272339517958,-1.0,0.0187276604820421
+B,lagos,Aw,Nigeria,adr,-0.5,0,khd_full,-0.004,-0.510268066285967,-0.5,-0.0102680662859669
+B,lagos,Aw,Nigeria,adr,-0.5,0,khd_no_correction,-0.004,-0.4997914667106063,-0.5,0.0002085332893936
+B,lagos,Aw,Nigeria,adr,-0.5,0,khd_no_physics,-0.004,-0.511919636722143,-0.5,-0.011919636722143
+B,lagos,Aw,Nigeria,adr,-0.5,0,pvusa,-0.004,-0.500965982608895,-0.5,-0.000965982608895
+B,lagos,Aw,Nigeria,adr,-0.5,0,rdtools,-0.004,-0.4577228209098727,-0.5,0.0422771790901272
+B,lagos,Aw,Nigeria,adr,-0.5,0,rdtools_fitted_gamma,-0.0023338326813458,-0.4968172790630286,-0.5,0.0031827209369714
+B,lagos,Aw,Nigeria,adr,-0.5,0,tcn,-0.004,-0.4823147301550146,-0.5,0.0176852698449854
+B,lagos,Aw,Nigeria,adr,-0.5,0,xgboost,-0.004,-0.4960421544354075,-0.5,0.0039578455645924
+B,lagos,Aw,Nigeria,adr,-0.5,1,khd_full,-0.004,-0.5022405549241645,-0.5,-0.0022405549241645
+B,lagos,Aw,Nigeria,adr,-0.5,1,khd_no_correction,-0.004,-0.4884559029973508,-0.5,0.0115440970026491
+B,lagos,Aw,Nigeria,adr,-0.5,1,khd_no_physics,-0.004,-0.5042442121972732,-0.5,-0.0042442121972732
+B,lagos,Aw,Nigeria,adr,-0.5,1,pvusa,-0.004,-0.5011272891389751,-0.5,-0.001127289138975
+B,lagos,Aw,Nigeria,adr,-0.5,1,rdtools,-0.004,-0.4923042197664706,-0.5,0.0076957802335293
+B,lagos,Aw,Nigeria,adr,-0.5,1,rdtools_fitted_gamma,-0.0022869121643458,-0.5072334844801185,-0.5,-0.0072334844801185
+B,lagos,Aw,Nigeria,adr,-0.5,1,tcn,-0.004,-0.5184270243340505,-0.5,-0.0184270243340505
+B,lagos,Aw,Nigeria,adr,-0.5,1,xgboost,-0.004,-0.4791221108876603,-0.5,0.0208778891123396
+B,lagos,Aw,Nigeria,adr,-0.5,2,khd_full,-0.004,-0.5074522094294636,-0.5,-0.0074522094294635
+B,lagos,Aw,Nigeria,adr,-0.5,2,khd_no_correction,-0.004,-0.5010062207767498,-0.5,-0.0010062207767498
+B,lagos,Aw,Nigeria,adr,-0.5,2,khd_no_physics,-0.004,-0.5185797744964064,-0.5,-0.0185797744964063
+B,lagos,Aw,Nigeria,adr,-0.5,2,pvusa,-0.004,-0.5261705684397207,-0.5,-0.0261705684397206
+B,lagos,Aw,Nigeria,adr,-0.5,2,rdtools,-0.004,-0.4684642543178417,-0.5,0.0315357456821582
+B,lagos,Aw,Nigeria,adr,-0.5,2,rdtools_fitted_gamma,-0.0025132352699149,-0.4961258436702698,-0.5,0.0038741563297302
+B,lagos,Aw,Nigeria,adr,-0.5,2,tcn,-0.004,-0.4930057762334849,-0.5,0.006994223766515
+B,lagos,Aw,Nigeria,adr,-0.5,2,xgboost,-0.004,-0.5001133383167822,-0.5,-0.0001133383167821
+B,madrid,BSk,Spain,adr,-1.0,0,khd_full,-0.004,-1.010030587197568,-1.0,-0.0100305871975681
+B,madrid,BSk,Spain,adr,-1.0,0,khd_no_correction,-0.004,-0.9534608149440624,-1.0,0.0465391850559376
+B,madrid,BSk,Spain,adr,-1.0,0,khd_no_physics,-0.004,-1.009605494255042,-1.0,-0.0096054942550418
+B,madrid,BSk,Spain,adr,-1.0,0,pvusa,-0.004,-1.011161158252588,-1.0,-0.0111611582525881
+B,madrid,BSk,Spain,adr,-1.0,0,rdtools,-0.004,-0.9581601562805409,-1.0,0.0418398437194591
+B,madrid,BSk,Spain,adr,-1.0,0,rdtools_fitted_gamma,-0.0031200184632235,-0.9904134487636608,-1.0,0.0095865512363393
+B,madrid,BSk,Spain,adr,-1.0,0,tcn,-0.004,-1.0124650194075366,-1.0,-0.0124650194075366
+B,madrid,BSk,Spain,adr,-1.0,0,xgboost,-0.004,-0.9697897667407778,-1.0,0.0302102332592222
+B,madrid,BSk,Spain,adr,-1.0,1,khd_full,-0.004,-1.0007355243663032,-1.0,-0.0007355243663031
+B,madrid,BSk,Spain,adr,-1.0,1,khd_no_correction,-0.004,-0.9732111021706432,-1.0,0.0267888978293566
+B,madrid,BSk,Spain,adr,-1.0,1,khd_no_physics,-0.004,-1.0019374438300426,-1.0,-0.0019374438300425
+B,madrid,BSk,Spain,adr,-1.0,1,pvusa,-0.004,-1.013689316130845,-1.0,-0.0136893161308446
+B,madrid,BSk,Spain,adr,-1.0,1,rdtools,-0.004,-0.9486826629000948,-1.0,0.0513173370999051
+B,madrid,BSk,Spain,adr,-1.0,1,rdtools_fitted_gamma,-0.0031125826773317,-0.9884027710691524,-1.0,0.0115972289308476
+B,madrid,BSk,Spain,adr,-1.0,1,tcn,-0.004,-0.9721966916121094,-1.0,0.0278033083878905
+B,madrid,BSk,Spain,adr,-1.0,1,xgboost,-0.004,-0.9788505630179858,-1.0,0.0211494369820142
+B,madrid,BSk,Spain,adr,-1.0,2,khd_full,-0.004,-1.0097788262940322,-1.0,-0.0097788262940321
+B,madrid,BSk,Spain,adr,-1.0,2,khd_no_correction,-0.004,-0.976627066697006,-1.0,0.023372933302994
+B,madrid,BSk,Spain,adr,-1.0,2,khd_no_physics,-0.004,-0.9966383248891796,-1.0,0.0033616751108203
+B,madrid,BSk,Spain,adr,-1.0,2,pvusa,-0.004,-1.030859415042279,-1.0,-0.0308594150422789
+B,madrid,BSk,Spain,adr,-1.0,2,rdtools,-0.004,-0.954289366775116,-1.0,0.045710633224884
+B,madrid,BSk,Spain,adr,-1.0,2,rdtools_fitted_gamma,-0.0030972168418875,-0.9781054154444518,-1.0,0.0218945845555481
+B,madrid,BSk,Spain,adr,-1.0,2,tcn,-0.004,-1.007472507777657,-1.0,-0.0074725077776569
+B,madrid,BSk,Spain,adr,-1.0,2,xgboost,-0.004,-0.9860103174317816,-1.0,0.0139896825682185
+B,madrid,BSk,Spain,adr,-0.5,0,khd_full,-0.004,-0.5208354139887499,-0.5,-0.0208354139887498
+B,madrid,BSk,Spain,adr,-0.5,0,khd_no_correction,-0.004,-0.478727805217054,-0.5,0.0212721947829459
+B,madrid,BSk,Spain,adr,-0.5,0,khd_no_physics,-0.004,-0.5058449101334145,-0.5,-0.0058449101334144
+B,madrid,BSk,Spain,adr,-0.5,0,pvusa,-0.004,-0.510102578791203,-0.5,-0.010102578791203
+B,madrid,BSk,Spain,adr,-0.5,0,rdtools,-0.004,-0.4617768410940844,-0.5,0.0382231589059156
+B,madrid,BSk,Spain,adr,-0.5,0,rdtools_fitted_gamma,-0.0031022459104263,-0.496273558547248,-0.5,0.0037264414527519
+B,madrid,BSk,Spain,adr,-0.5,0,tcn,-0.004,-0.5108079957633728,-0.5,-0.0108079957633727
+B,madrid,BSk,Spain,adr,-0.5,0,xgboost,-0.004,-0.4817032060534798,-0.5,0.0182967939465201
+B,madrid,BSk,Spain,adr,-0.5,1,khd_full,-0.004,-0.4951280372376698,-0.5,0.0048719627623302
+B,madrid,BSk,Spain,adr,-0.5,1,khd_no_correction,-0.004,-0.4773254926918934,-0.5,0.0226745073081066
+B,madrid,BSk,Spain,adr,-0.5,1,khd_no_physics,-0.004,-0.4908555126387127,-0.5,0.0091444873612872
+B,madrid,BSk,Spain,adr,-0.5,1,pvusa,-0.004,-0.5075578999662077,-0.5,-0.0075578999662077
+B,madrid,BSk,Spain,adr,-0.5,1,rdtools,-0.004,-0.4489517520651742,-0.5,0.0510482479348257
+B,madrid,BSk,Spain,adr,-0.5,1,rdtools_fitted_gamma,-0.0030947503752959,-0.4808264523215588,-0.5,0.0191735476784411
+B,madrid,BSk,Spain,adr,-0.5,1,tcn,-0.004,-0.4895096707856095,-0.5,0.0104903292143905
+B,madrid,BSk,Spain,adr,-0.5,1,xgboost,-0.004,-0.4823778037507997,-0.5,0.0176221962492002
+B,madrid,BSk,Spain,adr,-0.5,2,khd_full,-0.004,-0.5132990976521045,-0.5,-0.0132990976521044
+B,madrid,BSk,Spain,adr,-0.5,2,khd_no_correction,-0.004,-0.4728048866875033,-0.5,0.0271951133124966
+B,madrid,BSk,Spain,adr,-0.5,2,khd_no_physics,-0.004,-0.5134157231574151,-0.5,-0.0134157231574151
+B,madrid,BSk,Spain,adr,-0.5,2,pvusa,-0.004,-0.528007594791913,-0.5,-0.0280075947919129
+B,madrid,BSk,Spain,adr,-0.5,2,rdtools,-0.004,-0.4777650892983653,-0.5,0.0222349107016346
+B,madrid,BSk,Spain,adr,-0.5,2,rdtools_fitted_gamma,-0.0030793888951367,-0.4846910139380322,-0.5,0.0153089860619677
+B,madrid,BSk,Spain,adr,-0.5,2,tcn,-0.004,-0.5263195468158344,-0.5,-0.0263195468158343
+B,madrid,BSk,Spain,adr,-0.5,2,xgboost,-0.004,-0.5065027834981695,-0.5,-0.0065027834981694
+B,marrakech,BSh,Morocco,adr,-1.0,0,khd_full,-0.004,-1.007151225286646,-1.0,-0.0071512252866459
+B,marrakech,BSh,Morocco,adr,-1.0,0,khd_no_correction,-0.004,-0.941516330775721,-1.0,0.0584836692242789
+B,marrakech,BSh,Morocco,adr,-1.0,0,khd_no_physics,-0.004,-1.00168744280745,-1.0,-0.00168744280745
+B,marrakech,BSh,Morocco,adr,-1.0,0,pvusa,-0.004,-1.0163478812258622,-1.0,-0.0163478812258621
+B,marrakech,BSh,Morocco,adr,-1.0,0,rdtools,-0.004,-0.9624034246304758,-1.0,0.0375965753695242
+B,marrakech,BSh,Morocco,adr,-1.0,0,rdtools_fitted_gamma,-0.0031103235689992,-0.9888702725247778,-1.0,0.0111297274752222
+B,marrakech,BSh,Morocco,adr,-1.0,0,tcn,-0.004,-0.9860124171269468,-1.0,0.0139875828730531
+B,marrakech,BSh,Morocco,adr,-1.0,0,xgboost,-0.004,-0.9931800300964856,-1.0,0.0068199699035145
+B,marrakech,BSh,Morocco,adr,-1.0,1,khd_full,-0.004,-0.9989352241368604,-1.0,0.0010647758631395
+B,marrakech,BSh,Morocco,adr,-1.0,1,khd_no_correction,-0.004,-0.9571425760964852,-1.0,0.0428574239035148
+B,marrakech,BSh,Morocco,adr,-1.0,1,khd_no_physics,-0.004,-1.0061072744223836,-1.0,-0.0061072744223835
+B,marrakech,BSh,Morocco,adr,-1.0,1,pvusa,-0.004,-1.0049585151817468,-1.0,-0.0049585151817468
+B,marrakech,BSh,Morocco,adr,-1.0,1,rdtools,-0.004,-0.9861739836069638,-1.0,0.0138260163930361
+B,marrakech,BSh,Morocco,adr,-1.0,1,rdtools_fitted_gamma,-0.0030828381365696,-0.9737414673821164,-1.0,0.0262585326178834
+B,marrakech,BSh,Morocco,adr,-1.0,1,tcn,-0.004,-0.9873932031026866,-1.0,0.0126067968973133
+B,marrakech,BSh,Morocco,adr,-1.0,1,xgboost,-0.004,-0.9715498806255634,-1.0,0.0284501193744366
+B,marrakech,BSh,Morocco,adr,-1.0,2,khd_full,-0.004,-0.997104761716208,-1.0,0.0028952382837921
+B,marrakech,BSh,Morocco,adr,-1.0,2,khd_no_correction,-0.004,-0.9561386833258708,-1.0,0.0438613166741292
+B,marrakech,BSh,Morocco,adr,-1.0,2,khd_no_physics,-0.004,-1.0035367187400115,-1.0,-0.0035367187400117
+B,marrakech,BSh,Morocco,adr,-1.0,2,pvusa,-0.004,-1.0140175557800657,-1.0,-0.0140175557800654
+B,marrakech,BSh,Morocco,adr,-1.0,2,rdtools,-0.004,-0.9551811799532336,-1.0,0.0448188200467664
+B,marrakech,BSh,Morocco,adr,-1.0,2,rdtools_fitted_gamma,-0.0030955478576826,-1.0032518659775835,-1.0,-0.0032518659775835
+B,marrakech,BSh,Morocco,adr,-1.0,2,tcn,-0.004,-1.0075234388862588,-1.0,-0.0075234388862588
+B,marrakech,BSh,Morocco,adr,-1.0,2,xgboost,-0.004,-0.9823001329202624,-1.0,0.0176998670797374
+B,marrakech,BSh,Morocco,adr,-0.5,0,khd_full,-0.004,-0.5056216420848829,-0.5,-0.0056216420848829
+B,marrakech,BSh,Morocco,adr,-0.5,0,khd_no_correction,-0.004,-0.4740255351330696,-0.5,0.0259744648669303
+B,marrakech,BSh,Morocco,adr,-0.5,0,khd_no_physics,-0.004,-0.4990460208861222,-0.5,0.0009539791138777
+B,marrakech,BSh,Morocco,adr,-0.5,0,pvusa,-0.004,-0.518339365759235,-0.5,-0.018339365759235
+B,marrakech,BSh,Morocco,adr,-0.5,0,rdtools,-0.004,-0.4691145278742576,-0.5,0.0308854721257423
+B,marrakech,BSh,Morocco,adr,-0.5,0,rdtools_fitted_gamma,-0.0030753117474258,-0.494377965613213,-0.5,0.0056220343867869
+B,marrakech,BSh,Morocco,adr,-0.5,0,tcn,-0.004,-0.5227828844645865,-0.5,-0.0227828844645865
+B,marrakech,BSh,Morocco,adr,-0.5,0,xgboost,-0.004,-0.4991537163395675,-0.5,0.0008462836604324
+B,marrakech,BSh,Morocco,adr,-0.5,1,khd_full,-0.004,-0.4983859515939047,-0.5,0.0016140484060952
+B,marrakech,BSh,Morocco,adr,-0.5,1,khd_no_correction,-0.004,-0.4515911746031641,-0.5,0.0484088253968358
+B,marrakech,BSh,Morocco,adr,-0.5,1,khd_no_physics,-0.004,-0.4887025224608916,-0.5,0.0112974775391083
+B,marrakech,BSh,Morocco,adr,-0.5,1,pvusa,-0.004,-0.4994542810139002,-0.5,0.0005457189860997
+B,marrakech,BSh,Morocco,adr,-0.5,1,rdtools,-0.004,-0.4816402989064605,-0.5,0.0183597010935394
+B,marrakech,BSh,Morocco,adr,-0.5,1,rdtools_fitted_gamma,-0.0030477417111599,-0.4739379195149897,-0.5,0.0260620804850102
+B,marrakech,BSh,Morocco,adr,-0.5,1,tcn,-0.004,-0.4866320521202172,-0.5,0.0133679478797827
+B,marrakech,BSh,Morocco,adr,-0.5,1,xgboost,-0.004,-0.4849318722292969,-0.5,0.0150681277707031
+B,marrakech,BSh,Morocco,adr,-0.5,2,khd_full,-0.004,-0.49791166075206,-0.5,0.0020883392479399
+B,marrakech,BSh,Morocco,adr,-0.5,2,khd_no_correction,-0.004,-0.4454220655017296,-0.5,0.0545779344982704
+B,marrakech,BSh,Morocco,adr,-0.5,2,khd_no_physics,-0.004,-0.4916422779596485,-0.5,0.0083577220403514
+B,marrakech,BSh,Morocco,adr,-0.5,2,pvusa,-0.004,-0.512432760439202,-0.5,-0.012432760439202
+B,marrakech,BSh,Morocco,adr,-0.5,2,rdtools,-0.004,-0.4635092340355983,-0.5,0.0364907659644017
+B,marrakech,BSh,Morocco,adr,-0.5,2,rdtools_fitted_gamma,-0.0030604552445247,-0.4952508771497443,-0.5,0.0047491228502556
+B,marrakech,BSh,Morocco,adr,-0.5,2,tcn,-0.004,-0.5052136805507608,-0.5,-0.0052136805507607
+B,marrakech,BSh,Morocco,adr,-0.5,2,xgboost,-0.004,-0.4877422770184159,-0.5,0.0122577229815841
+B,nairobi,Aw,Kenya,adr,-1.0,0,khd_full,-0.004,-1.0095306860302735,-1.0,-0.0095306860302735
+B,nairobi,Aw,Kenya,adr,-1.0,0,khd_no_correction,-0.004,-1.0108307231109266,-1.0,-0.0108307231109265
+B,nairobi,Aw,Kenya,adr,-1.0,0,khd_no_physics,-0.004,-1.012013224823435,-1.0,-0.012013224823435
+B,nairobi,Aw,Kenya,adr,-1.0,0,pvusa,-0.004,-1.0155074399631778,-1.0,-0.0155074399631778
+B,nairobi,Aw,Kenya,adr,-1.0,0,rdtools,-0.004,-1.0305788464676668,-1.0,-0.0305788464676668
+B,nairobi,Aw,Kenya,adr,-1.0,0,rdtools_fitted_gamma,-0.0026103709241143,-1.0145990365215796,-1.0,-0.0145990365215795
+B,nairobi,Aw,Kenya,adr,-1.0,0,tcn,-0.004,-0.9795830154603667,-1.0,0.0204169845396331
+B,nairobi,Aw,Kenya,adr,-1.0,0,xgboost,-0.004,-0.9816796120294886,-1.0,0.0183203879705113
+B,nairobi,Aw,Kenya,adr,-1.0,1,khd_full,-0.004,-0.9905664227211364,-1.0,0.0094335772788637
+B,nairobi,Aw,Kenya,adr,-1.0,1,khd_no_correction,-0.004,-0.9900713822212032,-1.0,0.0099286177787967
+B,nairobi,Aw,Kenya,adr,-1.0,1,khd_no_physics,-0.004,-0.9888328352486137,-1.0,0.0111671647513864
+B,nairobi,Aw,Kenya,adr,-1.0,1,pvusa,-0.004,-1.0210126479971715,-1.0,-0.0210126479971715
+B,nairobi,Aw,Kenya,adr,-1.0,1,rdtools,-0.004,-1.0069088142228733,-1.0,-0.0069088142228732
+B,nairobi,Aw,Kenya,adr,-1.0,1,rdtools_fitted_gamma,-0.002546041902054,-1.0054751543521645,-1.0,-0.0054751543521645
+B,nairobi,Aw,Kenya,adr,-1.0,1,tcn,-0.004,-0.9833676466248108,-1.0,0.016632353375189
+B,nairobi,Aw,Kenya,adr,-1.0,1,xgboost,-0.004,-0.9664162096378603,-1.0,0.0335837903621396
+B,nairobi,Aw,Kenya,adr,-1.0,2,khd_full,-0.004,-1.0004422549620664,-1.0,-0.0004422549620664
+B,nairobi,Aw,Kenya,adr,-1.0,2,khd_no_correction,-0.004,-1.0002218859619252,-1.0,-0.0002218859619251
+B,nairobi,Aw,Kenya,adr,-1.0,2,khd_no_physics,-0.004,-0.9926724027317104,-1.0,0.0073275972682895
+B,nairobi,Aw,Kenya,adr,-1.0,2,pvusa,-0.004,-1.0161033757571436,-1.0,-0.0161033757571436
+B,nairobi,Aw,Kenya,adr,-1.0,2,rdtools,-0.004,-1.0218993282296809,-1.0,-0.0218993282296806
+B,nairobi,Aw,Kenya,adr,-1.0,2,rdtools_fitted_gamma,-0.002652192646877,-1.0076126965591348,-1.0,-0.0076126965591347
+B,nairobi,Aw,Kenya,adr,-1.0,2,tcn,-0.004,-1.0023531596548076,-1.0,-0.0023531596548076
+B,nairobi,Aw,Kenya,adr,-1.0,2,xgboost,-0.004,-0.9889685559856024,-1.0,0.0110314440143975
+B,nairobi,Aw,Kenya,adr,-0.5,0,khd_full,-0.004,-0.5231011430535858,-0.5,-0.0231011430535857
+B,nairobi,Aw,Kenya,adr,-0.5,0,khd_no_correction,-0.004,-0.5220134690808484,-0.5,-0.0220134690808484
+B,nairobi,Aw,Kenya,adr,-0.5,0,khd_no_physics,-0.004,-0.5135692344439787,-0.5,-0.0135692344439787
+B,nairobi,Aw,Kenya,adr,-0.5,0,pvusa,-0.004,-0.5080358406095545,-0.5,-0.0080358406095545
+B,nairobi,Aw,Kenya,adr,-0.5,0,rdtools,-0.004,-0.5378383162321976,-0.5,-0.0378383162321975
+B,nairobi,Aw,Kenya,adr,-0.5,0,rdtools_fitted_gamma,-0.0026766921124648,-0.5165087594153239,-0.5,-0.0165087594153239
+B,nairobi,Aw,Kenya,adr,-0.5,0,tcn,-0.004,-0.5248096015351086,-0.5,-0.0248096015351085
+B,nairobi,Aw,Kenya,adr,-0.5,0,xgboost,-0.004,-0.489479569612683,-0.5,0.0105204303873169
+B,nairobi,Aw,Kenya,adr,-0.5,1,khd_full,-0.004,-0.4927867385533759,-0.5,0.007213261446624
+B,nairobi,Aw,Kenya,adr,-0.5,1,khd_no_correction,-0.004,-0.481342776697849,-0.5,0.018657223302151
+B,nairobi,Aw,Kenya,adr,-0.5,1,khd_no_physics,-0.004,-0.5040878262769493,-0.5,-0.0040878262769492
+B,nairobi,Aw,Kenya,adr,-0.5,1,pvusa,-0.004,-0.5104114145664391,-0.5,-0.0104114145664391
+B,nairobi,Aw,Kenya,adr,-0.5,1,rdtools,-0.004,-0.5091611301290211,-0.5,-0.009161130129021
+B,nairobi,Aw,Kenya,adr,-0.5,1,rdtools_fitted_gamma,-0.0026125931621395,-0.5100668245373252,-0.5,-0.0100668245373252
+B,nairobi,Aw,Kenya,adr,-0.5,1,tcn,-0.004,-0.4952867381018729,-0.5,0.004713261898127
+B,nairobi,Aw,Kenya,adr,-0.5,1,xgboost,-0.004,-0.4768393683888316,-0.5,0.0231606316111683
+B,nairobi,Aw,Kenya,adr,-0.5,2,khd_full,-0.004,-0.4994453677651963,-0.5,0.0005546322348036
+B,nairobi,Aw,Kenya,adr,-0.5,2,khd_no_correction,-0.004,-0.5104127109039026,-0.5,-0.0104127109039026
+B,nairobi,Aw,Kenya,adr,-0.5,2,khd_no_physics,-0.004,-0.503593953766054,-0.5,-0.0035939537660539
+B,nairobi,Aw,Kenya,adr,-0.5,2,pvusa,-0.004,-0.5102315684461955,-0.5,-0.0102315684461955
+B,nairobi,Aw,Kenya,adr,-0.5,2,rdtools,-0.004,-0.5146983690787588,-0.5,-0.0146983690787587
+B,nairobi,Aw,Kenya,adr,-0.5,2,rdtools_fitted_gamma,-0.0027185345586395,-0.5070370847229055,-0.5,-0.0070370847229055
+B,nairobi,Aw,Kenya,adr,-0.5,2,tcn,-0.004,-0.5005704632448316,-0.5,-0.0005704632448315
+B,nairobi,Aw,Kenya,adr,-0.5,2,xgboost,-0.004,-0.4900181346710719,-0.5,0.009981865328928
+B,sao_paulo,Cfa,Brazil,adr,-1.0,0,khd_full,-0.004,-1.0068113392330431,-1.0,-0.0068113392330431
+B,sao_paulo,Cfa,Brazil,adr,-1.0,0,khd_no_correction,-0.004,-0.9734098033225212,-1.0,0.0265901966774787
+B,sao_paulo,Cfa,Brazil,adr,-1.0,0,khd_no_physics,-0.004,-0.9920113738179804,-1.0,0.0079886261820196
+B,sao_paulo,Cfa,Brazil,adr,-1.0,0,pvusa,-0.004,-1.0218385809661044,-1.0,-0.0218385809661043
+B,sao_paulo,Cfa,Brazil,adr,-1.0,0,rdtools,-0.004,-0.9620387484543635,-1.0,0.0379612515456364
+B,sao_paulo,Cfa,Brazil,adr,-1.0,0,rdtools_fitted_gamma,-0.0028342957830117,-0.9699559050060756,-1.0,0.0300440949939243
+B,sao_paulo,Cfa,Brazil,adr,-1.0,0,tcn,-0.004,-0.9870739327349852,-1.0,0.0129260672650148
+B,sao_paulo,Cfa,Brazil,adr,-1.0,0,xgboost,-0.004,-0.9558279454523312,-1.0,0.0441720545476689
+B,sao_paulo,Cfa,Brazil,adr,-1.0,1,khd_full,-0.004,-1.0047810616787691,-1.0,-0.0047810616787691
+B,sao_paulo,Cfa,Brazil,adr,-1.0,1,khd_no_correction,-0.004,-0.9507654946535694,-1.0,0.0492345053464305
+B,sao_paulo,Cfa,Brazil,adr,-1.0,1,khd_no_physics,-0.004,-0.9953105739662496,-1.0,0.0046894260337503
+B,sao_paulo,Cfa,Brazil,adr,-1.0,1,pvusa,-0.004,-1.0123793998882666,-1.0,-0.0123793998882666
+B,sao_paulo,Cfa,Brazil,adr,-1.0,1,rdtools,-0.004,-0.9991374882729608,-1.0,0.0008625117270391
+B,sao_paulo,Cfa,Brazil,adr,-1.0,1,rdtools_fitted_gamma,-0.0027362435364138,-0.9767636443739116,-1.0,0.0232363556260885
+B,sao_paulo,Cfa,Brazil,adr,-1.0,1,tcn,-0.004,-0.9840156287134084,-1.0,0.0159843712865916
+B,sao_paulo,Cfa,Brazil,adr,-1.0,1,xgboost,-0.004,-0.951849674810156,-1.0,0.048150325189844
+B,sao_paulo,Cfa,Brazil,adr,-1.0,2,khd_full,-0.004,-1.0039813518978566,-1.0,-0.0039813518978566
+B,sao_paulo,Cfa,Brazil,adr,-1.0,2,khd_no_correction,-0.004,-1.000465771922288,-1.0,-0.000465771922288
+B,sao_paulo,Cfa,Brazil,adr,-1.0,2,khd_no_physics,-0.004,-1.009431359548817,-1.0,-0.0094313595488169
+B,sao_paulo,Cfa,Brazil,adr,-1.0,2,pvusa,-0.004,-1.0108979614388205,-1.0,-0.0108979614388204
+B,sao_paulo,Cfa,Brazil,adr,-1.0,2,rdtools,-0.004,-0.9746324049953348,-1.0,0.0253675950046652
+B,sao_paulo,Cfa,Brazil,adr,-1.0,2,rdtools_fitted_gamma,-0.0028074869041352,-0.986875326384462,-1.0,0.0131246736155379
+B,sao_paulo,Cfa,Brazil,adr,-1.0,2,tcn,-0.004,-0.997937853622688,-1.0,0.002062146377312
+B,sao_paulo,Cfa,Brazil,adr,-1.0,2,xgboost,-0.004,-0.9583537016978394,-1.0,0.0416462983021606
+B,sao_paulo,Cfa,Brazil,adr,-0.5,0,khd_full,-0.004,-0.5054029781703465,-0.5,-0.0054029781703465
+B,sao_paulo,Cfa,Brazil,adr,-0.5,0,khd_no_correction,-0.004,-0.4954660129819344,-0.5,0.0045339870180655
+B,sao_paulo,Cfa,Brazil,adr,-0.5,0,khd_no_physics,-0.004,-0.4930211475385009,-0.5,0.006978852461499
+B,sao_paulo,Cfa,Brazil,adr,-0.5,0,pvusa,-0.004,-0.5283071392417843,-0.5,-0.0283071392417842
+B,sao_paulo,Cfa,Brazil,adr,-0.5,0,rdtools,-0.004,-0.4780337093224229,-0.5,0.021966290677577
+B,sao_paulo,Cfa,Brazil,adr,-0.5,0,rdtools_fitted_gamma,-0.0028316179635963,-0.4758183576615039,-0.5,0.024181642338496
+B,sao_paulo,Cfa,Brazil,adr,-0.5,0,tcn,-0.004,-0.5033651284213463,-0.5,-0.0033651284213462
+B,sao_paulo,Cfa,Brazil,adr,-0.5,0,xgboost,-0.004,-0.4696460498492982,-0.5,0.0303539501507017
+B,sao_paulo,Cfa,Brazil,adr,-0.5,1,khd_full,-0.004,-0.4978040388259664,-0.5,0.0021959611740335
+B,sao_paulo,Cfa,Brazil,adr,-0.5,1,khd_no_correction,-0.004,-0.514601000812991,-0.5,-0.0146010008129909
+B,sao_paulo,Cfa,Brazil,adr,-0.5,1,khd_no_physics,-0.004,-0.493796636185448,-0.5,0.0062033638145519
+B,sao_paulo,Cfa,Brazil,adr,-0.5,1,pvusa,-0.004,-0.5121059124112549,-0.5,-0.0121059124112549
+B,sao_paulo,Cfa,Brazil,adr,-0.5,1,rdtools,-0.004,-0.5067496819633833,-0.5,-0.0067496819633833
+B,sao_paulo,Cfa,Brazil,adr,-0.5,1,rdtools_fitted_gamma,-0.0027335648535982,-0.4760537771554314,-0.5,0.0239462228445685
+B,sao_paulo,Cfa,Brazil,adr,-0.5,1,tcn,-0.004,-0.5023145804027407,-0.5,-0.0023145804027406
+B,sao_paulo,Cfa,Brazil,adr,-0.5,1,xgboost,-0.004,-0.4745432636581115,-0.5,0.0254567363418884
+B,sao_paulo,Cfa,Brazil,adr,-0.5,2,khd_full,-0.004,-0.4982454238963167,-0.5,0.0017545761036832
+B,sao_paulo,Cfa,Brazil,adr,-0.5,2,khd_no_correction,-0.004,-0.4932532050005204,-0.5,0.0067467949994796
+B,sao_paulo,Cfa,Brazil,adr,-0.5,2,khd_no_physics,-0.004,-0.4892645660107703,-0.5,0.0107354339892297
+B,sao_paulo,Cfa,Brazil,adr,-0.5,2,pvusa,-0.004,-0.4970901464171459,-0.5,0.002909853582854
+B,sao_paulo,Cfa,Brazil,adr,-0.5,2,rdtools,-0.004,-0.4926986289384982,-0.5,0.0073013710615018
+B,sao_paulo,Cfa,Brazil,adr,-0.5,2,rdtools_fitted_gamma,-0.0028048027617023,-0.4848139005575791,-0.5,0.0151860994424208
+B,sao_paulo,Cfa,Brazil,adr,-0.5,2,tcn,-0.004,-0.468766185069963,-0.5,0.031233814930037
+B,sao_paulo,Cfa,Brazil,adr,-0.5,2,xgboost,-0.004,-0.4632491455349202,-0.5,0.0367508544650798
+B,singapore,Af,Singapore,adr,-1.0,0,khd_full,-0.004,-0.9977350304100722,-1.0,0.0022649695899278
+B,singapore,Af,Singapore,adr,-1.0,0,khd_no_correction,-0.004,-0.9858954572376823,-1.0,0.0141045427623175
+B,singapore,Af,Singapore,adr,-1.0,0,khd_no_physics,-0.004,-1.0001649844805625,-1.0,-0.0001649844805624
+B,singapore,Af,Singapore,adr,-1.0,0,pvusa,-0.004,-1.0181141822004802,-1.0,-0.0181141822004802
+B,singapore,Af,Singapore,adr,-1.0,0,rdtools,-0.004,-1.021383733541346,-1.0,-0.021383733541346
+B,singapore,Af,Singapore,adr,-1.0,0,rdtools_fitted_gamma,-0.002291718457643,-1.0093455792515194,-1.0,-0.0093455792515193
+B,singapore,Af,Singapore,adr,-1.0,0,tcn,-0.004,-1.005931172139363,-1.0,-0.0059311721393626
+B,singapore,Af,Singapore,adr,-1.0,0,xgboost,-0.004,-0.9799043379873325,-1.0,0.0200956620126676
+B,singapore,Af,Singapore,adr,-1.0,1,khd_full,-0.004,-0.9993459983345634,-1.0,0.0006540016654366
+B,singapore,Af,Singapore,adr,-1.0,1,khd_no_correction,-0.004,-0.9844821833998608,-1.0,0.015517816600139
+B,singapore,Af,Singapore,adr,-1.0,1,khd_no_physics,-0.004,-1.007365163301711,-1.0,-0.0073651633017111
+B,singapore,Af,Singapore,adr,-1.0,1,pvusa,-0.004,-1.024317284097298,-1.0,-0.024317284097298
+B,singapore,Af,Singapore,adr,-1.0,1,rdtools,-0.004,-1.0309252204725616,-1.0,-0.0309252204725616
+B,singapore,Af,Singapore,adr,-1.0,1,rdtools_fitted_gamma,-0.0022776322186829,-1.0197597480468894,-1.0,-0.0197597480468894
+B,singapore,Af,Singapore,adr,-1.0,1,tcn,-0.004,-0.9964508713109388,-1.0,0.0035491286890612
+B,singapore,Af,Singapore,adr,-1.0,1,xgboost,-0.004,-0.9739582016697556,-1.0,0.0260417983302443
+B,singapore,Af,Singapore,adr,-1.0,2,khd_full,-0.004,-0.9885818237241858,-1.0,0.0114181762758142
+B,singapore,Af,Singapore,adr,-1.0,2,khd_no_correction,-0.004,-1.0037751247801645,-1.0,-0.0037751247801642
+B,singapore,Af,Singapore,adr,-1.0,2,khd_no_physics,-0.004,-0.9968823286657976,-1.0,0.0031176713342024
+B,singapore,Af,Singapore,adr,-1.0,2,pvusa,-0.004,-1.0146398818815738,-1.0,-0.0146398818815738
+B,singapore,Af,Singapore,adr,-1.0,2,rdtools,-0.004,-1.0063800034069024,-1.0,-0.0063800034069023
+B,singapore,Af,Singapore,adr,-1.0,2,rdtools_fitted_gamma,-0.0023697600918588,-1.0098872897869478,-1.0,-0.0098872897869477
+B,singapore,Af,Singapore,adr,-1.0,2,tcn,-0.004,-0.982809280599337,-1.0,0.0171907194006629
+B,singapore,Af,Singapore,adr,-1.0,2,xgboost,-0.004,-0.9777408262787056,-1.0,0.0222591737212942
+B,singapore,Af,Singapore,adr,-0.5,0,khd_full,-0.004,-0.5012080638879826,-0.5,-0.0012080638879825
+B,singapore,Af,Singapore,adr,-0.5,0,khd_no_correction,-0.004,-0.5024032863247382,-0.5,-0.0024032863247381
+B,singapore,Af,Singapore,adr,-0.5,0,khd_no_physics,-0.004,-0.4976625180987474,-0.5,0.0023374819012525
+B,singapore,Af,Singapore,adr,-0.5,0,pvusa,-0.004,-0.5288547902186136,-0.5,-0.0288547902186135
+B,singapore,Af,Singapore,adr,-0.5,0,rdtools,-0.004,-0.5225665247192257,-0.5,-0.0225665247192257
+B,singapore,Af,Singapore,adr,-0.5,0,rdtools_fitted_gamma,-0.0022952519898158,-0.5128119194168013,-0.5,-0.0128119194168012
+B,singapore,Af,Singapore,adr,-0.5,0,tcn,-0.004,-0.5062003296901874,-0.5,-0.0062003296901873
+B,singapore,Af,Singapore,adr,-0.5,0,xgboost,-0.004,-0.4821490320275789,-0.5,0.017850967972421
+B,singapore,Af,Singapore,adr,-0.5,1,khd_full,-0.004,-0.5002128140031747,-0.5,-0.0002128140031747
+B,singapore,Af,Singapore,adr,-0.5,1,khd_no_correction,-0.004,-0.5171932268253827,-0.5,-0.0171932268253827
+B,singapore,Af,Singapore,adr,-0.5,1,khd_no_physics,-0.004,-0.4988913536458733,-0.5,0.0011086463541266
+B,singapore,Af,Singapore,adr,-0.5,1,pvusa,-0.004,-0.5096874986173949,-0.5,-0.0096874986173949
+B,singapore,Af,Singapore,adr,-0.5,1,rdtools,-0.004,-0.5430744145185713,-0.5,-0.0430744145185713
+B,singapore,Af,Singapore,adr,-0.5,1,rdtools_fitted_gamma,-0.0022813976033419,-0.5192623389959974,-0.5,-0.0192623389959973
+B,singapore,Af,Singapore,adr,-0.5,1,tcn,-0.004,-0.517400804022816,-0.5,-0.0174008040228159
+B,singapore,Af,Singapore,adr,-0.5,1,xgboost,-0.004,-0.4924126041030985,-0.5,0.0075873958969014
+B,singapore,Af,Singapore,adr,-0.5,2,khd_full,-0.004,-0.5020047253578656,-0.5,-0.0020047253578655
+B,singapore,Af,Singapore,adr,-0.5,2,khd_no_correction,-0.004,-0.4857498637442238,-0.5,0.0142501362557762
+B,singapore,Af,Singapore,adr,-0.5,2,khd_no_physics,-0.004,-0.5070694907785482,-0.5,-0.0070694907785482
+B,singapore,Af,Singapore,adr,-0.5,2,pvusa,-0.004,-0.501214313634557,-0.5,-0.001214313634557
+B,singapore,Af,Singapore,adr,-0.5,2,rdtools,-0.004,-0.5318793056062143,-0.5,-0.0318793056062143
+B,singapore,Af,Singapore,adr,-0.5,2,rdtools_fitted_gamma,-0.0023736412276071,-0.511639462610641,-0.5,-0.0116394626106409
+B,singapore,Af,Singapore,adr,-0.5,2,tcn,-0.004,-0.486124153962306,-0.5,0.0138758460376939
+B,singapore,Af,Singapore,adr,-0.5,2,xgboost,-0.004,-0.4955141871494817,-0.5,0.0044858128505183
+B,sodankyla,Dfc,Finland,adr,-1.0,0,khd_full,-0.004,-0.9966815662809536,-1.0,0.0033184337190464
+B,sodankyla,Dfc,Finland,adr,-1.0,0,khd_no_correction,-0.004,-0.9195319231464206,-1.0,0.0804680768535793
+B,sodankyla,Dfc,Finland,adr,-1.0,0,khd_no_physics,-0.004,-0.9983029046227296,-1.0,0.0016970953772704
+B,sodankyla,Dfc,Finland,adr,-1.0,0,pvusa,-0.004,-1.0060076181848947,-1.0,-0.0060076181848947
+B,sodankyla,Dfc,Finland,adr,-1.0,0,rdtools,-0.004,-0.8558697784159321,-1.0,0.1441302215840678
+B,sodankyla,Dfc,Finland,adr,-1.0,0,rdtools_fitted_gamma,-0.0031930727798949,-0.8568196182369148,-1.0,0.1431803817630852
+B,sodankyla,Dfc,Finland,adr,-1.0,0,tcn,-0.004,-0.9835420461873468,-1.0,0.0164579538126532
+B,sodankyla,Dfc,Finland,adr,-1.0,0,xgboost,-0.004,-0.9408125430054092,-1.0,0.0591874569945907
+B,sodankyla,Dfc,Finland,adr,-1.0,1,khd_full,-0.004,-1.0060100375850272,-1.0,-0.0060100375850271
+B,sodankyla,Dfc,Finland,adr,-1.0,1,khd_no_correction,-0.004,-0.929945279893504,-1.0,0.070054720106496
+B,sodankyla,Dfc,Finland,adr,-1.0,1,khd_no_physics,-0.004,-1.00315893327042,-1.0,-0.00315893327042
+B,sodankyla,Dfc,Finland,adr,-1.0,1,pvusa,-0.004,-0.9727190880924552,-1.0,0.0272809119075447
+B,sodankyla,Dfc,Finland,adr,-1.0,1,rdtools,-0.004,-0.8133486511339585,-1.0,0.1866513488660415
+B,sodankyla,Dfc,Finland,adr,-1.0,1,rdtools_fitted_gamma,-0.0031302536919991,-0.899940796505369,-1.0,0.100059203494631
+B,sodankyla,Dfc,Finland,adr,-1.0,1,tcn,-0.004,-0.9429852128239102,-1.0,0.0570147871760897
+B,sodankyla,Dfc,Finland,adr,-1.0,1,xgboost,-0.004,-0.9325405555106636,-1.0,0.0674594444893363
+B,sodankyla,Dfc,Finland,adr,-1.0,2,khd_full,-0.004,-1.0023698743079217,-1.0,-0.0023698743079216
+B,sodankyla,Dfc,Finland,adr,-1.0,2,khd_no_correction,-0.004,-0.942687072623565,-1.0,0.057312927376435
+B,sodankyla,Dfc,Finland,adr,-1.0,2,khd_no_physics,-0.004,-1.0028599066143162,-1.0,-0.0028599066143162
+B,sodankyla,Dfc,Finland,adr,-1.0,2,pvusa,-0.004,-1.0198586701436752,-1.0,-0.0198586701436751
+B,sodankyla,Dfc,Finland,adr,-1.0,2,rdtools,-0.004,-0.838767922752881,-1.0,0.1612320772471189
+B,sodankyla,Dfc,Finland,adr,-1.0,2,rdtools_fitted_gamma,-0.0030887255642723,-0.8935086393183189,-1.0,0.106491360681681
+B,sodankyla,Dfc,Finland,adr,-1.0,2,tcn,-0.004,-0.9907960075862468,-1.0,0.0092039924137531
+B,sodankyla,Dfc,Finland,adr,-1.0,2,xgboost,-0.004,-0.9303451433753644,-1.0,0.0696548566246356
+B,sodankyla,Dfc,Finland,adr,-0.5,0,khd_full,-0.004,-0.4938660750507613,-0.5,0.0061339249492387
+B,sodankyla,Dfc,Finland,adr,-0.5,0,khd_no_correction,-0.004,-0.4078121908059476,-0.5,0.0921878091940524
+B,sodankyla,Dfc,Finland,adr,-0.5,0,khd_no_physics,-0.004,-0.4920806544038283,-0.5,0.0079193455961716
+B,sodankyla,Dfc,Finland,adr,-0.5,0,pvusa,-0.004,-0.4955091820791457,-0.5,0.0044908179208542
+B,sodankyla,Dfc,Finland,adr,-0.5,0,rdtools,-0.004,-0.3548174867522902,-0.5,0.1451825132477098
+B,sodankyla,Dfc,Finland,adr,-0.5,0,rdtools_fitted_gamma,-0.0031317686172373,-0.3563829641420126,-0.5,0.1436170358579873
+B,sodankyla,Dfc,Finland,adr,-0.5,0,tcn,-0.004,-0.486484010759225,-0.5,0.013515989240775
+B,sodankyla,Dfc,Finland,adr,-0.5,0,xgboost,-0.004,-0.4559494021172394,-0.5,0.0440505978827605
+B,sodankyla,Dfc,Finland,adr,-0.5,1,khd_full,-0.004,-0.4963896652831704,-0.5,0.0036103347168295
+B,sodankyla,Dfc,Finland,adr,-0.5,1,khd_no_correction,-0.004,-0.4356865065443118,-0.5,0.0643134934556881
+B,sodankyla,Dfc,Finland,adr,-0.5,1,khd_no_physics,-0.004,-0.5003605288285471,-0.5,-0.000360528828547
+B,sodankyla,Dfc,Finland,adr,-0.5,1,pvusa,-0.004,-0.4660303812243232,-0.5,0.0339696187756767
+B,sodankyla,Dfc,Finland,adr,-0.5,1,rdtools,-0.004,-0.330746788965941,-0.5,0.169253211034059
+B,sodankyla,Dfc,Finland,adr,-0.5,1,rdtools_fitted_gamma,-0.0030689281196271,-0.4097074689555904,-0.5,0.0902925310444096
+B,sodankyla,Dfc,Finland,adr,-0.5,1,tcn,-0.004,-0.4392115772098454,-0.5,0.0607884227901546
+B,sodankyla,Dfc,Finland,adr,-0.5,1,xgboost,-0.004,-0.4448441755134036,-0.5,0.0551558244865963
+B,sodankyla,Dfc,Finland,adr,-0.5,2,khd_full,-0.004,-0.5078541329576353,-0.5,-0.0078541329576352
+B,sodankyla,Dfc,Finland,adr,-0.5,2,khd_no_correction,-0.004,-0.4476227420413424,-0.5,0.0523772579586575
+B,sodankyla,Dfc,Finland,adr,-0.5,2,khd_no_physics,-0.004,-0.5151026984938905,-0.5,-0.0151026984938904
+B,sodankyla,Dfc,Finland,adr,-0.5,2,pvusa,-0.004,-0.5111877095690498,-0.5,-0.0111877095690497
+B,sodankyla,Dfc,Finland,adr,-0.5,2,rdtools,-0.004,-0.3226805551043599,-0.5,0.1773194448956401
+B,sodankyla,Dfc,Finland,adr,-0.5,2,rdtools_fitted_gamma,-0.0030273495941009,-0.4091449448226147,-0.5,0.0908550551773852
+B,sodankyla,Dfc,Finland,adr,-0.5,2,tcn,-0.004,-0.5201810593650769,-0.5,-0.0201810593650768
+B,sodankyla,Dfc,Finland,adr,-0.5,2,xgboost,-0.004,-0.4889778147835891,-0.5,0.0110221852164109
+B,tokyo,Cfa,Japan,adr,-1.0,0,khd_full,-0.004,-1.0059717666160704,-1.0,-0.0059717666160703
+B,tokyo,Cfa,Japan,adr,-1.0,0,khd_no_correction,-0.004,-0.9659403860850372,-1.0,0.0340596139149628
+B,tokyo,Cfa,Japan,adr,-1.0,0,khd_no_physics,-0.004,-1.0021545681896336,-1.0,-0.0021545681896335
+B,tokyo,Cfa,Japan,adr,-1.0,0,pvusa,-0.004,-1.0158937979619238,-1.0,-0.0158937979619238
+B,tokyo,Cfa,Japan,adr,-1.0,0,rdtools,-0.004,-0.92789435057172,-1.0,0.0721056494282801
+B,tokyo,Cfa,Japan,adr,-1.0,0,rdtools_fitted_gamma,-0.0032167156721448,-0.976005151560022,-1.0,0.0239948484399779
+B,tokyo,Cfa,Japan,adr,-1.0,0,tcn,-0.004,-0.9938355102739882,-1.0,0.0061644897260118
+B,tokyo,Cfa,Japan,adr,-1.0,0,xgboost,-0.004,-0.9904681126179536,-1.0,0.0095318873820464
+B,tokyo,Cfa,Japan,adr,-1.0,1,khd_full,-0.004,-0.995476568702288,-1.0,0.0045234312977119
+B,tokyo,Cfa,Japan,adr,-1.0,1,khd_no_correction,-0.004,-0.996889338667896,-1.0,0.0031106613321039
+B,tokyo,Cfa,Japan,adr,-1.0,1,khd_no_physics,-0.004,-1.0112425419896498,-1.0,-0.0112425419896498
+B,tokyo,Cfa,Japan,adr,-1.0,1,pvusa,-0.004,-1.011226778752442,-1.0,-0.011226778752442
+B,tokyo,Cfa,Japan,adr,-1.0,1,rdtools,-0.004,-0.9677379804102372,-1.0,0.0322620195897629
+B,tokyo,Cfa,Japan,adr,-1.0,1,rdtools_fitted_gamma,-0.0032408331325959,-0.9722108738279722,-1.0,0.0277891261720277
+B,tokyo,Cfa,Japan,adr,-1.0,1,tcn,-0.004,-0.999640724043177,-1.0,0.0003592759568229
+B,tokyo,Cfa,Japan,adr,-1.0,1,xgboost,-0.004,-0.9734996561552334,-1.0,0.0265003438447666
+B,tokyo,Cfa,Japan,adr,-1.0,2,khd_full,-0.004,-1.000775292696775,-1.0,-0.000775292696775
+B,tokyo,Cfa,Japan,adr,-1.0,2,khd_no_correction,-0.004,-0.9872970098596868,-1.0,0.0127029901403131
+B,tokyo,Cfa,Japan,adr,-1.0,2,khd_no_physics,-0.004,-1.0180441336855897,-1.0,-0.0180441336855896
+B,tokyo,Cfa,Japan,adr,-1.0,2,pvusa,-0.004,-1.010511529154348,-1.0,-0.010511529154348
+B,tokyo,Cfa,Japan,adr,-1.0,2,rdtools,-0.004,-0.9024731397853338,-1.0,0.0975268602146661
+B,tokyo,Cfa,Japan,adr,-1.0,2,rdtools_fitted_gamma,-0.0031575405696811,-0.9432561387382332,-1.0,0.0567438612617668
+B,tokyo,Cfa,Japan,adr,-1.0,2,tcn,-0.004,-1.0466177357035396,-1.0,-0.0466177357035395
+B,tokyo,Cfa,Japan,adr,-1.0,2,xgboost,-0.004,-0.9833781279667396,-1.0,0.0166218720332602
+B,tokyo,Cfa,Japan,adr,-0.5,0,khd_full,-0.004,-0.4976011172108392,-0.5,0.0023988827891607
+B,tokyo,Cfa,Japan,adr,-0.5,0,khd_no_correction,-0.004,-0.4896736502736538,-0.5,0.0103263497263462
+B,tokyo,Cfa,Japan,adr,-0.5,0,khd_no_physics,-0.004,-0.4922296384073849,-0.5,0.0077703615926151
+B,tokyo,Cfa,Japan,adr,-0.5,0,pvusa,-0.004,-0.5139558990197135,-0.5,-0.0139558990197135
+B,tokyo,Cfa,Japan,adr,-0.5,0,rdtools,-0.004,-0.4518980682127301,-0.5,0.0481019317872699
+B,tokyo,Cfa,Japan,adr,-0.5,0,rdtools_fitted_gamma,-0.0031696327650404,-0.48400437197329,-0.5,0.0159956280267099
+B,tokyo,Cfa,Japan,adr,-0.5,0,tcn,-0.004,-0.5186209258485738,-0.5,-0.0186209258485737
+B,tokyo,Cfa,Japan,adr,-0.5,0,xgboost,-0.004,-0.4899640788396827,-0.5,0.0100359211603172
+B,tokyo,Cfa,Japan,adr,-0.5,1,khd_full,-0.004,-0.4987866280690767,-0.5,0.0012133719309233
+B,tokyo,Cfa,Japan,adr,-0.5,1,khd_no_correction,-0.004,-0.4959103435188268,-0.5,0.0040896564811732
+B,tokyo,Cfa,Japan,adr,-0.5,1,khd_no_physics,-0.004,-0.5136520393132483,-0.5,-0.0136520393132483
+B,tokyo,Cfa,Japan,adr,-0.5,1,pvusa,-0.004,-0.4992471125136334,-0.5,0.0007528874863665
+B,tokyo,Cfa,Japan,adr,-0.5,1,rdtools,-0.004,-0.4656303031151165,-0.5,0.0343696968848834
+B,tokyo,Cfa,Japan,adr,-0.5,1,rdtools_fitted_gamma,-0.0031937333431255,-0.4630030641361027,-0.5,0.0369969358638972
+B,tokyo,Cfa,Japan,adr,-0.5,1,tcn,-0.004,-0.5193138555952437,-0.5,-0.0193138555952436
+B,tokyo,Cfa,Japan,adr,-0.5,1,xgboost,-0.004,-0.4897246950961266,-0.5,0.0102753049038734
+B,tokyo,Cfa,Japan,adr,-0.5,2,khd_full,-0.004,-0.5072674608513662,-0.5,-0.0072674608513662
+B,tokyo,Cfa,Japan,adr,-0.5,2,khd_no_correction,-0.004,-0.4881208487141446,-0.5,0.0118791512858554
+B,tokyo,Cfa,Japan,adr,-0.5,2,khd_no_physics,-0.004,-0.4973811775298283,-0.5,0.0026188224701716
+B,tokyo,Cfa,Japan,adr,-0.5,2,pvusa,-0.004,-0.4996143887775779,-0.5,0.000385611222422
+B,tokyo,Cfa,Japan,adr,-0.5,2,rdtools,-0.004,-0.4275970769614723,-0.5,0.0724029230385276
+B,tokyo,Cfa,Japan,adr,-0.5,2,rdtools_fitted_gamma,-0.0031102849185282,-0.4545880429645543,-0.5,0.0454119570354456
+B,tokyo,Cfa,Japan,adr,-0.5,2,tcn,-0.004,-0.5057533972358919,-0.5,-0.0057533972358918
+B,tokyo,Cfa,Japan,adr,-0.5,2,xgboost,-0.004,-0.4961688408779863,-0.5,0.0038311591220137
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,khd_full,-0.004,-1.007410098148059,-1.0,-0.0074100981480589
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,khd_no_correction,-0.004,-1.0009879936430368,-1.0,-0.0009879936430368
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,khd_no_physics,-0.004,-1.0080060227622585,-1.0,-0.0080060227622584
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,pvusa,-0.004,-1.0102119058614467,-1.0,-0.0102119058614467
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,rdtools,-0.004,-0.9955040444797224,-1.0,0.0044959555202774
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,rdtools_fitted_gamma,-0.0031941382405959,-0.9827561783371964,-1.0,0.0172438216628036
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,tcn,-0.004,-0.9822468686562114,-1.0,0.0177531313437886
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,xgboost,-0.004,-0.9654707314441952,-1.0,0.0345292685558047
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,khd_full,-0.004,-0.9915874853433444,-1.0,0.0084125146566554
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,khd_no_correction,-0.004,-1.014732333115726,-1.0,-0.014732333115726
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,khd_no_physics,-0.004,-0.9913515248605574,-1.0,0.0086484751394425
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,pvusa,-0.004,-1.0112704911001944,-1.0,-0.0112704911001944
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,rdtools,-0.004,-0.966826319462144,-1.0,0.0331736805378559
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,rdtools_fitted_gamma,-0.0031962284349529,-0.9822067770711485,-1.0,0.0177932229288515
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,tcn,-0.004,-1.023471897076106,-1.0,-0.0234718970761058
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,xgboost,-0.004,-0.9818283898750662,-1.0,0.0181716101249338
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,khd_full,-0.004,-1.0083351354663503,-1.0,-0.0083351354663503
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,khd_no_correction,-0.004,-1.0048000349149555,-1.0,-0.0048000349149557
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,khd_no_physics,-0.004,-1.0098776219472063,-1.0,-0.0098776219472063
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,pvusa,-0.004,-1.020809340942197,-1.0,-0.0208093409421969
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,rdtools,-0.004,-0.991939659528318,-1.0,0.0080603404716819
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,rdtools_fitted_gamma,-0.0031708342136418,-0.9893729061562052,-1.0,0.0106270938437949
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,tcn,-0.004,-1.0035430822435631,-1.0,-0.0035430822435631
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,xgboost,-0.004,-0.982139956565422,-1.0,0.0178600434345779
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,khd_full,-0.004,-0.490213260525122,-0.5,0.0097867394748779
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,khd_no_correction,-0.004,-0.5109624051796624,-0.5,-0.0109624051796624
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,khd_no_physics,-0.004,-0.4937132535415601,-0.5,0.0062867464584399
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,pvusa,-0.004,-0.5065253075922593,-0.5,-0.0065253075922593
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,rdtools,-0.004,-0.5133856629613187,-0.5,-0.0133856629613187
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,rdtools_fitted_gamma,-0.0031761902517821,-0.4835680491438787,-0.5,0.0164319508561212
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,tcn,-0.004,-0.4884243802166177,-0.5,0.0115756197833822
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,xgboost,-0.004,-0.4806474704074415,-0.5,0.0193525295925585
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,khd_full,-0.004,-0.5138316937553344,-0.5,-0.0138316937553344
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,khd_no_correction,-0.004,-0.5264583818584491,-0.5,-0.026458381858449
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,khd_no_physics,-0.004,-0.5022410860702818,-0.5,-0.0022410860702818
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,pvusa,-0.004,-0.5043747648509318,-0.5,-0.0043747648509318
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,rdtools,-0.004,-0.4732284703605758,-0.5,0.0267715296394241
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,rdtools_fitted_gamma,-0.0031782817650185,-0.4706551910522707,-0.5,0.0293448089477292
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,tcn,-0.004,-0.5000819029213008,-0.5,-8.190292130083598e-05
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,xgboost,-0.004,-0.4922648918722442,-0.5,0.0077351081277557
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,khd_full,-0.004,-0.489427983324834,-0.5,0.0105720166751659
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,khd_no_correction,-0.004,-0.47825152491507,-0.5,0.0217484750849299
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,khd_no_physics,-0.004,-0.478080490697535,-0.5,0.0219195093024649
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,pvusa,-0.004,-0.514590354952732,-0.5,-0.0145903549527319
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,rdtools,-0.004,-0.4991307728416898,-0.5,0.0008692271583101
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,rdtools_fitted_gamma,-0.0031528969537079,-0.4920033898104692,-0.5,0.0079966101895307
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,tcn,-0.004,-0.492316425801631,-0.5,0.0076835741983689
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,xgboost,-0.004,-0.4907714289635203,-0.5,0.0092285710364796
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,khd_full,-0.004,-1.0010936548004106,-1.0,-0.0010936548004105
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,khd_no_correction,-0.004,-0.9703455427667722,-1.0,0.0296544572332277
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,khd_no_physics,-0.004,-0.9980015090572382,-1.0,0.0019984909427618
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,pvusa,-0.004,-1.0014614374070965,-1.0,-0.0014614374070962
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,rdtools,-0.004,-0.9247538086991858,-1.0,0.0752461913008142
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,rdtools_fitted_gamma,-0.0027365687218533,-0.9762735904870534,-1.0,0.0237264095129465
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,tcn,-0.004,-0.9933049980669788,-1.0,0.0066950019330213
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,xgboost,-0.004,-0.9652127663112408,-1.0,0.0347872336887591
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,khd_full,-0.004,-0.999776500960854,-1.0,0.0002234990391458
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,khd_no_correction,-0.004,-0.9719067550723796,-1.0,0.0280932449276204
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,khd_no_physics,-0.004,-0.9789003193210556,-1.0,0.0210996806789444
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,pvusa,-0.004,-1.0155040354372424,-1.0,-0.0155040354372424
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,rdtools,-0.004,-0.9717113945771128,-1.0,0.0282886054228872
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,rdtools_fitted_gamma,-0.0027644670347328,-1.0033656523862566,-1.0,-0.0033656523862566
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,tcn,-0.004,-0.992778604512144,-1.0,0.007221395487856
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,xgboost,-0.004,-0.9681277166074254,-1.0,0.0318722833925746
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,khd_full,-0.004,-1.011376013450566,-1.0,-0.011376013450566
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,khd_no_correction,-0.004,-0.9748551428597612,-1.0,0.0251448571402388
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,khd_no_physics,-0.004,-0.99580433104095,-1.0,0.0041956689590498
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,pvusa,-0.004,-0.9856296328111736,-1.0,0.0143703671888264
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,rdtools,-0.004,-0.9362779797579712,-1.0,0.0637220202420287
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,rdtools_fitted_gamma,-0.0026888236182574,-1.0126086193184891,-1.0,-0.0126086193184891
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,tcn,-0.004,-0.983821083440898,-1.0,0.0161789165591019
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,xgboost,-0.004,-0.9767410139622236,-1.0,0.0232589860377765
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,khd_full,-0.004,-0.5112749101825581,-0.5,-0.0112749101825581
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,khd_no_correction,-0.004,-0.4860555703184183,-0.5,0.0139444296815817
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,khd_no_physics,-0.004,-0.5137221167408672,-0.5,-0.0137221167408672
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,pvusa,-0.004,-0.4966206250199069,-0.5,0.0033793749800931
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,rdtools,-0.004,-0.4403805312559436,-0.5,0.0596194687440563
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,rdtools_fitted_gamma,-0.0027858566613056,-0.4790032249404441,-0.5,0.0209967750595558
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,tcn,-0.004,-0.5030787591683739,-0.5,-0.0030787591683738
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,xgboost,-0.004,-0.4848735732814574,-0.5,0.0151264267185425
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,khd_full,-0.004,-0.4894570495003651,-0.5,0.0105429504996348
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,khd_no_correction,-0.004,-0.4865415528012013,-0.5,0.0134584471987986
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,khd_no_physics,-0.004,-0.5082446705378165,-0.5,-0.0082446705378165
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,pvusa,-0.004,-0.5039487230808835,-0.5,-0.0039487230808834
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,rdtools,-0.004,-0.4744271238003916,-0.5,0.0255728761996083
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,rdtools_fitted_gamma,-0.0028136715152118,-0.5046685138408669,-0.5,-0.0046685138408668
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,tcn,-0.004,-0.5176456408514223,-0.5,-0.0176456408514222
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,xgboost,-0.004,-0.4756923555286452,-0.5,0.0243076444713548
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,khd_full,-0.004,-0.5006223373511733,-0.5,-0.0006223373511733
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,khd_no_correction,-0.004,-0.4748893145060757,-0.5,0.0251106854939242
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,khd_no_physics,-0.004,-0.4833685273452965,-0.5,0.0166314726547034
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,pvusa,-0.004,-0.4809300087385909,-0.5,0.019069991261409
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,rdtools,-0.004,-0.4360661867145676,-0.5,0.0639338132854323
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,rdtools_fitted_gamma,-0.0027380323007561,-0.5130193183941362,-0.5,-0.0130193183941361
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,tcn,-0.004,-0.5071770163524503,-0.5,-0.0071770163524502
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,xgboost,-0.004,-0.474377800367019,-0.5,0.0256221996329809
+B,utrecht,Cfb,Netherlands,adr,-1.0,0,khd_full,-0.004,-0.9949478801833506,-1.0,0.0050521198166494
+B,utrecht,Cfb,Netherlands,adr,-1.0,0,khd_no_correction,-0.004,-0.9402160111166156,-1.0,0.0597839888833845
+B,utrecht,Cfb,Netherlands,adr,-1.0,0,khd_no_physics,-0.004,-0.999815677911674,-1.0,0.000184322088326
+B,utrecht,Cfb,Netherlands,adr,-1.0,0,pvusa,-0.004,-1.0151741835958576,-1.0,-0.0151741835958576
+B,utrecht,Cfb,Netherlands,adr,-1.0,0,rdtools,-0.004,-0.8539186919129138,-1.0,0.1460813080870862
+B,utrecht,Cfb,Netherlands,adr,-1.0,0,rdtools_fitted_gamma,-0.0030063055945984,-0.9406184593478673,-1.0,0.0593815406521328
+B,utrecht,Cfb,Netherlands,adr,-1.0,0,tcn,-0.004,-1.0130392608119263,-1.0,-0.0130392608119265
+B,utrecht,Cfb,Netherlands,adr,-1.0,0,xgboost,-0.004,-0.9597548681397672,-1.0,0.0402451318602328
+B,utrecht,Cfb,Netherlands,adr,-1.0,1,khd_full,-0.004,-1.0087809629003903,-1.0,-0.0087809629003903
+B,utrecht,Cfb,Netherlands,adr,-1.0,1,khd_no_correction,-0.004,-0.942066499727728,-1.0,0.0579335002722719
+B,utrecht,Cfb,Netherlands,adr,-1.0,1,khd_no_physics,-0.004,-1.009741220773943,-1.0,-0.0097412207739429
+B,utrecht,Cfb,Netherlands,adr,-1.0,1,pvusa,-0.004,-1.0061006313398346,-1.0,-0.0061006313398346
+B,utrecht,Cfb,Netherlands,adr,-1.0,1,rdtools,-0.004,-0.8118015885647756,-1.0,0.1881984114352244
+B,utrecht,Cfb,Netherlands,adr,-1.0,1,rdtools_fitted_gamma,-0.0030618874828202,-0.9228020450583684,-1.0,0.0771979549416315
+B,utrecht,Cfb,Netherlands,adr,-1.0,1,tcn,-0.004,-0.9998074938442568,-1.0,0.0001925061557432
+B,utrecht,Cfb,Netherlands,adr,-1.0,1,xgboost,-0.004,-0.945431884415554,-1.0,0.0545681155844459
+B,utrecht,Cfb,Netherlands,adr,-1.0,2,khd_full,-0.004,-1.0018029362068672,-1.0,-0.0018029362068672
+B,utrecht,Cfb,Netherlands,adr,-1.0,2,khd_no_correction,-0.004,-0.9423595762864956,-1.0,0.0576404237135043
+B,utrecht,Cfb,Netherlands,adr,-1.0,2,khd_no_physics,-0.004,-0.983816125139182,-1.0,0.0161838748608179
+B,utrecht,Cfb,Netherlands,adr,-1.0,2,pvusa,-0.004,-1.0156974518903508,-1.0,-0.0156974518903507
+B,utrecht,Cfb,Netherlands,adr,-1.0,2,rdtools,-0.004,-0.8906015863458738,-1.0,0.1093984136541261
+B,utrecht,Cfb,Netherlands,adr,-1.0,2,rdtools_fitted_gamma,-0.0030113477249662,-0.9332517942122198,-1.0,0.0667482057877801
+B,utrecht,Cfb,Netherlands,adr,-1.0,2,tcn,-0.004,-0.9762510266242864,-1.0,0.0237489733757136
+B,utrecht,Cfb,Netherlands,adr,-1.0,2,xgboost,-0.004,-0.959319725882396,-1.0,0.040680274117604
+B,utrecht,Cfb,Netherlands,adr,-0.5,0,khd_full,-0.004,-0.4921016873378586,-0.5,0.0078983126621414
+B,utrecht,Cfb,Netherlands,adr,-0.5,0,khd_no_correction,-0.004,-0.4323566896517561,-0.5,0.0676433103482438
+B,utrecht,Cfb,Netherlands,adr,-0.5,0,khd_no_physics,-0.004,-0.478683252375519,-0.5,0.0213167476244809
+B,utrecht,Cfb,Netherlands,adr,-0.5,0,pvusa,-0.004,-0.5168373731495868,-0.5,-0.0168373731495867
+B,utrecht,Cfb,Netherlands,adr,-0.5,0,rdtools,-0.004,-0.3669770824091702,-0.5,0.1330229175908298
+B,utrecht,Cfb,Netherlands,adr,-0.5,0,rdtools_fitted_gamma,-0.0029636216193523,-0.4453954877471822,-0.5,0.0546045122528177
+B,utrecht,Cfb,Netherlands,adr,-0.5,0,tcn,-0.004,-0.491866676500291,-0.5,0.0081333234997089
+B,utrecht,Cfb,Netherlands,adr,-0.5,0,xgboost,-0.004,-0.4785017131346295,-0.5,0.0214982868653704
+B,utrecht,Cfb,Netherlands,adr,-0.5,1,khd_full,-0.004,-0.5053324349136734,-0.5,-0.0053324349136734
+B,utrecht,Cfb,Netherlands,adr,-0.5,1,khd_no_correction,-0.004,-0.4776809353847808,-0.5,0.0223190646152192
+B,utrecht,Cfb,Netherlands,adr,-0.5,1,khd_no_physics,-0.004,-0.5038608799398795,-0.5,-0.0038608799398794
+B,utrecht,Cfb,Netherlands,adr,-0.5,1,pvusa,-0.004,-0.5025090408192545,-0.5,-0.0025090408192545
+B,utrecht,Cfb,Netherlands,adr,-0.5,1,rdtools,-0.004,-0.3157927138540461,-0.5,0.1842072861459538
+B,utrecht,Cfb,Netherlands,adr,-0.5,1,rdtools_fitted_gamma,-0.0030192419637498,-0.4279404315812196,-0.5,0.0720595684187803
+B,utrecht,Cfb,Netherlands,adr,-0.5,1,tcn,-0.004,-0.5143982465361352,-0.5,-0.0143982465361351
+B,utrecht,Cfb,Netherlands,adr,-0.5,1,xgboost,-0.004,-0.4575468538807899,-0.5,0.04245314611921
+B,utrecht,Cfb,Netherlands,adr,-0.5,2,khd_full,-0.004,-0.4981036311046551,-0.5,0.0018963688953448
+B,utrecht,Cfb,Netherlands,adr,-0.5,2,khd_no_correction,-0.004,-0.4409943280967786,-0.5,0.0590056719032214
+B,utrecht,Cfb,Netherlands,adr,-0.5,2,khd_no_physics,-0.004,-0.4975732980533134,-0.5,0.0024267019466865
+B,utrecht,Cfb,Netherlands,adr,-0.5,2,pvusa,-0.004,-0.5130315964110734,-0.5,-0.0130315964110734
+B,utrecht,Cfb,Netherlands,adr,-0.5,2,rdtools,-0.004,-0.3891051668723166,-0.5,0.1108948331276833
+B,utrecht,Cfb,Netherlands,adr,-0.5,2,rdtools_fitted_gamma,-0.0029686518466868,-0.4462242221324963,-0.5,0.0537757778675036
+B,utrecht,Cfb,Netherlands,adr,-0.5,2,tcn,-0.004,-0.4904452925284797,-0.5,0.0095547074715203
+B,utrecht,Cfb,Netherlands,adr,-0.5,2,xgboost,-0.004,-0.4691440076852153,-0.5,0.0308559923147846
