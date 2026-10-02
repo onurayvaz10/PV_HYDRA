@@ -63,14 +63,20 @@ class KappaHydraD(nn.Module):
         return g * (1.0 + self.rate * t_years).unsqueeze(1)
 
 
-def design(frame: pd.DataFrame, dc_kw: float, gamma: float, physics: bool = True) -> pd.DataFrame:
+def design(frame: pd.DataFrame, dc_kw: float, gamma: float, physics: bool = True,
+           mask: pd.Series | None = None) -> pd.DataFrame:
+    """``mask``: optional fixed hour mask (computed once on the unmodified record, injection experiments);
+    None keeps the per-record mask (RdTools filters and outage-day screen)."""
     frame = clean(frame)
     poa = frame.poa_wm2.clip(lower=0)
     tcell = cell_temperature(poa, frame.get("t_amb_c"), frame.get("t_module_c"))
     expected = rdtools.normalization.pvwatts_dc_power(poa, dc_kw * 1000.0, temperature_cell=tcell, gamma_pdc=gamma)
     power = frame.power_w.clip(lower=0)
     kappa = power / expected.replace(0, np.nan)
-    mask = standard_mask(kappa, poa, tcell, power) & healthy_hours(frame, dc_kw)
+    if mask is None:
+        mask = standard_mask(kappa, poa, tcell, power) & healthy_hours(frame, dc_kw)
+    else:
+        mask = mask.reindex(frame.index, fill_value=False).astype(bool)
     idx = frame.index
     hour = idx.hour + 0.5
     tamb = frame.t_amb_c if "t_amb_c" in frame else tcell
@@ -140,19 +146,70 @@ def _predict(net: KappaHydraD, data: pd.DataFrame, device: str, variant: dict | 
                    torch.as_tensor(data.t_years.to_numpy(np.float32), device=device)).cpu().numpy()
 
 
+def _fit_rate(net: KappaHydraD, data: pd.DataFrame, seed: int, lr: float, steps: int, device: str) -> float:
+    """Information-equal variant: g frozen, only the trend scalar is fitted on the given hours. With g fixed the
+    insolation-weighted pinball loss is convex in rho, so rho is found by a bounded scalar minimization on all
+    training hours (deterministic; no mini-batch noise)."""
+    from scipy.optimize import minimize_scalar
+    train = data[~data.val]
+    net.eval()
+    g = _predict(net, train.assign(t_years=0.0), device)          # (n, 3) quantile heads at trend factor 1
+    t = train.t_years.to_numpy()
+    y = train.kappa.to_numpy()[:, None]
+    w = (train.poa / train.poa.mean()).to_numpy()[:, None]
+    q = np.asarray(QUANTILES)[None, :]
+
+    def loss(rho: float) -> float:
+        err = y - g * (1.0 + rho * t)[:, None]
+        return float((np.maximum(q * err, (q - 1) * err) * w).mean())
+
+    res = minimize_scalar(loss, bounds=(-0.15, 0.15), method="bounded", options={"xatol": 1e-7})
+    net.rate.data.fill_(float(res.x))
+    return float(res.x)
+
+
+def first_data_months_end(data: pd.DataFrame, months: int, min_rows: int = 150) -> pd.Timestamp:
+    counts = data.groupby(data.index.to_period("M")).size()
+    good = counts[counts >= min_rows].index
+    if len(good) < months:
+        raise ValueError(f"only {len(good)} data months (< {months})")
+    return good[months - 1].to_timestamp(how="end")
+
+
 def estimate(frame: pd.DataFrame, dc_kw: float, gamma: float, seeds=(0, 1, 2, 3, 4), hidden: int = 64,
              lr: float = 3e-3, steps: int = 3000, jackknife: bool = True, device: str = DEVICE,
-             variant: str = "full") -> dict:
+             variant: str = "full", mask: pd.Series | None = None, pi_mask: pd.Series | None = None,
+             correction_months: int | None = None) -> dict:
+    """``mask``: fixed hour mask (injection experiments). ``pi_mask``: also return the learned normalization
+    PI = P / (P_PVWatts g_0.5) on these hours (2 x 2 comparison). ``correction_months``: information-equal
+    variant, g trained on the first data months with rho = 0, then frozen while rho is fitted on the whole record."""
     started = time.perf_counter()
     spec = VARIANTS[variant]
-    data = design(frame, dc_kw, gamma, physics=spec.get("physics", True))
+    data = design(frame, dc_kw, gamma, physics=spec.get("physics", True), mask=mask)
     if len(data) < 2000 or data.span.iloc[0] < 2:
         return {"status": "insufficient data", "rows": len(data)}
-    rates, preds = [], []
+    rates, preds, gs = [], [], []
+    pi_rows = design(frame, dc_kw, gamma, mask=pi_mask) if pi_mask is not None else None
+    if pi_rows is not None:                       # same time origin and centre as the fitted rows
+        pi_rows = pi_rows.assign(t_years=0.0)
     for seed in seeds:
-        net, rate = _fit(data, seed, hidden, lr, steps, device, variant=spec)
+        shift = 0.0
+        if correction_months:
+            # g learns the level of the first months (rho = 0), so the trend is anchored at the centre c of that
+            # window: P = P_PVW g (1 + rho_w (t - t_mid - c)); the same trend about mid-record has
+            # rho = rho_w / (1 - rho_w c), the convention of the full-record fit.
+            cut = first_data_months_end(data, correction_months)
+            win = data[data.index <= cut]
+            shift = float((win.t_years.max() + win.t_years.min()) / 2)
+            net, _ = _fit(win, seed, hidden, lr, steps, device, fixed_rate=0.0, variant=spec)
+            rho_w = _fit_rate(net, data.assign(t_years=data.t_years - shift), seed, lr, max(1000, steps // 2), device)
+            rate = rho_w / (1.0 - rho_w * shift)
+        else:
+            net, rate = _fit(data, seed, hidden, lr, steps, device, variant=spec)
         rates.append(rate)
-        preds.append(_predict(net, data[data.val], device, spec))
+        preds.append(_predict(net, data[data.val].assign(t_years=data[data.val].t_years - shift), device, spec))
+        if pi_rows is not None:                   # g_0.5 with the trend factor removed (t - t_mid = 0)
+            gs.append(_predict(net, pi_rows, device, spec)[:, 1])
     pred = np.mean(preds, axis=0)
     held = data[data.val]
     scale = held.scale.to_numpy()[:, None]
@@ -172,7 +229,7 @@ def estimate(frame: pd.DataFrame, dc_kw: float, gamma: float, seeds=(0, 1, 2, 3,
               "val_r2": float(1 - np.sum(err ** 2) / np.sum((y - y.mean()) ** 2)),
               "coverage_80": float(np.mean((y >= pred[:, 0]) & (y <= pred[:, 2]))),
               "interval_width_80": float(np.mean(pred[:, 2] - pred[:, 0]))}
-    if jackknife:
+    if jackknife and not correction_months:
         years = data.index.year
         uniq = np.unique(years)
         jack = np.array([to_first(_fit(data[years != yr], 0, hidden, lr, steps, device, variant=spec)[1]) for yr in uniq])
@@ -181,6 +238,8 @@ def estimate(frame: pd.DataFrame, dc_kw: float, gamma: float, seeds=(0, 1, 2, 3,
         se = float(np.sqrt(se_jack ** 2 + (np.std(rates, ddof=1) if len(rates) > 1 else 0) ** 2))
         result.update({"plr_se": 100 * se, "ci_low": result["plr"] - 196 * se, "ci_high": result["plr"] + 196 * se,
                        "jackknife_years": int(n)})
+    if gs:                                         # learned normalization, trend removed (2 x 2 comparison)
+        result["_pi"] = pd.Series(pi_rows.kappa.to_numpy() / np.mean(gs, axis=0), index=pi_rows.index)
     result["fit_seconds"] = time.perf_counter() - started
     # Held-out predictions (P/P_rated) for common-domain scoring and DM tests against other models.
     result["_val"] = {"stamps": held.index.to_numpy().astype("datetime64[us]").astype("int64"), "y": y,
