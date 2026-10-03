@@ -1,0 +1,99 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+B,sodankyla,Dfc,Finland,adr,-1.0,2,khd_no_correction,-0.004,-0.942687072623565,-1.0,0.05731292737643501
+B,sodankyla,Dfc,Finland,adr,-1.0,2,tcn,-0.004,-0.9907960075862469,-1.0,0.009203992413753137
+B,marrakech,BSh,Morocco,adr,-0.5,0,khd_full,-0.004,-0.5056216420848829,-0.5,-0.005621642084882916
+B,marrakech,BSh,Morocco,adr,-0.5,0,khd_no_physics,-0.004,-0.4990460208861222,-0.5,0.0009539791138777898
+B,marrakech,BSh,Morocco,adr,-0.5,0,khd_no_correction,-0.004,-0.4740255351330696,-0.5,0.02597446486693039
+B,marrakech,BSh,Morocco,adr,-0.5,0,tcn,-0.004,-0.5227828844645865,-0.5,-0.02278288446458654
+B,marrakech,BSh,Morocco,adr,-0.5,1,khd_full,-0.004,-0.49838595159390475,-0.5,0.0016140484060952476
+B,marrakech,BSh,Morocco,adr,-0.5,1,khd_no_physics,-0.004,-0.48870252246089163,-0.5,0.01129747753910837
+B,marrakech,BSh,Morocco,adr,-0.5,1,khd_no_correction,-0.004,-0.4515911746031641,-0.5,0.048408825396835886
+B,marrakech,BSh,Morocco,adr,-0.5,1,tcn,-0.004,-0.4866320521202172,-0.5,0.013367947879782793
+B,marrakech,BSh,Morocco,adr,-0.5,2,khd_full,-0.004,-0.49791166075206,-0.5,0.0020883392479399965
+B,marrakech,BSh,Morocco,adr,-0.5,2,khd_no_physics,-0.004,-0.49164227795964854,-0.5,0.008357722040351456
+B,marrakech,BSh,Morocco,adr,-0.5,2,khd_no_correction,-0.004,-0.4454220655017296,-0.5,0.05457793449827042
+B,marrakech,BSh,Morocco,adr,-0.5,2,tcn,-0.004,-0.5052136805507608,-0.5,-0.005213680550760769
+B,marrakech,BSh,Morocco,adr,-1.0,0,khd_full,-0.004,-1.007151225286646,-1.0,-0.0071512252866459125
+B,marrakech,BSh,Morocco,adr,-1.0,0,khd_no_physics,-0.004,-1.00168744280745,-1.0,-0.0016874428074500347
+B,marrakech,BSh,Morocco,adr,-1.0,0,khd_no_correction,-0.004,-0.941516330775721,-1.0,0.058483669224278945
+B,marrakech,BSh,Morocco,adr,-1.0,0,tcn,-0.004,-0.9860124171269469,-1.0,0.013987582873053128
+B,marrakech,BSh,Morocco,adr,-1.0,1,khd_full,-0.004,-0.9989352241368604,-1.0,0.0010647758631395776
+B,marrakech,BSh,Morocco,adr,-1.0,1,khd_no_physics,-0.004,-1.0061072744223836,-1.0,-0.0061072744223835684
+B,marrakech,BSh,Morocco,adr,-1.0,1,khd_no_correction,-0.004,-0.9571425760964851,-1.0,0.04285742390351488
+B,marrakech,BSh,Morocco,adr,-1.0,1,tcn,-0.004,-0.9873932031026866,-1.0,0.012606796897313366
+B,marrakech,BSh,Morocco,adr,-1.0,2,khd_full,-0.004,-0.9971047617162079,-1.0,0.002895238283792123
+B,marrakech,BSh,Morocco,adr,-1.0,2,khd_no_physics,-0.004,-1.0035367187400117,-1.0,-0.003536718740011713
+B,marrakech,BSh,Morocco,adr,-1.0,2,khd_no_correction,-0.004,-0.9561386833258707,-1.0,0.04386131667412929
+B,marrakech,BSh,Morocco,adr,-1.0,2,tcn,-0.004,-1.0075234388862588,-1.0,-0.0075234388862588375
+B,cape_town,Csb,South Africa,adr,-0.5,0,khd_full,-0.004,-0.4828495588409769,-0.5,0.01715044115902309
+B,cape_town,Csb,South Africa,adr,-0.5,0,khd_no_physics,-0.004,-0.4793855951481107,-0.5,0.020614404851889312
+B,cape_town,Csb,South Africa,adr,-0.5,0,khd_no_correction,-0.004,-0.4756704655066003,-0.5,0.024329534493399696
+B,cape_town,Csb,South Africa,adr,-0.5,0,tcn,-0.004,-0.4975859744483504,-0.5,0.002414025551649601
+B,cape_town,Csb,South Africa,adr,-0.5,1,khd_full,-0.004,-0.49856983311041936,-0.5,0.0014301668895806419
+B,cape_town,Csb,South Africa,adr,-0.5,1,khd_no_physics,-0.004,-0.4970443310015219,-0.5,0.0029556689984781004
+B,cape_town,Csb,South Africa,adr,-0.5,1,khd_no_correction,-0.004,-0.4910234265468454,-0.5,0.008976573453154613
+B,cape_town,Csb,South Africa,adr,-0.5,1,tcn,-0.004,-0.4929253551194971,-0.5,0.007074644880502912
+B,cape_town,Csb,South Africa,adr,-0.5,2,khd_full,-0.004,-0.5213281360555624,-0.5,-0.021328136055562386
+B,cape_town,Csb,South Africa,adr,-0.5,2,khd_no_physics,-0.004,-0.5162169035787051,-0.5,-0.01621690357870509
+B,cape_town,Csb,South Africa,adr,-0.5,2,khd_no_correction,-0.004,-0.49184382598695026,-0.5,0.008156174013049744
+B,cape_town,Csb,South Africa,adr,-0.5,2,tcn,-0.004,-0.5124696425945818,-0.5,-0.012469642594581831
+B,cape_town,Csb,South Africa,adr,-1.0,0,khd_full,-0.004,-1.0090247641088794,-1.0,-0.009024764108879424
+B,cape_town,Csb,South Africa,adr,-1.0,0,khd_no_physics,-0.004,-1.0031530657289913,-1.0,-0.003153065728991322
+B,cape_town,Csb,South Africa,adr,-1.0,0,khd_no_correction,-0.004,-0.9696304815754175,-1.0,0.030369518424582465
+B,cape_town,Csb,South Africa,adr,-1.0,0,tcn,-0.004,-0.9828789323373224,-1.0,0.017121067662677625
+B,cape_town,Csb,South Africa,adr,-1.0,1,khd_full,-0.004,-1.0065712527179804,-1.0,-0.006571252717980425
+B,cape_town,Csb,South Africa,adr,-1.0,1,khd_no_physics,-0.004,-1.0054246112286525,-1.0,-0.005424611228652454
+B,cape_town,Csb,South Africa,adr,-1.0,1,khd_no_correction,-0.004,-0.973657777071691,-1.0,0.02634222292830901
+B,cape_town,Csb,South Africa,adr,-1.0,1,tcn,-0.004,-1.002322281358492,-1.0,-0.0023222813584919955
+B,cape_town,Csb,South Africa,adr,-1.0,2,khd_full,-0.004,-1.013766293871051,-1.0,-0.013766293871050994
+B,cape_town,Csb,South Africa,adr,-1.0,2,khd_no_physics,-0.004,-1.0113032278530396,-1.0,-0.01130322785303961
+B,cape_town,Csb,South Africa,adr,-1.0,2,khd_no_correction,-0.004,-0.9703707452950202,-1.0,0.02962925470497979
+B,cape_town,Csb,South Africa,adr,-1.0,2,tcn,-0.004,-0.9988156801059789,-1.0,0.0011843198940211241
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,khd_full,-0.004,-0.5112749101825581,-0.5,-0.011274910182558107
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,khd_no_physics,-0.004,-0.5137221167408672,-0.5,-0.013722116740867207
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,khd_no_correction,-0.004,-0.4860555703184183,-0.5,0.013944429681581716
+B,ushuaia,Dfc,Argentina,adr,-0.5,0,tcn,-0.004,-0.5030787591683739,-0.5,-0.003078759168373857
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,khd_full,-0.004,-0.48945704950036517,-0.5,0.010542950499634829
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,khd_no_physics,-0.004,-0.5082446705378165,-0.5,-0.008244670537816523
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,khd_no_correction,-0.004,-0.4865415528012013,-0.5,0.013458447198798684
+B,ushuaia,Dfc,Argentina,adr,-0.5,1,tcn,-0.004,-0.5176456408514223,-0.5,-0.017645640851422284
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,khd_full,-0.004,-0.5006223373511733,-0.5,-0.000622337351173341
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,khd_no_physics,-0.004,-0.48336852734529656,-0.5,0.01663147265470344
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,khd_no_correction,-0.004,-0.47488931450607574,-0.5,0.025110685493924256
+B,ushuaia,Dfc,Argentina,adr,-0.5,2,tcn,-0.004,-0.5071770163524503,-0.5,-0.007177016352450272
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,khd_full,-0.004,-1.0010936548004106,-1.0,-0.0010936548004105706
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,khd_no_physics,-0.004,-0.9980015090572382,-1.0,0.0019984909427618325
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,khd_no_correction,-0.004,-0.9703455427667722,-1.0,0.029654457233227793
+B,ushuaia,Dfc,Argentina,adr,-1.0,0,tcn,-0.004,-0.9933049980669787,-1.0,0.006695001933021305
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,khd_full,-0.004,-0.9997765009608541,-1.0,0.0002234990391458691
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,khd_no_physics,-0.004,-0.9789003193210556,-1.0,0.02109968067894441
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,khd_no_correction,-0.004,-0.9719067550723796,-1.0,0.028093244927620442
+B,ushuaia,Dfc,Argentina,adr,-1.0,1,tcn,-0.004,-0.992778604512144,-1.0,0.007221395487856053
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,khd_full,-0.004,-1.011376013450566,-1.0,-0.011376013450566047
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,khd_no_physics,-0.004,-0.9958043310409501,-1.0,0.004195668959049881
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,khd_no_correction,-0.004,-0.9748551428597612,-1.0,0.02514485714023884
+B,ushuaia,Dfc,Argentina,adr,-1.0,2,tcn,-0.004,-0.983821083440898,-1.0,0.016178916559101975
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,khd_full,-0.004,-0.4973407356669531,-0.5,0.002659264333046918
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,khd_no_physics,-0.004,-0.5000056219575914,-0.5,-5.621957591350757e-06
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,khd_no_correction,-0.004,-0.48549851254792037,-0.5,0.014501487452079631
+B,dubai,BWh,United Arab Emirates,adr,-0.5,0,tcn,-0.004,-0.5038032395919887,-0.5,-0.003803239591988694
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,khd_full,-0.004,-0.4924650028333183,-0.5,0.007534997166681712
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,khd_no_physics,-0.004,-0.49033330231937294,-0.5,0.009666697680627057
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,khd_no_correction,-0.004,-0.4663194614981889,-0.5,0.033680538501811075
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,tcn,-0.004,-0.512036634314075,-0.5,-0.012036634314074979
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,khd_full,-0.004,-0.5031448534891056,-0.5,-0.003144853489105648
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,khd_no_physics,-0.004,-0.5115139938749128,-0.5,-0.011513993874912809
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,khd_no_correction,-0.004,-0.4953055977292965,-0.5,0.004694402270703502
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,tcn,-0.004,-0.49864633590973595,-0.5,0.0013536640902640507
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,khd_full,-0.004,-0.9989383410099097,-1.0,0.0010616589900902529
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,khd_no_physics,-0.004,-0.9987652181003673,-1.0,0.0012347818996326643
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,khd_no_correction,-0.004,-0.9660952001044714,-1.0,0.03390479989552864
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,tcn,-0.004,-1.0088410684752913,-1.0,-0.008841068475291314
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,khd_full,-0.004,-0.9977304251232545,-1.0,0.002269574876745506
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,khd_no_physics,-0.004,-1.004785253311348,-1.0,-0.004785253311347937
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,khd_no_correction,-0.004,-0.9930693378611605,-1.0,0.006930662138839527
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,tcn,-0.004,-1.0140718024540105,-1.0,-0.014071802454010518
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,khd_full,-0.004,-1.0010174675294998,-1.0,-0.001017467529499827
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,khd_no_physics,-0.004,-1.0017143422941375,-1.0,-0.001714342294137472
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,khd_no_correction,-0.004,-0.9736842026305658,-1.0,0.026315797369434235
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,tcn,-0.004,-1.0055764069490518,-1.0,-0.005576406949051815

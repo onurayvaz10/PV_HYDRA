@@ -1,0 +1,961 @@
+site_id,climate,country,module_tech,module,rate,seed,method,ci_low,ci_high,plr,truth,error
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.387885100740882,-0.5000000000000004,0.11211489925911844
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.3944357467859372,-0.5000000000000004,0.10556425321406326
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.42836443369468347,-0.5000000000000004,0.07163556630531698
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.39262403145445823,-0.5000000000000004,0.10737596854554221
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.42491253679396435,-0.5000000000000004,0.0750874632060361
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.399196012637415,-0.5000000000000004,0.10080398736258545
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4377528969670435,-0.5000000000000004,0.06224710303295694
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.4397069644095586,-0.5000000000000004,0.06029303559044186
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.437140791946082,-0.5000000000000004,0.06285920805391843
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.4338648682623292,-0.5000000000000004,0.06613513173767127
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.4539543721281236,-0.5000000000000004,0.046045627871876826
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.43257748543375063,-0.5000000000000004,0.06742251456624981
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8189897595353823,-1.0000000000000049,0.18101024046462255
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.7999905333403001,-1.0000000000000049,0.20000946665970476
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8170738016725076,-1.0000000000000049,0.18292619832749724
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8316774630798607,-1.0000000000000049,0.1683225369201442
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8407455231160932,-1.0000000000000049,0.1592544768839117
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8123625220013531,-1.0000000000000049,0.18763747799865182
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8346463718262087,-1.0000000000000049,0.16535362817379617
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8486281701227671,-1.0000000000000049,0.15137182987723774
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8250291898796437,-1.0000000000000049,0.1749708101203612
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.866598379484596,-1.0000000000000049,0.13340162051540894
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8316988121611857,-1.0000000000000049,0.1683011878388192
+alice_springs,BWh,Australia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8810678382734104,-1.0000000000000049,0.11893216172659449
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.3860725867250836,-0.5000000000000032,0.11392741327491962
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.3369730613599505,-0.5000000000000032,0.16302693864005274
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3714325386333761,-0.5000000000000032,0.1285674613666271
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.3926280162025659,-0.5000000000000032,0.10737198379743734
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.40596427233281496,-0.5000000000000032,0.09403572766718826
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.39240957770080315,-0.5000000000000032,0.10759042229920007
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.43481724117707676,-0.5000000000000032,0.06518275882292646
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.40653931564537116,-0.5000000000000032,0.09346068435463206
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.4116498721420281,-0.5000000000000032,0.08835012785797514
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.40726943145780736,-0.5000000000000032,0.09273056854219586
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.4144941516971645,-0.5000000000000032,0.0855058483028387
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.40028541157170755,-0.5000000000000032,0.09971458842829567
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7600986839598645,-0.999999999999998,0.23990131604013354
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7382689114521461,-0.999999999999998,0.2617310885478519
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7773696312549402,-0.999999999999998,0.22263036874505782
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7667742218381546,-0.999999999999998,0.23322577816184342
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.8341701447812322,-0.999999999999998,0.1658298552187658
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.8169494678942457,-0.999999999999998,0.18305053210575228
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.799041877316542,-0.999999999999998,0.20095812268345603
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7851563992872346,-0.999999999999998,0.21484360071276343
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7790050436025264,-0.999999999999998,0.22099495639747158
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8072013386378614,-0.999999999999998,0.19279866136213664
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8522078335936489,-0.999999999999998,0.14779216640634907
+alice_springs,BWh,Australia,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8413831936801717,-0.999999999999998,0.15861680631982633
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.4137163018943124,-0.5000000000000004,0.08628369810568803
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.38220224233224687,-0.5000000000000004,0.11779775766775358
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.3827094485206652,-0.5000000000000004,0.11729055147933526
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.41906167321647897,-0.5000000000000004,0.08093832678352147
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.3950969699522411,-0.5000000000000004,0.10490303004775936
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.3742886051164296,-0.5000000000000004,0.12571139488357086
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4675514170992767,-0.5000000000000004,0.03244858290072372
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.4047396557932126,-0.5000000000000004,0.09526034420678786
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.48904272288159556,-0.5000000000000004,0.010957277118404884
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.41089284453680874,-0.5000000000000004,0.0891071554631917
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.44211241917878635,-0.5000000000000004,0.05788758082121409
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.4302959089002497,-0.5000000000000004,0.06970409109975073
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8424122317697834,-1.0000000000000049,0.15758776823022147
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.7909797910371608,-1.0000000000000049,0.20902020896284412
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8182274460003556,-1.0000000000000049,0.1817725539996493
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8715824391334317,-1.0000000000000049,0.1284175608665732
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8223727184442198,-1.0000000000000049,0.1776272815557851
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.7648214510455276,-1.0000000000000049,0.23517854895447732
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.7884577352758881,-1.0000000000000049,0.21154226472411675
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8139949819891731,-1.0000000000000049,0.1860050180108318
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8501974153534708,-1.0000000000000049,0.14980258464653406
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.8130479537137358,-1.0000000000000049,0.18695204628626905
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8389834533670091,-1.0000000000000049,0.1610165466329958
+golden,Dfb,United States,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8818538714288542,-1.0000000000000049,0.1181461285711507
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.36474793699593955,-0.5000000000000032,0.13525206300406367
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.37759111311896154,-0.5000000000000032,0.12240888688104168
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3794799106808411,-0.5000000000000032,0.12052008931916214
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.37162006512999035,-0.5000000000000032,0.12837993487001287
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.38423829672029086,-0.5000000000000032,0.11576170327971236
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.32219820813999545,-0.5000000000000032,0.17780179186000777
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.34119109440161055,-0.5000000000000032,0.15880890559839267
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3689144175832122,-0.5000000000000032,0.13108558241679102
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.42505853025234797,-0.5000000000000032,0.07494146974765525
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.3993133584733799,-0.5000000000000032,0.10068664152662332
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.4330918697261099,-0.5000000000000032,0.06690813027389331
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.4232258478542861,-0.5000000000000032,0.07677415214571714
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.74979485945353,-0.999999999999998,0.25020514054646803
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7083228723638979,-0.999999999999998,0.2916771276361001
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7682062020166038,-0.999999999999998,0.23179379798339417
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.792351671254611,-0.999999999999998,0.20764832874538697
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7577975703560075,-0.999999999999998,0.24220242964399052
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.7240077252880284,-0.999999999999998,0.27599227471196963
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7483521747477018,-0.999999999999998,0.25164782525229623
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.765919986114307,-0.999999999999998,0.234080013885691
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7707333190702659,-0.999999999999998,0.22926668092973213
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.7746973702431936,-0.999999999999998,0.22530262975680437
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.7147058269175055,-0.999999999999998,0.2852941730824925
+golden,Dfb,United States,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.7837688575103354,-0.999999999999998,0.21623114248966258
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.33533136396984853,-0.5000000000000004,0.16466863603015192
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.3168268682439146,-0.5000000000000004,0.18317313175608585
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.4148511703142572,-0.5000000000000004,0.08514882968574322
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.33687879147014643,-0.5000000000000004,0.163121208529854
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.43186344427609463,-0.5000000000000004,0.06813655572390581
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.47330543198316566,-0.5000000000000004,0.026694568016834785
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4262333129148867,-0.5000000000000004,0.07376668708511375
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.40228790081845756,-0.5000000000000004,0.09771209918154289
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.4716448043685388,-0.5000000000000004,0.02835519563146166
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.4994516614337019,-0.5000000000000004,0.0005483385662985452
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.37851336076054304,-0.5000000000000004,0.1214866392394574
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.43410874817184086,-0.5000000000000004,0.06589125182815958
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.7678352022934228,-1.0000000000000049,0.23216479770658205
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.7743475952257439,-1.0000000000000049,0.22565240477426096
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8126470278915161,-1.0000000000000049,0.18735297210848878
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.7735091101175373,-1.0000000000000049,0.22649088988246757
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8984753160632852,-1.0000000000000049,0.10152468393671965
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8933292951071137,-1.0000000000000049,0.10667070489289121
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8402860217090302,-1.0000000000000049,0.15971397829097467
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8166174538868531,-1.0000000000000049,0.18338254611315175
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8779296853341174,-1.0000000000000049,0.12207031466588747
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.9372215814799476,-1.0000000000000049,0.06277841852005728
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8553174229783855,-1.0000000000000049,0.14468257702161935
+utrecht,Cfb,Netherlands,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8386995648459742,-1.0000000000000049,0.1613004351540307
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.30773730905917507,-0.5000000000000032,0.19226269094082815
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.3253284237377224,-0.5000000000000032,0.1746715762622808
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.4102907180830485,-0.5000000000000032,0.08970928191695471
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.3114087226071649,-0.5000000000000032,0.18859127739283832
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.4244363779541847,-0.5000000000000032,0.07556362204581851
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.39181389428672175,-0.5000000000000032,0.10818610571328147
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.40102780033258734,-0.5000000000000032,0.09897219966741588
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.37367080900146116,-0.5000000000000032,0.12632919099854206
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.34444559088236426,-0.5000000000000032,0.15555440911763896
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.4640030340959944,-0.5000000000000032,0.035996965904008804
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.36566135969964453,-0.5000000000000032,0.1343386403003587
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.3874145253960126,-0.5000000000000032,0.1125854746039906
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.6892562399838283,-0.999999999999998,0.31074376001616966
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7028457678981737,-0.999999999999998,0.29715423210182434
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7885130264959246,-0.999999999999998,0.21148697350407342
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7017394798639622,-0.999999999999998,0.29826052013603577
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7644962255175118,-0.999999999999998,0.23550377448248616
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.777680883008482,-0.999999999999998,0.22231911699151596
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7472894691503777,-0.999999999999998,0.25271053084962025
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7707695920263733,-0.999999999999998,0.2292304079736247
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7712767361617826,-0.999999999999998,0.2287232638382154
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8391841949387306,-0.999999999999998,0.16081580506126736
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.7734820024171161,-0.999999999999998,0.22651799758288194
+utrecht,Cfb,Netherlands,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.7853865898565904,-0.999999999999998,0.21461341014340762
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.4316727650748642,-0.5000000000000004,0.06832723492513626
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.45229923015176476,-0.5000000000000004,0.04770076984823568
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.40457262958287776,-0.5000000000000004,0.09542737041712268
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.37985375668526666,-0.5000000000000004,0.12014624331473378
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.4329061994125802,-0.5000000000000004,0.06709380058742026
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.4348850115528669,-0.5000000000000004,0.06511498844713354
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.46490641636332897,-0.5000000000000004,0.03509358363667148
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.43769801528099705,-0.5000000000000004,0.06230198471900339
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.492800158421622,-0.5000000000000004,0.007199841578378441
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.4972015083135828,-0.5000000000000004,0.002798491686417659
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.52844973516896,-0.5000000000000004,-0.028449735168959545
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.49369604695994607,-0.5000000000000004,0.0063039530400543775
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8824400528179569,-1.0000000000000049,0.11755994718204799
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.9160638916991148,-1.0000000000000049,0.08393610830089004
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8908677970328571,-1.0000000000000049,0.10913220296714776
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8638848181693248,-1.0000000000000049,0.13611518183068005
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.892401545365478,-1.0000000000000049,0.10759845463452689
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8918630107260015,-1.0000000000000049,0.10813698927400339
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8743405966833071,-1.0000000000000049,0.12565940331669778
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8652171822893906,-1.0000000000000049,0.1347828177106143
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.9258640328555168,-1.0000000000000049,0.07413596714448811
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.9089972125539951,-1.0000000000000049,0.09100278744600976
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.9571024941965822,-1.0000000000000049,0.042897505803422664
+hong_kong,Cwa,China (Hong Kong),mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.91197224856856,-1.0000000000000049,0.08802775143144492
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.3956595840206356,-0.5000000000000032,0.1043404159793676
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.36023348251802423,-0.5000000000000032,0.139766517481979
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3953856375269238,-0.5000000000000032,0.10461436247307943
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.3788449096089219,-0.5000000000000032,0.1211550903910813
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.4019634729341748,-0.5000000000000032,0.09803652706582844
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.40699380349770653,-0.5000000000000032,0.09300619650229669
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.40898567088931137,-0.5000000000000032,0.09101432911069185
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3621661319058389,-0.5000000000000032,0.1378338680941643
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.43340739805249884,-0.5000000000000032,0.06659260194750438
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.40041746663399574,-0.5000000000000032,0.09958253336600748
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.4464723772178436,-0.5000000000000032,0.05352762278215961
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.41398517835181914,-0.5000000000000032,0.08601482164818408
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7979988313759199,-0.999999999999998,0.20200116862407813
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7688589609444139,-0.999999999999998,0.23114103905558414
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7190582664652625,-0.999999999999998,0.2809417335347355
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.8121827569881002,-0.999999999999998,0.18781724301189784
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7885690084292185,-0.999999999999998,0.2114309915707795
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.8214009681724396,-0.999999999999998,0.17859903182755843
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.8559723221895077,-0.999999999999998,0.1440276778104903
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7719933278753532,-0.999999999999998,0.22800667212464476
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.8370348432934271,-0.999999999999998,0.16296515670657086
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.7924307757815385,-0.999999999999998,0.20756922421845947
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8781569437308234,-0.999999999999998,0.12184305626917458
+hong_kong,Cwa,China (Hong Kong),CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.7913079156615987,-0.999999999999998,0.20869208433839925
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.4024538805998179,-0.5000000000000004,0.09754611940018254
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.38642901055042644,-0.5000000000000004,0.113570989449574
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.4122860243171114,-0.5000000000000004,0.08771397568288902
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.3576700181010214,-0.5000000000000004,0.14232998189897905
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.39389647341136763,-0.5000000000000004,0.10610352658863281
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.4099794289672439,-0.5000000000000004,0.09002057103275657
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4134749999727516,-0.5000000000000004,0.08652500002724883
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.3707463046391357,-0.5000000000000004,0.12925369536086473
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.49580565279401245,-0.5000000000000004,0.004194347205987992
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.4445076441355831,-0.5000000000000004,0.055492355864417364
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.49910841177469756,-0.5000000000000004,0.0008915882253028862
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.3978220203214202,-0.5000000000000004,0.10217797967858022
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8722003323118233,-1.0000000000000049,0.12779966768818163
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.795320021464497,-1.0000000000000049,0.2046799785355079
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8465245814051281,-1.0000000000000049,0.1534754185948768
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.7322519168215691,-1.0000000000000049,0.2677480831784358
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.7584152925322393,-1.0000000000000049,0.2415847074677656
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8465694192326149,-1.0000000000000049,0.15343058076739002
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8714625258404829,-1.0000000000000049,0.128537474159522
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.743649829122317,-1.0000000000000049,0.25635017087768786
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.9018835667762534,-1.0000000000000049,0.09811643322375152
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.8446842259617988,-1.0000000000000049,0.15531577403820607
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8730623507852322,-1.0000000000000049,0.12693764921477269
+sodankyla,Dfc,Finland,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.868152711218493,-1.0000000000000049,0.13184728878151186
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.4020795544502298,-0.5000000000000032,0.09792044554977342
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.39944351501685393,-0.5000000000000032,0.10055648498314929
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.4466379796531004,-0.5000000000000032,0.053362020346902794
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.33565033316462767,-0.5000000000000032,0.16434966683537555
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.3262405962143,-0.5000000000000032,0.1737594037857032
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.4268294440738729,-0.5000000000000032,0.07317055592613031
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.35516572071717084,-0.5000000000000032,0.14483427928283238
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.30987105672131293,-0.5000000000000032,0.1901289432786903
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.3566076122630909,-0.5000000000000032,0.14339238773691232
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.4116072688685387,-0.5000000000000032,0.08839273113146451
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.43286717088458204,-0.5000000000000032,0.06713282911542118
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.4366825862115342,-0.5000000000000032,0.063317413788469
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7043624631442924,-0.999999999999998,0.2956375368557056
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.8382807171791432,-0.999999999999998,0.1617192828208548
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7782105635137228,-0.999999999999998,0.22178943648627525
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7313658962138203,-0.999999999999998,0.2686341037861777
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.6648055501558559,-0.999999999999998,0.33519444984414215
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.7711989646692406,-0.999999999999998,0.22880103533075735
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7540587839581558,-0.999999999999998,0.24594121604184216
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.6125866452183237,-0.999999999999998,0.38741335478167427
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7177923004513753,-0.999999999999998,0.2822076995486227
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.7978835614269078,-0.999999999999998,0.20211643857309025
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8033739288368758,-0.999999999999998,0.19662607116312225
+sodankyla,Dfc,Finland,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8339011709702404,-0.999999999999998,0.1660988290297576
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.40321830064995456,-0.5000000000000004,0.09678169935004588
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.35235511363087624,-0.5000000000000004,0.1476448863691242
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.43080443212135666,-0.5000000000000004,0.06919556787864378
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.3812586922825251,-0.5000000000000004,0.11874130771747532
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.4372761884150371,-0.5000000000000004,0.06272381158496332
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.4108432845470888,-0.5000000000000004,0.08915671545291165
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4371106845056594,-0.5000000000000004,0.06288931549434107
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.42940962448849707,-0.5000000000000004,0.07059037551150338
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.47607940701772655,-0.5000000000000004,0.02392059298227389
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.4788648994845879,-0.5000000000000004,0.021135100515412564
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.48575991037671507,-0.5000000000000004,0.014240089623285379
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.5130320629401108,-0.5000000000000004,-0.01303206294011039
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.865235215661464,-1.0000000000000049,0.1347647843385409
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.8025982914307783,-1.0000000000000049,0.19740170856922656
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.877630921696182,-1.0000000000000049,0.12236907830382293
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8007997136688094,-1.0000000000000049,0.19920028633119546
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8825221172041431,-1.0000000000000049,0.1174778827958618
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8577858263501729,-1.0000000000000049,0.14221417364983202
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8655646356735769,-1.0000000000000049,0.134435364326428
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8912686319753504,-1.0000000000000049,0.10873136802465444
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.904629618784647,-1.0000000000000049,0.0953703812153579
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.938147288709989,-1.0000000000000049,0.061852711290015905
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.908450767978329,-1.0000000000000049,0.09154923202167586
+singapore,Af,Singapore,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.9309382970536628,-1.0000000000000049,0.06906170294634206
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.37870944337528023,-0.5000000000000032,0.12129055662472299
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.34792312737544906,-0.5000000000000032,0.15207687262455416
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3621638955467632,-0.5000000000000032,0.13783610445324002
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.37294008635375686,-0.5000000000000032,0.12705991364624636
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.3968659320134188,-0.5000000000000032,0.10313406798658442
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.4171239219652123,-0.5000000000000032,0.08287607803479091
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.38451943176802383,-0.5000000000000032,0.11548056823197939
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3718895808357381,-0.5000000000000032,0.12811041916426513
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.4386338845708382,-0.5000000000000032,0.061366115429165036
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.45033936101500893,-0.5000000000000032,0.04966063898499429
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.44013423724752476,-0.5000000000000032,0.05986576275247846
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.4624308054615352,-0.5000000000000032,0.03756919453846802
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7862441293944533,-0.999999999999998,0.21375587060554468
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7636572242950557,-0.999999999999998,0.23634277570494233
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.8152369957273975,-0.999999999999998,0.1847630042726005
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7778792251357676,-0.999999999999998,0.22212077486423043
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.8107657050114625,-0.999999999999998,0.1892342949885355
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.8354178133880508,-0.999999999999998,0.16458218661194723
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.8051364955590165,-0.999999999999998,0.19486350444098155
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.8171849646844143,-0.999999999999998,0.18281503531558374
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.8678846183453937,-0.999999999999998,0.13211538165460435
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8731880867441324,-0.999999999999998,0.1268119132558656
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8504121853116109,-0.999999999999998,0.1495878146883871
+singapore,Af,Singapore,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8458541642902162,-0.999999999999998,0.1541458357097818
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.37163847528232097,-0.5000000000000004,0.12836152471767948
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.3625569329466962,-0.5000000000000004,0.13744306705330422
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.37634785272386284,-0.5000000000000004,0.1236521472761376
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.4028525840609144,-0.5000000000000004,0.09714741593908605
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.43505942650271523,-0.5000000000000004,0.06494057349728521
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.38184344493619304,-0.5000000000000004,0.1181565550638074
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.41866570685858945,-0.5000000000000004,0.081334293141411
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.4418706202886238,-0.5000000000000004,0.05812937971137666
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.4101563636019101,-0.5000000000000004,0.08984363639809034
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.45425478736280667,-0.5000000000000004,0.04574521263719378
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.40111972930731987,-0.5000000000000004,0.09888027069268057
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.4410739467222096,-0.5000000000000004,0.058926053277790824
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.7933369077783378,-1.0000000000000049,0.20666309222166712
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.7970410982790701,-1.0000000000000049,0.20295890172093478
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8025349764105207,-1.0000000000000049,0.19746502358948415
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8381389593311528,-1.0000000000000049,0.1618610406688521
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8221843913470417,-1.0000000000000049,0.1778156086529632
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8256787091935267,-1.0000000000000049,0.17432129080647818
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8566644868488016,-1.0000000000000049,0.1433355131512033
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8764697045487102,-1.0000000000000049,0.12353029545129468
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8430938011858122,-1.0000000000000049,0.15690619881419265
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.8610322077154065,-1.0000000000000049,0.13896779228459843
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8133281260558345,-1.0000000000000049,0.1866718739441704
+madrid,BSk,Spain,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8924072510525092,-1.0000000000000049,0.10759274894749571
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.3000371053082437,-0.5000000000000032,0.19996289469175954
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.3388054566519983,-0.5000000000000032,0.16119454334800493
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3476942124424176,-0.5000000000000032,0.15230578755758561
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.3709382209420019,-0.5000000000000032,0.1290617790580013
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.3559303557869764,-0.5000000000000032,0.14406964421302682
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.42468625795016435,-0.5000000000000032,0.07531374204983887
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.39266593288802,-0.5000000000000032,0.10733406711198323
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.4061286134240271,-0.5000000000000032,0.0938713865759761
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.39093324306529453,-0.5000000000000032,0.10906675693470869
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.42245887525604875,-0.5000000000000032,0.07754112474395447
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.4020021037187793,-0.5000000000000032,0.0979978962812239
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.44454707099912394,-0.5000000000000032,0.05545292900087928
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.6916328495285807,-0.999999999999998,0.3083671504714173
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7441715045427677,-0.999999999999998,0.2558284954572303
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7478934228706824,-0.999999999999998,0.2521065771293156
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7695547475840264,-0.999999999999998,0.23044525241597158
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7157406731435596,-0.999999999999998,0.2842593268564384
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.7698146524164193,-0.999999999999998,0.23018534758357867
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7571401330960847,-0.999999999999998,0.24285986690391326
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.818097561436351,-0.999999999999998,0.18190243856364696
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7237099890741727,-0.999999999999998,0.2762900109258253
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8071664027174088,-0.999999999999998,0.1928335972825892
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.7713394540497132,-0.999999999999998,0.22866054595028484
+madrid,BSk,Spain,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8064146566638231,-0.999999999999998,0.19358534333617494
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.4057689620939933,-0.5000000000000004,0.09423103790600712
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.42393881337448597,-0.5000000000000004,0.07606118662551448
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.40459066827799817,-0.5000000000000004,0.09540933172200228
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.3932023204466395,-0.5000000000000004,0.10679767955336095
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.4296783250152203,-0.5000000000000004,0.07032167498478015
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.4506185339267163,-0.5000000000000004,0.04938146607328414
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.43466832892755874,-0.5000000000000004,0.0653316710724417
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.41450967534473193,-0.5000000000000004,0.08549032465526851
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.43509227466844924,-0.5000000000000004,0.0649077253315512
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.44912861370368423,-0.5000000000000004,0.05087138629631621
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.43765750795539127,-0.5000000000000004,0.06234249204460918
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.4695866820916883,-0.5000000000000004,0.030413317908312143
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8798028041992909,-1.0000000000000049,0.12019719580071397
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.8560283259383072,-1.0000000000000049,0.14397167406169764
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8294368542385466,-1.0000000000000049,0.17056314576145826
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.7969574095583882,-1.0000000000000049,0.20304259044161665
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8144784853842111,-1.0000000000000049,0.1855215146157938
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8228750314232536,-1.0000000000000049,0.1771249685767513
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.849718010571987,-1.0000000000000049,0.15028198942801785
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8569931995735247,-1.0000000000000049,0.14300680042648017
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.9057841494440111,-1.0000000000000049,0.0942158505559938
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.8609964441284937,-1.0000000000000049,0.13900355587151114
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8927148073157269,-1.0000000000000049,0.10728519268427794
+marrakech,BSh,Morocco,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.9011476902015148,-1.0000000000000049,0.09885230979849013
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.360936232310187,-0.5000000000000032,0.1390637676898162
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.3644637664736762,-0.5000000000000032,0.13553623352632704
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3328692823155066,-0.5000000000000032,0.1671307176844966
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.3523966010034246,-0.5000000000000032,0.1476033989965786
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.34702555875928964,-0.5000000000000032,0.15297444124071358
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.42268211417983426,-0.5000000000000032,0.07731788582016896
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.371689034062381,-0.5000000000000032,0.1283109659376222
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.37099717515174935,-0.5000000000000032,0.12900282484825387
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.39848272519946126,-0.5000000000000032,0.10151727480054196
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.43078660745434955,-0.5000000000000032,0.06921339254565367
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.3412663433269761,-0.5000000000000032,0.15873365667302713
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.3890558104436932,-0.5000000000000032,0.11094418955631002
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7629964934579347,-0.999999999999998,0.23700350654206326
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7095998217637567,-0.999999999999998,0.2904001782362413
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.720515887903358,-0.999999999999998,0.27948411209664004
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7918624538485964,-0.999999999999998,0.20813754615140156
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7606892517916284,-0.999999999999998,0.23931074820836962
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.8098550091205525,-0.999999999999998,0.19014499087944547
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7507952293828057,-0.999999999999998,0.24920477061719226
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7645728100822975,-0.999999999999998,0.2354271899177005
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7813221363401651,-0.999999999999998,0.21867786365983288
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8389655934579854,-0.999999999999998,0.16103440654201262
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.7895162475596906,-0.999999999999998,0.21048375244030737
+marrakech,BSh,Morocco,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.7955029779832916,-0.999999999999998,0.2044970220167064
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.40545336676149624,-0.5000000000000004,0.09454663323850421
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.4509246343321227,-0.5000000000000004,0.049075365667877735
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.39507464272948956,-0.5000000000000004,0.10492535727051089
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.37363329151060926,-0.5000000000000004,0.1263667084893912
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.4118814112881194,-0.5000000000000004,0.08811858871188105
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.4675672974275581,-0.5000000000000004,0.03243270257244235
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.40670464116858707,-0.5000000000000004,0.09329535883141338
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.3753117651620286,-0.5000000000000004,0.12468823483797187
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.4494023192733018,-0.5000000000000004,0.050597680726698624
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.5152226416430428,-0.5000000000000004,-0.015222641643042323
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.42610903370759456,-0.5000000000000004,0.07389096629240588
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.4432888101249588,-0.5000000000000004,0.056711189875041645
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8311217560575686,-1.0000000000000049,0.16887824394243633
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.8876939809032536,-1.0000000000000049,0.11230601909675131
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8651480277304251,-1.0000000000000049,0.1348519722695798
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.7715267109581647,-1.0000000000000049,0.22847328904184017
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8618085372629314,-1.0000000000000049,0.1381914627370735
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.902026218502513,-1.0000000000000049,0.09797378149749192
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8732948891421233,-1.0000000000000049,0.1267051108578816
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8141065810381654,-1.0000000000000049,0.18589341896183953
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8749004882090072,-1.0000000000000049,0.12509951179099765
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.9575404305958712,-1.0000000000000049,0.042459569404133646
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8979468802211177,-1.0000000000000049,0.1020531197788872
+nairobi,Aw,Kenya,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8731882679881176,-1.0000000000000049,0.12681173201188733
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.35872046177582995,-0.5000000000000032,0.14127953822417327
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.4029106000446448,-0.5000000000000032,0.09708939995535842
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3618703112456767,-0.5000000000000032,0.13812968875432652
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.35740671742335306,-0.5000000000000032,0.14259328257665016
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.38120989620436196,-0.5000000000000032,0.11879010379564126
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.3883858903147963,-0.5000000000000032,0.11161410968520691
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.3723098750054726,-0.5000000000000032,0.12769012499453064
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3547178162757514,-0.5000000000000032,0.14528218372425183
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.42199288551113545,-0.5000000000000032,0.07800711448886777
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.4702818519221885,-0.5000000000000032,0.0297181480778147
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.4179608883223329,-0.5000000000000032,0.0820391116776703
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.38232997497681387,-0.5000000000000032,0.11767002502318935
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7139287910915504,-0.999999999999998,0.2860712089084476
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.8077781578030296,-0.999999999999998,0.19222184219696836
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7352234131663258,-0.999999999999998,0.2647765868336722
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7177936392350426,-0.999999999999998,0.2822063607649554
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7507050758322364,-0.999999999999998,0.24929492416776156
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.8088006346581897,-0.999999999999998,0.19119936534180826
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7210007957587083,-0.999999999999998,0.27899920424128966
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7269840754682844,-0.999999999999998,0.27301592453171364
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.8192433539670263,-0.999999999999998,0.1807566460329717
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8727871525812225,-0.999999999999998,0.12721284741877548
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8216967730776654,-0.999999999999998,0.17830322692233258
+nairobi,Aw,Kenya,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.7817197514713561,-0.999999999999998,0.21828024852864192
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.4310800883315036,-0.5000000000000004,0.06891991166849687
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.4267521006702024,-0.5000000000000004,0.07324789932979803
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.40264997938413577,-0.5000000000000004,0.09735002061586467
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.38719708631072425,-0.5000000000000004,0.1128029136892762
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.4484255831555112,-0.5000000000000004,0.05157441684448927
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.48004069905085434,-0.5000000000000004,0.019959300949146108
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4837312654233896,-0.5000000000000004,0.01626873457661082
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.4192070396189407,-0.5000000000000004,0.08079296038105976
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.4651860350246117,-0.5000000000000004,0.034813964975388745
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.4863959205061441,-0.5000000000000004,0.013604079493856336
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.48148318985739014,-0.5000000000000004,0.018516810142610307
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.4768745817344211,-0.5000000000000004,0.023125418265579345
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.870659551654541,-1.0000000000000049,0.12934044834546388
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.8760246443210495,-1.0000000000000049,0.12397535567895535
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8571249773057565,-1.0000000000000049,0.14287502269424834
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8445371920536147,-1.0000000000000049,0.15546280794639022
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.9223209769236027,-1.0000000000000049,0.07767902307640218
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8950497184170935,-1.0000000000000049,0.10495028158291142
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.9237426916807168,-1.0000000000000049,0.07625730831928812
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.893793757313166,-1.0000000000000049,0.10620624268683887
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.9084158102159143,-1.0000000000000049,0.09158418978409055
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.9458496787376536,-1.0000000000000049,0.05415032126235131
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.9052281882806668,-1.0000000000000049,0.09477181171933813
+lagos,Aw,Nigeria,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.913345710004998,-1.0000000000000049,0.0866542899950069
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.39186559011524236,-0.5000000000000032,0.10813440988476086
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.3745310981963118,-0.5000000000000032,0.1254689018036914
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3704352045959425,-0.5000000000000032,0.12956479540406074
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.3435175535273309,-0.5000000000000032,0.15648244647267234
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.4123097525748076,-0.5000000000000032,0.0876902474251956
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.4084236889491777,-0.5000000000000032,0.09157631105082553
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.4061804398921953,-0.5000000000000032,0.0938195601078079
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3751983083217447,-0.5000000000000032,0.1248016916782585
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.4132191145369229,-0.5000000000000032,0.08678088546308033
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.4119658093647983,-0.5000000000000032,0.0880341906352049
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.43611095671677313,-0.5000000000000032,0.06388904328323008
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.39224346383340825,-0.5000000000000032,0.10775653616659497
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7784282368147433,-0.999999999999998,0.22157176318525473
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7651038584553793,-0.999999999999998,0.2348961415446187
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7618218912598396,-0.999999999999998,0.23817810874015843
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7348296401231302,-0.999999999999998,0.26517035987686777
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.8354901874325067,-0.999999999999998,0.1645098125674913
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.8396078720489031,-0.999999999999998,0.16039212795109492
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.8558111916031397,-0.999999999999998,0.14418880839685833
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7883679459304405,-0.999999999999998,0.21163205406955754
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.8416565527978438,-0.999999999999998,0.1583434472021542
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8284168720098437,-0.999999999999998,0.1715831279901543
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8550434795651141,-0.999999999999998,0.14495652043488394
+lagos,Aw,Nigeria,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.7999429185080655,-0.999999999999998,0.20005708149193246
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.4180239948730512,-0.5000000000000004,0.08197600512694925
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.388611610050954,-0.5000000000000004,0.11138838994904643
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.3696698283753408,-0.5000000000000004,0.13033017162465965
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.37649176409013185,-0.5000000000000004,0.12350823590986859
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.42298590125748325,-0.5000000000000004,0.07701409874251719
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.4016682590143238,-0.5000000000000004,0.09833174098567665
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.38428223832978614,-0.5000000000000004,0.1157177616702143
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.4411448030188503,-0.5000000000000004,0.05885519698115016
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.44898038477306224,-0.5000000000000004,0.05101961522693821
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.43180960088207754,-0.5000000000000004,0.0681903991179229
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.45422097253860616,-0.5000000000000004,0.045779027461394284
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.462838554508879,-0.5000000000000004,0.037161445491121436
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8202461147762463,-1.0000000000000049,0.17975388522375857
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.7673437037995667,-1.0000000000000049,0.23265629620043815
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.7889297843172882,-1.0000000000000049,0.21107021568271667
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.7986101645452917,-1.0000000000000049,0.20138983545471323
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8278274463124263,-1.0000000000000049,0.17217255368757856
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8252786257524458,-1.0000000000000049,0.17472137424755907
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8020609983566185,-1.0000000000000049,0.1979390016433864
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.9011469533000247,-1.0000000000000049,0.09885304669998018
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8973417765352407,-1.0000000000000049,0.10265822346476416
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.8426710186410591,-1.0000000000000049,0.1573289813589458
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8755578428542565,-1.0000000000000049,0.12444215714574836
+cape_town,Csb,South Africa,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8884901721942784,-1.0000000000000049,0.11150982780572649
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.35309467844924014,-0.5000000000000032,0.14690532155076308
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.3429762616484644,-0.5000000000000032,0.15702373835153882
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.31359943224669673,-0.5000000000000032,0.1864005677533065
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.34119116383586345,-0.5000000000000032,0.15880883616413977
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.3462081774036563,-0.5000000000000032,0.15379182259634694
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.37806324982362915,-0.5000000000000032,0.12193675017637406
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.4078520996706636,-0.5000000000000032,0.09214790032933962
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.41633541944534613,-0.5000000000000032,0.08366458055465709
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.4426800653635876,-0.5000000000000032,0.057319934636415604
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.43144659971797195,-0.5000000000000032,0.06855340028203127
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.4529431390410954,-0.5000000000000032,0.04705686095890782
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.4310144091501489,-0.5000000000000032,0.06898559084985434
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7549052368893194,-0.999999999999998,0.24509476311067857
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7016911030017329,-0.999999999999998,0.2983088969982651
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7298728113431963,-0.999999999999998,0.27012718865680174
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7307361673731273,-0.999999999999998,0.2692638326268707
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7551673065688203,-0.999999999999998,0.24483269343117775
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.7719934293292596,-0.999999999999998,0.22800657067073837
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7871854607053363,-0.999999999999998,0.21281453929466165
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.806382604418652,-0.999999999999998,0.19361739558134605
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7786169635301488,-0.999999999999998,0.22138303646984925
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.7908749591755615,-0.999999999999998,0.2091250408244365
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8127213934324917,-0.999999999999998,0.18727860656750628
+cape_town,Csb,South Africa,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8428813458219886,-0.999999999999998,0.1571186541780094
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.4006921375013017,-0.5000000000000004,0.09930786249869872
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.40443848776757774,-0.5000000000000004,0.09556151223242271
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.3941890808525252,-0.5000000000000004,0.10581091914747526
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.40797249290740467,-0.5000000000000004,0.09202750709259577
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.39322339852820726,-0.5000000000000004,0.10677660147179319
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.41782037035397346,-0.5000000000000004,0.08217962964602699
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.37741510408754175,-0.5000000000000004,0.12258489591245869
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.43040789331298956,-0.5000000000000004,0.06959210668701088
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.40829677265222797,-0.5000000000000004,0.09170322734777248
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.4526209626762645,-0.5000000000000004,0.04737903732373594
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.4458949672493384,-0.5000000000000004,0.05410503275066203
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.40629899123416635,-0.5000000000000004,0.09370100876583409
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8554237748423787,-1.0000000000000049,0.14457622515762614
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.858331896865383,-1.0000000000000049,0.14166810313462186
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.867768300707461,-1.0000000000000049,0.13223169929254386
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.7774836787458939,-1.0000000000000049,0.22251632125411103
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8411374159749907,-1.0000000000000049,0.1588625840250142
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8597049634213787,-1.0000000000000049,0.1402950365786262
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8497301216627173,-1.0000000000000049,0.15026987833728755
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8065603730907034,-1.0000000000000049,0.1934396269093015
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8719569651066239,-1.0000000000000049,0.12804303489338098
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.8864198387033562,-1.0000000000000049,0.11358016129664872
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8769558275012135,-1.0000000000000049,0.1230441724987914
+sao_paulo,Cfa,Brazil,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8261297696715908,-1.0000000000000049,0.1738702303284141
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.36996333266319237,-0.5000000000000032,0.13003666733681085
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.38323939493859044,-0.5000000000000032,0.11676060506141278
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.32251394300584213,-0.5000000000000032,0.1774860569941611
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.33454016125799074,-0.5000000000000032,0.16545983874201248
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.36274992304614617,-0.5000000000000032,0.13725007695385705
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.4001079344053693,-0.5000000000000032,0.09989206559463393
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.35288305840890377,-0.5000000000000032,0.14711694159109945
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3553915911528871,-0.5000000000000032,0.14460840884711612
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.4017674000531657,-0.5000000000000032,0.09823259994683753
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.3807539973789298,-0.5000000000000032,0.11924600262107343
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.40909528085726343,-0.5000000000000032,0.09090471914273979
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.387177435532271,-0.5000000000000032,0.1128225644677322
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7732725983238931,-0.999999999999998,0.22672740167610494
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7649954884491048,-0.999999999999998,0.2350045115508932
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.6406213200336959,-0.999999999999998,0.35937867996630213
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7263845618069398,-0.999999999999998,0.2736154381930582
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7277732072465319,-0.999999999999998,0.27222679275346606
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.7822953143870996,-0.999999999999998,0.21770468561289835
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7522828789244596,-0.999999999999998,0.24771712107553845
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7662862080377147,-0.999999999999998,0.23371379196228326
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.8188895205957827,-0.999999999999998,0.18111047940421532
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.7519530016464993,-0.999999999999998,0.24804699835349875
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.7784158906160847,-0.999999999999998,0.22158410938391326
+sao_paulo,Cfa,Brazil,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.7745098598286702,-0.999999999999998,0.22549014017132785
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.3945070128723258,-0.5000000000000004,0.10549298712767463
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.34728313708921044,-0.5000000000000004,0.15271686291079
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.3851980271870781,-0.5000000000000004,0.11480197281292237
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.3704561908719095,-0.5000000000000004,0.12954380912809094
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.37248969890437134,-0.5000000000000004,0.1275103010956291
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.3335864876190586,-0.5000000000000004,0.16641351238094182
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.3780656662651871,-0.5000000000000004,0.12193433373481333
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.3640050818444946,-0.5000000000000004,0.13599491815550585
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.4518807530487112,-0.5000000000000004,0.04811924695128922
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.38160539996661136,-0.5000000000000004,0.11839460003338909
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.45111061712873046,-0.5000000000000004,0.04888938287126998
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.3994123752166739,-0.5000000000000004,0.10058762478332656
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8483393835424338,-1.0000000000000049,0.15166061645757112
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.745982600212397,-1.0000000000000049,0.25401739978760784
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.7500763032922575,-1.0000000000000049,0.2499236967077474
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.7766743655324648,-1.0000000000000049,0.22332563446754006
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.7933048988621849,-1.0000000000000049,0.20669510113781997
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.7474844191758985,-1.0000000000000049,0.2525155808241064
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.7706245973522904,-1.0000000000000049,0.2293754026477145
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.7663355385645957,-1.0000000000000049,0.2336644614354092
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8082506369484665,-1.0000000000000049,0.19174936305153834
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.8106259666513405,-1.0000000000000049,0.18937403334866443
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8387779509642646,-1.0000000000000049,0.16122204903574033
+calama,BWk,Chile,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8097479506076255,-1.0000000000000049,0.19025204939237939
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.3966056802395572,-0.5000000000000032,0.103394319760446
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.34932900771982855,-0.5000000000000032,0.15067099228017466
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3714792287851525,-0.5000000000000032,0.12852077121485073
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.37039946684614367,-0.5000000000000032,0.12960053315385955
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.38956107109398075,-0.5000000000000032,0.11043892890602247
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.32713198595770887,-0.5000000000000032,0.17286801404229435
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.34742563702609147,-0.5000000000000032,0.15257436297391175
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3826633901636741,-0.5000000000000032,0.1173366098363291
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.4107131462635971,-0.5000000000000032,0.0892868537364061
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.3609424430275787,-0.5000000000000032,0.1390575569724245
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.3923666513518995,-0.5000000000000032,0.1076333486481037
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.37144925347477586,-0.5000000000000032,0.12855074652522736
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7533648950173135,-0.999999999999998,0.24663510498268448
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7523659862833029,-0.999999999999998,0.24763401371669513
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7146080348966592,-0.999999999999998,0.28539196510333875
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7145837533703348,-0.999999999999998,0.28541624662966325
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7405341309000502,-0.999999999999998,0.25946586909994784
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.7147710640079852,-0.999999999999998,0.2852289359920128
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7345396620435081,-0.999999999999998,0.26546033795648993
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7075965466756977,-0.999999999999998,0.2924034533243003
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.803065071058032,-0.999999999999998,0.19693492894196596
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.7255685391332054,-0.999999999999998,0.2744314608667926
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.7811005335860614,-0.999999999999998,0.21889946641393665
+calama,BWk,Chile,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.731671334393319,-0.999999999999998,0.268328665606679
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.3415435186329141,-0.5000000000000004,0.15845648136708634
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.35721948314766383,-0.5000000000000004,0.14278051685233661
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.3829498469448245,-0.5000000000000004,0.11705015305517597
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.3668625106794776,-0.5000000000000004,0.13313748932052283
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.39051913689560624,-0.5000000000000004,0.1094808631043942
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.36449352197109874,-0.5000000000000004,0.1355064780289017
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.41171710500558123,-0.5000000000000004,0.08828289499441921
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.41729518754331535,-0.5000000000000004,0.0827048124566851
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.44107337053322926,-0.5000000000000004,0.058926629466771185
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.43124433319126754,-0.5000000000000004,0.06875566680873291
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.4731031346533521,-0.5000000000000004,0.02689686534664837
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.44984773892391416,-0.5000000000000004,0.05015226107608628
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.7909291263787044,-1.0000000000000049,0.2090708736213005
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.7737968971213024,-1.0000000000000049,0.2262031028787025
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.7847672150875118,-1.0000000000000049,0.2152327849124931
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8111007730756571,-1.0000000000000049,0.1888992269243478
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8117699132125122,-1.0000000000000049,0.18823008678749265
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.7984906953605209,-1.0000000000000049,0.20150930463948402
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8487135731042779,-1.0000000000000049,0.15128642689572702
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8348553317437454,-1.0000000000000049,0.1651446682562595
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8332242806953549,-1.0000000000000049,0.16677571930464996
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.8527433767337222,-1.0000000000000049,0.14725662326628264
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.9230482775853442,-1.0000000000000049,0.07695172241466064
+ushuaia,Dfc,Argentina,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8573249425308238,-1.0000000000000049,0.14267505746918108
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.3289559154830535,-0.5000000000000032,0.17104408451694975
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.3711156237463653,-0.5000000000000032,0.1288843762536379
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.31853560349725624,-0.5000000000000032,0.18146439650274698
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.33235074224082783,-0.5000000000000032,0.16764925775917539
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.3564281321577594,-0.5000000000000032,0.1435718678422438
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.40865358156712944,-0.5000000000000032,0.09134641843287378
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.3476176376009503,-0.5000000000000032,0.1523823623990529
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.37901769450007783,-0.5000000000000032,0.12098230549992539
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.4276846766562925,-0.5000000000000032,0.07231532334371071
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.39827931334414934,-0.5000000000000032,0.10172068665585388
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.43028039214650926,-0.5000000000000032,0.06971960785349396
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.4234742872607167,-0.5000000000000032,0.07652571273928654
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7008611796477305,-0.999999999999998,0.29913882035226746
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.753501621590951,-0.999999999999998,0.24649837840904698
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7319206628429553,-0.999999999999998,0.2680793371570427
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7090415100794272,-0.999999999999998,0.29095848992057083
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7488122204841627,-0.999999999999998,0.25118777951583526
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.7619537755702954,-0.999999999999998,0.23804622442970258
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.6871376099123869,-0.999999999999998,0.3128623900876111
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7563917759572492,-0.999999999999998,0.24360822404274884
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7860783914582226,-0.999999999999998,0.21392160854177544
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8046773121121009,-0.999999999999998,0.19532268788789708
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8172112687170996,-0.999999999999998,0.1827887312828984
+ushuaia,Dfc,Argentina,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.78736970025165,-0.999999999999998,0.21263029974834802
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.45215442194420086,-0.5000000000000004,0.04784557805579959
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.37795238118200725,-0.5000000000000004,0.1220476188179932
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.44558234502291844,-0.5000000000000004,0.05441765497708201
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.421969890339841,-0.5000000000000004,0.07803010966015944
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.42367272421601765,-0.5000000000000004,0.0763272757839828
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.4274119338536053,-0.5000000000000004,0.07258806614639512
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4412224222767991,-0.5000000000000004,0.05877757772320136
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.37745267238195046,-0.5000000000000004,0.12254732761804998
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.47914858880001576,-0.5000000000000004,0.020851411199984682
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.4392485849203051,-0.5000000000000004,0.06075141507969534
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.4761241834550068,-0.5000000000000004,0.023875816544993655
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.45361099189735743,-0.5000000000000004,0.046389008102643015
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8541986129155947,-1.0000000000000049,0.14580138708441015
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.8079320929450047,-1.0000000000000049,0.1920679070550002
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.9094646289346753,-1.0000000000000049,0.0905353710653296
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8211310592773653,-1.0000000000000049,0.1788689407226396
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8165950054629056,-1.0000000000000049,0.18340499453709924
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.8574366421935431,-1.0000000000000049,0.1425633578064618
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8595596645060821,-1.0000000000000049,0.14044033549392276
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8452536273816369,-1.0000000000000049,0.154746372618368
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.9249373124662563,-1.0000000000000049,0.07506268753374856
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.8674606020857234,-1.0000000000000049,0.1325393979142815
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.9107053604690107,-1.0000000000000049,0.08929463953099415
+tokyo,Cfa,Japan,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8891694802902195,-1.0000000000000049,0.11083051970978541
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.4168650644542277,-0.5000000000000032,0.0831349355457755
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.36101517883022016,-0.5000000000000032,0.13898482116978306
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.36253310461640265,-0.5000000000000032,0.13746689538360057
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.3902495387526572,-0.5000000000000032,0.109750461247346
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.36660404515084233,-0.5000000000000032,0.1333959548491609
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.4040258873772573,-0.5000000000000032,0.09597411262274591
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.42413947309646793,-0.5000000000000032,0.07586052690353529
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.37123348113800025,-0.5000000000000032,0.12876651886200297
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.4169038304681849,-0.5000000000000032,0.08309616953181831
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.4097627586152508,-0.5000000000000032,0.09023724138475242
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.4177409333153248,-0.5000000000000032,0.08225906668467842
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.4366642942211604,-0.5000000000000032,0.06333570577884284
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.8181949390525876,-0.999999999999998,0.18180506094741045
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7607152852038224,-0.999999999999998,0.23928471479617563
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7946590648554963,-0.999999999999998,0.2053409351445017
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7778015353707313,-0.999999999999998,0.22219846462926673
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7574187419929657,-0.999999999999998,0.24258125800703234
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.7607295499108777,-0.999999999999998,0.2392704500891203
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7675955903086562,-0.999999999999998,0.2324044096913418
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7762510454570326,-0.999999999999998,0.2237489545429654
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.8257013309211247,-0.999999999999998,0.17429866907887326
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.816555860781687,-0.999999999999998,0.18344413921831104
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8448983726665027,-0.999999999999998,0.1551016273334953
+tokyo,Cfa,Japan,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8508077590742569,-0.999999999999998,0.14919224092574113
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.4405872329152627,-0.5000000000000004,0.05941276708473775
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.4286898526104199,-0.5000000000000004,0.07131014738958052
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.4242838418761806,-0.5000000000000004,0.07571615812381982
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.3874737296464037,-0.5000000000000004,0.11252627035359675
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.44559176933957056,-0.5000000000000004,0.05440823066042988
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.46986435379198005,-0.5000000000000004,0.030135646208020395
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4481035512731213,-0.5000000000000004,0.05189644872687915
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.4466678393785728,-0.5000000000000004,0.05333216062142765
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.4957224192365393,-0.5000000000000004,0.004277580763461131
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.471188560817809,-0.5000000000000004,0.028811439182191423
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.47086523376953515,-0.5000000000000004,0.029134766230465292
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.4992259845542031,-0.5000000000000004,0.0007740154457973603
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8410878029639746,-1.0000000000000049,0.15891219703603032
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.8894026381052855,-1.0000000000000049,0.11059736189471936
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8741797591360086,-1.0000000000000049,0.12582024086399624
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8577181903980158,-1.0000000000000049,0.1422818096019891
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.9149995084013389,-1.0000000000000049,0.08500049159866596
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.9306081807055285,-1.0000000000000049,0.06939181929447635
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.897869008487745,-1.0000000000000049,0.1021309915122599
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8898095443957588,-1.0000000000000049,0.11019045560424612
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.9482101124819824,-1.0000000000000049,0.05178988751802249
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.939910615944996,-1.0000000000000049,0.060089384055008854
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.9269471729918599,-1.0000000000000049,0.07305282700814497
+delhi,BSh,India,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.9151455444475542,-1.0000000000000049,0.08485445555245064
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.3939946285269835,-0.5000000000000032,0.1060053714730197
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.3487916823962933,-0.5000000000000032,0.1512083176037099
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3854476155057228,-0.5000000000000032,0.1145523844942804
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.38482192640883356,-0.5000000000000032,0.11517807359116966
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.4104363694864499,-0.5000000000000032,0.08956363051355332
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.44121510530668523,-0.5000000000000032,0.05878489469331799
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.4045107334642861,-0.5000000000000032,0.0954892665357171
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.4203096338585066,-0.5000000000000032,0.0796903661414966
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.4248440334411495,-0.5000000000000032,0.0751559665588537
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.4497906847202304,-0.5000000000000032,0.05020931527977279
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.39361631856723767,-0.5000000000000032,0.10638368143276555
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.4509569080438036,-0.5000000000000032,0.0490430919561996
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7762823235292584,-0.999999999999998,0.2237176764707396
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7362861375719898,-0.999999999999998,0.2637138624280082
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7674257512641058,-0.999999999999998,0.23257424873589216
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7588821368914935,-0.999999999999998,0.24111786310850447
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.811554985268742,-0.999999999999998,0.18844501473125597
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.8029749076163106,-0.999999999999998,0.19702509238368737
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7737012290003065,-0.999999999999998,0.22629877099969153
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7528328944944217,-0.999999999999998,0.2471671055055763
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7946272175263058,-0.999999999999998,0.20537278247369217
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.824356275000121,-0.999999999999998,0.17564372499987702
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.7893186590539669,-0.999999999999998,0.21068134094603108
+delhi,BSh,India,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8390755662416316,-0.999999999999998,0.1609244337583664
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.41865871507778296,-0.5000000000000004,0.08134128492221748
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.42728765560504056,-0.5000000000000004,0.07271234439495988
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.4144765625373632,-0.5000000000000004,0.08552343746263724
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.41391800211072327,-0.5000000000000004,0.08608199788927717
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.46492351774253815,-0.5000000000000004,0.035076482257462294
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.46270589121749084,-0.5000000000000004,0.037294108782509605
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.49137959868276737,-0.5000000000000004,0.008620401317233073
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.45428008541189,-0.5000000000000004,0.04571991458811042
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.5489354182173976,-0.5000000000000004,-0.04893541821739711
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.47522996847887966,-0.5000000000000004,0.024770031521120783
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.5018432846590632,-0.5000000000000004,-0.001843284659062805
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.5115886183202947,-0.5000000000000004,-0.01158861832029423
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.9034271070995359,-1.0000000000000049,0.096572892900469
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.8981094492087616,-1.0000000000000049,0.10189055079124332
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8734089521673538,-1.0000000000000049,0.12659104783265107
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8898225924551806,-1.0000000000000049,0.1101774075448243
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.924105671988118,-1.0000000000000049,0.07589432801188689
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.9196238075574846,-1.0000000000000049,0.08037619244252026
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.9376270548248078,-1.0000000000000049,0.06237294517519709
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8913025021905844,-1.0000000000000049,0.1086974978094205
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.9782698050483528,-1.0000000000000049,0.02173019495165207
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.9541500022297259,-1.0000000000000049,0.04584999777027898
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.9689272215544498,-1.0000000000000049,0.031072778445555116
+dubai,BWh,United Arab Emirates,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.9488995715567716,-1.0000000000000049,0.05110042844323326
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.33298142509204165,-0.5000000000000032,0.16701857490796157
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.33944493505695394,-0.5000000000000032,0.16055506494304927
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.34875593960030926,-0.5000000000000032,0.15124406039969396
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.3647518532770233,-0.5000000000000032,0.1352481467229799
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.39545129651571975,-0.5000000000000032,0.10454870348428347
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.39447066086478744,-0.5000000000000032,0.10552933913521578
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.3844680295101481,-0.5000000000000032,0.11553197048985514
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3812916155376479,-0.5000000000000032,0.11870838446235532
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.44151233889773744,-0.5000000000000032,0.058487661102265776
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.41185864189026145,-0.5000000000000032,0.08814135810974177
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.4393095762126119,-0.5000000000000032,0.06069042378739131
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.44412328384091926,-0.5000000000000032,0.05587671615908396
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.760148769869351,-0.999999999999998,0.23985123013064702
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.6937236401735769,-0.999999999999998,0.3062763598264211
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7486924120566785,-0.999999999999998,0.25130758794331953
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.8115903063475385,-0.999999999999998,0.18840969365245952
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.75798971666424,-0.999999999999998,0.24201028333575803
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.774736360872158,-0.999999999999998,0.22526363912783998
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.8138190049525595,-0.999999999999998,0.18618099504743846
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7875863674677976,-0.999999999999998,0.21241363253220036
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.8576200282819644,-0.999999999999998,0.14237997171803363
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8232545187585225,-0.999999999999998,0.1767454812414755
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.825907392941172,-0.999999999999998,0.174092607058826
+dubai,BWh,United Arab Emirates,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8972908562531252,-0.999999999999998,0.10270914374687279
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.415458202047031,-0.5000000000000004,0.08454179795296946
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.376985170520103,-0.5000000000000004,0.12301482947989745
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.35925534232087997,-0.5000000000000004,0.14074465767912048
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.3983980790085283,-0.5000000000000004,0.10160192099147214
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.43187906541815113,-0.5000000000000004,0.06812093458184931
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.43411707700836455,-0.5000000000000004,0.0658829229916359
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4163001141174614,-0.5000000000000004,0.08369988588253907
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.40508201413731887,-0.5000000000000004,0.09491798586268158
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.4734252887719931,-0.5000000000000004,0.026574711228007364
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.461976818869414,-0.5000000000000004,0.03802318113058645
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.4461833455016273,-0.5000000000000004,0.05381665449837314
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.44297626017090197,-0.5000000000000004,0.057023739829098474
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8459849506492065,-1.0000000000000049,0.15401504935079835
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.8522762121178121,-1.0000000000000049,0.14772378788219276
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8620096447295967,-1.0000000000000049,0.13799035527040815
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8347840542490714,-1.0000000000000049,0.16521594575093346
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8747832052949573,-1.0000000000000049,0.12521679470504754
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.9086059919856252,-1.0000000000000049,0.09139400801437969
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8649666697511882,-1.0000000000000049,0.1350333302488167
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8633709349374852,-1.0000000000000049,0.1366290650625197
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.9180205894523881,-1.0000000000000049,0.08197941054761682
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.9065018477306341,-1.0000000000000049,0.09349815226937075
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.9342073209864132,-1.0000000000000049,0.06579267901359165
+antalya,Csa,Turkey,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8974397846434868,-1.0000000000000049,0.10256021535651805
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.39350851294130973,-0.5000000000000032,0.10649148705869349
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.3442763114930427,-0.5000000000000032,0.1557236885069605
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3276518770160386,-0.5000000000000032,0.17234812298396462
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.34036848576485257,-0.5000000000000032,0.15963151423515065
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.4035007370369167,-0.5000000000000032,0.09649926296308653
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.3787185087207101,-0.5000000000000032,0.12128149127929311
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.3275507886958906,-0.5000000000000032,0.17244921130411262
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3658655072845872,-0.5000000000000032,0.134134492715416
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.42304099136040163,-0.5000000000000032,0.07695900863960159
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.3949461033227908,-0.5000000000000032,0.10505389667721243
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.41505263659419567,-0.5000000000000032,0.08494736340580755
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.4175827095183604,-0.5000000000000032,0.08241729048164281
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7229594856671682,-0.999999999999998,0.27704051433282983
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7604117087347428,-0.999999999999998,0.23958829126525516
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7183015404164814,-0.999999999999998,0.2816984595835166
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7438801881629719,-0.999999999999998,0.25611981183702615
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7323094527075389,-0.999999999999998,0.2676905472924591
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.7475682196863702,-0.999999999999998,0.2524317803136278
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7181086425364811,-0.999999999999998,0.2818913574635169
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7760507533866292,-0.999999999999998,0.2239492466133688
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7952040190599141,-0.999999999999998,0.2047959809400839
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.7867207509140939,-0.999999999999998,0.21327924908590412
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.7786447819727593,-0.999999999999998,0.22135521802723868
+antalya,Csa,Turkey,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8169760983736007,-0.999999999999998,0.18302390162639726
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.37931675235844503,-0.5000000000000004,0.12068324764155541
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.3465239912733675,-0.5000000000000004,0.15347600872663292
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.34353555550818426,-0.5000000000000004,0.15646444449181618
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.41162802555790856,-0.5000000000000004,0.08837197444209188
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.4167088476182801,-0.5000000000000004,0.08329115238172036
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.37770866417617954,-0.5000000000000004,0.1222913358238209
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4378018839709279,-0.5000000000000004,0.06219811602907255
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.3884882344081686,-0.5000000000000004,0.11151176559183185
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.41334203397584357,-0.5000000000000004,0.08665796602415687
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.32536656632286076,-0.5000000000000004,0.17463343367713968
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.4078240505051472,-0.5000000000000004,0.09217594949485325
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.4531845086505004,-0.5000000000000004,0.04681549134950003
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8196866874694508,-1.0000000000000049,0.18031331253055405
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.703348439604512,-1.0000000000000049,0.2966515603954929
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.795975119937864,-1.0000000000000049,0.20402488006214092
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8356647185410626,-1.0000000000000049,0.16433528145894227
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.7980890493255043,-1.0000000000000049,0.2019109506745006
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.7065353262640184,-1.0000000000000049,0.2934646737359865
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8303240014190404,-1.0000000000000049,0.1696759985809645
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.7898268491686733,-1.0000000000000049,0.2101731508313316
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8233432389877702,-1.0000000000000049,0.1766567610122347
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.7972668779847703,-1.0000000000000049,0.20273312201523463
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.8089037556876636,-1.0000000000000049,0.1910962443123413
+ulaanbaatar,BSk,Mongolia,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8596219322541399,-1.0000000000000049,0.14037806774586503
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.3609110864606746,-0.5000000000000032,0.13908891353932862
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.30658890953702234,-0.5000000000000032,0.19341109046298088
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.3139303567917806,-0.5000000000000032,0.1860696432082226
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.36653284980529,-0.5000000000000032,0.13346715019471322
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.3856198492804219,-0.5000000000000032,0.1143801507195813
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.2894709942232364,-0.5000000000000032,0.2105290057767668
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.34920654828065734,-0.5000000000000032,0.15079345171934588
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3480167518110482,-0.5000000000000032,0.15198324818895503
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.37973195529314996,-0.5000000000000032,0.12026804470685326
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.34484609229248897,-0.5000000000000032,0.15515390770751425
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.347574773848891,-0.5000000000000032,0.1524252261511122
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.3918261967085498,-0.5000000000000032,0.10817380329145343
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7424613465690677,-0.999999999999998,0.2575386534309303
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.6791719053159395,-0.999999999999998,0.3208280946840585
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7214386609723489,-0.999999999999998,0.2785613390276491
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7622032344601404,-0.999999999999998,0.23779676553985762
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.7435803863013074,-0.999999999999998,0.2564196136986906
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.676122786457305,-0.999999999999998,0.32387721354269305
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.7320736137821082,-0.999999999999998,0.2679263862178898
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7223022619357478,-0.999999999999998,0.27769773806425024
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.7298774061479583,-0.999999999999998,0.27012259385203974
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.7349497911839048,-0.999999999999998,0.2650502088160932
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.7426045564718153,-0.999999999999998,0.25739544352818267
+ulaanbaatar,BSk,Mongolia,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8100772882660543,-0.999999999999998,0.1899227117339437
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn,,,-0.41396081115759875,-0.5000000000000004,0.08603918884240169
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,patchtst,,,-0.41838279016642316,-0.5000000000000004,0.08161720983357729
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,informer,,,-0.3927418093881959,-0.5000000000000004,0.10725819061180453
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,0,tcn_full,,,-0.3643425964976521,-0.5000000000000004,0.13565740350234834
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn,,,-0.47341580179122156,-0.5000000000000004,0.026584198208778886
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,patchtst,,,-0.43077643164420865,-0.5000000000000004,0.0692235683557918
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,informer,,,-0.4393710797310435,-0.5000000000000004,0.06062892026895694
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,1,tcn_full,,,-0.37975702509203124,-0.5000000000000004,0.1202429749079692
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn,,,-0.49303079575148123,-0.5000000000000004,0.006969204248519212
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,patchtst,,,-0.5062288445576744,-0.5000000000000004,-0.006228844557673918
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,informer,,,-0.5064500508191905,-0.5000000000000004,-0.006450050819190034
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-0.5,2,tcn_full,,,-0.46298517338249984,-0.5000000000000004,0.03701482661750061
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn,,,-0.8418166727751808,-1.0000000000000049,0.1581833272248241
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,patchtst,,,-0.8303610256193377,-1.0000000000000049,0.16963897438066722
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,informer,,,-0.8732231539567861,-1.0000000000000049,0.12677684604321882
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,0,tcn_full,,,-0.8392237652209256,-1.0000000000000049,0.16077623477907932
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn,,,-0.8696377554119894,-1.0000000000000049,0.13036224458801549
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,patchtst,,,-0.9064839223324787,-1.0000000000000049,0.09351607766752623
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,informer,,,-0.8537550793081481,-1.0000000000000049,0.1462449206918568
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,1,tcn_full,,,-0.8058862198976934,-1.0000000000000049,0.1941137801023115
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn,,,-0.8909273714709396,-1.0000000000000049,0.1090726285290653
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,patchtst,,,-0.9251720330390734,-1.0000000000000049,0.07482796696093152
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,informer,,,-0.930042334375261,-1.0000000000000049,0.06995766562474393
+auckland,Cfb,New Zealand,mono-Si,Canadian_Solar_Inc__CS6K_275M,-1.0,2,tcn_full,,,-0.8635595640167897,-1.0000000000000049,0.1364404359832152
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn,,,-0.36128068243572975,-0.5000000000000032,0.13871931756427347
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,0,patchtst,,,-0.4100502661524341,-0.5000000000000032,0.0899497338475691
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,0,informer,,,-0.4037697831901452,-0.5000000000000032,0.096230216809858
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,0,tcn_full,,,-0.33137900326619674,-0.5000000000000032,0.16862099673380648
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn,,,-0.40174385600256507,-0.5000000000000032,0.09825614399743815
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,1,patchtst,,,-0.3788801729474267,-0.5000000000000032,0.12111982705257651
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,1,informer,,,-0.3678992318823737,-0.5000000000000032,0.1321007681176295
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,1,tcn_full,,,-0.3792960842797099,-0.5000000000000032,0.12070391572029332
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn,,,-0.41047079833682054,-0.5000000000000032,0.08952920166318268
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,2,patchtst,,,-0.45819886351625705,-0.5000000000000032,0.04180113648374617
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,2,informer,,,-0.4172716942728416,-0.5000000000000032,0.08272830572716161
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-0.5,2,tcn_full,,,-0.4093270189903908,-0.5000000000000032,0.09067298100961241
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn,,,-0.7244553690783984,-0.999999999999998,0.27554463092159964
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,0,patchtst,,,-0.7687984446472507,-0.999999999999998,0.23120155535274733
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,0,informer,,,-0.7821880412235354,-0.999999999999998,0.21781195877646264
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,0,tcn_full,,,-0.7181741342236574,-0.999999999999998,0.2818258657763406
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn,,,-0.794214348841764,-0.999999999999998,0.205785651158234
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,1,patchtst,,,-0.845321047642722,-0.999999999999998,0.15467895235727602
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,1,informer,,,-0.8070487969404948,-0.999999999999998,0.1929512030595032
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,1,tcn_full,,,-0.7432673048434096,-0.999999999999998,0.25673269515658836
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn,,,-0.820444659308156,-0.999999999999998,0.17955534069184198
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,2,patchtst,,,-0.8357330701927901,-0.999999999999998,0.16426692980720792
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,2,informer,,,-0.8143473269968893,-0.999999999999998,0.18565267300310873
+auckland,Cfb,New Zealand,CdTe,First_Solar__Inc__FS_6385,-1.0,2,tcn_full,,,-0.8294790436028432,-0.999999999999998,0.1705209563971548

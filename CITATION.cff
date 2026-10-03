@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "PV_HYDRA: machine-learning normalization and photovoltaic performance loss rates"
-version: "1.0"
-date-released: "2026-10-02"
+version: "1.1"
+date-released: "2026-10-03"
 repository-code: "https://github.com/onurayvaz10/PV_HYDRA"
 authors:
   - family-names: Ayvaz

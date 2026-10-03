@@ -1,0 +1,6 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+B,sodankyla,Dfc,Finland,adr,-1.0,1,khd_no_physics,-0.004,-1.00315893327042,-1.0,-0.00315893327042005
+B,sodankyla,Dfc,Finland,adr,-1.0,1,khd_no_correction,-0.004,-0.929945279893504,-1.0,0.07005472010649605
+B,sodankyla,Dfc,Finland,adr,-1.0,1,tcn,-0.004,-0.9429852128239102,-1.0,0.057014787176089765
+B,sodankyla,Dfc,Finland,adr,-1.0,2,khd_full,-0.004,-1.0023698743079217,-1.0,-0.002369874307921682
+B,sodankyla,Dfc,Finland,adr,-1.0,2,khd_no_physics,-0.004,-1.0028599066143162,-1.0,-0.002859906614316232

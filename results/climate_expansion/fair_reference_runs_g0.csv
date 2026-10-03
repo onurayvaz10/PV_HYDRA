@@ -1,0 +1,41 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+B,alice_springs,BWh,Australia,adr,-0.5,0,khd_full,-0.004,-0.49644792303890223,-0.5,0.003552076961097772
+B,alice_springs,BWh,Australia,adr,-0.5,0,khd_no_physics,-0.004,-0.49488999399426753,-0.5,0.00511000600573247
+B,alice_springs,BWh,Australia,adr,-0.5,0,khd_no_correction,-0.004,-0.504413374516463,-0.5,-0.004413374516462953
+B,alice_springs,BWh,Australia,adr,-0.5,0,tcn,-0.004,-0.5170183519580318,-0.5,-0.017018351958031808
+B,alice_springs,BWh,Australia,adr,-0.5,1,khd_full,-0.004,-0.4958759500698852,-0.5,0.0041240499301147815
+B,alice_springs,BWh,Australia,adr,-0.5,1,khd_no_physics,-0.004,-0.5122759520323077,-0.5,-0.012275952032307691
+B,alice_springs,BWh,Australia,adr,-0.5,1,khd_no_correction,-0.004,-0.49121049443216813,-0.5,0.008789505567831868
+B,alice_springs,BWh,Australia,adr,-0.5,1,tcn,-0.004,-0.5172672818051116,-0.5,-0.01726728180511161
+B,alice_springs,BWh,Australia,adr,-0.5,2,khd_full,-0.004,-0.4945552109282431,-0.5,0.005444789071756884
+B,alice_springs,BWh,Australia,adr,-0.5,2,khd_no_physics,-0.004,-0.4872354291619887,-0.5,0.012764570838011302
+B,alice_springs,BWh,Australia,adr,-0.5,2,khd_no_correction,-0.004,-0.493744413753878,-0.5,0.006255586246121991
+B,alice_springs,BWh,Australia,adr,-0.5,2,tcn,-0.004,-0.505276175294711,-0.5,-0.005276175294711027
+B,alice_springs,BWh,Australia,adr,-1.0,0,khd_full,-0.004,-1.0043657014439449,-1.0,-0.0043657014439448805
+B,alice_springs,BWh,Australia,adr,-1.0,0,khd_no_physics,-0.004,-1.003547058315843,-1.0,-0.0035470583158430102
+B,alice_springs,BWh,Australia,adr,-1.0,0,khd_no_correction,-0.004,-0.9818223459032869,-1.0,0.018177654096713125
+B,alice_springs,BWh,Australia,adr,-1.0,0,tcn,-0.004,-1.0220291068786524,-1.0,-0.02202910687865245
+B,alice_springs,BWh,Australia,adr,-1.0,1,khd_full,-0.004,-1.017269681228262,-1.0,-0.017269681228262
+B,alice_springs,BWh,Australia,adr,-1.0,1,khd_no_physics,-0.004,-0.9999864963090512,-1.0,1.3503690948768465e-05
+B,alice_springs,BWh,Australia,adr,-1.0,1,khd_no_correction,-0.004,-0.9698960145753018,-1.0,0.030103985424698165
+B,alice_springs,BWh,Australia,adr,-1.0,1,tcn,-0.004,-1.0121931742438361,-1.0,-0.012193174243836147
+B,alice_springs,BWh,Australia,adr,-1.0,2,khd_full,-0.004,-0.9873259620347198,-1.0,0.012674037965280216
+B,alice_springs,BWh,Australia,adr,-1.0,2,khd_no_physics,-0.004,-0.9767635042356424,-1.0,0.0232364957643576
+B,alice_springs,BWh,Australia,adr,-1.0,2,khd_no_correction,-0.004,-0.9633072011014515,-1.0,0.036692798898548484
+B,alice_springs,BWh,Australia,adr,-1.0,2,tcn,-0.004,-0.9828925430369728,-1.0,0.01710745696302718
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,khd_full,-0.004,-0.49948959291070005,-0.5,0.0005104070892999468
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,khd_no_physics,-0.004,-0.5008741538404229,-0.5,-0.0008741538404228866
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,khd_no_correction,-0.004,-0.48260784877681817,-0.5,0.01739215122318183
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,0,tcn,-0.004,-0.522190591943406,-0.5,-0.022190591943406
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,khd_full,-0.004,-0.48833854591800463,-0.5,0.01166145408199537
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,khd_no_physics,-0.004,-0.4954905818258978,-0.5,0.00450941817410222
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,khd_no_correction,-0.004,-0.4455185269614222,-0.5,0.05448147303857781
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,1,tcn,-0.004,-0.5187399000470938,-0.5,-0.018739900047093805
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,khd_full,-0.004,-0.5148427916498395,-0.5,-0.014842791649839482
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,khd_no_physics,-0.004,-0.4956742192376382,-0.5,0.004325780762361786
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,khd_no_correction,-0.004,-0.4564567675261761,-0.5,0.04354323247382391
+B,hong_kong,Cwa,China (Hong Kong),adr,-0.5,2,tcn,-0.004,-0.5034863462784274,-0.5,-0.0034863462784273658
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,khd_full,-0.004,-1.0112740687126183,-1.0,-0.011274068712618268
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,khd_no_physics,-0.004,-1.0155652928379622,-1.0,-0.015565292837962152
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,khd_no_correction,-0.004,-0.9708171623920472,-1.0,0.029182837607952816
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,0,tcn,-0.004,-1.016291750774223,-1.0,-0.01629175077422307

@@ -272,3 +272,475 @@ design_license,CC BY 4.0,CC BY 4.0,data licences (provider pages),design constan
 design_six_months,6,6,"transfer test: six local months (T9_transfer.csv conditions scratch_6, finetune_6)",design constant,design
 example_final_year_pp,5,5.0,derived: 0.20 %/yr x 25 yr,derived,derived
 example_lifetime,2.4,2.4000000000000004,derived: mean loss over years 0-24 at 0.20 %/yr,derived,derived
+v3_inj_khd_no_correction,0.004,0.004,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_correction,result
+v3_injworst_khd_no_correction,0.010,0.010,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_khd_no_correction,result
+v3_inj_khd_no_correction_alice,0.006,0.006,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_correction_alice,result
+v3_inj_khd_no_correction_golden,0.003,0.003,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_correction_golden,result
+v3_inj_khd_no_correction_henderson,0.010,0.010,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_correction_henderson,result
+v3_inj_khd_no_correction_las,0.001,0.001,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_correction_las,result
+v3_inj_khd_no_correction_arbuckle,0.001,0.001,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_correction_arbuckle,result
+v3_inj_khd_no_physics,0.006,0.006,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_physics,result
+v3_injworst_khd_no_physics,0.018,0.018,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_khd_no_physics,result
+v3_inj_khd_no_physics_alice,0.005,0.005,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_physics_alice,result
+v3_inj_khd_no_physics_golden,0.005,0.005,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_physics_golden,result
+v3_inj_khd_no_physics_henderson,0.002,0.002,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_physics_henderson,result
+v3_inj_khd_no_physics_las,0.018,0.018,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_physics_las,result
+v3_inj_khd_no_physics_arbuckle,0.000,0.000,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_physics_arbuckle,result
+v3_inj_khd,0.008,0.008,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd,result
+v3_injworst_khd,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_khd,result
+v3_inj_khd_alice,0.007,0.007,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_alice,result
+v3_inj_khd_golden,0.006,0.006,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_golden,result
+v3_inj_khd_henderson,0.004,0.004,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_henderson,result
+v3_inj_khd_las,0.004,0.004,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_las,result
+v3_inj_khd_arbuckle,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_arbuckle,result
+v3_inj_patchtst,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_patchtst,result
+v3_injworst_patchtst,0.024,0.024,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_patchtst,result
+v3_inj_patchtst_alice,0.023,0.023,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_patchtst_alice,result
+v3_inj_patchtst_golden,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_patchtst_golden,result
+v3_inj_patchtst_henderson,0.005,0.005,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_patchtst_henderson,result
+v3_inj_patchtst_las,0.012,0.012,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_patchtst_las,result
+v3_inj_patchtst_arbuckle,0.024,0.024,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_patchtst_arbuckle,result
+v3_inj_lstm,0.018,0.018,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_lstm,result
+v3_injworst_lstm,0.047,0.047,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_lstm,result
+v3_inj_lstm_alice,0.020,0.020,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_lstm_alice,result
+v3_inj_lstm_golden,0.012,0.012,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_lstm_golden,result
+v3_inj_lstm_henderson,0.006,0.006,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_lstm_henderson,result
+v3_inj_lstm_las,0.002,0.002,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_lstm_las,result
+v3_inj_lstm_arbuckle,0.047,0.047,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_lstm_arbuckle,result
+v3_inj_tcn,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn,result
+v3_injworst_tcn,0.032,0.032,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_tcn,result
+v3_inj_tcn_alice,0.029,0.029,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_alice,result
+v3_inj_tcn_golden,0.032,0.032,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_golden,result
+v3_inj_tcn_henderson,0.006,0.006,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_henderson,result
+v3_inj_tcn_las,0.009,0.009,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_las,result
+v3_inj_tcn_arbuckle,0.031,0.031,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_arbuckle,result
+v3_inj_xgboost,0.023,0.023,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost,result
+v3_injworst_xgboost,0.029,0.029,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_xgboost,result
+v3_inj_xgboost_alice,0.025,0.025,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_alice,result
+v3_inj_xgboost_golden,0.026,0.026,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_golden,result
+v3_inj_xgboost_henderson,0.029,0.029,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_henderson,result
+v3_inj_xgboost_las,0.018,0.018,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_las,result
+v3_inj_xgboost_arbuckle,0.015,0.015,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_arbuckle,result
+v3_inj_reference,0.024,0.024,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference,result
+v3_injworst_reference,0.044,0.044,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_reference,result
+v3_inj_reference_alice,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_alice,result
+v3_inj_reference_golden,0.017,0.017,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_golden,result
+v3_inj_reference_henderson,0.007,0.007,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_henderson,result
+v3_inj_reference_las,0.029,0.029,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_las,result
+v3_inj_reference_arbuckle,0.044,0.044,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_arbuckle,result
+v3_inj_khd_24,0.025,0.025,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_24,result
+v3_injworst_khd_24,0.042,0.042,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_khd_24,result
+v3_inj_khd_24_alice,0.027,0.027,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_24_alice,result
+v3_inj_khd_24_golden,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_24_golden,result
+v3_inj_khd_24_henderson,0.006,0.006,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_24_henderson,result
+v3_inj_khd_24_las,0.033,0.033,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_24_las,result
+v3_inj_khd_24_arbuckle,0.042,0.042,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_24_arbuckle,result
+v3_inj_reference_fitted,0.026,0.026,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_fitted,result
+v3_injworst_reference_fitted,0.081,0.081,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_reference_fitted,result
+v3_inj_reference_fitted_alice,0.026,0.026,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_fitted_alice,result
+v3_inj_reference_fitted_golden,0.007,0.007,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_fitted_golden,result
+v3_inj_reference_fitted_henderson,0.009,0.009,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_fitted_henderson,result
+v3_inj_reference_fitted_las,0.006,0.006,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_fitted_las,result
+v3_inj_reference_fitted_arbuckle,0.081,0.081,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_fitted_arbuckle,result
+v3_inj_gru,0.027,0.027,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_gru,result
+v3_injworst_gru,0.059,0.059,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_gru,result
+v3_inj_gru_alice,0.025,0.025,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_gru_alice,result
+v3_inj_gru_golden,0.026,0.026,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_gru_golden,result
+v3_inj_gru_henderson,0.015,0.015,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_gru_henderson,result
+v3_inj_gru_las,0.010,0.010,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_gru_las,result
+v3_inj_gru_arbuckle,0.059,0.059,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_gru_arbuckle,result
+v3_inj_informer,0.027,0.027,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_informer,result
+v3_injworst_informer,0.072,0.072,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_informer,result
+v3_inj_informer_alice,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_informer_alice,result
+v3_inj_informer_golden,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_informer_golden,result
+v3_inj_informer_henderson,0.009,0.009,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_informer_henderson,result
+v3_inj_informer_las,0.011,0.011,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_informer_las,result
+v3_inj_informer_arbuckle,0.072,0.072,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_informer_arbuckle,result
+v3_inj_reference_clearsky,0.035,0.035,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_clearsky,result
+v3_injworst_reference_clearsky,0.073,0.073,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_reference_clearsky,result
+v3_inj_reference_clearsky_alice,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_clearsky_alice,result
+v3_inj_reference_clearsky_golden,0.036,0.036,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_clearsky_golden,result
+v3_inj_reference_clearsky_henderson,0.009,0.009,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_clearsky_henderson,result
+v3_inj_reference_clearsky_las,–,–,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_clearsky_las,result
+v3_inj_reference_clearsky_arbuckle,0.073,0.073,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_clearsky_arbuckle,result
+v3_inj_tcn_full,0.059,0.059,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_full,result
+v3_injworst_tcn_full,0.085,0.085,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_tcn_full,result
+v3_inj_tcn_full_alice,0.047,0.047,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_full_alice,result
+v3_inj_tcn_full_golden,0.060,0.060,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_full_golden,result
+v3_inj_tcn_full_henderson,0.058,0.058,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_full_henderson,result
+v3_inj_tcn_full_las,0.085,0.085,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_full_las,result
+v3_inj_tcn_full_arbuckle,0.047,0.047,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_full_arbuckle,result
+v3_inj_random_forest,0.124,0.124,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_random_forest,result
+v3_injworst_random_forest,0.260,0.260,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_random_forest,result
+v3_inj_random_forest_alice,0.038,0.038,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_random_forest_alice,result
+v3_inj_random_forest_golden,0.080,0.080,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_random_forest_golden,result
+v3_inj_random_forest_henderson,0.260,0.260,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_random_forest_henderson,result
+v3_inj_random_forest_las,0.164,0.164,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_random_forest_las,result
+v3_inj_random_forest_arbuckle,0.079,0.079,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_random_forest_arbuckle,result
+v3_inj_xgboost_full,0.142,0.142,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_full,result
+v3_injworst_xgboost_full,0.217,0.217,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_xgboost_full,result
+v3_inj_xgboost_full_alice,0.103,0.103,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_full_alice,result
+v3_inj_xgboost_full_golden,0.109,0.109,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_full_golden,result
+v3_inj_xgboost_full_henderson,0.121,0.121,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_full_henderson,result
+v3_inj_xgboost_full_las,0.217,0.217,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_full_las,result
+v3_inj_xgboost_full_arbuckle,0.160,0.160,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_full_arbuckle,result
+v3_best_two_stage,PatchTST,PatchTST,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",best_two_stage,result
+v3_inj_best_two_stage,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_best_two_stage,result
+v3_arb_gru_min,1.05,1.05,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_gru_min,result
+v3_arb_gru_max,1.09,1.09,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_gru_max,result
+v3_arb_informer_min,0.68,0.68,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_informer_min,result
+v3_arb_informer_max,1.10,1.10,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_informer_max,result
+v3_arb_khd_min,0.97,0.97,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_min,result
+v3_arb_khd_max,0.99,0.99,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_max,result
+v3_arb_khd_24_min,0.94,0.94,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_24_min,result
+v3_arb_khd_24_max,0.98,0.98,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_24_max,result
+v3_arb_khd_no_correction_min,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_no_correction_min,result
+v3_arb_khd_no_correction_max,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_no_correction_max,result
+v3_arb_khd_no_physics_min,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_no_physics_min,result
+v3_arb_khd_no_physics_max,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_no_physics_max,result
+v3_arb_lstm_min,0.98,0.98,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_lstm_min,result
+v3_arb_lstm_max,1.06,1.06,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_lstm_max,result
+v3_arb_patchtst_min,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_patchtst_min,result
+v3_arb_patchtst_max,1.04,1.04,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_patchtst_max,result
+v3_arb_random_forest_min,0.89,0.89,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_random_forest_min,result
+v3_arb_random_forest_max,1.02,1.02,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_random_forest_max,result
+v3_arb_reference_min,0.97,0.97,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_reference_min,result
+v3_arb_reference_max,1.06,1.06,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_reference_max,result
+v3_arb_reference_clearsky_min,1.06,1.06,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_reference_clearsky_min,result
+v3_arb_reference_clearsky_max,1.12,1.12,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_reference_clearsky_max,result
+v3_arb_reference_fitted_min,1.07,1.07,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_reference_fitted_min,result
+v3_arb_reference_fitted_max,1.12,1.12,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_reference_fitted_max,result
+v3_arb_tcn_min,0.88,0.88,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_tcn_min,result
+v3_arb_tcn_max,0.99,0.99,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_tcn_max,result
+v3_arb_tcn_full_min,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_tcn_full_min,result
+v3_arb_tcn_full_max,1.32,1.32,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_tcn_full_max,result
+v3_arb_xgboost_min,0.98,0.98,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_xgboost_min,result
+v3_arb_xgboost_max,1.02,1.02,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_xgboost_max,result
+v3_arb_xgboost_full_min,0.66,0.66,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_xgboost_full_min,result
+v3_arb_xgboost_full_max,0.88,0.88,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_xgboost_full_max,result
+v3_arb_off_min,1.04,1.04,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_off_min,result
+v3_arb_off_max,1.07,1.07,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_off_max,result
+v3_n_2x2,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",n_2x2,result
+v3_norm_med,0.042,0.042,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",norm_med,result
+v3_norm_max,0.300,0.300,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",norm_max,result
+v3_est_med,0.112,0.112,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",est_med,result
+v3_est_max,0.500,0.500,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",est_max,result
+v3_da_largest_systems,"DKASC 11, DKASC 17, DKASC 14","DKASC 11, DKASC 17, DKASC 14","fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",da_largest_systems,result
+v3_da_largest_min,0.44,0.44,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",da_largest_min,result
+v3_da_largest_max,0.56,0.56,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",da_largest_max,result
+v3_rho_da_half,−0.13,−0.13,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",rho_da_half,result
+v3_sd_ref,0.104,0.104,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_ref,result
+v3_sd_ref_worst,0.172,0.172,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_ref_worst,result
+v3_sd_ref_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_ref_n,result
+v3_sd_ref_bias,+0.103,+0.103,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_ref_bias,result
+v3_sd_khd,0.081,0.081,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_khd,result
+v3_sd_khd_worst,0.116,0.116,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_khd_worst,result
+v3_sd_khd_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_khd_n,result
+v3_sd_khd_bias,+0.080,+0.080,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_khd_bias,result
+v3_sd_khd24,0.083,0.083,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_khd24,result
+v3_sd_khd24_worst,0.134,0.134,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_khd24_worst,result
+v3_sd_khd24_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_khd24_n,result
+v3_sd_khd24_bias,+0.081,+0.081,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_khd24_bias,result
+v3_ex_khd24,0.017,0.017,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_khd24,result
+v3_ex_khd24_worst,0.023,0.023,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_khd24_worst,result
+v3_ex_khd24_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_khd24_n,result
+v3_ex_khd24_bias,+0.002,+0.002,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_khd24_bias,result
+v3_ex_xgbfull,0.114,0.114,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_xgbfull,result
+v3_ex_xgbfull_worst,0.159,0.159,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_xgbfull_worst,result
+v3_ex_xgbfull_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_xgbfull_n,result
+v3_ex_xgbfull_bias,+0.114,+0.114,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_xgbfull_bias,result
+v3_ex_tcnfull,0.030,0.030,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_tcnfull,result
+v3_ex_tcnfull_worst,0.074,0.074,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_tcnfull_worst,result
+v3_ex_tcnfull_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_tcnfull_n,result
+v3_ex_tcnfull_bias,+0.028,+0.028,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_tcnfull_bias,result
+v3_ex_khd,0.008,0.008,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_khd,result
+v3_ex_khd_worst,0.011,0.011,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_khd_worst,result
+v3_ex_khd_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_khd_n,result
+v3_ex_khd_bias,−0.002,−0.002,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_khd_bias,result
+v3_ex_ref,0.030,0.030,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_ref,result
+v3_ex_ref_worst,0.091,0.091,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_ref_worst,result
+v3_ex_ref_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_ref_n,result
+v3_ex_ref_bias,+0.019,+0.019,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",ex_ref_bias,result
+v3_sd_best_method,κ-HYDRA-D,κ-HYDRA-D,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_best_method,result
+v3_sd_best_mae,0.081,0.081,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_best_mae,result
+v3_sd_bias_min,+0.080,+0.080,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_bias_min,result
+v3_sd_bias_max,+0.221,+0.221,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_bias_max,result
+v3_sd_cov_c,85,85,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_cov_c,result
+v3_sd_cov_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_cov_n,result
+v3_sd_cov_lo,0.30,0.30,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_cov_lo,result
+v3_sd_cov_hi,0.42,0.42,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_cov_hi,result
+v3_sd_cov_width,0.11,0.11,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_cov_width,result
+v3_sd_refcov_c,95,95,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_refcov_c,result
+v3_sd_refcov_n,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_refcov_n,result
+v3_sd_refcov_lo,0.34,0.34,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_refcov_lo,result
+v3_sd_refcov_hi,0.46,0.46,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",sd_refcov_hi,result
+v3_meas_width_khd,0.47,0.47,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",meas_width_khd,result
+v3_meas_width_ref,0.33,0.33,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",meas_width_ref,result
+v3_spread_med,0.20,0.20,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",spread_med,result
+v3_spread_max,0.39,0.39,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",spread_max,result
+v3_n_spread,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",n_spread,result
+v3_illus_final,5,5,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",illus_final,result
+v3_illus_life,2.4,2.4,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",illus_life,result
+v3_rmse_lo,0.029,0.029,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",rmse_lo,result
+v3_rmse_hi,0.033,0.033,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",rmse_hi,result
+v3_win_med,0.04,0.04,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",win_med,result
+v3_win_max,0.26,0.26,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",win_max,result
+v3_cs_diff_min,−0.35,−0.35,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",cs_diff_min,result
+v3_cs_diff_max,+0.32,+0.32,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",cs_diff_max,result
+v3_cs_diff_med,−0.08,−0.08,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",cs_diff_med,result
+v3_cs_n,12,12,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",cs_n,result
+v3_prof_n,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",prof_n,result
+v3_prof_single,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",prof_single,result
+v3_prof_widest,PVDAQ 2107,PVDAQ 2107,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",prof_widest,result
+v3_prof_widest_w,3.90,3.90,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",prof_widest_w,result
+v3_prof_med_w,0.83,0.83,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",prof_med_w,result
+v3_lat_rho,0.49,0.49,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",lat_rho,result
+v3_lat_p,0.03,0.03,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",lat_p,result
+v3_mm_khd,−0.0151,−0.0151,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_khd,result
+v3_mm_khd_lo,−0.0300,−0.0300,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_khd_lo,result
+v3_mm_khd_hi,−0.0001,−0.0001,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_khd_hi,result
+v3_mm_khd_24,+0.0031,+0.0031,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_khd_24,result
+v3_mm_khd_24_lo,−0.0118,−0.0118,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_khd_24_lo,result
+v3_mm_khd_24_hi,+0.0181,+0.0181,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_khd_24_hi,result
+v3_mm_xgboost,+0.0023,+0.0023,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_xgboost,result
+v3_mm_xgboost_lo,−0.0127,−0.0127,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_xgboost_lo,result
+v3_mm_xgboost_hi,+0.0173,+0.0173,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_xgboost_hi,result
+v3_mm_xgboost_full,+0.0926,+0.0926,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_xgboost_full,result
+v3_mm_xgboost_full_lo,+0.0777,+0.0777,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_xgboost_full_lo,result
+v3_mm_xgboost_full_hi,+0.1076,+0.1076,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_xgboost_full_hi,result
+v3_mm_lstm,−0.0035,−0.0035,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_lstm,result
+v3_mm_lstm_lo,−0.0185,−0.0185,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_lstm_lo,result
+v3_mm_lstm_hi,+0.0115,+0.0115,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_lstm_hi,result
+v3_mm_gru,+0.0034,+0.0034,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_gru,result
+v3_mm_gru_lo,−0.0116,−0.0116,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_gru_lo,result
+v3_mm_gru_hi,+0.0184,+0.0184,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_gru_hi,result
+v3_mm_tcn,+0.0053,+0.0053,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_tcn,result
+v3_mm_tcn_lo,−0.0097,−0.0097,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_tcn_lo,result
+v3_mm_tcn_hi,+0.0202,+0.0202,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_tcn_hi,result
+v3_mm_tcn_full,+0.0295,+0.0295,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_tcn_full,result
+v3_mm_tcn_full_lo,+0.0146,+0.0146,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_tcn_full_lo,result
+v3_mm_tcn_full_hi,+0.0445,+0.0445,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_tcn_full_hi,result
+v3_mm_patchtst,−0.0019,−0.0019,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_patchtst,result
+v3_mm_patchtst_lo,−0.0169,−0.0169,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_patchtst_lo,result
+v3_mm_patchtst_hi,+0.0131,+0.0131,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_patchtst_hi,result
+v3_mm_informer,+0.0012,+0.0012,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_informer,result
+v3_mm_informer_lo,−0.0138,−0.0138,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_informer_lo,result
+v3_mm_informer_hi,+0.0161,+0.0161,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_informer_hi,result
+v3_mm_random_forest,+0.0447,+0.0447,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_random_forest,result
+v3_mm_random_forest_lo,+0.0297,+0.0297,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_random_forest_lo,result
+v3_mm_random_forest_hi,+0.0597,+0.0597,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_random_forest_hi,result
+v3_TWO_BY_TWO_TABLE_0,11,11,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 0,result
+v3_TWO_BY_TWO_TABLE_1,−1.42,−1.42,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 1,result
+v3_TWO_BY_TWO_TABLE_2,−0.87,−0.87,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 2,result
+v3_TWO_BY_TWO_TABLE_3,−1.31,−1.31,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 3,result
+v3_TWO_BY_TWO_TABLE_4,−0.86,−0.86,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 4,result
+v3_TWO_BY_TWO_TABLE_5,+0.058,+0.058,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 5,result
+v3_TWO_BY_TWO_TABLE_6,+0.500,+0.500,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 6,result
+v3_TWO_BY_TWO_TABLE_7,17,17,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 7,result
+v3_TWO_BY_TWO_TABLE_8,−0.53,−0.53,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 8,result
+v3_TWO_BY_TWO_TABLE_9,−0.08,−0.08,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 9,result
+v3_TWO_BY_TWO_TABLE_10,−0.48,−0.48,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 10,result
+v3_TWO_BY_TWO_TABLE_11,−0.08,−0.08,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 11,result
+v3_TWO_BY_TWO_TABLE_12,+0.028,+0.028,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 12,result
+v3_TWO_BY_TWO_TABLE_13,+0.424,+0.424,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 13,result
+v3_TWO_BY_TWO_TABLE_14,14,14,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 14,result
+v3_TWO_BY_TWO_TABLE_15,−0.74,−0.74,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 15,result
+v3_TWO_BY_TWO_TABLE_16,−0.35,−0.35,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 16,result
+v3_TWO_BY_TWO_TABLE_17,−0.60,−0.60,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 17,result
+v3_TWO_BY_TWO_TABLE_18,−0.30,−0.30,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 18,result
+v3_TWO_BY_TWO_TABLE_19,+0.090,+0.090,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 19,result
+v3_TWO_BY_TWO_TABLE_20,+0.347,+0.347,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 20,result
+v3_TWO_BY_TWO_TABLE_21,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 21,result
+v3_TWO_BY_TWO_TABLE_22,0.042,0.042,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 22,result
+v3_TWO_BY_TWO_TABLE_23,0.112,0.112,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 23,result
+v3_TWO_BY_TWO_TABLE_24,0.300,0.300,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 24,result
+v3_TWO_BY_TWO_TABLE_25,0.500,0.500,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TWO_BY_TWO_TABLE cell token 25,result
+v3_TABLE_MEASURED_0,0.024,0.024,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 0,result
+v3_TABLE_MEASURED_1,0.044,0.044,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 1,result
+v3_TABLE_MEASURED_2,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 2,result
+v3_TABLE_MEASURED_3,0.024,0.024,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 3,result
+v3_TABLE_MEASURED_4,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 4,result
+v3_TABLE_MEASURED_5,12,12,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 5,result
+v3_TABLE_MEASURED_6,0.026,0.026,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 6,result
+v3_TABLE_MEASURED_7,0.081,0.081,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 7,result
+v3_TABLE_MEASURED_8,0.026,0.026,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 8,result
+v3_TABLE_MEASURED_9,0.026,0.026,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 9,result
+v3_TABLE_MEASURED_10,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 10,result
+v3_TABLE_MEASURED_11,0.035,0.035,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 11,result
+v3_TABLE_MEASURED_12,0.073,0.073,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 12,result
+v3_TABLE_MEASURED_13,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 13,result
+v3_TABLE_MEASURED_14,0.039,0.039,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 14,result
+v3_TABLE_MEASURED_15,16,16,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 15,result
+v3_TABLE_MEASURED_16,0.008,0.008,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 16,result
+v3_TABLE_MEASURED_17,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 17,result
+v3_TABLE_MEASURED_18,0.007,0.007,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 18,result
+v3_TABLE_MEASURED_19,0.008,0.008,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 19,result
+v3_TABLE_MEASURED_20,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 20,result
+v3_TABLE_MEASURED_21,-24,-24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 21,result
+v3_TABLE_MEASURED_22,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 22,result
+v3_TABLE_MEASURED_23,0.025,0.025,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 23,result
+v3_TABLE_MEASURED_24,0.042,0.042,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 24,result
+v3_TABLE_MEASURED_25,0.027,0.027,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 25,result
+v3_TABLE_MEASURED_26,0.024,0.024,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 26,result
+v3_TABLE_MEASURED_27,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 27,result
+v3_TABLE_MEASURED_28,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 28,result
+v3_TABLE_MEASURED_29,0.023,0.023,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 29,result
+v3_TABLE_MEASURED_30,0.029,0.029,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 30,result
+v3_TABLE_MEASURED_31,0.025,0.025,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 31,result
+v3_TABLE_MEASURED_32,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 32,result
+v3_TABLE_MEASURED_33,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 33,result
+v3_TABLE_MEASURED_34,0.142,0.142,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 34,result
+v3_TABLE_MEASURED_35,0.217,0.217,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 35,result
+v3_TABLE_MEASURED_36,0.103,0.103,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 36,result
+v3_TABLE_MEASURED_37,0.152,0.152,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 37,result
+v3_TABLE_MEASURED_38,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 38,result
+v3_TABLE_MEASURED_39,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 39,result
+v3_TABLE_MEASURED_40,0.124,0.124,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 40,result
+v3_TABLE_MEASURED_41,0.260,0.260,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 41,result
+v3_TABLE_MEASURED_42,0.038,0.038,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 42,result
+v3_TABLE_MEASURED_43,0.146,0.146,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 43,result
+v3_TABLE_MEASURED_44,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 44,result
+v3_TABLE_MEASURED_45,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 45,result
+v3_TABLE_MEASURED_46,0.018,0.018,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 46,result
+v3_TABLE_MEASURED_47,0.047,0.047,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 47,result
+v3_TABLE_MEASURED_48,0.020,0.020,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 48,result
+v3_TABLE_MEASURED_49,0.017,0.017,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 49,result
+v3_TABLE_MEASURED_50,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 50,result
+v3_TABLE_MEASURED_51,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 51,result
+v3_TABLE_MEASURED_52,0.027,0.027,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 52,result
+v3_TABLE_MEASURED_53,0.059,0.059,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 53,result
+v3_TABLE_MEASURED_54,0.025,0.025,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 54,result
+v3_TABLE_MEASURED_55,0.027,0.027,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 55,result
+v3_TABLE_MEASURED_56,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 56,result
+v3_TABLE_MEASURED_57,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 57,result
+v3_TABLE_MEASURED_58,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 58,result
+v3_TABLE_MEASURED_59,0.032,0.032,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 59,result
+v3_TABLE_MEASURED_60,0.029,0.029,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 60,result
+v3_TABLE_MEASURED_61,0.020,0.020,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 61,result
+v3_TABLE_MEASURED_62,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 62,result
+v3_TABLE_MEASURED_63,0.059,0.059,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 63,result
+v3_TABLE_MEASURED_64,0.085,0.085,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 64,result
+v3_TABLE_MEASURED_65,0.047,0.047,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 65,result
+v3_TABLE_MEASURED_66,0.062,0.062,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 66,result
+v3_TABLE_MEASURED_67,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 67,result
+v3_TABLE_MEASURED_68,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 68,result
+v3_TABLE_MEASURED_69,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 69,result
+v3_TABLE_MEASURED_70,0.024,0.024,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 70,result
+v3_TABLE_MEASURED_71,0.023,0.023,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 71,result
+v3_TABLE_MEASURED_72,0.014,0.014,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 72,result
+v3_TABLE_MEASURED_73,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 73,result
+v3_TABLE_MEASURED_74,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 74,result
+v3_TABLE_MEASURED_75,0.027,0.027,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 75,result
+v3_TABLE_MEASURED_76,0.072,0.072,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 76,result
+v3_TABLE_MEASURED_77,0.022,0.022,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 77,result
+v3_TABLE_MEASURED_78,0.028,0.028,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 78,result
+v3_TABLE_MEASURED_79,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_MEASURED cell token 79,result
+v3_TABLE_EXACT_0,0.030,0.030,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 0,result
+v3_TABLE_EXACT_1,0.091,0.091,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 1,result
+v3_TABLE_EXACT_2,0.041,0.041,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 2,result
+v3_TABLE_EXACT_3,0.164,0.164,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 3,result
+v3_TABLE_EXACT_4,0.104,0.104,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 4,result
+v3_TABLE_EXACT_5,0.172,0.172,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 5,result
+v3_TABLE_EXACT_6,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 6,result
+v3_TABLE_EXACT_7,0.031,0.031,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 7,result
+v3_TABLE_EXACT_8,0.021,0.021,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 8,result
+v3_TABLE_EXACT_9,0.112,0.112,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 9,result
+v3_TABLE_EXACT_10,0.010,0.010,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 10,result
+v3_TABLE_EXACT_11,0.035,0.035,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 11,result
+v3_TABLE_EXACT_12,0.008,0.008,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 12,result
+v3_TABLE_EXACT_13,0.011,0.011,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 13,result
+v3_TABLE_EXACT_14,0.007,0.007,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 14,result
+v3_TABLE_EXACT_15,0.012,0.012,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 15,result
+v3_TABLE_EXACT_16,0.081,0.081,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 16,result
+v3_TABLE_EXACT_17,0.116,0.116,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 17,result
+v3_TABLE_EXACT_18,-24,-24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 18,result
+v3_TABLE_EXACT_19,0.017,0.017,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 19,result
+v3_TABLE_EXACT_20,0.023,0.023,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 20,result
+v3_TABLE_EXACT_21,0.083,0.083,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 21,result
+v3_TABLE_EXACT_22,0.134,0.134,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 22,result
+v3_TABLE_EXACT_23,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 23,result
+v3_TABLE_EXACT_24,0.021,0.021,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 24,result
+v3_TABLE_EXACT_25,0.059,0.059,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 25,result
+v3_TABLE_EXACT_26,0.021,0.021,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 26,result
+v3_TABLE_EXACT_27,0.051,0.051,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 27,result
+v3_TABLE_EXACT_28,0.159,0.159,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 28,result
+v3_TABLE_EXACT_29,0.257,0.257,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 29,result
+v3_TABLE_EXACT_30,0.114,0.114,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 30,result
+v3_TABLE_EXACT_31,0.159,0.159,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 31,result
+v3_TABLE_EXACT_32,0.221,0.221,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 32,result
+v3_TABLE_EXACT_33,0.298,0.298,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 33,result
+v3_TABLE_EXACT_34,0.050,0.050,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 34,result
+v3_TABLE_EXACT_35,0.100,0.100,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 35,result
+v3_TABLE_EXACT_36,0.201,0.201,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 36,result
+v3_TABLE_EXACT_37,0.285,0.285,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 37,result
+v3_TABLE_EXACT_38,0.013,0.013,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 38,result
+v3_TABLE_EXACT_39,0.032,0.032,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 39,result
+v3_TABLE_EXACT_40,0.136,0.136,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 40,result
+v3_TABLE_EXACT_41,0.195,0.195,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 41,result
+v3_TABLE_EXACT_42,0.011,0.011,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 42,result
+v3_TABLE_EXACT_43,0.023,0.023,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 43,result
+v3_TABLE_EXACT_44,0.136,0.136,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 44,result
+v3_TABLE_EXACT_45,0.170,0.170,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 45,result
+v3_TABLE_EXACT_46,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 46,result
+v3_TABLE_EXACT_47,0.011,0.011,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 47,result
+v3_TABLE_EXACT_48,0.028,0.028,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 48,result
+v3_TABLE_EXACT_49,0.013,0.013,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 49,result
+v3_TABLE_EXACT_50,0.030,0.030,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 50,result
+v3_TABLE_EXACT_51,0.139,0.139,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 51,result
+v3_TABLE_EXACT_52,0.179,0.179,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 52,result
+v3_TABLE_EXACT_53,0.030,0.030,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 53,result
+v3_TABLE_EXACT_54,0.074,0.074,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 54,result
+v3_TABLE_EXACT_55,0.145,0.145,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 55,result
+v3_TABLE_EXACT_56,0.189,0.189,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 56,result
+v3_TABLE_EXACT_57,0.016,0.016,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 57,result
+v3_TABLE_EXACT_58,0.033,0.033,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 58,result
+v3_TABLE_EXACT_59,0.140,0.140,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 59,result
+v3_TABLE_EXACT_60,0.226,0.226,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 60,result
+v3_TABLE_EXACT_61,0.014,0.014,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 61,result
+v3_TABLE_EXACT_62,0.026,0.026,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 62,result
+v3_TABLE_EXACT_63,0.138,0.138,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 63,result
+v3_TABLE_EXACT_64,0.181,0.181,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 64,result
+v3_TABLE_EXACT_65,0.012,0.012,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 65,result
+v3_TABLE_EXACT_66,0.017,0.017,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_EXACT cell token 66,result
+v3_TABLE_UNC_0,95,95,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 0,result
+v3_TABLE_UNC_1,48,48,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 1,result
+v3_TABLE_UNC_2,48,48,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 2,result
+v3_TABLE_UNC_3,48,48,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 3,result
+v3_TABLE_UNC_4,0.09,0.09,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 4,result
+v3_TABLE_UNC_5,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 5,result
+v3_TABLE_UNC_6,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 6,result
+v3_TABLE_UNC_7,20,20,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 7,result
+v3_TABLE_UNC_8,24,24,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 8,result
+v3_TABLE_UNC_9,95,95,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 9,result
+v3_TABLE_UNC_10,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 10,result
+v3_TABLE_UNC_11,85,85,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 11,result
+v3_TABLE_UNC_12,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 12,result
+v3_TABLE_UNC_13,95,95,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 13,result
+v3_TABLE_UNC_14,0.30,0.30,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 14,result
+v3_TABLE_UNC_15,0.42,0.42,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 15,result
+v3_TABLE_UNC_16,0.11,0.11,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 16,result
+v3_TABLE_UNC_17,95,95,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 17,result
+v3_TABLE_UNC_18,240,240,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 18,result
+v3_TABLE_UNC_19,95,95,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 19,result
+v3_TABLE_UNC_20,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 20,result
+v3_TABLE_UNC_21,0.47,0.47,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 21,result
+v3_TABLE_UNC_22,0.33,0.33,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",TABLE_UNC cell token 22,result
+v3_dkasc_cs_drift,+0.33 to +0.40,"[0.33, 0.4]",tier_a_screen.csv,DKASC poa_clearsky_envelope_trend_per_year x 100,result
+v3_dkasc_era5_drift,−0.06 to −0.04,"[-0.06, -0.04]",tier_a_screen.csv,DKASC poa_era5_ratio_trend_per_year x 100,result
+v3_drift_era5_pvdaq_10,+0.58,0.58,screen_tier_s.csv,pvdaq_10 poa_era5_ratio_trend_per_year x 100,result
+v3_drift_cs_pvdaq_10,+0.52,0.52,screen_tier_s.csv,pvdaq_10 poa_clearsky_envelope_trend_per_year x 100,result
+v3_drift_era5_pvdaq_33,+0.36,0.36,screen_tier_s.csv,pvdaq_33 poa_era5_ratio_trend_per_year x 100,result
+v3_drift_cs_pvdaq_33,+0.25,0.25,screen_tier_s.csv,pvdaq_33 poa_clearsky_envelope_trend_per_year x 100,result
+v3_drift_era5_pvdaq_1278,−0.59,-0.59,screen_tier_s.csv,pvdaq_1278 poa_era5_ratio_trend_per_year x 100,result
+v3_drift_cs_pvdaq_1278,−0.81,-0.8099999999999999,screen_tier_s.csv,pvdaq_1278 poa_clearsky_envelope_trend_per_year x 100,result
+v3_system_id_10,10,10,PVDAQ system identifiers (run_fixed_mask.systems),identifier,design
+v3_system_id_33,33,33,PVDAQ system identifiers (run_fixed_mask.systems),identifier,design
+v3_system_id_1278,1278,1278,PVDAQ system identifiers (run_fixed_mask.systems),identifier,design
+v3_system_id_1423,1423,1423,PVDAQ system identifiers (run_fixed_mask.systems),identifier,design
+v3_system_id_1430,1430,1430,PVDAQ system identifiers (run_fixed_mask.systems),identifier,design
+v3_system_id_2107,2107,2107,PVDAQ system identifiers (run_fixed_mask.systems),identifier,design
+v3_utrecht_lat,52,52.0907,configs/semisynthetic_climate_sites.csv,utrecht latitude,result
+v3_henderson_lasvegas_km,28,28.281497797795684,"system metadata (PVDAQ 1423, 1278)",haversine distance,result
+v3_span_range,6.9–13.1,"[6.9, 13.1]",run_fixed_mask.load,record span,result
+v3_rho_bound,0.15,0.15,derived: 2/T,|rho| < 2/T,result
+v3_span_max,13.1,13.1,run_fixed_mask.load,longest span,result

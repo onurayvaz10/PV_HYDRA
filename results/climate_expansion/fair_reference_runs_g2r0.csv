@@ -1,0 +1,6 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+B,singapore,Af,Singapore,adr,-1.0,1,khd_no_physics,-0.004,-1.007365163301711,-1.0,-0.0073651633017111084
+B,singapore,Af,Singapore,adr,-1.0,1,khd_no_correction,-0.004,-0.9844821833998609,-1.0,0.015517816600139067
+B,singapore,Af,Singapore,adr,-1.0,1,tcn,-0.004,-0.9964508713109388,-1.0,0.0035491286890612095
+B,singapore,Af,Singapore,adr,-1.0,2,khd_full,-0.004,-0.9885818237241858,-1.0,0.011418176275814207
+B,singapore,Af,Singapore,adr,-1.0,2,khd_no_physics,-0.004,-0.9968823286657975,-1.0,0.0031176713342024875

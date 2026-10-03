@@ -1,0 +1,6 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+B,antalya,Csa,Turkey,adr,-0.5,0,khd_full,-0.004,-0.49726788300468994,-0.5,0.0027321169953100632
+B,antalya,Csa,Turkey,adr,-0.5,0,khd_no_physics,-0.004,-0.5162766084706341,-0.5,-0.016276608470634057
+B,antalya,Csa,Turkey,adr,-0.5,0,khd_no_correction,-0.004,-0.4848166564967225,-0.5,0.015183343503277491
+B,antalya,Csa,Turkey,adr,-0.5,0,tcn,-0.004,-0.484971204039536,-0.5,0.015028795960464025
+B,antalya,Csa,Turkey,adr,-0.5,1,khd_full,-0.004,-0.4948716570296833,-0.5,0.005128342970316724

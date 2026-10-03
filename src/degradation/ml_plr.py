@@ -65,15 +65,20 @@ def reference_end(target: pd.Series, months: int = REFERENCE_MONTHS, min_hours: 
     return good[months - 1].to_timestamp(how="end").floor("h") + pd.Timedelta(hours=1)
 
 
-def prepare(frame: pd.DataFrame, dc_kw: float, reference_months: int = REFERENCE_MONTHS) -> dict:
+def prepare(frame: pd.DataFrame, dc_kw: float, reference_months: int = REFERENCE_MONTHS,
+            healthy: pd.Series | None = None, full_record: bool = False) -> dict:
+    """``healthy``: optional fixed target-hygiene mask (from the unmodified record, injection experiments);
+    ``full_record``: train on the whole record instead of the reference period (information-equal variant;
+    every fifth ISO week stays held out)."""
     frame = clean(frame)
     grid = pd.date_range(frame.index.min(), frame.index.max(), freq="h")
     # Inputs only: gaps of <= 2 h are interpolated so a single missing hour does not
     # void 24 windows; the target is never filled.
     features = pm.feature_frame(frame.reindex(grid), 0.0).interpolate(limit=2, limit_area="inside")
-    target = (frame.power_w.clip(lower=0) / (dc_kw * 1000.0)).where(healthy_hours(frame, dc_kw))
+    ok = healthy_hours(frame, dc_kw) if healthy is None else healthy.reindex(frame.index, fill_value=False).astype(bool)
+    target = (frame.power_w.clip(lower=0) / (dc_kw * 1000.0)).where(ok)
     x, y, stamps = pm.windows(features, target)
-    ref_end = reference_end(pd.Series(y, index=stamps), reference_months)
+    ref_end = stamps.max() + pd.Timedelta(hours=1) if full_record else reference_end(pd.Series(y, index=stamps), reference_months)
     in_ref = (stamps < ref_end) & np.isfinite(y)
     val = in_ref & (stamps.isocalendar().week.to_numpy() % 5 == 0)
     train = in_ref & ~val
@@ -88,14 +93,14 @@ def scores(pred: np.ndarray, y: np.ndarray) -> dict:
 
 
 def plr_from_prediction(frame: pd.DataFrame, dc_kw: float, pred: np.ndarray, stamps: pd.DatetimeIndex,
-                        power: pd.Series | None = None, soiling: bool = False) -> dict:
+                        power: pd.Series | None = None, soiling: bool = False, mask: pd.Series | None = None) -> dict:
     frame = clean(frame)
     power = (frame.power_w if power is None else power.reindex(frame.index)).clip(lower=0)
     expected = pd.Series(pred * dc_kw * 1000.0, index=stamps).reindex(frame.index)
     expected = expected.where(expected > 0.02 * dc_kw * 1000.0)
     poa = frame.poa_wm2.clip(lower=0)
     tcell = cell_temperature(poa, frame.get("t_amb_c"), frame.get("t_module_c"))
-    return yoy_from_normalized(power / expected, poa, tcell, power, soiling, 60)
+    return yoy_from_normalized(power / expected, poa, tcell, power, soiling, 60, mask=mask)
 
 
 def inject(frame: pd.DataFrame, rate_pct_per_year: float) -> pd.Series:

@@ -53,6 +53,59 @@ def group_of(sid: str) -> str:
     return "long expansion"
 
 
+def v3_rows() -> None:
+    """Numbers of the benchmark version (protocol P1-P7): recomputed by the same functions that fill the manuscript
+    (fill_v3.numbers) from results/fixed_mask, results/singlediode and results/climate_expansion, plus the screen
+    values and geometry quoted in Section II."""
+    import re
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import fill_v3
+    n, tables = fill_v3.numbers()
+    src = "fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion"
+    for k, v in n.items():
+        add(f"v3_{k}", v, v, src, k)
+    for name, tbl in tables.items():
+        for i, tok in enumerate(re.findall(r"[−-]?\+?\d[\d,]*(?:\.\d+)?", tbl)):
+            add(f"v3_{name}_{i}", tok, tok, src, f"{name} cell token {i}")
+    scr = pd.read_csv(RES / "tier_a_screen.csv")
+    dk = scr[scr.system_id.str.startswith("dkasc") & scr["pass"]]
+    cs = 100 * dk.poa_clearsky_envelope_trend_per_year
+    er = 100 * dk.poa_era5_ratio_trend_per_year
+    add("v3_dkasc_cs_drift", f"+{cs.min():.2f} to +{cs.max():.2f}", [cs.min(), cs.max()], "tier_a_screen.csv",
+        "DKASC poa_clearsky_envelope_trend_per_year x 100")
+    add("v3_dkasc_era5_drift", f"{er.min():.2f} to {er.max():.2f}".replace("-", "−"), [er.min(), er.max()],
+        "tier_a_screen.csv", "DKASC poa_era5_ratio_trend_per_year x 100")
+    s = pd.read_csv(CE / "screen_tier_s.csv").set_index("system_id")
+    for sid in ("pvdaq_10", "pvdaq_33", "pvdaq_1278"):
+        for col, tag in (("poa_era5_ratio_trend_per_year", "era5"), ("poa_clearsky_envelope_trend_per_year", "cs")):
+            v = 100 * float(s.loc[sid, col])
+            add(f"v3_drift_{tag}_{sid}", f"{v:+.2f}".replace("-", "−"), v, "screen_tier_s.csv", f"{sid} {col} x 100")
+    for sid in ("10", "33", "1278", "1423", "1430", "2107"):
+        add(f"v3_system_id_{sid}", sid, sid, "PVDAQ system identifiers (run_fixed_mask.systems)", "identifier", "design")
+    sites = pd.read_csv(ROOT / "configs/semisynthetic_climate_sites.csv").set_index("site_id")
+    add("v3_utrecht_lat", f"{sites.loc['utrecht', 'latitude']:.0f}", float(sites.loc["utrecht", "latitude"]),
+        "configs/semisynthetic_climate_sites.csv", "utrecht latitude")
+    lat1, lon1, lat2, lon2 = np.radians([36.0275, -114.9215, 36.1952, -115.1582])
+    km = 2 * 6371 * np.arcsin(np.sqrt(np.sin((lat2 - lat1) / 2) ** 2 + np.cos(lat1) * np.cos(lat2) * np.sin((lon2 - lon1) / 2) ** 2))
+    add("v3_henderson_lasvegas_km", f"{km:.0f}", float(km), "system metadata (PVDAQ 1423, 1278)", "haversine distance")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    fallback = {"pvdaq_10": 13.1, "pvdaq_1278": 6.9}      # record spans without raw data (public repository)
+    try:
+        import run_fixed_mask as fm
+        spans = {}
+        for sid in fm.systems():
+            base = fm.load(sid)[0]
+            spans[sid] = (base.index.max() - base.index.min()).days / 365.25
+    except Exception as exc:  # no raw data: the printed spans come from the recorded values
+        print("span fallback:", exc)
+        spans = fallback
+    add("v3_span_range", f"{min(spans.values()):.1f}–{max(spans.values()):.1f}",
+        [round(min(spans.values()), 1), round(max(spans.values()), 1)], "run_fixed_mask.load", "record span")
+    add("v3_rho_bound", f"{2 / max(spans.values()):.2f}", round(2 / max(spans.values()), 2), "derived: 2/T", "|rho| < 2/T")
+    add("v3_span_max", f"{max(spans.values()):.1f}", round(max(spans.values()), 1), "run_fixed_mask.load", "longest span")
+
+
 def main() -> None:
     # ------------------------------------------------------------------ data groups (Table I)
     loc = pd.read_csv(ET / "E10_measured_locations.csv")
@@ -292,6 +345,7 @@ def main() -> None:
     add("example_final_year_pp", "5", 0.20 * 25, "derived: 0.20 %/yr x 25 yr", "derived", "derived")
     add("example_lifetime", "2.4", float(0.20 * years.mean()), "derived: mean loss over years 0-24 at 0.20 %/yr", "derived", "derived")
 
+    v3_rows()
     out = REV / "result_ledger.csv"
     with out.open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=["id", "text", "value", "source", "selector", "kind"])

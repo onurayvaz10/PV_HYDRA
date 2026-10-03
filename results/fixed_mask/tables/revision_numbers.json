@@ -1,0 +1,131 @@
+{
+ "two_by_two": {
+  "n": 18,
+  "norm_median_abs": 0.04222397631658828,
+  "norm_max_abs": 0.3003106617796347,
+  "est_median_abs": 0.11203495564979682,
+  "est_max_abs": 0.49977554222614406
+ },
+ "sd_coverage": {
+  "khd_full": {
+   "n": 240,
+   "covered": 85,
+   "coverage": 0.3541666666666667,
+   "wilson_low": 0.2963905360670909,
+   "wilson_high": 0.4165378567912236,
+   "median_width": 0.1101533205556483
+  },
+  "reference": {
+   "n": 240,
+   "covered": 95,
+   "coverage": 0.3958333333333333,
+   "wilson_low": 0.33607109972456106,
+   "wilson_high": 0.45887775231709205,
+   "median_width": 0.1564264322142624
+  }
+ },
+ "clearsky_minus_sensor_dkasc": [
+  -0.34940767119706395,
+  0.32388664870164896
+ ],
+ "profile": {
+  "n": 18,
+  "single_minimum": 18,
+  "widest_system": "pvdaq_2107",
+  "widest_width": 3.9010580665923937,
+  "median_width": 0.8284200497526633
+ },
+ "spread": {
+  "n": 18,
+  "median": 0.1962466870033498,
+  "max": 0.39276082213908126,
+  "models_complete": 18
+ },
+ "refwindow": {
+  "n": 18,
+  "median": 0.043523164200188105,
+  "max": 0.2627205257251727
+ },
+ "R1": {
+  "khd_no_correction": {
+   "loc_weighted_mae": 0.0041,
+   "worst_location": 0.0102,
+   "n_systems": 18
+  },
+  "khd_no_physics": {
+   "loc_weighted_mae": 0.0061,
+   "worst_location": 0.0179,
+   "n_systems": 18
+  },
+  "khd": {
+   "loc_weighted_mae": 0.0076,
+   "worst_location": 0.0164,
+   "n_systems": 18
+  },
+  "patchtst": {
+   "loc_weighted_mae": 0.0159,
+   "worst_location": 0.0243,
+   "n_systems": 18
+  },
+  "lstm": {
+   "loc_weighted_mae": 0.0175,
+   "worst_location": 0.0469,
+   "n_systems": 18
+  },
+  "tcn": {
+   "loc_weighted_mae": 0.0216,
+   "worst_location": 0.0316,
+   "n_systems": 18
+  },
+  "xgboost": {
+   "loc_weighted_mae": 0.0228,
+   "worst_location": 0.0295,
+   "n_systems": 18
+  },
+  "reference": {
+   "loc_weighted_mae": 0.0238,
+   "worst_location": 0.0442,
+   "n_systems": 18
+  },
+  "khd_24": {
+   "loc_weighted_mae": 0.0249,
+   "worst_location": 0.0421,
+   "n_systems": 18
+  },
+  "reference_fitted": {
+   "loc_weighted_mae": 0.026,
+   "worst_location": 0.0815,
+   "n_systems": 18
+  },
+  "gru": {
+   "loc_weighted_mae": 0.0269,
+   "worst_location": 0.0587,
+   "n_systems": 18
+  },
+  "informer": {
+   "loc_weighted_mae": 0.0271,
+   "worst_location": 0.0716,
+   "n_systems": 18
+  },
+  "reference_clearsky": {
+   "loc_weighted_mae": 0.0351,
+   "worst_location": 0.0726,
+   "n_systems": 16
+  },
+  "tcn_full": {
+   "loc_weighted_mae": 0.0593,
+   "worst_location": 0.085,
+   "n_systems": 18
+  },
+  "random_forest": {
+   "loc_weighted_mae": 0.1243,
+   "worst_location": 0.2602,
+   "n_systems": 18
+  },
+  "xgboost_full": {
+   "loc_weighted_mae": 0.1422,
+   "worst_location": 0.2172,
+   "n_systems": 18
+  }
+ }
+}

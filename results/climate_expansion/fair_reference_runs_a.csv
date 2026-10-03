@@ -1,0 +1,481 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+A,alice_springs,BWh,Australia,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5084775877277015,-0.5,-0.008477587727701463
+A,alice_springs,BWh,Australia,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.003989204540219965,-0.5075455182037447,-0.5,-0.007545518203744717
+A,alice_springs,BWh,Australia,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5032549325116598,-0.5,-0.0032549325116597583
+A,alice_springs,BWh,Australia,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039826565866366605,-0.507851736339741,-0.5,-0.007851736339741011
+A,alice_springs,BWh,Australia,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4916624006180663,-0.5,0.00833759938193368
+A,alice_springs,BWh,Australia,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004016093983044011,-0.4958787090341841,-0.5,0.004121290965815927
+A,alice_springs,BWh,Australia,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0173124113361076,-1.0,-0.017312411336107614
+A,alice_springs,BWh,Australia,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.003985057420856238,-1.0153700965308639,-1.0,-0.015370096530863853
+A,alice_springs,BWh,Australia,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0017445770627122,-1.0,-0.0017445770627122492
+A,alice_springs,BWh,Australia,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.003978455321878246,-1.0050737697669787,-1.0,-0.0050737697669787085
+A,alice_springs,BWh,Australia,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9892333697519684,-1.0,0.010766630248031595
+A,alice_springs,BWh,Australia,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.00401194397024237,-0.993346870804778,-1.0,0.006653129195221985
+A,alice_springs,BWh,Australia,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5118952657747755,-0.5,-0.01189526577477551
+A,alice_springs,BWh,Australia,thin_film,-0.5,0,rdtools_fitted_gamma,-0.00046426150802649646,-0.48936069735811705,-0.5,0.010639302641882953
+A,alice_springs,BWh,Australia,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5075482324613225,-0.5,-0.007548232461322524
+A,alice_springs,BWh,Australia,thin_film,-0.5,1,rdtools_fitted_gamma,-0.000455627948688798,-0.5015392751046195,-0.5,-0.0015392751046194864
+A,alice_springs,BWh,Australia,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5046415072659904,-0.5,-0.004641507265990441
+A,alice_springs,BWh,Australia,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0004962369075670495,-0.4831440017610489,-0.5,0.01685599823895112
+A,alice_springs,BWh,Australia,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0120786209027988,-1.0,-0.012078620902798765
+A,alice_springs,BWh,Australia,thin_film,-1.0,0,rdtools_fitted_gamma,-0.00045886106390532463,-1.0067465716035562,-1.0,-0.006746571603556184
+A,alice_springs,BWh,Australia,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0073285666963963,-1.0,-0.007328566696396255
+A,alice_springs,BWh,Australia,thin_film,-1.0,1,rdtools_fitted_gamma,-0.00045015850151351895,-1.0051016652675657,-1.0,-0.005101665267565725
+A,alice_springs,BWh,Australia,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0036431208908903,-1.0,-0.00364312089089025
+A,alice_springs,BWh,Australia,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0004908334135619717,-0.990197662489678,-1.0,0.009802337510322001
+A,golden,Dfb,United States,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4953684809715031,-0.5,0.0046315190284969
+A,golden,Dfb,United States,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.00401483332212375,-0.4945868929003283,-0.5,0.005413107099671688
+A,golden,Dfb,United States,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5060324604904465,-0.5,-0.0060324604904464785
+A,golden,Dfb,United States,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004006636338609078,-0.5051923590628657,-0.5,-0.005192359062865748
+A,golden,Dfb,United States,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5049251710269598,-0.5,-0.004925171026959774
+A,golden,Dfb,United States,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.00402147764085804,-0.5058094457840021,-0.5,-0.00580944578400211
+A,golden,Dfb,United States,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9986258715770302,-1.0,0.0013741284229698003
+A,golden,Dfb,United States,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004030143382473207,-0.9971679148141231,-1.0,0.0028320851858768537
+A,golden,Dfb,United States,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.008484944946364,-1.0,-0.008484944946363981
+A,golden,Dfb,United States,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004022015353730877,-1.0076556953881766,-1.0,-0.007655695388176564
+A,golden,Dfb,United States,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0103495266021723,-1.0,-0.010349526602172254
+A,golden,Dfb,United States,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0040367512061432916,-1.0138312772936975,-1.0,-0.013831277293697486
+A,golden,Dfb,United States,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5093822102078316,-0.5,-0.009382210207831587
+A,golden,Dfb,United States,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0008864599955427176,-0.4996322652780827,-0.5,0.00036773472191731216
+A,golden,Dfb,United States,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5003975516388426,-0.5,-0.00039755163884258593
+A,golden,Dfb,United States,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0008784343688890984,-0.5146954328609121,-0.5,-0.014695432860912128
+A,golden,Dfb,United States,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.49860444596995235,-0.5,0.001395554030047652
+A,golden,Dfb,United States,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0008957121801283863,-0.48441428070150616,-0.5,0.015585719298493839
+A,golden,Dfb,United States,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9990228027398462,-1.0,0.0009771972601537726
+A,golden,Dfb,United States,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0009041073134998971,-1.0025512174332258,-1.0,-0.0025512174332258386
+A,golden,Dfb,United States,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.005938357552072,-1.0,-0.005938357552071949
+A,golden,Dfb,United States,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0008961564940090248,-1.0217582755722376,-1.0,-0.02175827557223764
+A,golden,Dfb,United States,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0023785768204516,-1.0,-0.0023785768204516167
+A,golden,Dfb,United States,thin_film,-1.0,2,rdtools_fitted_gamma,-0.000913319854857471,-0.9900644570475126,-1.0,0.009935542952487442
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4936426918688153,-0.5,0.00635730813118468
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004010061542485519,-0.4937360150879311,-0.5,0.006263984912068921
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.49415861436878605,-0.5,0.005841385631213947
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004063253281945673,-0.4856111200058133,-0.5,0.014388879994186698
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5109681597426974,-0.5,-0.010968159742697381
+A,utrecht,Cfb,Netherlands,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004014404134965276,-0.5047196816772348,-0.5,-0.004719681677234799
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9989476248051102,-1.0,0.0010523751948897653
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004051684968726787,-1.0014365172362094,-1.0,-0.0014365172362094114
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9957758169098571,-1.0,0.004224183090142941
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004104841186076752,-0.9847612356917461,-1.0,0.015238764308253883
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0166064253599005,-1.0,-0.016606425359900534
+A,utrecht,Cfb,Netherlands,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.00405603986484206,-1.0021456541452034,-1.0,-0.0021456541452034017
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4843422621620075,-0.5,0.015657737837992514
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0006796210896323953,-0.5126709167896482,-0.5,-0.012670916789648157
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4454432943099995,-0.5,0.054556705690000484
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0007403902234700476,-0.5118089702866863,-0.5,-0.01180897028668626
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4423140500027123,-0.5,0.05768594999728771
+A,utrecht,Cfb,Netherlands,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0006854459741621378,-0.5497816758334051,-0.5,-0.04978167583340509
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9871269305272548,-1.0,0.012873069472745247
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0007244883705642301,-1.0070577440794588,-1.0,-0.007057744079458805
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9499751304874043,-1.0,0.05002486951259566
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0007852134524412993,-1.0084839330921849,-1.0,-0.00848393309218487
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9527930550264458,-1.0,0.047206944973554155
+A,utrecht,Cfb,Netherlands,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0007303246457796925,-1.0463631669827,-1.0,-0.046363166982700044
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5097462695600796,-0.5,-0.009746269560079623
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004039007833564049,-0.5077856517366439,-0.5,-0.007785651736643917
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5090798905795453,-0.5,-0.00907989057954528
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004044900781731899,-0.5060303544172617,-0.5,-0.006030354417261741
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5008859786318133,-0.5,-0.0008859786318132779
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004021969647357723,-0.49884157996056255,-0.5,0.0011584200394374466
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0125707956982524,-1.0,-0.012570795698252368
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004106071692237685,-1.0098363800868426,-1.0,-0.009836380086842622
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0067843729883397,-1.0,-0.006784372988339671
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004111841537745643,-1.000809865924238,-1.0,-0.0008098659242379291
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0072787089393598,-1.0,-0.007278708939359779
+A,hong_kong,Cwa,China (Hong Kong),pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004088942974521883,-1.0015493999782799,-1.0,-0.0015493999782798529
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5011297816804428,-0.5,-0.001129781680442754
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,0,rdtools_fitted_gamma,0.00013727616542494325,-0.5245571296716323,-0.5,-0.02455712967163226
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4853389651251284,-0.5,0.014661034874871581
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,1,rdtools_fitted_gamma,0.0001284248488368126,-0.5171848135631585,-0.5,-0.017184813563158485
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.49514943145264056,-0.5,0.004850568547359435
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-0.5,2,rdtools_fitted_gamma,0.00015472316712288633,-0.5359343540194402,-0.5,-0.03593435401944023
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0000164055767924,-1.0,-1.6405576792388743e-05
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,0,rdtools_fitted_gamma,5.608702905640158e-05,-1.0276176354826663,-1.0,-0.02761763548266627
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9888841947041098,-1.0,0.01111580529589018
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,1,rdtools_fitted_gamma,4.738767295332321e-05,-1.0214442146548708,-1.0,-0.021444214654870786
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0129677378647783,-1.0,-0.01296773786477834
+A,hong_kong,Cwa,China (Hong Kong),thin_film,-1.0,2,rdtools_fitted_gamma,7.364677579397177e-05,-1.0432641522682362,-1.0,-0.04326415226823621
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.49926114008201905,-0.5,0.0007388599179809496
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004083021811949861,-0.48783296451256447,-0.5,0.012167035487435529
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4770573865261508,-0.5,0.022942613473849183
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004020272352117602,-0.47518994249461377,-0.5,0.02481005750538623
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5039956609382945,-0.5,-0.00399566093829451
+A,sodankyla,Dfc,Finland,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.00397948266054295,-0.5030694528101121,-0.5,-0.003069452810112061
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0012414996598995,-1.0,-0.0012414996598995032
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004143562736891451,-0.9833909328903934,-1.0,0.016609067109606634
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9793985568678831,-1.0,0.02060144313211687
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004080833994036867,-0.9770537782894867,-1.0,0.022946221710513304
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0051389231289343,-1.0,-0.00513892312893427
+A,sodankyla,Dfc,Finland,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004040094708126265,-1.003266978253603,-1.0,-0.0032669782536030034
+A,sodankyla,Dfc,Finland,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4198163336879503,-0.5,0.0801836663120497
+A,sodankyla,Dfc,Finland,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0011721507730996555,-0.4759370650167072,-0.5,0.024062934983292816
+A,sodankyla,Dfc,Finland,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4324735153336355,-0.5,0.06752648466636452
+A,sodankyla,Dfc,Finland,thin_film,-0.5,1,rdtools_fitted_gamma,-0.001110992086914974,-0.4777409039908198,-0.5,0.02225909600918019
+A,sodankyla,Dfc,Finland,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4555261358045737,-0.5,0.044473864195426316
+A,sodankyla,Dfc,Finland,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0010667991282235297,-0.5184652658715594,-0.5,-0.01846526587155939
+A,sodankyla,Dfc,Finland,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9369921054000075,-1.0,0.06300789459999245
+A,sodankyla,Dfc,Finland,thin_film,-1.0,0,rdtools_fitted_gamma,-0.001234570746290618,-0.9895500244343935,-1.0,0.01044997556560645
+A,sodankyla,Dfc,Finland,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9304092659455708,-1.0,0.06959073405442917
+A,sodankyla,Dfc,Finland,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0011734345045280757,-0.9766071679142785,-1.0,0.023392832085721516
+A,sodankyla,Dfc,Finland,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.960289822535243,-1.0,0.039710177464757024
+A,sodankyla,Dfc,Finland,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0011292913965826865,-1.0190161079839324,-1.0,-0.019016107983932384
+A,singapore,Af,Singapore,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5120335776015394,-0.5,-0.012033577601539447
+A,singapore,Af,Singapore,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004009303191137086,-0.5126655838138094,-0.5,-0.012665583813809445
+A,singapore,Af,Singapore,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5018141157825546,-0.5,-0.0018141157825546372
+A,singapore,Af,Singapore,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.003995710739372136,-0.5023344985355749,-0.5,-0.0023344985355748804
+A,singapore,Af,Singapore,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5035200742684875,-0.5,-0.0035200742684875497
+A,singapore,Af,Singapore,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004079924187234944,-0.5012790689781332,-0.5,-0.0012790689781332354
+A,singapore,Af,Singapore,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0154473184119133,-1.0,-0.015447318411913269
+A,singapore,Af,Singapore,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004006315671802104,-1.014891335872864,-1.0,-0.014891335872863953
+A,singapore,Af,Singapore,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0018571697983814,-1.0,-0.0018571697983813529
+A,singapore,Af,Singapore,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.003992514605564652,-1.0038490086329233,-1.0,-0.0038490086329232565
+A,singapore,Af,Singapore,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0049969844135282,-1.0,-0.004996984413528249
+A,singapore,Af,Singapore,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004076619580394609,-1.0059681635104623,-1.0,-0.005968163510462254
+A,singapore,Af,Singapore,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5132833686369479,-0.5,-0.013283368636947901
+A,singapore,Af,Singapore,thin_film,-0.5,0,rdtools_fitted_gamma,-0.002279089649501614,-0.522390963779451,-0.5,-0.022390963779451045
+A,singapore,Af,Singapore,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5064351324241457,-0.5,-0.006435132424145729
+A,singapore,Af,Singapore,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0022639407580050067,-0.508361090847731,-0.5,-0.008361090847730956
+A,singapore,Af,Singapore,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5103178459767683,-0.5,-0.010317845976768325
+A,singapore,Af,Singapore,thin_film,-0.5,2,rdtools_fitted_gamma,-0.002356679865299537,-0.5194535441458314,-0.5,-0.019453544145831447
+A,singapore,Af,Singapore,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0120635772944642,-1.0,-0.012063577294464167
+A,singapore,Af,Singapore,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0022750684062533503,-1.0148162642457714,-1.0,-0.014816264245771427
+A,singapore,Af,Singapore,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0063376963348136,-1.0,-0.006337696334813625
+A,singapore,Af,Singapore,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0022596858728076786,-1.0066119582973263,-1.0,-0.006611958297326304
+A,singapore,Af,Singapore,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0135777577461775,-1.0,-0.013577757746177532
+A,singapore,Af,Singapore,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0023523160216906425,-1.0190127955186423,-1.0,-0.019012795518642323
+A,madrid,BSk,Spain,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5128079895725168,-0.5,-0.012807989572516831
+A,madrid,BSk,Spain,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004012705343142808,-0.5111323036716797,-0.5,-0.011132303671679722
+A,madrid,BSk,Spain,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4927427899018344,-0.5,0.007257210098165601
+A,madrid,BSk,Spain,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004005207846776551,-0.4906770715330633,-0.5,0.00932292846693672
+A,madrid,BSk,Spain,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5264072550591581,-0.5,-0.026407255059158086
+A,madrid,BSk,Spain,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.00399064761083908,-0.5264378471731113,-0.5,-0.026437847173111262
+A,madrid,BSk,Spain,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0196909195112873,-1.0,-0.01969091951128732
+A,madrid,BSk,Spain,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004029767294572589,-1.0183666080687184,-1.0,-0.01836660806871837
+A,madrid,BSk,Spain,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9966670702538701,-1.0,0.0033329297461298646
+A,madrid,BSk,Spain,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004022327556772581,-0.9914794228155,-1.0,0.008520577184499945
+A,madrid,BSk,Spain,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0273826201844027,-1.0,-0.02738262018440274
+A,madrid,BSk,Spain,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004007762189613771,-1.0246662896492373,-1.0,-0.02466628964923734
+A,madrid,BSk,Spain,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5068022264458794,-0.5,-0.006802226445879356
+A,madrid,BSk,Spain,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0004292669602850789,-0.552859633299907,-0.5,-0.05285963329990695
+A,madrid,BSk,Spain,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5024400265779327,-0.5,-0.0024400265779327412
+A,madrid,BSk,Spain,thin_film,-0.5,1,rdtools_fitted_gamma,-0.00042186623344331943,-0.5381948970846206,-0.5,-0.03819489708462065
+A,madrid,BSk,Spain,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5120850901255025,-0.5,-0.012085090125502518
+A,madrid,BSk,Spain,thin_film,-0.5,2,rdtools_fitted_gamma,-0.000404460193875881,-0.525105081450361,-0.5,-0.025105081450361055
+A,madrid,BSk,Spain,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0083429888562034,-1.0,-0.008342988856203437
+A,madrid,BSk,Spain,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0004491497276397418,-1.0612957453099963,-1.0,-0.061295745309996263
+A,madrid,BSk,Spain,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.005352089300282,-1.0,-0.005352089300282081
+A,madrid,BSk,Spain,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0004418144369460857,-1.0408242155844127,-1.0,-0.04082421558441274
+A,madrid,BSk,Spain,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0165859396032761,-1.0,-0.016585939603276145
+A,madrid,BSk,Spain,thin_film,-1.0,2,rdtools_fitted_gamma,-0.00042440520168239527,-1.0307155381789335,-1.0,-0.030715538178933466
+A,marrakech,BSh,Morocco,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5055409875274974,-0.5,-0.005540987527497432
+A,marrakech,BSh,Morocco,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004039367619412352,-0.5041131126881426,-0.5,-0.004113112688142628
+A,marrakech,BSh,Morocco,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4975885892111953,-0.5,0.002411410788804691
+A,marrakech,BSh,Morocco,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004013191803181779,-0.49768837216040424,-0.5,0.0023116278395957646
+A,marrakech,BSh,Morocco,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.511653496452397,-0.5,-0.011653496452396994
+A,marrakech,BSh,Morocco,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004025261026977232,-0.5091689086210605,-0.5,-0.009168908621060456
+A,marrakech,BSh,Morocco,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0112645006903231,-1.0,-0.011264500690323143
+A,marrakech,BSh,Morocco,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.00407287857061944,-1.0075911161606406,-1.0,-0.007591116160640565
+A,marrakech,BSh,Morocco,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0037631336625497,-1.0,-0.003763133662549656
+A,marrakech,BSh,Morocco,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004046781447815137,-0.9963635729373643,-1.0,0.003636427062635672
+A,marrakech,BSh,Morocco,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0155678274617386,-1.0,-0.01556782746173857
+A,marrakech,BSh,Morocco,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004058847870473332,-1.0137088442858573,-1.0,-0.01370884428585728
+A,marrakech,BSh,Morocco,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.49160198771855956,-0.5,0.008398012281440437
+A,marrakech,BSh,Morocco,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0005572414616599553,-0.5324094914579192,-0.5,-0.03240949145791916
+A,marrakech,BSh,Morocco,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.48418508984360287,-0.5,0.015814910156397133
+A,marrakech,BSh,Morocco,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0005263279624580889,-0.577468183617913,-0.5,-0.07746818361791297
+A,marrakech,BSh,Morocco,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5107980055957584,-0.5,-0.010798005595758386
+A,marrakech,BSh,Morocco,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0005399734783240245,-0.5552669107269385,-0.5,-0.055266910726938456
+A,marrakech,BSh,Morocco,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9945238042589581,-1.0,0.005476195741041856
+A,marrakech,BSh,Morocco,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0005961608939802043,-1.0372716743127453,-1.0,-0.03727167431274525
+A,marrakech,BSh,Morocco,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9840257541879338,-1.0,0.01597424581206619
+A,marrakech,BSh,Morocco,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0005653458288371929,-1.075449930141359,-1.0,-0.07544993014135892
+A,marrakech,BSh,Morocco,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.014620408595146,-1.0,-0.014620408595146017
+A,marrakech,BSh,Morocco,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0005789868448529639,-1.0593121822087381,-1.0,-0.05931218220873813
+A,nairobi,Aw,Kenya,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4936552829100993,-0.5,0.006344717089900698
+A,nairobi,Aw,Kenya,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004001593480357055,-0.4944642993160541,-0.5,0.005535700683945877
+A,nairobi,Aw,Kenya,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.4913059914896656,-0.5,0.008694008510334417
+A,nairobi,Aw,Kenya,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0039417887617189005,-0.49508635655597377,-0.5,0.004913643444026228
+A,nairobi,Aw,Kenya,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5036736307375556,-0.5,-0.0036736307375555555
+A,nairobi,Aw,Kenya,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004040296498571239,-0.5047835850787274,-0.5,-0.004783585078727448
+A,nairobi,Aw,Kenya,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9979477555828509,-1.0,0.0020522444171491294
+A,nairobi,Aw,Kenya,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.003939895516403323,-1.0060984469894896,-1.0,-0.006098446989489581
+A,nairobi,Aw,Kenya,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9945553638103899,-1.0,0.005444636189610108
+A,nairobi,Aw,Kenya,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0038798818721805617,-0.999203467242646,-1.0,0.0007965327573540293
+A,nairobi,Aw,Kenya,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.008743514520234,-1.0,-0.00874351452023392
+A,nairobi,Aw,Kenya,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.0039785713332316204,-1.008533515986898,-1.0,-0.008533515986898
+A,nairobi,Aw,Kenya,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5200042771751586,-0.5,-0.020004277175158625
+A,nairobi,Aw,Kenya,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0006670488377114172,-0.5154833911161893,-0.5,-0.015483391116189349
+A,nairobi,Aw,Kenya,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5074319659188031,-0.5,-0.0074319659188031295
+A,nairobi,Aw,Kenya,thin_film,-0.5,1,rdtools_fitted_gamma,-0.00059635222003604,-0.4850566846024502,-0.5,0.014943315397549783
+A,nairobi,Aw,Kenya,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5090368982327851,-0.5,-0.009036898232785084
+A,nairobi,Aw,Kenya,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0007133785059779234,-0.5106144845266115,-0.5,-0.010614484526611512
+A,nairobi,Aw,Kenya,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0193199788121217,-1.0,-0.019319978812121663
+A,nairobi,Aw,Kenya,thin_film,-1.0,0,rdtools_fitted_gamma,-0.000592479347137078,-1.0235453127726981,-1.0,-0.023545312772698113
+A,nairobi,Aw,Kenya,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0061461548772632,-1.0,-0.006146154877263221
+A,nairobi,Aw,Kenya,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0005215139933250116,-0.9982533495452246,-1.0,0.0017466504547754003
+A,nairobi,Aw,Kenya,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0083694360965234,-1.0,-0.008369436096523408
+A,nairobi,Aw,Kenya,thin_film,-1.0,2,rdtools_fitted_gamma,-0.000638796662565551,-1.0156591703114337,-1.0,-0.015659170311433712
+A,lagos,Aw,Nigeria,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.51488711413058,-0.5,-0.01488711413057997
+A,lagos,Aw,Nigeria,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.003987263791243748,-0.5170995798468914,-0.5,-0.017099579846891366
+A,lagos,Aw,Nigeria,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5101535586695571,-0.5,-0.010153558669557139
+A,lagos,Aw,Nigeria,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.00394428596691757,-0.5122931616676932,-0.5,-0.012293161667693231
+A,lagos,Aw,Nigeria,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.522370347256873,-0.5,-0.022370347256873035
+A,lagos,Aw,Nigeria,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004151440677667321,-0.5180577334572556,-0.5,-0.018057733457255587
+A,lagos,Aw,Nigeria,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0202611584389456,-1.0,-0.020261158438945603
+A,lagos,Aw,Nigeria,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.003993255773767435,-1.020632590481585,-1.0,-0.020632590481584945
+A,lagos,Aw,Nigeria,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0112034426671745,-1.0,-0.011203442667174546
+A,lagos,Aw,Nigeria,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.003950240747502204,-1.011867878081718,-1.0,-0.011867878081718075
+A,lagos,Aw,Nigeria,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0196276851457298,-1.0,-0.019627685145729767
+A,lagos,Aw,Nigeria,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004157116132010789,-1.0146920877610266,-1.0,-0.014692087761026595
+A,lagos,Aw,Nigeria,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4865448391794924,-0.5,0.013455160820507572
+A,lagos,Aw,Nigeria,thin_film,-0.5,0,rdtools_fitted_gamma,-0.003941698393564148,-0.4508122884136137,-0.5,0.049187711586386296
+A,lagos,Aw,Nigeria,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5019175236687268,-0.5,-0.0019175236687267727
+A,lagos,Aw,Nigeria,thin_film,-0.5,1,rdtools_fitted_gamma,-0.003896202630602428,-0.4786639001023052,-0.5,0.021336099897694805
+A,lagos,Aw,Nigeria,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.49706796134084685,-0.5,0.0029320386591531467
+A,lagos,Aw,Nigeria,thin_film,-0.5,2,rdtools_fitted_gamma,-0.004105634707670903,-0.4778767722609059,-0.5,0.022123227739094087
+A,lagos,Aw,Nigeria,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9787316196911755,-1.0,0.021268380308824497
+A,lagos,Aw,Nigeria,thin_film,-1.0,0,rdtools_fitted_gamma,-0.003947194176865492,-0.940413044340227,-1.0,0.05958695565977301
+A,lagos,Aw,Nigeria,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9948866038777204,-1.0,0.005113396122279568
+A,lagos,Aw,Nigeria,thin_film,-1.0,1,rdtools_fitted_gamma,-0.003901661803217063,-0.9687189694936205,-1.0,0.03128103050637954
+A,lagos,Aw,Nigeria,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9987594230620234,-1.0,0.001240576937976634
+A,lagos,Aw,Nigeria,thin_film,-1.0,2,rdtools_fitted_gamma,-0.004110818023435029,-0.9740674759926127,-1.0,0.025932524007387325
+A,cape_town,Csb,South Africa,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.49967537901841674,-0.5,0.0003246209815832568
+A,cape_town,Csb,South Africa,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004014410788171649,-0.4975962061602446,-0.5,0.0024037938397554193
+A,cape_town,Csb,South Africa,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.48347587283850135,-0.5,0.016524127161498647
+A,cape_town,Csb,South Africa,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.003990298821529555,-0.48688403891231635,-0.5,0.013115961087683647
+A,cape_town,Csb,South Africa,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4976031842717221,-0.5,0.002396815728277879
+A,cape_town,Csb,South Africa,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004024416212916865,-0.5002092804763159,-0.5,-0.000209280476315854
+A,cape_town,Csb,South Africa,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.001484104525452,-1.0,-0.0014841045254518903
+A,cape_town,Csb,South Africa,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.003993138205345342,-1.0024203447490665,-1.0,-0.002420344749066494
+A,cape_town,Csb,South Africa,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9879749034857976,-1.0,0.01202509651420236
+A,cape_town,Csb,South Africa,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.003969018545043823,-0.990160184983746,-1.0,0.009839815016253972
+A,cape_town,Csb,South Africa,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0047069674019582,-1.0,-0.004706967401958195
+A,cape_town,Csb,South Africa,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004003156613962927,-1.005734109413392,-1.0,-0.00573410941339203
+A,cape_town,Csb,South Africa,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5007899971230301,-0.5,-0.0007899971230300729
+A,cape_town,Csb,South Africa,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0004844798937136105,-0.5358769315560563,-0.5,-0.03587693155605631
+A,cape_town,Csb,South Africa,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5035202696730021,-0.5,-0.003520269673002119
+A,cape_town,Csb,South Africa,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0004588304939686815,-0.5192063969725158,-0.5,-0.019206396972515805
+A,cape_town,Csb,South Africa,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5151174394453117,-0.5,-0.015117439445311742
+A,cape_town,Csb,South Africa,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0004972809706045963,-0.5422979847356402,-0.5,-0.04229798473564017
+A,cape_town,Csb,South Africa,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0043245743800444,-1.0,-0.00432457438004441
+A,cape_town,Csb,South Africa,thin_film,-1.0,0,rdtools_fitted_gamma,-0.00045930256016502166,-1.0474272632451693,-1.0,-0.04742726324516933
+A,cape_town,Csb,South Africa,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.997657603385349,-1.0,0.0023423966146509656
+A,cape_town,Csb,South Africa,thin_film,-1.0,1,rdtools_fitted_gamma,-0.00043364628589001906,-1.0327907549519681,-1.0,-0.03279075495196815
+A,cape_town,Csb,South Africa,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0108746393965375,-1.0,-0.010874639396537544
+A,cape_town,Csb,South Africa,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0004721243071543431,-1.049498436632701,-1.0,-0.049498436632700926
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5097305055293975,-0.5,-0.00973050552939747
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004044242809157811,-0.5098484485417831,-0.5,-0.009848448541783128
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5003126043359056,-0.5,-0.00031260433590563075
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.003952495898688223,-0.5005292833164906,-0.5,-0.000529283316490603
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4922352309734365,-0.5,0.007764769026563478
+A,sao_paulo,Cfa,Brazil,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004019699134855783,-0.4914908587411948,-0.5,0.008509141258805197
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0126468510060271,-1.0,-0.012646851006027138
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004046586361146386,-1.0085714065624836,-1.0,-0.008571406562483563
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-0.9965956144871058,-1.0,0.003404385512894237
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.003954838689805008,-0.9966889300747517,-1.0,0.0033110699252483222
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9905691265072347,-1.0,0.00943087349276528
+A,sao_paulo,Cfa,Brazil,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004022047622547446,-0.9922762151982734,-1.0,0.007723784801726641
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5099663396416819,-0.5,-0.00996633964168192
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,0,rdtools_fitted_gamma,-0.000669016061078756,-0.4830455701587022,-0.5,0.016954429841297802
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4873008915786792,-0.5,0.012699108421320826
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0005588792714821936,-0.4911618579282795,-0.5,0.008838142071720512
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5050420634212016,-0.5,-0.005042063421201615
+A,sao_paulo,Cfa,Brazil,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0006375642701663276,-0.4813703174456278,-0.5,0.018629682554372196
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0078855846779033,-1.0,-0.007885584677903346
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0006715449948098283,-0.9832674481496717,-1.0,0.016732551850328292
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9893554119832504,-1.0,0.010644588016749612
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0005614082661721515,-0.992417969487347,-1.0,0.0075820305126530485
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9992998024163776,-1.0,0.0007001975836223862
+A,sao_paulo,Cfa,Brazil,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0006401015609226108,-0.984599047782464,-1.0,0.015400952217536013
+A,calama,BWk,Chile,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.49982658432541344,-0.5,0.00017341567458656337
+A,calama,BWk,Chile,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004052602235813064,-0.503069747166307,-0.5,-0.0030697471663070353
+A,calama,BWk,Chile,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.49924715255865726,-0.5,0.0007528474413427411
+A,calama,BWk,Chile,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.003970120345638523,-0.49851640450151935,-0.5,0.0014835954984806499
+A,calama,BWk,Chile,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.49811430984044724,-0.5,0.0018856901595527553
+A,calama,BWk,Chile,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.003994758442258471,-0.4970173727284255,-0.5,0.0029826272715745006
+A,calama,BWk,Chile,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0058469858683194,-1.0,-0.005846985868319443
+A,calama,BWk,Chile,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004076449512816353,-1.009029825625715,-1.0,-0.009029825625715082
+A,calama,BWk,Chile,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0039999102645667,-1.0,-0.003999910264566697
+A,calama,BWk,Chile,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.003994077905061472,-1.0036596159603284,-1.0,-0.0036596159603283773
+A,calama,BWk,Chile,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9943418676099935,-1.0,0.005658132390006454
+A,calama,BWk,Chile,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004018789404888408,-0.9931614293192403,-1.0,0.006838570680759659
+A,calama,BWk,Chile,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5004221976727119,-0.5,-0.00042219767271189923
+A,calama,BWk,Chile,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0007094826116869288,-0.4961933098493657,-0.5,0.0038066901506342843
+A,calama,BWk,Chile,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4973872034681359,-0.5,0.002612796531864081
+A,calama,BWk,Chile,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0006140610898525241,-0.49262809931154283,-0.5,0.007371900688457167
+A,calama,BWk,Chile,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4941781650704422,-0.5,0.00582183492955779
+A,calama,BWk,Chile,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0006416105490056873,-0.4890663823197472,-0.5,0.010933617680252805
+A,calama,BWk,Chile,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9956712637715692,-1.0,0.004328736228430774
+A,calama,BWk,Chile,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0007385825550968086,-1.0007747330194494,-1.0,-0.000774733019449414
+A,calama,BWk,Chile,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.999406501311022,-1.0,0.0005934986889779559
+A,calama,BWk,Chile,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0006433040008049815,-1.0025952380165015,-1.0,-0.002595238016501522
+A,calama,BWk,Chile,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9911425262832424,-1.0,0.008857473716757602
+A,calama,BWk,Chile,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0006709389981720704,-1.0020512907419565,-1.0,-0.002051290741956535
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5055655901419175,-0.5,-0.005565590141917487
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.003933882449015628,-0.5013730644606973,-0.5,-0.001373064460697293
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5004600726174402,-0.5,-0.0004600726174401881
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.003961488236331599,-0.5020884213685184,-0.5,-0.0020884213685183894
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.4941758062025514,-0.5,0.005824193797448585
+A,ushuaia,Dfc,Argentina,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0038860771608560207,-0.49144697969442097,-0.5,0.008553020305579029
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.008187801971641,-1.0,-0.00818780197164104
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0038857112160449576,-0.9994749922031643,-1.0,0.0005250077968357303
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0052189154225455,-1.0,-0.005218915422545489
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0039133990619009806,-1.0071738670020425,-1.0,-0.007173867002042478
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9953229153603638,-1.0,0.004677084639636231
+A,ushuaia,Dfc,Argentina,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.003837983107476299,-0.9941859174538159,-1.0,0.005814082546184096
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4931715311708329,-0.5,0.0068284688291671
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0005518938707577033,-0.502425594094924,-0.5,-0.002425594094924044
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.48258314785331047,-0.5,0.017416852146689532
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0005807621286453464,-0.514705059726539,-0.5,-0.014705059726539016
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.502387512188629,-0.5,-0.002387512188628982
+A,ushuaia,Dfc,Argentina,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0005036742723791276,-0.5316949864225151,-0.5,-0.031694986422515115
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9955737800905307,-1.0,0.004426219909469342
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0005004267777139409,-1.011978905488553,-1.0,-0.011978905488553071
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9788905268109938,-1.0,0.021109473189006245
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0005293808402344746,-1.0252329665747628,-1.0,-0.025232966574762816
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9977708963499698,-1.0,0.002229103650030151
+A,ushuaia,Dfc,Argentina,thin_film,-1.0,2,rdtools_fitted_gamma,-0.00045228829726466743,-1.0368816599407582,-1.0,-0.036881659940758205
+A,tokyo,Cfa,Japan,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5091355235471218,-0.5,-0.009135523547121771
+A,tokyo,Cfa,Japan,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004032614881569621,-0.5060862151103018,-0.5,-0.006086215110301829
+A,tokyo,Cfa,Japan,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5016338914072754,-0.5,-0.001633891407275434
+A,tokyo,Cfa,Japan,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040560364411611665,-0.5055503309734144,-0.5,-0.005550330973414397
+A,tokyo,Cfa,Japan,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5012609331661921,-0.5,-0.0012609331661921352
+A,tokyo,Cfa,Japan,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.0039750727417453184,-0.5043964075603369,-0.5,-0.004396407560336879
+A,tokyo,Cfa,Japan,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0146106045416214,-1.0,-0.014610604541621441
+A,tokyo,Cfa,Japan,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0040782590348121366,-1.0122467272933755,-1.0,-0.012246727293375503
+A,tokyo,Cfa,Japan,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0043733621829198,-1.0,-0.004373362182919838
+A,tokyo,Cfa,Japan,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004101697639513843,-1.010079792029428,-1.0,-0.010079792029427992
+A,tokyo,Cfa,Japan,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0019983802987469,-1.0,-0.0019983802987468824
+A,tokyo,Cfa,Japan,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004020883583595899,-0.9980044074386564,-1.0,0.0019955925613436287
+A,tokyo,Cfa,Japan,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4887861519240144,-0.5,0.011213848075985577
+A,tokyo,Cfa,Japan,thin_film,-0.5,0,rdtools_fitted_gamma,-0.00028460986301406083,-0.5313302189555147,-0.5,-0.03133021895551469
+A,tokyo,Cfa,Japan,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4982694488481987,-0.5,0.0017305511518013184
+A,tokyo,Cfa,Japan,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0003122268661992325,-0.5230460024943698,-0.5,-0.023046002494369833
+A,tokyo,Cfa,Japan,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4821940909861433,-0.5,0.017805909013856702
+A,tokyo,Cfa,Japan,thin_film,-0.5,2,rdtools_fitted_gamma,-0.00021976216610806648,-0.5254372649560413,-0.5,-0.02543726495604126
+A,tokyo,Cfa,Japan,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9891209097695475,-1.0,0.010879090230452526
+A,tokyo,Cfa,Japan,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0003363850022887496,-1.0343966828801343,-1.0,-0.03439668288013431
+A,tokyo,Cfa,Japan,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9903681610410331,-1.0,0.00963183895896691
+A,tokyo,Cfa,Japan,thin_film,-1.0,1,rdtools_fitted_gamma,-0.00036401793399813844,-1.0205931004845763,-1.0,-0.0205931004845763
+A,tokyo,Cfa,Japan,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9848620808114711,-1.0,0.015137919188528914
+A,tokyo,Cfa,Japan,thin_film,-1.0,2,rdtools_fitted_gamma,-0.00027172953288408697,-1.0268186195490858,-1.0,-0.02681861954908582
+A,delhi,BSh,India,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.49206702273426606,-0.5,0.007932977265733943
+A,delhi,BSh,India,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.003999749940783581,-0.491836549976743,-0.5,0.008163450023257024
+A,delhi,BSh,India,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5061222305098867,-0.5,-0.006122230509886695
+A,delhi,BSh,India,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004011012591824106,-0.5057653265608676,-0.5,-0.00576532656086759
+A,delhi,BSh,India,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5058663497777582,-0.5,-0.00586634977775824
+A,delhi,BSh,India,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.003965319770068277,-0.5108289625090793,-0.5,-0.010828962509079276
+A,delhi,BSh,India,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9968032457388575,-1.0,0.0031967542611425204
+A,delhi,BSh,India,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004004368826725743,-0.9981272875878799,-1.0,0.001872712412120059
+A,delhi,BSh,India,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0114896359567194,-1.0,-0.011489635956719368
+A,delhi,BSh,India,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.00401569578408875,-1.0111490766325448,-1.0,-0.01114907663254483
+A,delhi,BSh,India,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0078420856040273,-1.0,-0.007842085604027327
+A,delhi,BSh,India,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.003969951170277931,-1.013307183929774,-1.0,-0.013307183929774036
+A,delhi,BSh,India,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4848649986559317,-0.5,0.01513500134406831
+A,delhi,BSh,India,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0003024678483894898,-0.5275363036422595,-0.5,-0.027536303642259452
+A,delhi,BSh,India,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5032977779554915,-0.5,-0.0032977779554914655
+A,delhi,BSh,India,thin_film,-0.5,1,rdtools_fitted_gamma,-0.00031636431697325035,-0.5329643597533101,-0.5,-0.032964359753310135
+A,delhi,BSh,India,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4987213782526645,-0.5,0.0012786217473355066
+A,delhi,BSh,India,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0002587664709374902,-0.5340884220194297,-0.5,-0.03408842201942974
+A,delhi,BSh,India,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9869711016766591,-1.0,0.013028898323340865
+A,delhi,BSh,India,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0003068212949193846,-1.035481280269368,-1.0,-0.03548128026936803
+A,delhi,BSh,India,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0089706111934396,-1.0,-0.00897061119343956
+A,delhi,BSh,India,thin_film,-1.0,1,rdtools_fitted_gamma,-0.00032079759057497743,-1.0430021643093035,-1.0,-0.04300216430930348
+A,delhi,BSh,India,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9978912317815558,-1.0,0.0021087682184441903
+A,delhi,BSh,India,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0002631333517659328,-1.0406671694761727,-1.0,-0.04066716947617266
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.4951947793248013,-0.5,0.004805220675198674
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.004022833180596415,-0.4943245302988619,-0.5,0.005675469701138081
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5036085416022296,-0.5,-0.0036085416022295647
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.0040148659095565935,-0.5021283653811159,-0.5,-0.0021283653811159375
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5031312387886677,-0.5,-0.003131238788667723
+A,dubai,BWh,United Arab Emirates,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.003973918137047614,-0.5029126308990328,-0.5,-0.00291263089903282
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0000971250363255,-1.0,-9.712503632552938e-05
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.00405054276189728,-0.999308644897845,-1.0,0.0006913551021550113
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0073176210966484,-1.0,-0.007317621096648352
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004042578023255209,-1.0045789947575878,-1.0,-0.004578994757587829
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.007056063230105,-1.0,-0.007056063230105103
+A,dubai,BWh,United Arab Emirates,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004001709506801198,-1.0072030926584075,-1.0,-0.007203092658407462
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.49166464623537043,-0.5,0.008335353764629572
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,0,rdtools_fitted_gamma,-0.00033093044551299906,-0.5113554007441401,-0.5,-0.011355400744140098
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4998838413433848,-0.5,0.00011615865661518399
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0003204889393745081,-0.49785986388107545,-0.5,0.0021401361189245516
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.501619497855943,-0.5,-0.001619497855942953
+A,dubai,BWh,United Arab Emirates,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0002672067857431221,-0.5138311608031494,-0.5,-0.01383116080314939
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9883670431842462,-1.0,0.011632956815753825
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0003666408142187224,-1.0123815095683275,-1.0,-0.012381509568327509
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9993261759185468,-1.0,0.0006738240814532226
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,1,rdtools_fitted_gamma,-0.00035620979445887,-1.0071465892380644,-1.0,-0.007146589238064438
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.0010677857588135,-1.0,-0.0010677857588134998
+A,dubai,BWh,United Arab Emirates,thin_film,-1.0,2,rdtools_fitted_gamma,-0.00030304326407769755,-1.0196139089232106,-1.0,-0.019613908923210577
+A,antalya,Csa,Turkey,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.49498691475506285,-0.5,0.005013085244937154
+A,antalya,Csa,Turkey,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0040011527795900175,-0.49373017649538936,-0.5,0.006269823504610639
+A,antalya,Csa,Turkey,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5021183308611898,-0.5,-0.0021183308611898433
+A,antalya,Csa,Turkey,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004025474827115823,-0.4995069220787074,-0.5,0.0004930779212926062
+A,antalya,Csa,Turkey,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5007414998441262,-0.5,-0.0007414998441261922
+A,antalya,Csa,Turkey,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.003996026214772077,-0.5006909817748345,-0.5,-0.0006909817748345093
+A,antalya,Csa,Turkey,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-0.9966932250981442,-1.0,0.0033067749018558246
+A,antalya,Csa,Turkey,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004029209691030059,-0.9959349782470316,-1.0,0.004065021752968412
+A,antalya,Csa,Turkey,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0007630043774363,-1.0,-0.0007630043774362605
+A,antalya,Csa,Turkey,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004053625190562697,-1.000486986117799,-1.0,-0.00048698611779895984
+A,antalya,Csa,Turkey,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.0047918186398275,-1.0,-0.004791818639827472
+A,antalya,Csa,Turkey,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004024137398421244,-1.0040835510663593,-1.0,-0.00408355106635927
+A,antalya,Csa,Turkey,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4916209179737341,-0.5,0.008379082026265916
+A,antalya,Csa,Turkey,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0006743052074362056,-0.5224391529576544,-0.5,-0.022439152957654418
+A,antalya,Csa,Turkey,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.49526020305270535,-0.5,0.00473979694729465
+A,antalya,Csa,Turkey,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0007018995611477865,-0.5074151714455466,-0.5,-0.007415171445546598
+A,antalya,Csa,Turkey,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4904246817169611,-0.5,0.009575318283038925
+A,antalya,Csa,Turkey,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0006672113117420014,-0.5253169375793454,-0.5,-0.02531693757934539
+A,antalya,Csa,Turkey,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9925294100336934,-1.0,0.007470589966306562
+A,antalya,Csa,Turkey,thin_film,-1.0,0,rdtools_fitted_gamma,-0.0007076944045896526,-1.0318478816393473,-1.0,-0.031847881639347264
+A,antalya,Csa,Turkey,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9962054671646015,-1.0,0.0037945328353985452
+A,antalya,Csa,Turkey,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0007353934085779119,-1.019247559875136,-1.0,-0.019247559875136044
+A,antalya,Csa,Turkey,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9928427612069579,-1.0,0.007157238793042087
+A,antalya,Csa,Turkey,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0007006660946743559,-1.029484197489905,-1.0,-0.02948419748990494
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.5095744547212844,-0.5,-0.009574454721284376
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.00402248285255366,-0.5103332969404795,-0.5,-0.010333296940479464
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5105365750026617,-0.5,-0.010536575002661697
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.004024555147914546,-0.506263985573141,-0.5,-0.006263985573141007
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.5210027579553911,-0.5,-0.021002757955391083
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.003999463414531522,-0.5201217396050286,-0.5,-0.02012173960502861
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0127071534944136,-1.0,-0.012707153494413648
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.004040116017152363,-1.014510904899768,-1.0,-0.014510904899768029
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.016550224095003,-1.0,-0.016550224095003063
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.004042186774111271,-1.0161820645607889,-1.0,-0.016182064560788856
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-1.020618931231232,-1.0,-0.02061893123123193
+A,ulaanbaatar,BSk,Mongolia,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.004017086609187146,-1.0195708319785668,-1.0,-0.019570831978566794
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.4944919100214329,-0.5,0.00550808997856711
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,0,rdtools_fitted_gamma,-0.0009407821315510666,-0.4940690336328296,-0.5,0.005930966367170387
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.4843644208544551,-0.5,0.01563557914554492
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,1,rdtools_fitted_gamma,-0.0009424387464047466,-0.4822191754733973,-0.5,0.01778082452660268
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.5039069343524494,-0.5,-0.003906934352449376
+A,ulaanbaatar,BSk,Mongolia,thin_film,-0.5,2,rdtools_fitted_gamma,-0.0009165216387452656,-0.4739702604193763,-0.5,0.026029739580623712
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-0.9966825419655989,-1.0,0.0033174580344010884
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,0,rdtools_fitted_gamma,-0.000959370478907336,-0.9939698963253173,-1.0,0.0060301036746827075
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-0.9857728028426663,-1.0,0.01422719715733367
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,1,rdtools_fitted_gamma,-0.0009610267866494819,-0.9907421066253641,-1.0,0.009257893374635895
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-1.007312290512108,-1.0,-0.007312290512107911
+A,ulaanbaatar,BSk,Mongolia,thin_film,-1.0,2,rdtools_fitted_gamma,-0.0009350977585722637,-0.9792660662824693,-1.0,0.02073393371753074
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,0,rdtools_true_gamma,-0.004,-0.500777423329519,-0.5,-0.0007774233295190225
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,0,rdtools_fitted_gamma,-0.0038639467407274005,-0.5091912589073821,-0.5,-0.00919125890738215
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,1,rdtools_true_gamma,-0.004,-0.5047009231679966,-0.5,-0.00470092316799664
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,1,rdtools_fitted_gamma,-0.003966109003069999,-0.5045857282886757,-0.5,-0.00458572828867565
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,2,rdtools_true_gamma,-0.004,-0.49830883340620963,-0.5,0.001691166593790372
+A,auckland,Cfb,New Zealand,pvwatts,-0.5,2,rdtools_fitted_gamma,-0.004062505651312692,-0.5002731652398396,-0.5,-0.00027316523983955676
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,0,rdtools_true_gamma,-0.004,-1.0022785688894749,-1.0,-0.0022785688894748635
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,0,rdtools_fitted_gamma,-0.0037789725734074793,-1.0137319810627607,-1.0,-0.013731981062760745
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,1,rdtools_true_gamma,-0.004,-1.0093246218074947,-1.0,-0.009324621807494715
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,1,rdtools_fitted_gamma,-0.0038815160537880506,-1.0049734960423804,-1.0,-0.004973496042380399
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,2,rdtools_true_gamma,-0.004,-0.9996284428363866,-1.0,0.00037155716361336744
+A,auckland,Cfb,New Zealand,pvwatts,-1.0,2,rdtools_fitted_gamma,-0.003978234428744083,-0.9951093819681753,-1.0,0.004890618031824667
+A,auckland,Cfb,New Zealand,thin_film,-0.5,0,rdtools_true_gamma,-0.002,-0.5080751632957514,-0.5,-0.00807516329575142
+A,auckland,Cfb,New Zealand,thin_film,-0.5,0,rdtools_fitted_gamma,0.0003209002258853348,-0.5464764834127722,-0.5,-0.04647648341277222
+A,auckland,Cfb,New Zealand,thin_film,-0.5,1,rdtools_true_gamma,-0.002,-0.5129665437705877,-0.5,-0.012966543770587702
+A,auckland,Cfb,New Zealand,thin_film,-0.5,1,rdtools_fitted_gamma,0.00019661364915909063,-0.5449134386816157,-0.5,-0.04491343868161568
+A,auckland,Cfb,New Zealand,thin_film,-0.5,2,rdtools_true_gamma,-0.002,-0.4909948397504471,-0.5,0.00900516024955289
+A,auckland,Cfb,New Zealand,thin_film,-0.5,2,rdtools_fitted_gamma,8.937092230229958e-05,-0.5495602111438624,-0.5,-0.04956021114386244
+A,auckland,Cfb,New Zealand,thin_film,-1.0,0,rdtools_true_gamma,-0.002,-1.0112460977668158,-1.0,-0.011246097766815843
+A,auckland,Cfb,New Zealand,thin_film,-1.0,0,rdtools_fitted_gamma,0.0004197033565843544,-1.0506314152252072,-1.0,-0.0506314152252072
+A,auckland,Cfb,New Zealand,thin_film,-1.0,1,rdtools_true_gamma,-0.002,-1.0182020163049255,-1.0,-0.01820201630492546
+A,auckland,Cfb,New Zealand,thin_film,-1.0,1,rdtools_fitted_gamma,0.00029492610642066844,-1.0581537267496,-1.0,-0.058153726749599954
+A,auckland,Cfb,New Zealand,thin_film,-1.0,2,rdtools_true_gamma,-0.002,-0.9942051939283214,-1.0,0.005794806071678593
+A,auckland,Cfb,New Zealand,thin_film,-1.0,2,rdtools_fitted_gamma,0.0001872995923483482,-1.067332486088035,-1.0,-0.0673324860880351

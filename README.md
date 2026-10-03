@@ -2,8 +2,8 @@
 
 Code and result tables for the study
 
-> O. Ayvaz and Ö. Tomak, “How the Normalization Model Shapes Photovoltaic Performance Loss Rates: Known-Truth
-> Validation of Machine-Learning and Physics-Anchored Estimators.”
+> O. Ayvaz and Ö. Tomak, “Normalization-Model Dependence of Photovoltaic Performance Loss Rates: Benchmarking
+> Machine-Learning Estimators Against Known Rates.”
 
 Authors: **Onur Ayvaz** (ORCID 0009-0000-9522-7790) and **Özgür Tomak** (ORCID 0000-0003-2993-6913, corresponding
 author), Department of Electricity and Energy, Technical Sciences Vocational School, Giresun University, Türkiye.
@@ -11,11 +11,14 @@ author), Department of Electricity and Energy, Technical Sciences Vocational Sch
 The repository contains:
 - the estimators: seven machine-learning performance models with a year-on-year trend, the RdTools reference, PVUSA,
   STL and change-point baselines, and κ-HYDRA-D (PVWatts response × bounded time-blind correction × linear trend);
-- the experiments: equal-budget tuning, injected trends with their exact expected change, semi-synthetic records with
-  an exact rate on the weather of 20 countries, assumption-violating records, ablations, forward and held-out-location
-  tests, and the climate and geographic expansion (33 measured systems at 12 locations in five countries);
-- every result table (`results/`), the screening plans with their dated amendments (`docs/`), and the scripts that
-  regenerate the paper's figures and its number ledger (`paper/`).
+- the experiments: equal-budget tuning; injected trends on 18 measured systems at five locations with one fixed
+  filter mask per system and their exact expected change; a 2 × 2 comparison of normalization model and trend
+  estimator; reference variants (typical, listed and fitted temperature coefficient, clear-sky workflow);
+  information-equal variants; exact-rate records on the weather of 20 countries from three generators, one of them a
+  single-diode model independent of the estimator structure; assumption-violating records; ablations; loss profiles
+  on the measured systems; and the earlier climate and geographic expansion;
+- every result table (`results/`), the screening plans and the revision protocols with their dated amendments
+  (`docs/`, `docs/protocols/`), and the scripts that regenerate the paper's figures and its number ledger (`paper/`).
 
 No raw measurement data are included (see `DATA_NOTICE.md` and `LICENSES.md`).
 
@@ -59,15 +62,21 @@ without cuDNN kernels).
 | 12. Paper tables | `python scripts/summarize_degradation.py` | `T1`–`T11` |
 | 13. Climate and geographic expansion | `screen_climate_expansion.py`, `run_climate_expansion.py` (GPU: `run_climate_expansion_gpu.sh`/`.ps1`), `run_semisynthetic_climate.py`, `summarize_climate_expansion.py`, `summarize_global.py`, `test_global_ranks.py`, `make_world_map.py` | `results/climate_expansion/tables/E*` |
 | 13b. Fair reference and a non-PVWatts (ADR) response on the 20 weather sites | `run_climate_fair_reference.py a`, `run_climate_fair_reference.py b`, `run_climate_fair_reference.py summary` | `results/climate_expansion/tables/E12_fair_reference.csv` |
-| 14. Run manifest | `python scripts/make_run_manifest.py` | `results/RUN_MANIFEST.csv` |
+| 14. Fixed-mask benchmark (protocol P1–P3) | `run_fixed_mask.py rd`, `run_fixed_mask.py ml`, `run_fixed_mask.py kappa`, `run_fixed_mask.py kappa24`, `run_fixed_mask.py mlfull`, `run_refwindow_fixed.py` | `results/fixed_mask/*_runs*.csv` |
+| 15. Reference variants (P4) | `run_reference_variants.py`, `run_reference_variants.py inject` | `results/fixed_mask/reference_variants*.csv` |
+| 16. Single-diode generator (P5) and information-equal exact-rate runs (P3) | `run_singlediode_generator.py run`, `run_climate_info_equal.py` | `results/singlediode/`, `results/climate_expansion/info_equal_runs*.csv` |
+| 17. Loss profiles on measured systems (P6) | `run_measured_profile.py` | `results/fixed_mask/profile_*.csv` |
+| 18. Revision tables (P7) | `analyze_revision.py halves`, `analyze_revision.py`, `latitude_spearman.py` | `results/fixed_mask/tables/R*.csv` |
+| 19. Run manifest | `python scripts/make_run_manifest.py` | `results/RUN_MANIFEST.csv` |
 
 Each run script appends one row per finished unit, so an interrupted run resumes where it stopped.
 
 ## Design decisions
 
 `docs/DEGRADATION_PAPER_PLAN.md` and `docs/CLIMATE_EXPANSION_PLAN.md` record the screening rules and analysis plans,
-written before the corresponding rates were computed, and every later amendment with its date and reason. Analyses
-defined after the retrospective results were known are labelled post hoc.
+and every later amendment with its date and reason; `docs/protocols/` holds the revision protocols, each committed to
+this repository before the corresponding runs (the commit time is the record). Analyses defined after the
+retrospective results were known are labelled post hoc.
 
 Fig. 1(a) uses the 1-km Köppen–Geiger map for 1991–2020 of Beck et al. (2023, CC BY 4.0), included in
 `data/reference/climate/` with its legend and source record.

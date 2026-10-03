@@ -43,8 +43,9 @@ def cell_temperature(poa: pd.Series, t_amb: pd.Series | None, t_module: pd.Serie
 
 
 def sensor_plr(frame: pd.DataFrame, dc_kw: float, gamma: float, soiling: bool = False,
-               freq_minutes: int = 60) -> dict:
-    """``frame``: regular time index; columns power_w, poa_wm2 and t_amb_c and/or t_module_c."""
+               freq_minutes: int = 60, mask: pd.Series | None = None) -> dict:
+    """``frame``: regular time index; columns power_w, poa_wm2 and t_amb_c and/or t_module_c.
+    ``mask``: optional fixed filter mask (see fixed_mask); None keeps the standard per-record mask."""
     data = frame.copy().sort_index()
     data = data[~data.index.duplicated()]
     poa = data.poa_wm2.clip(lower=0)
@@ -53,24 +54,44 @@ def sensor_plr(frame: pd.DataFrame, dc_kw: float, gamma: float, soiling: bool = 
                                                       gamma_pdc=gamma)
     power = data.power_w.clip(lower=0)
     normalized = power / expected.replace(0, np.nan)
-    return yoy_from_normalized(normalized, poa, tcell, power, soiling, freq_minutes)
+    return yoy_from_normalized(normalized, poa, tcell, power, soiling, freq_minutes, mask=mask)
 
 
-def standard_mask(normalized: pd.Series, poa: pd.Series, tcell: pd.Series, power: pd.Series) -> pd.Series:
+def fixed_mask(frame: pd.DataFrame, dc_kw: float, gamma: float, clip: bool = True) -> pd.Series:
+    """Filter mask computed once on the unmodified record (reference normalization), to be applied to every
+    injected rate and every method, so that all estimators are scored on identical hours. Without it the
+    power-dependent clipping filter removes different hours at each injected rate (fixed 2026-10-02)."""
+    data = frame.copy().sort_index()
+    data = data[~data.index.duplicated()]
+    poa = data.poa_wm2.clip(lower=0)
+    tcell = cell_temperature(poa, data.get("t_amb_c"), data.get("t_module_c"), data.get("wind_ms"))
+    expected = rdtools.normalization.pvwatts_dc_power(poa, dc_kw * 1000.0, temperature_cell=tcell,
+                                                      gamma_pdc=gamma)
+    power = data.power_w.clip(lower=0)
+    return standard_mask(power / expected.replace(0, np.nan), poa, tcell, power, clip).fillna(False).astype(bool)
+
+
+def standard_mask(normalized: pd.Series, poa: pd.Series, tcell: pd.Series, power: pd.Series,
+                  clip: bool = True) -> pd.Series:
     mask = (rdtools.filtering.poa_filter(poa, 200, 1200)
             & rdtools.filtering.tcell_filter(tcell, -50, 110)
             & rdtools.filtering.normalized_filter(normalized, 0.01, 2.0))
     try:
-        mask &= rdtools.filtering.clip_filter(power, model="quantile")
+        if clip:                                     # clip=False: second Arbuckle test of protocol P1
+            mask &= rdtools.filtering.clip_filter(power, model="quantile")
     except Exception:  # short or flat series: clipping filter not applicable, recorded
         pass
     return mask
 
 
 def yoy_from_normalized(normalized: pd.Series, poa: pd.Series, tcell: pd.Series, power: pd.Series,
-                        soiling: bool = False, freq_minutes: int = 60) -> dict:
-    """Shared second stage: identical filters, aggregation and YoY for every performance model."""
-    mask = standard_mask(normalized, poa, tcell, power)
+                        soiling: bool = False, freq_minutes: int = 60, mask: pd.Series | None = None) -> dict:
+    """Shared second stage: identical filters, aggregation and YoY for every performance model.
+    With ``mask`` (fixed_mask of the unmodified record) the hours are not recomputed from this series."""
+    if mask is None:
+        mask = standard_mask(normalized, poa, tcell, power)
+    else:
+        mask = mask.reindex(normalized.index, fill_value=False).astype(bool) & normalized.notna() & (normalized > 0)
     kept = float(mask.mean())
     insolation = poa * freq_minutes / 60.0
     daily = rdtools.aggregation.aggregation_insol(normalized[mask], insolation[mask], frequency="D")

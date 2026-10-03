@@ -1,0 +1,42 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+B,golden,Dfb,United States,adr,-0.5,0,khd_full,-0.004,-0.4909534427587271,-0.5,0.009046557241272901
+B,golden,Dfb,United States,adr,-0.5,0,khd_no_physics,-0.004,-0.49218082560119725,-0.5,0.007819174398802753
+B,golden,Dfb,United States,adr,-0.5,0,khd_no_correction,-0.004,-0.47031956777077316,-0.5,0.02968043222922684
+B,golden,Dfb,United States,adr,-0.5,0,tcn,-0.004,-0.5031815266675954,-0.5,-0.0031815266675954135
+B,golden,Dfb,United States,adr,-0.5,1,khd_full,-0.004,-0.5106836669004232,-0.5,-0.010683666900423217
+B,golden,Dfb,United States,adr,-0.5,1,khd_no_physics,-0.004,-0.4923943663913711,-0.5,0.007605633608628926
+B,golden,Dfb,United States,adr,-0.5,1,khd_no_correction,-0.004,-0.48223215230691463,-0.5,0.01776784769308537
+B,golden,Dfb,United States,adr,-0.5,1,tcn,-0.004,-0.5159791304048089,-0.5,-0.015979130404808917
+B,golden,Dfb,United States,adr,-0.5,2,khd_full,-0.004,-0.5110764964436089,-0.5,-0.011076496443608863
+B,golden,Dfb,United States,adr,-0.5,2,khd_no_physics,-0.004,-0.5084421361639199,-0.5,-0.008442136163919867
+B,golden,Dfb,United States,adr,-0.5,2,khd_no_correction,-0.004,-0.48848193478452634,-0.5,0.01151806521547366
+B,golden,Dfb,United States,adr,-0.5,2,tcn,-0.004,-0.49827903843482557,-0.5,0.0017209615651744281
+B,golden,Dfb,United States,adr,-1.0,0,khd_full,-0.004,-1.011144501133173,-1.0,-0.011144501133173002
+B,golden,Dfb,United States,adr,-1.0,0,khd_no_physics,-0.004,-1.0156552178393043,-1.0,-0.015655217839304347
+B,golden,Dfb,United States,adr,-1.0,0,khd_no_correction,-0.004,-0.982804531351317,-1.0,0.017195468648683043
+B,golden,Dfb,United States,adr,-1.0,0,tcn,-0.004,-0.9810339235488261,-1.0,0.018966076451173874
+B,golden,Dfb,United States,adr,-1.0,1,khd_full,-0.004,-0.9845344991896791,-1.0,0.015465500810320942
+B,golden,Dfb,United States,adr,-1.0,1,khd_no_physics,-0.004,-0.9883822134269011,-1.0,0.011617786573098865
+B,golden,Dfb,United States,adr,-1.0,1,khd_no_correction,-0.004,-0.9953326873845961,-1.0,0.0046673126154038735
+B,golden,Dfb,United States,adr,-1.0,1,tcn,-0.004,-1.0092424286828272,-1.0,-0.009242428682827208
+B,golden,Dfb,United States,adr,-1.0,2,khd_full,-0.004,-1.015184391694005,-1.0,-0.015184391694005095
+B,golden,Dfb,United States,adr,-1.0,2,khd_no_physics,-0.004,-0.9943183115330911,-1.0,0.005681688466908863
+B,golden,Dfb,United States,adr,-1.0,2,khd_no_correction,-0.004,-0.9707205730317547,-1.0,0.02927942696824526
+B,golden,Dfb,United States,adr,-1.0,2,tcn,-0.004,-0.99052685787723,-1.0,0.00947314212276995
+B,sodankyla,Dfc,Finland,adr,-0.5,0,khd_full,-0.004,-0.4938660750507613,-0.5,0.0061339249492387005
+B,sodankyla,Dfc,Finland,adr,-0.5,0,khd_no_physics,-0.004,-0.4920806544038283,-0.5,0.00791934559617169
+B,sodankyla,Dfc,Finland,adr,-0.5,0,khd_no_correction,-0.004,-0.4078121908059476,-0.5,0.0921878091940524
+B,sodankyla,Dfc,Finland,adr,-0.5,0,tcn,-0.004,-0.486484010759225,-0.5,0.013515989240775017
+B,sodankyla,Dfc,Finland,adr,-0.5,1,khd_full,-0.004,-0.4963896652831704,-0.5,0.0036103347168295885
+B,sodankyla,Dfc,Finland,adr,-0.5,1,khd_no_physics,-0.004,-0.5003605288285471,-0.5,-0.0003605288285470909
+B,sodankyla,Dfc,Finland,adr,-0.5,1,khd_no_correction,-0.004,-0.43568650654431185,-0.5,0.06431349345568815
+B,sodankyla,Dfc,Finland,adr,-0.5,1,tcn,-0.004,-0.4392115772098454,-0.5,0.06078842279015462
+B,sodankyla,Dfc,Finland,adr,-0.5,2,khd_full,-0.004,-0.5078541329576353,-0.5,-0.007854132957635263
+B,sodankyla,Dfc,Finland,adr,-0.5,2,khd_no_physics,-0.004,-0.5151026984938905,-0.5,-0.015102698493890454
+B,sodankyla,Dfc,Finland,adr,-0.5,2,khd_no_correction,-0.004,-0.44762274204134245,-0.5,0.05237725795865755
+B,sodankyla,Dfc,Finland,adr,-0.5,2,tcn,-0.004,-0.5201810593650769,-0.5,-0.02018105936507686
+B,sodankyla,Dfc,Finland,adr,-1.0,0,khd_full,-0.004,-0.9966815662809535,-1.0,0.0033184337190464985
+B,sodankyla,Dfc,Finland,adr,-1.0,0,khd_no_physics,-0.004,-0.9983029046227295,-1.0,0.0016970953772704744
+B,sodankyla,Dfc,Finland,adr,-1.0,0,khd_no_correction,-0.004,-0.9195319231464206,-1.0,0.08046807685357937
+B,sodankyla,Dfc,Finland,adr,-1.0,0,tcn,-0.004,-0.9835420461873468,-1.0,0.016457953812653248
+B,sodankyla,Dfc,Finland,adr,-1.0,1,khd_full,-0.004,-1.0060100375850272,-1.0,-0.0060100375850271615

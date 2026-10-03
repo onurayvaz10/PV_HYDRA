@@ -1,0 +1,75 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+B,auckland,Cfb,New Zealand,adr,-0.5,1,khd_no_physics,-0.004,-0.49577993608641857,-0.5,0.004220063913581429
+B,auckland,Cfb,New Zealand,adr,-0.5,1,khd_no_correction,-0.004,-0.47388971962356846,-0.5,0.02611028037643154
+B,auckland,Cfb,New Zealand,adr,-0.5,1,tcn,-0.004,-0.52396164843788,-0.5,-0.023961648437879957
+B,auckland,Cfb,New Zealand,adr,-0.5,2,khd_full,-0.004,-0.498793192492882,-0.5,0.0012068075071179907
+B,auckland,Cfb,New Zealand,adr,-0.5,2,khd_no_physics,-0.004,-0.5018729044797058,-0.5,-0.0018729044797057837
+B,auckland,Cfb,New Zealand,adr,-0.5,2,khd_no_correction,-0.004,-0.5081566745855967,-0.5,-0.008156674585596657
+B,auckland,Cfb,New Zealand,adr,-0.5,2,tcn,-0.004,-0.5134944043790575,-0.5,-0.013494404379057467
+B,auckland,Cfb,New Zealand,adr,-1.0,0,khd_full,-0.004,-0.9976191039310051,-1.0,0.002380896068994942
+B,auckland,Cfb,New Zealand,adr,-1.0,0,khd_no_physics,-0.004,-1.009034115701654,-1.0,-0.009034115701654022
+B,auckland,Cfb,New Zealand,adr,-1.0,0,khd_no_correction,-0.004,-0.9716091586831482,-1.0,0.028390841316851767
+B,auckland,Cfb,New Zealand,adr,-1.0,0,tcn,-0.004,-1.01702449847636,-1.0,-0.017024498476359895
+B,auckland,Cfb,New Zealand,adr,-1.0,1,khd_full,-0.004,-1.0165272176546725,-1.0,-0.016527217654672466
+B,auckland,Cfb,New Zealand,adr,-1.0,1,khd_no_physics,-0.004,-1.0053002106473419,-1.0,-0.005300210647341874
+B,auckland,Cfb,New Zealand,adr,-1.0,1,khd_no_correction,-0.004,-1.0035257397527972,-1.0,-0.003525739752797241
+B,auckland,Cfb,New Zealand,adr,-1.0,1,tcn,-0.004,-1.0254092306474876,-1.0,-0.02540923064748757
+B,auckland,Cfb,New Zealand,adr,-1.0,2,khd_full,-0.004,-0.9982715607695554,-1.0,0.0017284392304446339
+B,auckland,Cfb,New Zealand,adr,-1.0,2,khd_no_physics,-0.004,-1.000820807909409,-1.0,-0.0008208079094089715
+B,auckland,Cfb,New Zealand,adr,-1.0,2,khd_no_correction,-0.004,-0.9607236789787187,-1.0,0.03927632102128131
+B,auckland,Cfb,New Zealand,adr,-1.0,2,tcn,-0.004,-1.0099730657957786,-1.0,-0.009973065795778613
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,khd_no_correction,-0.004,-0.5264583818584491,-0.5,-0.026458381858449065
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,tcn,-0.004,-0.5000819029213008,-0.5,-8.190292130083598e-05
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,khd_full,-0.004,-0.48942798332483406,-0.5,0.01057201667516594
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,khd_no_physics,-0.004,-0.47808049069753505,-0.5,0.021919509302464946
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,khd_no_correction,-0.004,-0.47825152491507,-0.5,0.021748475084929997
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,2,tcn,-0.004,-0.49231642580163104,-0.5,0.007683574198368959
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,khd_full,-0.004,-1.007410098148059,-1.0,-0.00741009814805893
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,khd_no_physics,-0.004,-1.0080060227622585,-1.0,-0.00800602276225848
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,khd_no_correction,-0.004,-1.0009879936430368,-1.0,-0.0009879936430368108
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,0,tcn,-0.004,-0.9822468686562114,-1.0,0.017753131343788642
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,khd_full,-0.004,-0.9915874853433445,-1.0,0.00841251465665549
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,khd_no_physics,-0.004,-0.9913515248605574,-1.0,0.008648475139442557
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,khd_no_correction,-0.004,-1.014732333115726,-1.0,-0.014732333115726082
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,1,tcn,-0.004,-1.0234718970761059,-1.0,-0.023471897076105863
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,khd_full,-0.004,-1.0083351354663503,-1.0,-0.00833513546635034
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,khd_no_physics,-0.004,-1.0098776219472063,-1.0,-0.009877621947206316
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,khd_no_correction,-0.004,-1.0048000349149557,-1.0,-0.004800034914955731
+B,ulaanbaatar,BSk,Mongolia,adr,-1.0,2,tcn,-0.004,-1.0035430822435631,-1.0,-0.003543082243563145
+B,antalya,Csa,Turkey,adr,-0.5,1,khd_no_physics,-0.004,-0.4963639001375779,-0.5,0.003636099862422082
+B,antalya,Csa,Turkey,adr,-0.5,1,khd_no_correction,-0.004,-0.44598797573724425,-0.5,0.05401202426275575
+B,antalya,Csa,Turkey,adr,-0.5,1,tcn,-0.004,-0.4946683342372582,-0.5,0.0053316657627418
+B,antalya,Csa,Turkey,adr,-0.5,2,khd_full,-0.004,-0.5225807880177459,-0.5,-0.02258078801774588
+B,antalya,Csa,Turkey,adr,-0.5,2,khd_no_physics,-0.004,-0.5021981644043754,-0.5,-0.002198164404375369
+B,antalya,Csa,Turkey,adr,-0.5,2,khd_no_correction,-0.004,-0.4781115569982869,-0.5,0.02188844300171311
+B,antalya,Csa,Turkey,adr,-0.5,2,tcn,-0.004,-0.540724848912516,-0.5,-0.04072484891251604
+B,antalya,Csa,Turkey,adr,-1.0,0,khd_full,-0.004,-1.008733062417465,-1.0,-0.008733062417465076
+B,antalya,Csa,Turkey,adr,-1.0,0,khd_no_physics,-0.004,-1.0139941167563833,-1.0,-0.01399411675638329
+B,antalya,Csa,Turkey,adr,-1.0,0,khd_no_correction,-0.004,-0.9664304076558368,-1.0,0.033569592344163235
+B,antalya,Csa,Turkey,adr,-1.0,0,tcn,-0.004,-0.9900849508684972,-1.0,0.009915049131502762
+B,antalya,Csa,Turkey,adr,-1.0,1,khd_full,-0.004,-1.0046366597255347,-1.0,-0.004636659725534731
+B,antalya,Csa,Turkey,adr,-1.0,1,khd_no_physics,-0.004,-1.0082624228973935,-1.0,-0.00826242289739354
+B,antalya,Csa,Turkey,adr,-1.0,1,khd_no_correction,-0.004,-0.9606023718793306,-1.0,0.03939762812066938
+B,antalya,Csa,Turkey,adr,-1.0,1,tcn,-0.004,-0.993525227460268,-1.0,0.006474772539732054
+B,antalya,Csa,Turkey,adr,-1.0,2,khd_full,-0.004,-0.9950320928362422,-1.0,0.004967907163757834
+B,antalya,Csa,Turkey,adr,-1.0,2,khd_no_physics,-0.004,-0.9911588163451982,-1.0,0.008841183654801799
+B,antalya,Csa,Turkey,adr,-1.0,2,khd_no_correction,-0.004,-0.9437315384870052,-1.0,0.056268461512994805
+B,antalya,Csa,Turkey,adr,-1.0,2,tcn,-0.004,-1.020959347727174,-1.0,-0.020959347727173894
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,khd_no_correction,-0.004,-0.4663194614981889,-0.5,0.033680538501811075
+B,dubai,BWh,United Arab Emirates,adr,-0.5,1,tcn,-0.004,-0.5028252758416024,-0.5,-0.002825275841602415
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,khd_full,-0.004,-0.5031448534891056,-0.5,-0.003144853489105648
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,khd_no_physics,-0.004,-0.5115139938749128,-0.5,-0.011513993874912809
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,khd_no_correction,-0.004,-0.4953055977292965,-0.5,0.004694402270703502
+B,dubai,BWh,United Arab Emirates,adr,-0.5,2,tcn,-0.004,-0.5135348653335307,-0.5,-0.013534865333530655
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,khd_full,-0.004,-0.9989383410099097,-1.0,0.0010616589900902529
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,khd_no_physics,-0.004,-0.9987652181003673,-1.0,0.0012347818996326643
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,khd_no_correction,-0.004,-0.9660952001044714,-1.0,0.03390479989552864
+B,dubai,BWh,United Arab Emirates,adr,-1.0,0,tcn,-0.004,-1.0023467240798334,-1.0,-0.0023467240798333844
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,khd_full,-0.004,-0.9977304251232545,-1.0,0.002269574876745506
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,khd_no_physics,-0.004,-1.004785253311348,-1.0,-0.004785253311347937
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,khd_no_correction,-0.004,-0.9930693378611605,-1.0,0.006930662138839527
+B,dubai,BWh,United Arab Emirates,adr,-1.0,1,tcn,-0.004,-1.0039820688709344,-1.0,-0.003982068870934441
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,khd_full,-0.004,-1.0010174675294998,-1.0,-0.001017467529499827
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,khd_no_physics,-0.004,-1.0017143422941375,-1.0,-0.001714342294137472
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,khd_no_correction,-0.004,-0.9736842026305658,-1.0,0.026315797369434235
+B,dubai,BWh,United Arab Emirates,adr,-1.0,2,tcn,-0.004,-1.0057614201957232,-1.0,-0.0057614201957232325

@@ -1,0 +1,6 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,khd_full,-0.004,-0.9940583189401359,-1.0,0.005941681059864146
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,khd_no_physics,-0.004,-0.9899672208013595,-1.0,0.01003277919864054
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,khd_no_correction,-0.004,-0.9688199500685122,-1.0,0.03118004993148782
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,1,tcn,-0.004,-1.0189513196848166,-1.0,-0.01895131968481656
+B,hong_kong,Cwa,China (Hong Kong),adr,-1.0,2,khd_full,-0.004,-0.9838383700057198,-1.0,0.01616162999428017

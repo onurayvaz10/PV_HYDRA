@@ -1,0 +1,7 @@
+part,site_id,climate,country,family,rate,seed,method,gamma,plr,truth,error
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,khd_full,-0.004,-0.49021326052512204,-0.5,0.009786739474877959
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,khd_no_physics,-0.004,-0.4937132535415601,-0.5,0.006286746458439907
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,khd_no_correction,-0.004,-0.5109624051796624,-0.5,-0.010962405179662404
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,0,tcn,-0.004,-0.4884243802166177,-0.5,0.011575619783382285
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,khd_full,-0.004,-0.5138316937553344,-0.5,-0.01383169375533444
+B,ulaanbaatar,BSk,Mongolia,adr,-0.5,1,khd_no_physics,-0.004,-0.5022410860702818,-0.5,-0.002241086070281839
