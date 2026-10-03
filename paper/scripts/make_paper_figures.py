@@ -239,18 +239,17 @@ def fig3() -> None:
     for ax_ in axes:
         for bnd in bounds:
             ax_.axvline(bnd - 0.5, color="#bbbbbb", lw=0.5, ls=":")
-    fig.legend(handles=[Line2D([], [], marker="o", color="black", ms=3, lw=0.6, label="Reference, 95 % CI"),
-                        Line2D([], [], color=OI["blue"], lw=3.2, alpha=0.45, label="Seven two-stage rates"),
-                        Line2D([], [], marker="D", color=OI["verm"], ms=3, lw=0.6, label="κ-HYDRA-D, 95 % CI")],
-               loc="upper center", bbox_to_anchor=(0.58, 1.0), ncol=3, frameon=False, handlelength=1.3,
-               columnspacing=0.8, handletextpad=0.3)
+    fig.legend(handles=[Line2D([], [], marker="o", color="black", ms=3, lw=0.6, label="Reference"),
+                        Line2D([], [], color=OI["blue"], lw=3.2, alpha=0.45, label="Seven two-stage"),
+                        Line2D([], [], marker="D", color=OI["verm"], ms=3, lw=0.6, label="κ-HYDRA-D")],
+               loc="upper center", bbox_to_anchor=(0.55, 1.0), ncol=3, frameon=False, handlelength=0.9,
+               columnspacing=0.5, handletextpad=0.25, borderaxespad=0.1)
     a.text(-0.13, 1.0, "(a)", transform=a.transAxes, ha="left", va="bottom", fontsize=8, fontweight="bold")
     bax = axes[1]
     rngw = win.reindex(order).window_range.to_numpy()
     bax.bar(x, rngw, width=0.6, color=OI["orange"], edgecolor="black", lw=0.4, hatch="///")
     med = float(np.nanmedian(rngw))
     bax.axhline(med, color="black", lw=0.7, ls="--")
-    bax.text(len(order) - 0.5, med, "median", ha="right", va="bottom")
     bax.set_ylabel("Window range (%/yr)")
     bax.spines[["top", "right"]].set_visible(False)
     bax.set_xticks(x, [SYSTEMS[s][0] for s in order], rotation=90)
