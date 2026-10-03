@@ -15,6 +15,7 @@ typical datasheet values, recorded as an assumption and varied in a sensitivity 
 
 from __future__ import annotations
 
+import os
 import numpy as np
 import pandas as pd
 import pvlib
@@ -102,6 +103,8 @@ def yoy_from_normalized(normalized: pd.Series, poa: pd.Series, tcell: pd.Series,
     if result["span_years"] < 2.0 or len(daily) < 365:
         return {**result, "plr": np.nan, "ci_low": np.nan, "ci_high": np.nan, "status": "insufficient span"}
     rd, ci, info = rdtools.degradation.degradation_year_on_year(daily, confidence_level=95)
+    if os.environ.get("PV_RETURN_YOY") == "1":          # year-on-year slopes for interval sensitivity analyses
+        result["_yoy_values"] = info.get("YoY_values")
     # Time centre of the YoY pairs (years from the first day): needed for the second-order term of
     # multiplicative injections, E(t) - E(t-1) = d + r + 2 d r t_c (first-year-normalised YoY).
     t = (daily.index - daily.index.min()).days.to_numpy() / 365.25

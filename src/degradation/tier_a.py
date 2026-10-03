@@ -17,6 +17,7 @@ preregistration has not been established:
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import numpy as np
@@ -113,7 +114,10 @@ def _hourly(native: pd.DataFrame, rename: dict) -> pd.DataFrame:
     keep = [c for c in ("power_w", "poa_wm2", "t_amb_c", "t_module_c") if c in frame]
     frame = frame[keep]
     hourly = frame.groupby(frame.index.floor("h")).mean()
-    counts = frame.power_w.groupby(frame.index.floor("h")).size()
+    # Hourly validity rule: >= 90 % of the native intervals with a valid power sample (count). PV_HOURLY_RULE=rows
+    # reproduces the earlier row count (size); on the 18 main systems both keep identical hours (R10_hourly_rule.csv).
+    grp = frame.power_w.groupby(frame.index.floor("h"))
+    counts = grp.count() if os.environ.get("PV_HOURLY_RULE", "valid") == "valid" else grp.size()
     step = max(1, int(round(frame.index.to_series().diff().dt.total_seconds().median() / 60)))
     hourly = hourly[counts >= int(np.ceil(0.9 * 60 / step))]
     return hourly

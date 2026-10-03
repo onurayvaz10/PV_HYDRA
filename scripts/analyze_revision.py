@@ -21,6 +21,9 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from src.degradation.truth_convention import first_year  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 FM = ROOT / "results/fixed_mask"
 SD = ROOT / "results/singlediode"
@@ -59,11 +62,12 @@ def injection_table() -> pd.DataFrame:
                                                                        n_seeds=("seed", "nunique")).reset_index()
             g["method"] = g.model + ("_full" if name == "mlfull" else "")
             rows.append(g[["system_id", "method", "injection", "plr", "t_center_years", "n_seeds"]])
-    for name, pat in (("kappa", "kappa_runs*.csv"), ("kappa24", "kappa24_runs*.csv")):
+    for name, pat in (("kappa", "kappa_runs*.csv"), ("kappa24", "kappa24_runs*.csv"), ("kappalin", "kappalin_runs*.csv")):
         k = read(pat)
         if len(k):
             k = k.drop_duplicates(["system_id", "variant", "injection"], keep="last")
-            k["method"] = np.where(k.variant == "full", "khd" if name == "kappa" else "khd_24", "khd_" + k.variant)
+            k["method"] = np.where(k.variant == "full", "khd" if name == "kappa" else "khd_24",
+                                   np.where(k.variant == "linear_correction", "khd_linear", "khd_" + k.variant))
             k = k.rename(columns={"t_center_years": "t_center_years"})
             rows.append(k[["system_id", "method", "injection", "plr", "t_center_years"]])
     rv = FM / "reference_variants_injection.csv"
@@ -145,6 +149,8 @@ def single_diode() -> tuple[pd.DataFrame, dict]:
     if not len(r):
         return pd.DataFrame(), {}
     r = r.dropna(subset=["plr"]).drop_duplicates(["site_id", "module_tech", "rate", "seed", "method"], keep="last")
+    r = r.assign(truth=first_year(r.truth))              # common convention: first-year level (amendment 3)
+    r = r.assign(error=r.plr - r.truth)
     site = r.groupby(["method", "site_id"]).error.agg(lambda e: e.abs().mean()).rename("site_mae").reset_index()
     t = site.groupby("method").site_mae.agg(mae="mean", worst_site="max")
     t["bias"] = r.groupby("method").error.mean()
@@ -166,6 +172,7 @@ def climate_info_equal() -> pd.DataFrame:
     ie = read("info_equal_runs*.csv", CL)
     r = pd.concat([base, ie], ignore_index=True).dropna(subset=["plr"])
     r = r.drop_duplicates(["site_id", "family", "rate", "seed", "method"], keep="last")
+    r = r.assign(error=r.plr - first_year(r.rate))       # common convention: first-year level (amendment 3)
     site = r.groupby(["method", "site_id"]).error.agg(lambda e: e.abs().mean()).rename("site_mae").reset_index()
     t = site.groupby("method").site_mae.agg(mae="mean", worst_site="max")
     t["n_records"] = r.groupby("method").size()
@@ -207,6 +214,17 @@ def main() -> None:
     r1 = location_weighted(e)
     r1.to_csv(TAB / "R1_injection_by_method.csv")
     print("R1\n", r1.round(3).to_string())
+    # leave-one-location-out: location-weighted MAE without each location (amendment 3)
+    lolo = {}
+    for loc in sorted(e.location.unique()):
+        lolo[f"without {loc}"] = location_weighted(e[e.location != loc]).loc_weighted_mae
+    pd.DataFrame(lolo).join(r1.loc_weighted_mae.rename("all locations")).to_csv(TAB / "R12_leave_one_location_out.csv")
+    # power fit of the two-stage models on the unmodified records (validation weeks, mean of seeds and systems)
+    mlr = read("ml_runs*.csv")
+    if len(mlr):
+        fit = (mlr[mlr.injection == 0].drop_duplicates(["system_id", "model", "seed"], keep="last")
+               .groupby("model").agg(val_rmse=("val_rmse", "mean"), val_r2=("val_r2", "mean"), n=("val_rmse", "size")))
+        fit.join(r1.loc_weighted_mae.rename("injection_mae")).to_csv(TAB / "R13_fit_vs_rate.csv")
     arb = e[e.system_id == "pvdaq_2107"].pivot_table(index="method", columns="injection", values="recovery")
     arb.to_csv(TAB / "R2_arbuckle_recovery.csv")
     print("R2\n", arb.round(3).to_string())

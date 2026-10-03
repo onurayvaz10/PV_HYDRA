@@ -9,18 +9,18 @@
  "sd_coverage": {
   "khd_full": {
    "n": 240,
-   "covered": 85,
-   "coverage": 0.3541666666666667,
-   "wilson_low": 0.2963905360670909,
-   "wilson_high": 0.4165378567912236,
+   "covered": 79,
+   "coverage": 0.32916666666666666,
+   "wilson_low": 0.2728149678592613,
+   "wilson_high": 0.39090114948904997,
    "median_width": 0.1101533205556483
   },
   "reference": {
    "n": 240,
-   "covered": 95,
-   "coverage": 0.3958333333333333,
-   "wilson_low": 0.33607109972456106,
-   "wilson_high": 0.45887775231709205,
+   "covered": 92,
+   "coverage": 0.38333333333333336,
+   "wilson_low": 0.32411757208175707,
+   "wilson_high": 0.4462251422048945,
    "median_width": 0.1564264322142624
   }
  },
@@ -47,6 +47,11 @@
   "max": 0.2627205257251727
  },
  "R1": {
+  "khd_linear": {
+   "loc_weighted_mae": 0.0038,
+   "worst_location": 0.0072,
+   "n_systems": 18
+  },
   "khd_no_correction": {
    "loc_weighted_mae": 0.0041,
    "worst_location": 0.0102,
@@ -111,6 +116,11 @@
    "loc_weighted_mae": 0.0351,
    "worst_location": 0.0726,
    "n_systems": 16
+  },
+  "xgboost_w24": {
+   "loc_weighted_mae": 0.051,
+   "worst_location": 0.064,
+   "n_systems": 18
   },
   "tcn_full": {
    "loc_weighted_mae": 0.0593,

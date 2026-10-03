@@ -56,7 +56,16 @@ def main(methods: tuple[str, ...]) -> None:
                     syn = synthesize(frame, meta, family, rate, seed)
                     d = None
                     for m in todo:
-                        if m == "khd_24":
+                        if m == "khd_linear":            # control: linear correction, joint trend
+                            plr = estimate(syn, climate.DC_KW, G_DATASHEET, seeds=(seed,), jackknife=False,
+                                           variant="linear_correction", **hp["kappa_hydra_d"]["params"])["plr"]
+                        elif m == "xgboost_w24":         # control: XGBoost on the 24-h window, 24-month regime
+                            d24 = ml_plr.prepare(syn, climate.DC_KW)
+                            pred, _ = pm.fit_predict("xgboost_w24", hp["xgboost"]["params"], seed,
+                                                     (d24["x"][d24["train"]], d24["y"][d24["train"]]),
+                                                     (d24["x"][d24["val"]], d24["y"][d24["val"]]), d24["x"])
+                            plr = ml_plr.plr_from_prediction(syn, climate.DC_KW, pred, d24["stamps"])["plr"]
+                        elif m == "khd_24":
                             plr = estimate(syn, climate.DC_KW, G_DATASHEET, seeds=(seed,), jackknife=False,
                                            correction_months=24, **hp["kappa_hydra_d"]["params"])["plr"]
                         else:

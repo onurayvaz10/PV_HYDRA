@@ -148,8 +148,9 @@ class InformerReg(nn.Module):
 
 NETWORKS = {"lstm": lambda f, h, d: RecurrentReg("lstm", f, h, d), "gru": lambda f, h, d: RecurrentReg("gru", f, h, d),
             "tcn": TCNReg, "patchtst": PatchTSTReg, "informer": InformerReg}
-TREES = ("xgboost", "random_forest")
-ALL_MODELS = TREES + tuple(NETWORKS)
+TREES = ("xgboost", "random_forest", "xgboost_w24")
+TREE_HOURS = {"xgboost": 3, "random_forest": 3, "xgboost_w24": 24}   # xgboost_w24: same 24-h input as the networks
+ALL_MODELS = ("xgboost", "random_forest") + tuple(NETWORKS)   # the seven benchmarked models (xgboost_w24 is a control)
 
 
 def default_params(model: str) -> dict:
@@ -160,8 +161,8 @@ def default_params(model: str) -> dict:
     return {"hidden": 64, "dropout": 0.1, "learning_rate": 1e-3, "batch_size": 512}
 
 
-def _flat(x: np.ndarray) -> np.ndarray:
-    return x[:, -3:, :].reshape(len(x), -1)
+def _flat(x: np.ndarray, model: str = "xgboost") -> np.ndarray:
+    return x[:, -TREE_HOURS[model]:, :].reshape(len(x), -1)
 
 
 def _train_net(net: nn.Module, model: str, params: dict, seed: int, train: tuple, val: tuple, device: str,
@@ -202,10 +203,10 @@ def _train_net(net: nn.Module, model: str, params: dict, seed: int, train: tuple
 def fit_model(model: str, params: dict, seed: int, train: tuple, val: tuple, device: str = DEVICE,
               max_epochs: int = 60, patience: int = 8):
     """Fit on train, early-stop on val (validation weeks only). Returns the fitted estimator."""
-    if model == "xgboost":
+    if model in ("xgboost", "xgboost_w24"):
         import xgboost as xgb
         est = xgb.XGBRegressor(random_state=seed, tree_method="hist", early_stopping_rounds=50, **params)
-        return est.fit(_flat(train[0]), train[1], eval_set=[(_flat(val[0]), val[1])], verbose=False)
+        return est.fit(_flat(train[0], model), train[1], eval_set=[(_flat(val[0], model), val[1])], verbose=False)
     if model == "random_forest":
         from sklearn.ensemble import RandomForestRegressor
         return RandomForestRegressor(random_state=seed, n_jobs=-1, **params).fit(_flat(train[0]), train[1])
@@ -232,14 +233,14 @@ def finetune(model: str, pretrained, params: dict, seed: int, train: tuple, val:
 
 def predict(model: str, est, x: np.ndarray, device: str = DEVICE) -> np.ndarray:
     if model in TREES:
-        return np.asarray(est.predict(_flat(x)), dtype=np.float32)
+        return np.asarray(est.predict(_flat(x, model)), dtype=np.float32)
     with torch.no_grad(), torch.backends.cudnn.flags(enabled=model not in ("lstm", "gru")):
         return torch.cat([est(torch.as_tensor(x[s:s + 8192], device=device)).float().cpu()
                           for s in range(0, len(x), 8192)]).numpy()
 
 
 def n_parameters(model: str, est) -> int:
-    if model == "xgboost":
+    if model in ("xgboost", "xgboost_w24"):
         return int(est.get_booster().num_boosted_rounds())
     if model == "random_forest":
         return int(sum(t.tree_.node_count for t in est.estimators_))

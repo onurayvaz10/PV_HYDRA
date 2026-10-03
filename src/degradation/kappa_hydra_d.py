@@ -40,16 +40,18 @@ QUANTILES = (0.1, 0.5, 0.9)
 FEATURES = ["poa_n", "tcell_n", "tamb_n", "hour_sin", "hour_cos", "doy_sin", "doy_cos"]
 VARIANTS = {"full": {}, "no_physics": {"physics": False}, "no_correction": {"correction": False},
             "time_input": {"time_input": True},   # time_input: diagnostic, breaks identifiability on purpose
-            "mean_loss": {"loss": "mse"}}           # median head fitted to the insolation-weighted mean (diagnostic)
+            "mean_loss": {"loss": "mse"},           # median head fitted to the insolation-weighted mean (diagnostic)
+            "linear_correction": {"linear": True}}  # g = 1 + 0.5 tanh(linear(x)): simple correction, same inputs and trend
 
 
 class KappaHydraD(nn.Module):
     def __init__(self, features: int, hidden: int = 64, dropout: float = 0.05, fixed_rate: float | None = None,
-                 physics: bool = True) -> None:
+                 physics: bool = True, linear: bool = False) -> None:
         super().__init__()
         self.physics = physics
-        self.body = nn.Sequential(nn.Linear(features, hidden), nn.GELU(), nn.Dropout(dropout),
-                                  nn.Linear(hidden, hidden), nn.GELU(), nn.Linear(hidden, len(QUANTILES)))
+        self.body = (nn.Sequential(nn.Linear(features, len(QUANTILES))) if linear else
+                     nn.Sequential(nn.Linear(features, hidden), nn.GELU(), nn.Dropout(dropout),
+                                   nn.Linear(hidden, hidden), nn.GELU(), nn.Linear(hidden, len(QUANTILES))))
         self.rate = nn.Parameter(torch.zeros(()), requires_grad=fixed_rate is None)
         if fixed_rate is not None:
             self.rate.data.fill_(fixed_rate)
@@ -116,7 +118,7 @@ def _fit(data: pd.DataFrame, seed: int, hidden: int, lr: float, steps: int, devi
     y = torch.as_tensor(train.kappa.to_numpy(np.float32), device=device)
     w = torch.as_tensor((train.poa / train.poa.mean()).to_numpy(np.float32), device=device)
     q = torch.as_tensor(QUANTILES, device=device)
-    net = KappaHydraD(x.shape[1], hidden, fixed_rate=fixed_rate, physics=physics).to(device)
+    net = KappaHydraD(x.shape[1], hidden, fixed_rate=fixed_rate, physics=physics, linear=variant.get("linear", False)).to(device)
     opt = torch.optim.Adam([{"params": net.body.parameters(), "lr": lr, "weight_decay": 1e-5},
                             {"params": [net.rate], "lr": lr * 0.1}])
     with torch.no_grad():                                   # start g at the median kappa level

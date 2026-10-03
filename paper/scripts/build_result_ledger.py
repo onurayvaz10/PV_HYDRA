@@ -53,6 +53,27 @@ def group_of(sid: str) -> str:
     return "long expansion"
 
 
+def segan_rows() -> None:
+    """Numbers of the SEGAN version: the same computation that fills the manuscript (fill_segan.numbers), with every
+    known-rate truth at the first-year level (amendment 3), plus the cell tokens of its generated tables."""
+    import re
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import paper_numbers as fill_segan
+    n, tables, _ = fill_segan.numbers()
+    src = "paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year"
+    for k, v in n.items():
+        if len(v) < 40:                                  # numbers and short labels; sentences are built from these
+            add(f"seg_{k}", v, v, src, k)
+    for name, tbl in tables.items():
+        for i, tok in enumerate(re.findall(r"[−-]?\+?\d[\d,]*(?:\.\d+)?", tbl)):
+            add(f"seg_{name}_{i}", tok, tok, src, f"{name} cell token {i}")
+    add("seg_hourly_rule", "90", 90, "src/degradation/tier_a._hourly", ">= 90 % of the native intervals valid", "design")
+    for k in ("w24_sentence", "lin_sentence"):
+        for i, tok in enumerate(re.findall(r"[−-]?\+?\d[\d,]*(?:\.\d+)?", n.get(k, ""))):
+            add(f"seg_{k}_{i}", tok, tok, src, f"{k} token {i}")
+
+
 def v3_rows() -> None:
     """Numbers of the benchmark version (protocol P1-P7): recomputed by the same functions that fill the manuscript
     (fill_v3.numbers) from results/fixed_mask, results/singlediode and results/climate_expansion, plus the screen
@@ -345,7 +366,11 @@ def main() -> None:
     add("example_final_year_pp", "5", 0.20 * 25, "derived: 0.20 %/yr x 25 yr", "derived", "derived")
     add("example_lifetime", "2.4", float(0.20 * years.mean()), "derived: mean loss over years 0-24 at 0.20 %/yr", "derived", "derived")
 
-    v3_rows()
+    try:                                                 # JPV v3 numbers (superseded by the SEGAN version)
+        v3_rows()
+    except SystemExit as exc:
+        print("v3 rows skipped:", exc)
+    segan_rows()
     out = REV / "result_ledger.csv"
     with out.open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=["id", "text", "value", "source", "selector", "kind"])

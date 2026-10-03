@@ -172,6 +172,8 @@ def fig2() -> None:
     rows = pd.read_csv(FM / "tables/R0_injection_rows.csv")
     clim = pd.concat([read("semisynthetic_climate_runs*.csv", EXP), read("info_equal_runs*.csv", EXP)]).dropna(subset=["plr"])
     clim = clim.drop_duplicates(["site_id", "family", "rate", "seed", "method"], keep="last")
+    from src.degradation.truth_convention import first_year
+    clim["error"] = clim.plr - first_year(clim.rate)     # truth at the first-year level (amendment 3)
     site = clim.groupby(["method", "site_id"]).error.agg(lambda e: e.abs().mean()).reset_index()
     va = [rows[rows.method == k].error.abs().to_numpy() for k, *_ in METHODS]
     vb = [site[site.method == c].error.to_numpy() for _, c, *_ in METHODS]

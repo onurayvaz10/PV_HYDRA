@@ -16,6 +16,10 @@ def main() -> None:
     sites = pd.read_csv(ROOT / "configs/semisynthetic_climate_sites.csv")
     runs = pd.concat([pd.read_csv(p) for p in OUT.glob("semisynthetic_climate_runs*.csv")]).dropna(subset=["plr"])
     runs = runs.drop_duplicates(["site_id", "family", "rate", "seed", "method"], keep="last")
+    import sys
+    sys.path.insert(0, str(ROOT))
+    from src.degradation.truth_convention import first_year
+    runs["error"] = runs.plr - first_year(runs.rate)          # truth at the first-year level (amendment 3)
     rows = []
     for method in ("rdtools", "khd_full"):
         r = runs[runs.method == method].groupby("site_id").error.agg(lambda e: e.abs().mean()).rename("site_mae")

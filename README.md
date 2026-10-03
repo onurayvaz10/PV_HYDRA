@@ -2,8 +2,8 @@
 
 Code and result tables for the study
 
-> O. Ayvaz and Ö. Tomak, “Normalization-Model Dependence of Photovoltaic Performance Loss Rates: Benchmarking
-> Machine-Learning Estimators Against Known Rates.”
+> O. Ayvaz and Ö. Tomak, “Power-fit accuracy does not guarantee degradation-rate accuracy: Known-rate benchmarking
+> of machine-learning normalization for photovoltaic performance loss rates.”
 
 Authors: **Onur Ayvaz** (ORCID 0009-0000-9522-7790) and **Özgür Tomak** (ORCID 0000-0003-2993-6913, corresponding
 author), Department of Electricity and Energy, Technical Sciences Vocational School, Giresun University, Türkiye.
@@ -67,7 +67,8 @@ without cuDNN kernels).
 | 16. Single-diode generator (P5) and information-equal exact-rate runs (P3) | `run_singlediode_generator.py run`, `run_climate_info_equal.py` | `results/singlediode/`, `results/climate_expansion/info_equal_runs*.csv` |
 | 17. Loss profiles on measured systems (P6) | `run_measured_profile.py` | `results/fixed_mask/profile_*.csv` |
 | 18. Revision tables (P7) | `analyze_revision.py halves`, `analyze_revision.py`, `latitude_spearman.py` | `results/fixed_mask/tables/R*.csv` |
-| 19. Run manifest | `python scripts/make_run_manifest.py` | `results/RUN_MANIFEST.csv` |
+| 19. First-year rate convention, hourly validity rule, block bootstrap, input-length and linear-correction controls (protocol amendment 3) | `rescore_first_year.py`, `check_hourly_rule.py`, `run_block_bootstrap.py`, `run_fixed_mask.py kappalin`, `run_climate_info_equal.py` | `results/first_year/FY_*.csv`, `results/fixed_mask/tables/R10`–`R13` |
+| 20. Run manifest | `python scripts/make_run_manifest.py` | `results/RUN_MANIFEST.csv` |
 
 Each run script appends one row per finished unit, so an interrupted run resumes where it stopped.
 

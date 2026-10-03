@@ -120,7 +120,7 @@ def run_ml(full_record: bool = False) -> None:
             d = ml_plr.prepare(frame, meta["dc_kw"], healthy=healthy, full_record=full_record)
             train, val = (d["x"][d["train"]], d["y"][d["train"]]), (d["x"][d["val"]], d["y"][d["val"]])
             for model, seed in todo:
-                pred, info = pm.fit_predict(model, hp[model]["params"], seed, train, val, d["x"])
+                pred, info = pm.fit_predict(model, hp[model.replace("_w24", "")]["params"], seed, train, val, d["x"])
                 sc = ml_plr.scores(pred[d["val"]], d["y"][d["val"]])
                 r = ml_plr.plr_from_prediction(frame, meta["dc_kw"], pred, d["stamps"], mask=yoy_mask)
                 append(kind, {"system_id": sid, "model": model, "seed": seed, "injection": inj,
@@ -131,13 +131,16 @@ def run_ml(full_record: bool = False) -> None:
                 print(kind, sid, inj, model, seed, round(r.get("plr", np.nan), 3), flush=True)
 
 
-def run_kappa(correction_months: int | None = None) -> None:
+def run_kappa(correction_months: int | None = None, variants: tuple[str, ...] | None = None) -> None:
     from src.degradation.kappa_hydra_d import estimate
     from src.degradation.rdtools_pipeline import cell_temperature, yoy_from_normalized
     params = json.loads((ROOT / "configs/perf_models_hpo.json").read_text())["kappa_hydra_d"]["params"]
-    kind = "kappa24" if correction_months else "kappa"
-    jobs = ([("full", inj) for inj in INJECTIONS] if correction_months else
-            [("full", inj) for inj in INJECTIONS] + [(v, inj) for v in ("no_physics", "no_correction") for inj in (0.0, -1.0)])
+    kind = "kappa24" if correction_months else ("kappalin" if variants else "kappa")
+    if variants:                                  # control: simple (linear) correction, every injected rate
+        jobs = [(v, inj) for v in variants for inj in INJECTIONS]
+    else:
+        jobs = ([("full", inj) for inj in INJECTIONS] if correction_months else
+                [("full", inj) for inj in INJECTIONS] + [(v, inj) for v in ("no_physics", "no_correction") for inj in (0.0, -1.0)])
     for sid in systems():
         for variant, inj in jobs:
             keys = done(kind, ["system_id", "variant", "injection"])
@@ -147,7 +150,7 @@ def run_kappa(correction_months: int | None = None) -> None:
             frame = injected(base, inj)
             want_pi = variant == "full" and inj == 0.0 and not correction_months
             r = estimate(frame, meta["dc_kw"], gamma, seeds=tuple(SEEDS), variant=variant,
-                         jackknife=(variant == "full" and inj == 0.0 and not correction_months),
+                         jackknife=(variant == "full" and inj == 0.0 and not correction_months and not variants),
                          mask=yoy_mask & healthy, pi_mask=yoy_mask if want_pi else None,
                          correction_months=correction_months, **params)
             r.pop("_val", None)
@@ -168,6 +171,6 @@ def run_kappa(correction_months: int | None = None) -> None:
 if __name__ == "__main__":
     mode = sys.argv[1]
     {"rd": run_rd, "ml": run_ml, "mlfull": lambda: run_ml(True), "kappa": run_kappa,
-     "kappa24": lambda: run_kappa(24)}[mode]()
+     "kappa24": lambda: run_kappa(24), "kappalin": lambda: run_kappa(variants=("linear_correction",))}[mode]()
     sys.stdout.flush()
     os._exit(0)

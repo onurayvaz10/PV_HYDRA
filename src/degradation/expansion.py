@@ -16,6 +16,7 @@ specification"); a provisional clock convention from the clear-sky model is a di
 from __future__ import annotations
 
 import json
+import os
 import re
 from pathlib import Path
 
@@ -391,7 +392,9 @@ def _aggregate(native: pd.DataFrame) -> tuple[pd.DataFrame, int]:
     hours = frame.index.floor("h")
     out = frame.groupby(hours).mean()
     step = max(1, int(round(frame.index.to_series().diff().dt.total_seconds().median() / 60)))
-    return out[frame.power_w.groupby(hours).size() >= int(np.ceil(0.9 * 60 / step))], step
+    grp = frame.power_w.groupby(hours)                 # PV_HOURLY_RULE: see tier_a._hourly
+    counts = grp.count() if os.environ.get("PV_HOURLY_RULE", "valid") == "valid" else grp.size()
+    return out[counts >= int(np.ceil(0.9 * 60 / step))], step
 
 
 def _convention_scores(signal: pd.Series, reference_at, meta: dict, threshold: float = 20.0) -> dict:

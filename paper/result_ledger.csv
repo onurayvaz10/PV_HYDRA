@@ -272,6 +272,13 @@ design_license,CC BY 4.0,CC BY 4.0,data licences (provider pages),design constan
 design_six_months,6,6,"transfer test: six local months (T9_transfer.csv conditions scratch_6, finetune_6)",design constant,design
 example_final_year_pp,5,5.0,derived: 0.20 %/yr x 25 yr,derived,derived
 example_lifetime,2.4,2.4000000000000004,derived: mean loss over years 0-24 at 0.20 %/yr,derived,derived
+v3_inj_khd_linear,0.004,0.004,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_linear,result
+v3_injworst_khd_linear,0.007,0.007,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_khd_linear,result
+v3_inj_khd_linear_alice,0.004,0.004,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_linear_alice,result
+v3_inj_khd_linear_golden,0.001,0.001,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_linear_golden,result
+v3_inj_khd_linear_henderson,0.005,0.005,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_linear_henderson,result
+v3_inj_khd_linear_las,0.007,0.007,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_linear_las,result
+v3_inj_khd_linear_arbuckle,0.002,0.002,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_linear_arbuckle,result
 v3_inj_khd_no_correction,0.004,0.004,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_correction,result
 v3_injworst_khd_no_correction,0.010,0.010,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_khd_no_correction,result
 v3_inj_khd_no_correction_alice,0.006,0.006,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_khd_no_correction_alice,result
@@ -363,6 +370,13 @@ v3_inj_reference_clearsky_golden,0.036,0.036,"fill_v3.numbers(): results/fixed_m
 v3_inj_reference_clearsky_henderson,0.009,0.009,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_clearsky_henderson,result
 v3_inj_reference_clearsky_las,–,–,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_clearsky_las,result
 v3_inj_reference_clearsky_arbuckle,0.073,0.073,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_reference_clearsky_arbuckle,result
+v3_inj_xgboost_w24,0.051,0.051,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_w24,result
+v3_injworst_xgboost_w24,0.064,0.064,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_xgboost_w24,result
+v3_inj_xgboost_w24_alice,0.060,0.060,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_w24_alice,result
+v3_inj_xgboost_w24_golden,0.041,0.041,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_w24_golden,result
+v3_inj_xgboost_w24_henderson,0.038,0.038,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_w24_henderson,result
+v3_inj_xgboost_w24_las,0.064,0.064,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_w24_las,result
+v3_inj_xgboost_w24_arbuckle,0.052,0.052,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_xgboost_w24_arbuckle,result
 v3_inj_tcn_full,0.059,0.059,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_full,result
 v3_injworst_tcn_full,0.085,0.085,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",injworst_tcn_full,result
 v3_inj_tcn_full_alice,0.047,0.047,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",inj_tcn_full_alice,result
@@ -394,6 +408,8 @@ v3_arb_khd_min,0.97,0.97,"fill_v3.numbers(): results/fixed_mask, results/singled
 v3_arb_khd_max,0.99,0.99,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_max,result
 v3_arb_khd_24_min,0.94,0.94,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_24_min,result
 v3_arb_khd_24_max,0.98,0.98,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_24_max,result
+v3_arb_khd_linear_min,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_linear_min,result
+v3_arb_khd_linear_max,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_linear_max,result
 v3_arb_khd_no_correction_min,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_no_correction_min,result
 v3_arb_khd_no_correction_max,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_no_correction_max,result
 v3_arb_khd_no_physics_min,1.00,1.00,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_khd_no_physics_min,result
@@ -418,6 +434,8 @@ v3_arb_xgboost_min,0.98,0.98,"fill_v3.numbers(): results/fixed_mask, results/sin
 v3_arb_xgboost_max,1.02,1.02,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_xgboost_max,result
 v3_arb_xgboost_full_min,0.66,0.66,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_xgboost_full_min,result
 v3_arb_xgboost_full_max,0.88,0.88,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_xgboost_full_max,result
+v3_arb_xgboost_w24_min,0.90,0.90,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_xgboost_w24_min,result
+v3_arb_xgboost_w24_max,0.97,0.97,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_xgboost_w24_max,result
 v3_arb_off_min,1.04,1.04,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_off_min,result
 v3_arb_off_max,1.07,1.07,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",arb_off_max,result
 v3_n_2x2,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",n_2x2,result
@@ -494,8 +512,8 @@ v3_prof_single,18,18,"fill_v3.numbers(): results/fixed_mask, results/singlediode
 v3_prof_widest,PVDAQ 2107,PVDAQ 2107,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",prof_widest,result
 v3_prof_widest_w,3.90,3.90,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",prof_widest_w,result
 v3_prof_med_w,0.83,0.83,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",prof_med_w,result
-v3_lat_rho,0.49,0.49,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",lat_rho,result
-v3_lat_p,0.03,0.03,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",lat_p,result
+v3_lat_rho,0.54,0.54,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",lat_rho,result
+v3_lat_p,0.01,0.01,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",lat_p,result
 v3_mm_khd,−0.0151,−0.0151,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_khd,result
 v3_mm_khd_lo,−0.0300,−0.0300,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_khd_lo,result
 v3_mm_khd_hi,−0.0001,−0.0001,"fill_v3.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion",mm_khd_hi,result
@@ -744,3 +762,486 @@ v3_henderson_lasvegas_km,28,28.281497797795684,"system metadata (PVDAQ 1423, 127
 v3_span_range,6.9–13.1,"[6.9, 13.1]",run_fixed_mask.load,record span,result
 v3_rho_bound,0.15,0.15,derived: 2/T,|rho| < 2/T,result
 v3_span_max,13.1,13.1,run_fixed_mask.load,longest span,result
+seg_inj_khd_linear,0.004,0.004,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_khd_linear,result
+seg_injworst_khd_linear,0.007,0.007,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_khd_linear,result
+seg_inj_khd_no_correction,0.004,0.004,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_khd_no_correction,result
+seg_injworst_khd_no_correction,0.010,0.010,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_khd_no_correction,result
+seg_inj_khd_no_physics,0.006,0.006,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_khd_no_physics,result
+seg_injworst_khd_no_physics,0.018,0.018,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_khd_no_physics,result
+seg_inj_khd,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_khd,result
+seg_injworst_khd,0.016,0.016,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_khd,result
+seg_inj_patchtst,0.016,0.016,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_patchtst,result
+seg_injworst_patchtst,0.024,0.024,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_patchtst,result
+seg_inj_lstm,0.018,0.018,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_lstm,result
+seg_injworst_lstm,0.047,0.047,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_lstm,result
+seg_inj_tcn,0.022,0.022,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_tcn,result
+seg_injworst_tcn,0.032,0.032,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_tcn,result
+seg_inj_xgboost,0.023,0.023,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_xgboost,result
+seg_injworst_xgboost,0.029,0.029,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_xgboost,result
+seg_inj_reference,0.024,0.024,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_reference,result
+seg_injworst_reference,0.044,0.044,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_reference,result
+seg_inj_khd_24,0.025,0.025,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_khd_24,result
+seg_injworst_khd_24,0.042,0.042,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_khd_24,result
+seg_inj_reference_fitted,0.026,0.026,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_reference_fitted,result
+seg_injworst_reference_fitted,0.081,0.081,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_reference_fitted,result
+seg_inj_gru,0.027,0.027,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_gru,result
+seg_injworst_gru,0.059,0.059,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_gru,result
+seg_inj_informer,0.027,0.027,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_informer,result
+seg_injworst_informer,0.072,0.072,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_informer,result
+seg_inj_reference_clearsky,0.035,0.035,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_reference_clearsky,result
+seg_injworst_reference_clearsky,0.073,0.073,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_reference_clearsky,result
+seg_inj_xgboost_w24,0.051,0.051,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_xgboost_w24,result
+seg_injworst_xgboost_w24,0.064,0.064,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_xgboost_w24,result
+seg_inj_tcn_full,0.059,0.059,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_tcn_full,result
+seg_injworst_tcn_full,0.085,0.085,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_tcn_full,result
+seg_inj_random_forest,0.124,0.124,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_random_forest,result
+seg_injworst_random_forest,0.260,0.260,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_random_forest,result
+seg_inj_xgboost_full,0.142,0.142,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_xgboost_full,result
+seg_injworst_xgboost_full,0.217,0.217,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",injworst_xgboost_full,result
+seg_best_two_stage,PatchTST,PatchTST,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",best_two_stage,result
+seg_inj_best_two_stage,0.016,0.016,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",inj_best_two_stage,result
+seg_arb_khd_min,0.97,0.97,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",arb_khd_min,result
+seg_arb_khd_max,0.99,0.99,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",arb_khd_max,result
+seg_arb_reference_min,0.97,0.97,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",arb_reference_min,result
+seg_arb_reference_max,1.06,1.06,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",arb_reference_max,result
+seg_arb_khd_24_min,0.94,0.94,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",arb_khd_24_min,result
+seg_arb_khd_24_max,0.98,0.98,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",arb_khd_24_max,result
+seg_arb_off_min,1.04,1.04,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",arb_off_min,result
+seg_arb_off_max,1.07,1.07,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",arb_off_max,result
+seg_lolo_khd_min,0.005,0.005,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lolo_khd_min,result
+seg_lolo_khd_max,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lolo_khd_max,result
+seg_lolo_reference_min,0.019,0.019,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lolo_reference_min,result
+seg_lolo_reference_max,0.028,0.028,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lolo_reference_max,result
+seg_mm_khd,−0.0151,−0.0151,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_khd,result
+seg_mm_khd_lo,−0.0300,−0.0300,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_khd_lo,result
+seg_mm_khd_hi,−0.0001,−0.0001,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_khd_hi,result
+seg_mm_khd_24,+0.0031,+0.0031,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_khd_24,result
+seg_mm_khd_24_lo,−0.0118,−0.0118,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_khd_24_lo,result
+seg_mm_khd_24_hi,+0.0181,+0.0181,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_khd_24_hi,result
+seg_mm_xgboost,+0.0023,+0.0023,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_xgboost,result
+seg_mm_xgboost_lo,−0.0127,−0.0127,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_xgboost_lo,result
+seg_mm_xgboost_hi,+0.0173,+0.0173,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_xgboost_hi,result
+seg_mm_xgboost_full,+0.0926,+0.0926,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_xgboost_full,result
+seg_mm_xgboost_full_lo,+0.0777,+0.0777,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_xgboost_full_lo,result
+seg_mm_xgboost_full_hi,+0.1076,+0.1076,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_xgboost_full_hi,result
+seg_mm_lstm,−0.0035,−0.0035,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_lstm,result
+seg_mm_lstm_lo,−0.0185,−0.0185,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_lstm_lo,result
+seg_mm_lstm_hi,+0.0115,+0.0115,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_lstm_hi,result
+seg_mm_gru,+0.0034,+0.0034,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_gru,result
+seg_mm_gru_lo,−0.0116,−0.0116,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_gru_lo,result
+seg_mm_gru_hi,+0.0184,+0.0184,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_gru_hi,result
+seg_mm_tcn,+0.0053,+0.0053,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_tcn,result
+seg_mm_tcn_lo,−0.0097,−0.0097,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_tcn_lo,result
+seg_mm_tcn_hi,+0.0202,+0.0202,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_tcn_hi,result
+seg_mm_tcn_full,+0.0295,+0.0295,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_tcn_full,result
+seg_mm_tcn_full_lo,+0.0146,+0.0146,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_tcn_full_lo,result
+seg_mm_tcn_full_hi,+0.0445,+0.0445,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_tcn_full_hi,result
+seg_mm_patchtst,−0.0019,−0.0019,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_patchtst,result
+seg_mm_patchtst_lo,−0.0169,−0.0169,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_patchtst_lo,result
+seg_mm_patchtst_hi,+0.0131,+0.0131,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_patchtst_hi,result
+seg_mm_informer,+0.0012,+0.0012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_informer,result
+seg_mm_informer_lo,−0.0138,−0.0138,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_informer_lo,result
+seg_mm_informer_hi,+0.0161,+0.0161,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_informer_hi,result
+seg_mm_random_forest,+0.0447,+0.0447,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_random_forest,result
+seg_mm_random_forest_lo,+0.0297,+0.0297,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_random_forest_lo,result
+seg_mm_random_forest_hi,+0.0597,+0.0597,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mm_random_forest_hi,result
+seg_ex_gru,0.011,0.011,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_gru,result
+seg_exworst_gru,0.020,0.020,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_gru,result
+seg_ex_informer,0.015,0.015,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_informer,result
+seg_exworst_informer,0.027,0.027,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_informer,result
+seg_ex_khd_24,0.017,0.017,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_khd_24,result
+seg_exworst_khd_24,0.023,0.023,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_khd_24,result
+seg_ex_khd_full,0.007,0.007,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_khd_full,result
+seg_exworst_khd_full,0.011,0.011,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_khd_full,result
+seg_ex_khd_linear,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_khd_linear,result
+seg_exworst_khd_linear,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_khd_linear,result
+seg_ex_lstm,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_lstm,result
+seg_exworst_lstm,0.029,0.029,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_lstm,result
+seg_ex_patchtst,0.016,0.016,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_patchtst,result
+seg_exworst_patchtst,0.033,0.033,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_patchtst,result
+seg_ex_random_forest,0.054,0.054,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_random_forest,result
+seg_exworst_random_forest,0.103,0.103,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_random_forest,result
+seg_ex_rdtools,0.031,0.031,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_rdtools,result
+seg_exworst_rdtools,0.093,0.093,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_rdtools,result
+seg_ex_tcn,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_tcn,result
+seg_exworst_tcn,0.030,0.030,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_tcn,result
+seg_ex_tcn_full,0.033,0.033,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_tcn_full,result
+seg_exworst_tcn_full,0.077,0.077,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_tcn_full,result
+seg_ex_xgboost,0.024,0.024,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_xgboost,result
+seg_exworst_xgboost,0.062,0.062,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_xgboost,result
+seg_ex_xgboost_full,0.117,0.117,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_xgboost_full,result
+seg_exworst_xgboost_full,0.162,0.162,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_xgboost_full,result
+seg_ex_xgboost_w24,0.033,0.033,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_xgboost_w24,result
+seg_exworst_xgboost_w24,0.075,0.075,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exworst_xgboost_w24,result
+seg_sd_gru,0.139,0.139,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_gru,result
+seg_sdworst_gru,0.173,0.173,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_gru,result
+seg_sd_informer,0.141,0.141,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_informer,result
+seg_sdworst_informer,0.184,0.184,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_informer,result
+seg_sd_khd_24,0.086,0.086,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_khd_24,result
+seg_sdworst_khd_24,0.137,0.137,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_khd_24,result
+seg_sd_khd_full,0.084,0.084,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_khd_full,result
+seg_sdworst_khd_full,0.119,0.119,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_khd_full,result
+seg_sd_lstm,0.139,0.139,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_lstm,result
+seg_sdworst_lstm,0.199,0.199,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_lstm,result
+seg_sd_patchtst,0.144,0.144,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_patchtst,result
+seg_sdworst_patchtst,0.229,0.229,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_patchtst,result
+seg_sd_random_forest,0.204,0.204,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_random_forest,result
+seg_sdworst_random_forest,0.288,0.288,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_random_forest,result
+seg_sd_rdtools,0.107,0.107,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_rdtools,result
+seg_sdworst_rdtools,0.175,0.175,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_rdtools,result
+seg_sd_tcn,0.142,0.142,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_tcn,result
+seg_sdworst_tcn,0.182,0.182,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_tcn,result
+seg_sd_tcn_full,0.148,0.148,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_tcn_full,result
+seg_sdworst_tcn_full,0.192,0.192,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_tcn_full,result
+seg_sd_xgboost,0.162,0.162,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_xgboost,result
+seg_sdworst_xgboost,0.260,0.260,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_xgboost,result
+seg_sd_xgboost_full,0.224,0.224,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_xgboost_full,result
+seg_sdworst_xgboost_full,0.302,0.302,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sdworst_xgboost_full,result
+seg_ex_ref_worst_site,Utrecht,Utrecht,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ex_ref_worst_site,result
+seg_exA_rdtools_fitted_gamma,0.015,0.015,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exA_rdtools_fitted_gamma,result
+seg_exAworst_rdtools_fitted_gamma,0.029,0.029,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exAworst_rdtools_fitted_gamma,result
+seg_exA_rdtools_true_gamma,0.010,0.010,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exA_rdtools_true_gamma,result
+seg_exAworst_rdtools_true_gamma,0.037,0.037,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",exAworst_rdtools_true_gamma,result
+seg_adr_khd_full,0.007,0.007,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adr_khd_full,result
+seg_adrworst_khd_full,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adrworst_khd_full,result
+seg_adr_khd_no_correction,0.027,0.027,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adr_khd_no_correction,result
+seg_adrworst_khd_no_correction,0.073,0.073,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adrworst_khd_no_correction,result
+seg_adr_khd_no_physics,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adr_khd_no_physics,result
+seg_adrworst_khd_no_physics,0.013,0.013,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adrworst_khd_no_physics,result
+seg_adr_pvusa,0.009,0.009,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adr_pvusa,result
+seg_adrworst_pvusa,0.017,0.017,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adrworst_pvusa,result
+seg_adr_rdtools,0.043,0.043,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adr_rdtools,result
+seg_adrworst_rdtools,0.167,0.167,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adrworst_rdtools,result
+seg_adr_rdtools_fitted_gamma,0.023,0.023,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adr_rdtools_fitted_gamma,result
+seg_adrworst_rdtools_fitted_gamma,0.116,0.116,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adrworst_rdtools_fitted_gamma,result
+seg_adr_tcn,0.013,0.013,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adr_tcn,result
+seg_adrworst_tcn,0.032,0.032,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adrworst_tcn,result
+seg_adr_xgboost,0.024,0.024,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adr_xgboost,result
+seg_adrworst_xgboost,0.054,0.054,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",adrworst_xgboost,result
+seg_sd_bias_min,+0.083,+0.083,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_bias_min,result
+seg_sd_bias_max,+0.224,+0.224,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_bias_max,result
+seg_sd_best_method,κ-HYDRA-D,κ-HYDRA-D,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_best_method,result
+seg_sd_best_mae,0.084,0.084,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_best_mae,result
+seg_conv_m1,−1.0050,−1.0050,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",conv_m1,result
+seg_conv_m05,−0.5013,−0.5013,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",conv_m05,result
+seg_rmse_lo,0.029,0.029,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",rmse_lo,result
+seg_rmse_hi,0.033,0.033,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",rmse_hi,result
+seg_r2_lo,0.980,0.980,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",r2_lo,result
+seg_r2_hi,0.984,0.984,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",r2_hi,result
+seg_lowest_rmse_model,Random forest,Random forest,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lowest_rmse_model,result
+seg_lowest_rmse,0.0292,0.0292,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lowest_rmse,result
+seg_lowest_rmse_inj,0.124,0.124,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lowest_rmse_inj,result
+seg_lowest_rmse_inj_rank,7,7,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lowest_rmse_inj_rank,result
+seg_best_two_stage_rmse,0.0333,0.0333,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",best_two_stage_rmse,result
+seg_best_two_stage_rmse_rank,7,7,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",best_two_stage_rmse_rank,result
+seg_rho_fit_inj,−0.54,−0.54,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",rho_fit_inj,result
+seg_spread_med,0.20,0.20,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",spread_med,result
+seg_spread_max,0.39,0.39,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",spread_max,result
+seg_illus_final,5,5,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",illus_final,result
+seg_illus_life,2.4,2.4,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",illus_life,result
+seg_win_med,0.04,0.04,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",win_med,result
+seg_win_max,0.26,0.26,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",win_max,result
+seg_norm_med,0.042,0.042,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",norm_med,result
+seg_norm_max,0.300,0.300,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",norm_max,result
+seg_est_med,0.112,0.112,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",est_med,result
+seg_est_max,0.500,0.500,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",est_max,result
+seg_da_largest_systems,"DKASC 11, DKASC 17, DKASC 14","DKASC 11, DKASC 17, DKASC 14","paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",da_largest_systems,result
+seg_da_largest_min,0.44,0.44,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",da_largest_min,result
+seg_da_largest_max,0.56,0.56,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",da_largest_max,result
+seg_rho_da_half,−0.13,−0.13,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",rho_da_half,result
+seg_prof_n,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",prof_n,result
+seg_prof_single,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",prof_single,result
+seg_prof_widest,PVDAQ 2107,PVDAQ 2107,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",prof_widest,result
+seg_prof_widest_w,3.90,3.90,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",prof_widest_w,result
+seg_prof_med_w,0.83,0.83,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",prof_med_w,result
+seg_cs_diff_min,−0.35,−0.35,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",cs_diff_min,result
+seg_cs_diff_max,+0.32,+0.32,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",cs_diff_max,result
+seg_cs_diff_med,−0.08,−0.08,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",cs_diff_med,result
+seg_lat_rho,0.54,0.54,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lat_rho,result
+seg_lat_p,0.01,0.01,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lat_p,result
+seg_cp_step,0.103,0.103,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",cp_step,result
+seg_short_tf_nophys_p,0.02,0.02,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",short_tf_nophys_p,result
+seg_short_tf_full,0.015,0.015,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",short_tf_full,result
+seg_short_tf_nophys,0.026,0.026,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",short_tf_nophys,result
+seg_cov48_khd,48/48,48/48,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",cov48_khd,result
+seg_cov48_ref_pv,24/24,24/24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",cov48_ref_pv,result
+seg_cov48_ref_tf,20/24,20/24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",cov48_ref_tf,result
+seg_cov48_xgb,20/48,20/48,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",cov48_xgb,result
+seg_cov48_width,0.09,0.09,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",cov48_width,result
+seg_sd_cov_c,79,79,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_cov_c,result
+seg_sd_cov_n,240,240,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_cov_n,result
+seg_sd_cov_lo,0.27,0.27,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_cov_lo,result
+seg_sd_cov_hi,0.39,0.39,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_cov_hi,result
+seg_sd_cov_width,0.11,0.11,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_cov_width,result
+seg_sd_refcov_c,92,92,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_refcov_c,result
+seg_sd_refcov_n,240,240,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",sd_refcov_n,result
+seg_meas_width_khd,0.47,0.47,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",meas_width_khd,result
+seg_meas_width_ref,0.33,0.33,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",meas_width_ref,result
+seg_bb_width_def,0.33,0.33,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",bb_width_def,result
+seg_bb_width_block,0.94,0.94,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",bb_width_block,result
+seg_bb_ratio,2.8,2.8,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",bb_ratio,result
+seg_w24_rmse,0.0286,0.0286,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_rmse,result
+seg_xgb_rmse,0.0293,0.0293,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",xgb_rmse,result
+seg_w24_closer_worse,1,1,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_closer_worse,result
+seg_lin_tf,0.009,0.009,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lin_tf,result
+seg_mlp_tf,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",mlp_tf,result
+seg_ref_tf,0.055,0.055,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",ref_tf,result
+seg_TABLE_FIT_0,0.0293,0.0293,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 0,result
+seg_TABLE_FIT_1,0.984,0.984,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 1,result
+seg_TABLE_FIT_2,0.023,0.023,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 2,result
+seg_TABLE_FIT_3,0.024,0.024,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 3,result
+seg_TABLE_FIT_4,0.162,0.162,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 4,result
+seg_TABLE_FIT_5,0.0292,0.0292,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 5,result
+seg_TABLE_FIT_6,0.984,0.984,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 6,result
+seg_TABLE_FIT_7,0.124,0.124,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 7,result
+seg_TABLE_FIT_8,0.054,0.054,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 8,result
+seg_TABLE_FIT_9,0.204,0.204,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 9,result
+seg_TABLE_FIT_10,0.0305,0.0305,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 10,result
+seg_TABLE_FIT_11,0.983,0.983,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 11,result
+seg_TABLE_FIT_12,0.018,0.018,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 12,result
+seg_TABLE_FIT_13,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 13,result
+seg_TABLE_FIT_14,0.139,0.139,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 14,result
+seg_TABLE_FIT_15,0.0302,0.0302,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 15,result
+seg_TABLE_FIT_16,0.983,0.983,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 16,result
+seg_TABLE_FIT_17,0.027,0.027,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 17,result
+seg_TABLE_FIT_18,0.011,0.011,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 18,result
+seg_TABLE_FIT_19,0.139,0.139,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 19,result
+seg_TABLE_FIT_20,0.0295,0.0295,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 20,result
+seg_TABLE_FIT_21,0.984,0.984,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 21,result
+seg_TABLE_FIT_22,0.022,0.022,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 22,result
+seg_TABLE_FIT_23,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 23,result
+seg_TABLE_FIT_24,0.142,0.142,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 24,result
+seg_TABLE_FIT_25,0.0333,0.0333,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 25,result
+seg_TABLE_FIT_26,0.980,0.980,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 26,result
+seg_TABLE_FIT_27,0.016,0.016,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 27,result
+seg_TABLE_FIT_28,0.016,0.016,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 28,result
+seg_TABLE_FIT_29,0.144,0.144,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 29,result
+seg_TABLE_FIT_30,0.0314,0.0314,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 30,result
+seg_TABLE_FIT_31,0.982,0.982,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 31,result
+seg_TABLE_FIT_32,0.027,0.027,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 32,result
+seg_TABLE_FIT_33,0.015,0.015,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 33,result
+seg_TABLE_FIT_34,0.141,0.141,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 34,result
+seg_TABLE_FIT_35,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 35,result
+seg_TABLE_FIT_36,0.0286,0.0286,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 36,result
+seg_TABLE_FIT_37,0.984,0.984,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 37,result
+seg_TABLE_FIT_38,0.051,0.051,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 38,result
+seg_TABLE_FIT_39,0.033,0.033,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_FIT cell token 39,result
+seg_TABLE_2X2_0,11,11,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 0,result
+seg_TABLE_2X2_1,−1.42,−1.42,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 1,result
+seg_TABLE_2X2_2,−0.87,−0.87,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 2,result
+seg_TABLE_2X2_3,−1.31,−1.31,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 3,result
+seg_TABLE_2X2_4,−0.86,−0.86,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 4,result
+seg_TABLE_2X2_5,+0.058,+0.058,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 5,result
+seg_TABLE_2X2_6,+0.500,+0.500,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 6,result
+seg_TABLE_2X2_7,17,17,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 7,result
+seg_TABLE_2X2_8,−0.53,−0.53,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 8,result
+seg_TABLE_2X2_9,−0.08,−0.08,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 9,result
+seg_TABLE_2X2_10,−0.48,−0.48,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 10,result
+seg_TABLE_2X2_11,−0.08,−0.08,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 11,result
+seg_TABLE_2X2_12,+0.028,+0.028,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 12,result
+seg_TABLE_2X2_13,+0.424,+0.424,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 13,result
+seg_TABLE_2X2_14,14,14,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 14,result
+seg_TABLE_2X2_15,−0.74,−0.74,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 15,result
+seg_TABLE_2X2_16,−0.35,−0.35,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 16,result
+seg_TABLE_2X2_17,−0.60,−0.60,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 17,result
+seg_TABLE_2X2_18,−0.30,−0.30,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 18,result
+seg_TABLE_2X2_19,+0.090,+0.090,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 19,result
+seg_TABLE_2X2_20,+0.347,+0.347,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 20,result
+seg_TABLE_2X2_21,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 21,result
+seg_TABLE_2X2_22,0.042,0.042,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 22,result
+seg_TABLE_2X2_23,0.112,0.112,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 23,result
+seg_TABLE_2X2_24,0.300,0.300,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 24,result
+seg_TABLE_2X2_25,0.500,0.500,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_2X2 cell token 25,result
+seg_TABLE_REGIME_0,0.024,0.024,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 0,result
+seg_TABLE_REGIME_1,0.044,0.044,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 1,result
+seg_TABLE_REGIME_2,0.022,0.022,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 2,result
+seg_TABLE_REGIME_3,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 3,result
+seg_TABLE_REGIME_4,12,12,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 4,result
+seg_TABLE_REGIME_5,0.026,0.026,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 5,result
+seg_TABLE_REGIME_6,0.081,0.081,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 6,result
+seg_TABLE_REGIME_7,0.026,0.026,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 7,result
+seg_TABLE_REGIME_8,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 8,result
+seg_TABLE_REGIME_9,0.035,0.035,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 9,result
+seg_TABLE_REGIME_10,0.073,0.073,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 10,result
+seg_TABLE_REGIME_11,0.022,0.022,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 11,result
+seg_TABLE_REGIME_12,16,16,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 12,result
+seg_TABLE_REGIME_13,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 13,result
+seg_TABLE_REGIME_14,0.016,0.016,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 14,result
+seg_TABLE_REGIME_15,0.007,0.007,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 15,result
+seg_TABLE_REGIME_16,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 16,result
+seg_TABLE_REGIME_17,-24,-24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 17,result
+seg_TABLE_REGIME_18,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 18,result
+seg_TABLE_REGIME_19,0.025,0.025,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 19,result
+seg_TABLE_REGIME_20,0.042,0.042,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 20,result
+seg_TABLE_REGIME_21,0.027,0.027,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 21,result
+seg_TABLE_REGIME_22,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 22,result
+seg_TABLE_REGIME_23,0.004,0.004,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 23,result
+seg_TABLE_REGIME_24,0.007,0.007,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 24,result
+seg_TABLE_REGIME_25,0.004,0.004,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 25,result
+seg_TABLE_REGIME_26,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 26,result
+seg_TABLE_REGIME_27,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 27,result
+seg_TABLE_REGIME_28,0.023,0.023,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 28,result
+seg_TABLE_REGIME_29,0.029,0.029,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 29,result
+seg_TABLE_REGIME_30,0.025,0.025,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 30,result
+seg_TABLE_REGIME_31,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 31,result
+seg_TABLE_REGIME_32,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 32,result
+seg_TABLE_REGIME_33,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 33,result
+seg_TABLE_REGIME_34,0.051,0.051,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 34,result
+seg_TABLE_REGIME_35,0.064,0.064,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 35,result
+seg_TABLE_REGIME_36,0.060,0.060,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 36,result
+seg_TABLE_REGIME_37,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 37,result
+seg_TABLE_REGIME_38,0.142,0.142,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 38,result
+seg_TABLE_REGIME_39,0.217,0.217,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 39,result
+seg_TABLE_REGIME_40,0.103,0.103,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 40,result
+seg_TABLE_REGIME_41,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 41,result
+seg_TABLE_REGIME_42,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 42,result
+seg_TABLE_REGIME_43,0.022,0.022,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 43,result
+seg_TABLE_REGIME_44,0.032,0.032,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 44,result
+seg_TABLE_REGIME_45,0.029,0.029,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 45,result
+seg_TABLE_REGIME_46,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 46,result
+seg_TABLE_REGIME_47,0.059,0.059,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 47,result
+seg_TABLE_REGIME_48,0.085,0.085,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 48,result
+seg_TABLE_REGIME_49,0.047,0.047,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 49,result
+seg_TABLE_REGIME_50,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_REGIME cell token 50,result
+seg_TABLE_EXACT_0,0.031,0.031,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 0,result
+seg_TABLE_EXACT_1,0.093,0.093,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 1,result
+seg_TABLE_EXACT_2,0.043,0.043,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 2,result
+seg_TABLE_EXACT_3,0.167,0.167,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 3,result
+seg_TABLE_EXACT_4,0.107,0.107,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 4,result
+seg_TABLE_EXACT_5,0.175,0.175,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 5,result
+seg_TABLE_EXACT_6,0.015,0.015,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 6,result
+seg_TABLE_EXACT_7,0.029,0.029,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 7,result
+seg_TABLE_EXACT_8,0.023,0.023,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 8,result
+seg_TABLE_EXACT_9,0.116,0.116,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 9,result
+seg_TABLE_EXACT_10,0.010,0.010,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 10,result
+seg_TABLE_EXACT_11,0.037,0.037,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 11,result
+seg_TABLE_EXACT_12,0.007,0.007,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 12,result
+seg_TABLE_EXACT_13,0.011,0.011,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 13,result
+seg_TABLE_EXACT_14,0.007,0.007,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 14,result
+seg_TABLE_EXACT_15,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 15,result
+seg_TABLE_EXACT_16,0.084,0.084,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 16,result
+seg_TABLE_EXACT_17,0.119,0.119,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 17,result
+seg_TABLE_EXACT_18,-24,-24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 18,result
+seg_TABLE_EXACT_19,0.017,0.017,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 19,result
+seg_TABLE_EXACT_20,0.023,0.023,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 20,result
+seg_TABLE_EXACT_21,0.086,0.086,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 21,result
+seg_TABLE_EXACT_22,0.137,0.137,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 22,result
+seg_TABLE_EXACT_23,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 23,result
+seg_TABLE_EXACT_24,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 24,result
+seg_TABLE_EXACT_25,0.024,0.024,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 25,result
+seg_TABLE_EXACT_26,0.062,0.062,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 26,result
+seg_TABLE_EXACT_27,0.024,0.024,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 27,result
+seg_TABLE_EXACT_28,0.054,0.054,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 28,result
+seg_TABLE_EXACT_29,0.162,0.162,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 29,result
+seg_TABLE_EXACT_30,0.260,0.260,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 30,result
+seg_TABLE_EXACT_31,0.054,0.054,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 31,result
+seg_TABLE_EXACT_32,0.103,0.103,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 32,result
+seg_TABLE_EXACT_33,0.204,0.204,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 33,result
+seg_TABLE_EXACT_34,0.288,0.288,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 34,result
+seg_TABLE_EXACT_35,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 35,result
+seg_TABLE_EXACT_36,0.029,0.029,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 36,result
+seg_TABLE_EXACT_37,0.139,0.139,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 37,result
+seg_TABLE_EXACT_38,0.199,0.199,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 38,result
+seg_TABLE_EXACT_39,0.011,0.011,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 39,result
+seg_TABLE_EXACT_40,0.020,0.020,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 40,result
+seg_TABLE_EXACT_41,0.139,0.139,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 41,result
+seg_TABLE_EXACT_42,0.173,0.173,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 42,result
+seg_TABLE_EXACT_43,0.012,0.012,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 43,result
+seg_TABLE_EXACT_44,0.030,0.030,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 44,result
+seg_TABLE_EXACT_45,0.013,0.013,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 45,result
+seg_TABLE_EXACT_46,0.032,0.032,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 46,result
+seg_TABLE_EXACT_47,0.142,0.142,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 47,result
+seg_TABLE_EXACT_48,0.182,0.182,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 48,result
+seg_TABLE_EXACT_49,0.016,0.016,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 49,result
+seg_TABLE_EXACT_50,0.033,0.033,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 50,result
+seg_TABLE_EXACT_51,0.144,0.144,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 51,result
+seg_TABLE_EXACT_52,0.229,0.229,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 52,result
+seg_TABLE_EXACT_53,0.015,0.015,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 53,result
+seg_TABLE_EXACT_54,0.027,0.027,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 54,result
+seg_TABLE_EXACT_55,0.141,0.141,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 55,result
+seg_TABLE_EXACT_56,0.184,0.184,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 56,result
+seg_TABLE_EXACT_57,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 57,result
+seg_TABLE_EXACT_58,0.033,0.033,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 58,result
+seg_TABLE_EXACT_59,0.075,0.075,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 59,result
+seg_TABLE_EXACT_60,0.117,0.117,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 60,result
+seg_TABLE_EXACT_61,0.162,0.162,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 61,result
+seg_TABLE_EXACT_62,0.224,0.224,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 62,result
+seg_TABLE_EXACT_63,0.302,0.302,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 63,result
+seg_TABLE_EXACT_64,0.033,0.033,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 64,result
+seg_TABLE_EXACT_65,0.077,0.077,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 65,result
+seg_TABLE_EXACT_66,0.148,0.148,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 66,result
+seg_TABLE_EXACT_67,0.192,0.192,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 67,result
+seg_TABLE_EXACT_68,0.009,0.009,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 68,result
+seg_TABLE_EXACT_69,0.017,0.017,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_EXACT cell token 69,result
+seg_TABLE_ABLATION_0,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 0,result
+seg_TABLE_ABLATION_1,0.009,0.009,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 1,result
+seg_TABLE_ABLATION_2,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 2,result
+seg_TABLE_ABLATION_3,0.122,0.122,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 3,result
+seg_TABLE_ABLATION_4,0.072,0.072,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 4,result
+seg_TABLE_ABLATION_5,3,3,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 5,result
+seg_TABLE_ABLATION_6,12,12,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 6,result
+seg_TABLE_ABLATION_7,0.015,0.015,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 7,result
+seg_TABLE_ABLATION_8,0.026,0.026,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 8,result
+seg_TABLE_ABLATION_9,0.498,0.498,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 9,result
+seg_TABLE_ABLATION_10,0.174,0.174,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 10,result
+seg_TABLE_ABLATION_11,20,20,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 11,result
+seg_TABLE_ABLATION_12,120,120,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 12,result
+seg_TABLE_ABLATION_13,0.007,0.007,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 13,result
+seg_TABLE_ABLATION_14,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 14,result
+seg_TABLE_ABLATION_15,0.027,0.027,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 15,result
+seg_TABLE_ABLATION_16,0.043,0.043,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 16,result
+seg_TABLE_ABLATION_17,12,12,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 17,result
+seg_TABLE_ABLATION_18,0.115,0.115,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 18,result
+seg_TABLE_ABLATION_19,0.145,0.145,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 19,result
+seg_TABLE_ABLATION_20,0.095,0.095,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 20,result
+seg_TABLE_ABLATION_21,0.246,0.246,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 21,result
+seg_TABLE_ABLATION_22,3,3,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 22,result
+seg_TABLE_ABLATION_23,12,12,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 23,result
+seg_TABLE_ABLATION_24,0.182,0.182,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 24,result
+seg_TABLE_ABLATION_25,0.175,0.175,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 25,result
+seg_TABLE_ABLATION_26,0.185,0.185,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 26,result
+seg_TABLE_ABLATION_27,0.261,0.261,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_ABLATION cell token 27,result
+seg_TABLE_UNC_0,95,95,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 0,result
+seg_TABLE_UNC_1,48,48,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 1,result
+seg_TABLE_UNC_2,48,48,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 2,result
+seg_TABLE_UNC_3,48,48,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 3,result
+seg_TABLE_UNC_4,0.09,0.09,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 4,result
+seg_TABLE_UNC_5,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 5,result
+seg_TABLE_UNC_6,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 6,result
+seg_TABLE_UNC_7,20,20,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 7,result
+seg_TABLE_UNC_8,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 8,result
+seg_TABLE_UNC_9,20,20,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 9,result
+seg_TABLE_UNC_10,48,48,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 10,result
+seg_TABLE_UNC_11,95,95,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 11,result
+seg_TABLE_UNC_12,240,240,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 12,result
+seg_TABLE_UNC_13,79,79,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 13,result
+seg_TABLE_UNC_14,240,240,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 14,result
+seg_TABLE_UNC_15,95,95,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 15,result
+seg_TABLE_UNC_16,0.27,0.27,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 16,result
+seg_TABLE_UNC_17,0.39,0.39,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 17,result
+seg_TABLE_UNC_18,92,92,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 18,result
+seg_TABLE_UNC_19,240,240,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 19,result
+seg_TABLE_UNC_20,95,95,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 20,result
+seg_TABLE_UNC_21,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 21,result
+seg_TABLE_UNC_22,0.47,0.47,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 22,result
+seg_TABLE_UNC_23,0.33,0.33,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 23,result
+seg_TABLE_UNC_24,18,18,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 24,result
+seg_TABLE_UNC_25,0.33,0.33,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 25,result
+seg_TABLE_UNC_26,0.94,0.94,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 26,result
+seg_TABLE_UNC_27,30,30,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",TABLE_UNC cell token 27,result
+seg_hourly_rule,90,90,src/degradation/tier_a._hourly,>= 90 % of the native intervals valid,design
+seg_w24_sentence_0,24,24,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_sentence token 0,result
+seg_w24_sentence_1,0.0286,0.0286,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_sentence token 1,result
+seg_w24_sentence_2,0.0293,0.0293,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_sentence token 2,result
+seg_w24_sentence_3,0.051,0.051,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_sentence token 3,result
+seg_w24_sentence_4,0.033,0.033,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_sentence token 4,result
+seg_w24_sentence_5,0.023,0.023,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_sentence token 5,result
+seg_w24_sentence_6,0.024,0.024,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_sentence token 6,result
+seg_w24_sentence_7,3,3,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",w24_sentence token 7,result
+seg_lin_sentence_0,0.004,0.004,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lin_sentence token 0,result
+seg_lin_sentence_1,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lin_sentence token 1,result
+seg_lin_sentence_2,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lin_sentence token 2,result
+seg_lin_sentence_3,0.007,0.007,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lin_sentence token 3,result
+seg_lin_sentence_4,0.009,0.009,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lin_sentence token 4,result
+seg_lin_sentence_5,0.008,0.008,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lin_sentence token 5,result
+seg_lin_sentence_6,0.055,0.055,"paper_numbers.numbers(): results/fixed_mask, results/singlediode, results/climate_expansion, results/first_year",lin_sentence token 6,result
