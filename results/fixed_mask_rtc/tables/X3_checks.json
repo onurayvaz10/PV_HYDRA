@@ -1,0 +1,21 @@
+{
+ "systems": [
+  "rtc_c10hov6",
+  "rtc_t3pg1sv"
+ ],
+ "location": "Albuquerque, NM (BSk)",
+ "label": "exploratory",
+ "lowest_rmse_model": "random_forest",
+ "lowest_rmse_model_injection_rank": 7,
+ "check_i_lowest_rmse_is_most_accurate": false,
+ "trio_mae": {
+  "reference": 0.010061513186177245,
+  "patchtst": 0.02222331250464127,
+  "khd": 0.004126166892061647
+ },
+ "check_ii_trio_within_delta": true,
+ "spread_seven_unmodified": {
+  "rtc_c10hov6": 0.328,
+  "rtc_t3pg1sv": 0.336
+ }
+}

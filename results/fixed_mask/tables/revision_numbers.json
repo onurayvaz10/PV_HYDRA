@@ -82,6 +82,11 @@
    "worst_location": 0.0316,
    "n_systems": 18
   },
+  "reference_physical": {
+   "loc_weighted_mae": 0.0225,
+   "worst_location": 0.034,
+   "n_systems": 18
+  },
   "xgboost": {
    "loc_weighted_mae": 0.0228,
    "worst_location": 0.0295,
@@ -100,6 +105,11 @@
   "reference_fitted": {
    "loc_weighted_mae": 0.026,
    "worst_location": 0.0815,
+   "n_systems": 18
+  },
+  "reference_inverter": {
+   "loc_weighted_mae": 0.0261,
+   "worst_location": 0.057,
    "n_systems": 18
   },
   "gru": {

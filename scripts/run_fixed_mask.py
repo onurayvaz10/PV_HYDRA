@@ -31,7 +31,10 @@ sys.path.insert(0, str(ROOT))
 from src.degradation import ml_plr, perf_models as pm  # noqa: E402
 from src.degradation.rdtools_pipeline import fixed_mask, gamma_for, sensor_plr  # noqa: E402
 
-OUT = ROOT / "results/fixed_mask"
+# PV_SET=rtc: the independent extension set of amendment 4 (US DOE RTC baseline systems that pass the Tier-S screen),
+# written to results/fixed_mask_rtc so that it never mixes with the main benchmark.
+RTC = os.environ.get("PV_SET", "") == "rtc"
+OUT = ROOT / ("results/fixed_mask_rtc" if RTC else "results/fixed_mask")
 SEEDS = [0, 1, 2, 3, 4]
 INJECTIONS = [0.0, -0.25, -0.5, -1.0, -2.0]
 EXPANSION = ["pvdaq_10", "pvdaq_33", "pvdaq_1278"]
@@ -39,8 +42,12 @@ _CACHE: dict = {}
 
 
 def systems() -> list[str]:
-    ref = pd.read_csv(ROOT / "results/degradation_paper/reference_plr.csv")
-    s = list(ref[ref.status == "ok"].system_id) + EXPANSION
+    if RTC:
+        scr = pd.read_csv(ROOT / "results/fixed_mask_rtc/rtc_screen.csv")
+        s = list(scr[(scr.included == True) | (scr.exploratory == True)].system_id)  # noqa: E712  (amendment 4b)
+    else:
+        ref = pd.read_csv(ROOT / "results/degradation_paper/reference_plr.csv")
+        s = list(ref[ref.status == "ok"].system_id) + EXPANSION
     shard = os.environ.get("SHARD", "")
     if shard:
         i, n = (int(x) for x in shard.split("/"))
@@ -52,7 +59,10 @@ def load(sid: str):
     if sid not in _CACHE:
         _CACHE.clear()
         raw = sid.replace("pvdaq_", "")
-        if sid in EXPANSION:
+        if sid.startswith("rtc_"):
+            from src.degradation import expansion as ex
+            frame, meta = ex.load("rtc:" + sid[4:])
+        elif sid in EXPANSION:
             from src.degradation import expansion as ex
             frame, meta = ex.load(raw)
         else:

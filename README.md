@@ -68,7 +68,8 @@ without cuDNN kernels).
 | 17. Loss profiles on measured systems (P6) | `run_measured_profile.py` | `results/fixed_mask/profile_*.csv` |
 | 18. Revision tables (P7) | `analyze_revision.py halves`, `analyze_revision.py`, `latitude_spearman.py` | `results/fixed_mask/tables/R*.csv` |
 | 19. First-year rate convention, hourly validity rule, block bootstrap, input-length and linear-correction controls (protocol amendment 3) | `rescore_first_year.py`, `check_hourly_rule.py`, `run_block_bootstrap.py`, `run_fixed_mask.py kappalin`, `run_climate_info_equal.py` | `results/first_year/FY_*.csv`, `results/fixed_mask/tables/R10`–`R13` |
-| 20. Run manifest | `python scripts/make_run_manifest.py` | `results/RUN_MANIFEST.csv` |
+| 20. Interval calibration under other noise structures, inverter and fitted physical references, independent RTC extension (amendments 4, 4b) | `run_calibration_stress.py run`/`summary`, `run_inverter_reference.py measured`/`exact`/`summary`, `screen_rtc.py`, `PV_SET=rtc run_fixed_mask.py rd/ml/kappa/kappa24`, `analyze_extension.py` | `results/calibration_stress/`, `results/inverter_reference/`, `results/fixed_mask_rtc/` |
+| 21. Run manifest | `python scripts/make_run_manifest.py` | `results/RUN_MANIFEST.csv` |
 
 Each run script appends one row per finished unit, so an interrupted run resumes where it stopped.
 

@@ -52,6 +52,8 @@ TRANSPOSITION = {"model": "perez", "albedo": 0.2}
 
 
 def tier_of(sid: str) -> str:
+    if sid.startswith("rtc:"):
+        return "S"
     if sid.startswith("fmi:"):
         return FMI_SITES[sid.split(":", 1)[1]]["tier"]
     return "S" if sid in TIER_S_PARQUET or sid in TIER_S_PRIZE else "R"
@@ -177,6 +179,8 @@ def build_utrecht_hourly(chunk_rows: int = 200_000) -> Path:
 
 def system_key(sid: str) -> str:
     """Result-table id of a candidate key."""
+    if sid.startswith("rtc:"):
+        return f"rtc_{sid.split(':', 1)[1]}"
     if sid.startswith("utrecht:"):
         return f"ut_{sid.split(':', 1)[1]}"
     if sid.startswith("fmi:"):
@@ -303,6 +307,8 @@ def native_file(sid: str) -> Path:
 
 def hourly(sid: str) -> tuple[pd.DataFrame, dict]:
     """Hourly frame in the raw clock (complete hours only, as tier_a._hourly) plus metadata."""
+    if sid.startswith("rtc:"):
+        return hourly_rtc(sid)
     if sid.startswith("fmi:"):
         return hourly_fmi(sid)
     if sid.startswith("hongkong:"):
@@ -361,6 +367,44 @@ def hourly_fmi(sid: str) -> tuple[pd.DataFrame, dict]:
     meta.update(era5_lat=round(spec["lat"] * 4) / 4, era5_lon=round(spec["lon"] * 4) / 4,
                 era5_span=span(frame.index))
     return frame, meta
+
+
+# US DOE Regional Test Center baseline systems (Curran et al. 2019, https://osf.io/yvzhk/, ODbL 1.0):
+# inverter-level DC power (kW) of 12 x 270 W mono-Si modules, ground POA pyranometer, module and ambient temperature,
+# 1-min, local time (convention detected against ERA5 as for every Tier-S system). Amendment 4 (2026-10-03).
+RTC_DIR = ROOT / "data/raw/external/doe_rtc"
+RTC_TZ = {"new mexico": "America/Denver", "vermont": "America/New_York", "florida": "America/New_York",
+          "nevada": "America/Los_Angeles"}
+RTC_LOCATION = {"new mexico": "Albuquerque, NM", "vermont": "Williston, VT", "florida": "Cocoa, FL",
+                "nevada": "Henderson, NV"}
+
+
+def rtc_metadata() -> pd.DataFrame:
+    return pd.read_csv(RTC_DIR / "DOE-RTC-Baseline-metadata-v02.csv")
+
+
+def hourly_rtc(sid: str) -> tuple[pd.DataFrame, dict]:
+    rcid = sid.split(":", 1)[1]
+    m = rtc_metadata().set_index("rcid").loc[rcid]
+    raw = pd.read_csv(RTC_DIR / f"{rcid}.csv", usecols=lambda c: c in ("tmst", "idcp", "poay", "modt", "temp"))
+    raw.index = pd.to_datetime(raw.pop("tmst"), errors="coerce")
+    raw = raw[raw.index.notna()].sort_index()
+    raw = raw[~raw.index.duplicated()]
+    native = pd.DataFrame({"power_w": pd.to_numeric(raw.idcp, errors="coerce") * 1000.0,
+                           "onsite_poa_wm2": pd.to_numeric(raw.poay, errors="coerce"),
+                           "onsite_module_temp_c": pd.to_numeric(raw.modt, errors="coerce"),
+                           "onsite_ambient_temp_c": pd.to_numeric(raw.temp, errors="coerce")}, index=raw.index)
+    out, step = _aggregate(native)
+    site = str(m.invtsite)
+    meta = {"system_id": system_key(sid), "raw_id": sid, "tier": "S", "source": "US DOE RTC baseline (OSF yvzhk, ODbL)",
+            "lat": float(m.latd), "lon": float(m.lond), "dc_kw": float(m.npow) * float(m.nmod) / 1000.0,
+            "tz": RTC_TZ[site], "tilt": float(m.tilt), "azimuth": 180.0, "tracking": False,
+            "location": RTC_LOCATION[site], "name": f"RTC {rcid}", "catalogue_climate": str(m.kgcz),
+            "native_interval_minutes": step, "time_basis": "local time (published)"}
+    meta["label"] = f"RTC {rcid}, {meta['location']}, mono-Si"
+    meta["std_offset_h"] = tier_a.std_offset_h(meta["tz"])
+    meta.update(era5_lat=round(meta["lat"] * 4) / 4, era5_lon=round(meta["lon"] * 4) / 4, era5_span=span(out.index))
+    return out, meta
 
 
 def hourly_utrecht(sid: str) -> tuple[pd.DataFrame, dict]:

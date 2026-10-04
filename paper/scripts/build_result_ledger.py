@@ -69,7 +69,10 @@ def segan_rows() -> None:
         for i, tok in enumerate(re.findall(r"[−-]?\+?\d[\d,]*(?:\.\d+)?", tbl)):
             add(f"seg_{name}_{i}", tok, tok, src, f"{name} cell token {i}")
     add("seg_hourly_rule", "90", 90, "src/degradation/tier_a._hourly", ">= 90 % of the native intervals valid", "design")
-    for k in ("w24_sentence", "lin_sentence"):
+    for tok, what in (("0.5", "noise sigma 0.5 %"), ("1", "noise sigma 1 %; 1-min data"), ("3", "noise sigma 3 %"),
+                      ("12", "first 12 months (fitted physical model)"), ("1.0", "Open Database License version 1.0")):          # amendment 4 design constants
+        add(f"seg_a4_design_{tok}", tok, float(tok), "scripts/run_calibration_stress.py, run_inverter_reference.py", what, "design")
+    for k in ("w24_sentence", "lin_sentence", "k1_sentence", "k2_sentence", "k2_discussion", "x_sentence"):
         for i, tok in enumerate(re.findall(r"[−-]?\+?\d[\d,]*(?:\.\d+)?", n.get(k, ""))):
             add(f"seg_{k}_{i}", tok, tok, src, f"{k} token {i}")
 

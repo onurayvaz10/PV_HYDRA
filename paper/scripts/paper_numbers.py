@@ -287,7 +287,105 @@ def numbers() -> tuple[dict, dict, dict]:
             if tf_lin - tf_mlp < DELTA / 5 else
             "A linear correction with the same inputs and joint trend was less accurate on the misspecified responses, so the "
             "flexibility of the correction contributes beyond the joint trend.")
+    amendment4(N, D, r1)
     return N, T, D
+
+
+def frac(c: int, n: int) -> str:
+    return f"{c}/{n}"
+
+
+def amendment4(N: dict, D: dict, r1: pd.DataFrame) -> None:
+    """Numbers and generated sentences of amendment 4 (K1 interval calibration, K2 physical references, RTC)."""
+    # K2: inverter and fitted physical references on the measured records
+    rc = TAB / "K2_measured_rate_change.csv"
+    if rc.exists() and "reference_physical" in r1.index:
+        c = pd.read_csv(rc).set_index("system_id")
+        for k, col in (("inv", "change_reference_inverter"), ("phys", "change_reference_physical")):
+            N[f"{k}_change_med"], N[f"{k}_change_max"] = fmt(c[col].abs().median()), fmt(c[col].abs().max())
+    ke = ROOT / "results/inverter_reference/tables/K2_exact_rate.csv"
+    if ke.exists():
+        k = pd.read_csv(ke)
+        k = k[k.family.isin(["all"])].set_index(["group", "method"])
+        N["phys_ex"] = fmt(k.loc[("pvwatts_thin_film", "reference_physical_dc"), "mae"])
+        N["phys_ex_worst"] = fmt(k.loc[("pvwatts_thin_film", "reference_physical_dc"), "worst_site"])
+        N["phys_adr"] = fmt(k.loc[("adr", "reference_physical_dc"), "mae"])
+        N["k2_ref_ex"] = fmt(k.loc[("pvwatts_thin_film", "reference"), "mae"])
+        N["k2_ref_adr"] = fmt(k.loc[("adr", "reference"), "mae"])
+        D["k2"] = k
+    if "phys_change_med" in N and "phys_ex" in N:
+        N["k2_sentence"] = (
+            f"With the PVWatts inverter part-load curve, the reference erred by {N['inj_reference_inverter']} %/yr on injected "
+            f"records and moved the unmodified rates by a median of {N['inv_change_med']} %/yr (at most {N['inv_change_max']}). "
+            f"With its scale, temperature coefficient and a low-light coefficient fitted to the first year of the same record, "
+            f"it erred by {N['inj_reference_physical']} %/yr on injected records but moved the unmodified rates by a median of "
+            f"{N['phys_change_med']} %/yr (at most {N['phys_change_max']}); on exact-rate records this fitted physical model "
+            f"erred by {N['phys_ex']} %/yr (worst site {N['phys_ex_worst']}) against {N['k2_ref_ex']} %/yr for the reference "
+            f"with the typical coefficient, and by {N['phys_adr']} %/yr against {N['k2_ref_adr']} %/yr on the ADR records "
+            f"(Supplementary Section H).")
+        close = abs(num(N["phys_ex"]) - num(N["ex_khd_full"])) < DELTA and abs(num(N["phys_adr"]) - num(N["adr_khd_full"])) < DELTA
+        N["k2_close"] = "1" if close and num(N["phys_ex"]) < num(N["k2_ref_ex"]) and num(N["phys_adr"]) < num(N["k2_ref_adr"]) else "0"
+        N["k2_discussion"] = (
+            f"A physical reference with a temperature and a low-light coefficient fitted to the first year of the same record "
+            f"reached an exact-rate error of {N['phys_ex']} %/yr ({N['phys_adr']} %/yr on the ADR records), within δ of "
+            f"κ-HYDRA-D ({N['ex_khd_full']} and {N['adr_khd_full']} %/yr); where the module response can be parameterized, a "
+            f"fitted physical model therefore offers most of the benefit of the learned correction, although on the measured "
+            f"records it moved the rates by a median of {N['phys_change_med']} %/yr relative to the reference."
+            if N["k2_close"] == "1" else
+            f"A physical reference with a temperature and a low-light coefficient fitted to the first year of the same record "
+            f"erred by {N['phys_ex']} %/yr on the exact-rate records ({N['phys_adr']} %/yr on the ADR records), against "
+            f"{N['ex_khd_full']} and {N['adr_khd_full']} %/yr for κ-HYDRA-D.")
+    # K1: interval calibration under other noise structures
+    k1f = ROOT / "results/calibration_stress/tables/K1_interval_calibration.csv"
+    if k1f.exists():
+        k1 = pd.read_csv(k1f).set_index(["mode", "method"])
+        D["k1"] = k1
+        if k1.n.min() == k1.n.max() and len(k1) == 15:
+            def cv(mode, m):
+                return frac(int(k1.loc[(mode, m), "covered"]), int(k1.loc[(mode, m), "n"]))
+            iid = ("iid_0.5", "iid_1", "iid_3")
+            N["k1_n"] = str(int(k1.n.max()))
+            for m, key in (("khd_full", "khd"), ("rdtools", "ref"), ("rdtools_block", "blk")):
+                N[f"k1_{key}_iid"] = ", ".join(cv(x, m) for x in iid)
+                N[f"k1_{key}_ar1"], N[f"k1_{key}_het"] = cv("ar1_day", m), cv("hetero", m)
+            N["k1_sentence"] = (
+                f"On exact-rate records with other noise structures ({N['k1_n']} records each; Supplementary Section H), the "
+                f"intervals of κ-HYDRA-D covered {N['k1_khd_iid']} truths with independent noise of 0.5, 1 and 3 %, "
+                f"{N['k1_khd_ar1']} with day-to-day autocorrelated noise and {N['k1_khd_het']} with irradiance-dependent noise; "
+                f"in the same order, the default reference interval covered {N['k1_ref_iid']}, {N['k1_ref_ar1']} and "
+                f"{N['k1_ref_het']}, and the block-bootstrap interval {N['k1_blk_iid']}, {N['k1_blk_ar1']} and {N['k1_blk_het']}.")
+            cov = k1.coverage
+            if cov[("ar1_day", "rdtools")] < 0.8 and cov[("ar1_day", "rdtools_block")] >= 0.9 and cov[("ar1_day", "khd_full")] >= 0.9:
+                N["k1_sentence"] += (" Day-to-day dependence was thus the noise structure that the default reference interval "
+                                     "missed, whereas the block bootstrap and the year jackknife of κ-HYDRA-D kept their coverage.")
+            N["k1_ar1_ref_low"] = "1" if cov[("ar1_day", "rdtools")] < 0.8 else "0"
+    # exploratory RTC extension
+    scr = ROOT / "results/fixed_mask_rtc/rtc_screen.csv"
+    if scr.exists():
+        s = pd.read_csv(scr)
+        cand = s[s.site != "nevada"]
+        N["rtc_n_cand"], N["rtc_n_loc"] = str(len(cand)), str(cand.site.nunique())
+        N["rtc_vy_min"], N["rtc_vy_max"] = fmt(cand.valid_years.min(), 2), fmt(cand.valid_years.max(), 2)
+        N["rtc_n_expl"] = str(int(s.exploratory.sum()))
+    x3 = ROOT / "results/fixed_mask_rtc/tables/X3_checks.json"
+    x1 = ROOT / "results/fixed_mask_rtc/tables/X1_injection_by_method.csv"
+    if x3.exists() and x1.exists():
+        ck = json.loads(x3.read_text(encoding="utf-8"))
+        x = pd.read_csv(x1).set_index("method")
+        if "check_ii_trio_within_delta" in ck and {"reference", "khd"} <= set(x.index):
+            best = min(ck["trio_mae"], key=lambda m: ck["trio_mae"][m] if m not in ("reference", "khd") else 9)
+            N["x_rank"] = str(ck["lowest_rmse_model_injection_rank"])
+            N["x_fit_rate_replicated"] = "0" if ck["check_i_lowest_rmse_is_most_accurate"] else "1"
+            N["x_trio_within"] = "1" if ck["check_ii_trio_within_delta"] else "0"
+            N["x_lowest"] = NAME[ck["lowest_rmse_model"]]
+            N["x_best"], N["x_best_mae"] = NAME[best], fmt(x.loc[best, "mae"])
+            N["x_ref"], N["x_khd"] = fmt(x.loc["reference", "mae"]), fmt(x.loc["khd", "mae"])
+            N["x_sentence"] = (
+                f"On the exploratory Albuquerque extension (two inverters, climate BSk; Supplementary Section H), the closest "
+                f"power fit ({N['x_lowest']}) ranked {N['x_rank']} of seven in recovering injected trends, and the reference, "
+                f"the best two-stage model ({N['x_best']}) and κ-HYDRA-D erred by {N['x_ref']}, {N['x_best_mae']} and "
+                f"{N['x_khd']} %/yr"
+                + (", within δ of each other." if ck["check_ii_trio_within_delta"] else ", not all within δ of each other."))
 
 
 def claims(N: dict, D: dict) -> list[str]:
@@ -319,9 +417,11 @@ def claims(N: dict, D: dict) -> list[str]:
         fail.append("abstract says the closest fit gave the largest injected-change error, but it is not last")
     if N.get("w24_closer_worse") != "1":
         fail.append("discussion says a closer fit with a longer input worsened the rate; not supported")
-    for k in ("w24_sentence", "lin_sentence"):
+    for k in ("w24_sentence", "lin_sentence", "k1_sentence", "k2_sentence", "k2_discussion", "x_sentence"):
         if k not in N:
             fail.append(f"{k} missing: control runs incomplete")
+    if "rtc_n_expl" in N and N["rtc_n_expl"] != "2":
+        fail.append("text names the two Albuquerque inverters as the exploratory extension; screen says otherwise")
     return fail
 
 

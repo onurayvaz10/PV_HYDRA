@@ -33,7 +33,8 @@ DELTA = 0.05
 SEVEN = ["xgboost", "random_forest", "lstm", "gru", "tcn", "patchtst", "informer"]
 LOCATION = {**{f"dkasc_{i}": "Alice Springs" for i in (7, 8, 10, 11, 12, 13, 14, 17, 18, 19, 20, 21)},
             "pvdaq_1430": "Golden", "pvdaq_10": "Golden", "pvdaq_33": "Golden", "pvdaq_1423": "Henderson",
-            "pvdaq_1278": "Las Vegas", "pvdaq_2107": "Arbuckle"}
+            "pvdaq_1278": "Las Vegas", "pvdaq_2107": "Arbuckle",
+            "rtc_c10hov6": "Albuquerque", "rtc_t3pg1sv": "Albuquerque"}      # exploratory extension (amendment 4b)
 INJ = [-0.25, -0.5, -1.0, -2.0]
 
 
@@ -76,6 +77,10 @@ def injection_table() -> pd.DataFrame:
         for col, tc, m in (("plr_fitted", "t_center_fitted", "reference_fitted"), ("plr_clearsky", "t_center_clearsky", "reference_clearsky")):
             if col in v:
                 rows.append(v[["system_id", "injection", col, tc]].rename(columns={col: "plr", tc: "t_center_years"}).assign(method=m))
+    iv = FM / "inverter_reference_runs.csv"                 # amendment 4: inverter and fitted physical references
+    if iv.exists():
+        v = pd.read_csv(iv).drop_duplicates(["system_id", "injection", "method"], keep="last")
+        rows.append(v[["system_id", "method", "injection", "plr", "t_center_years"]])
     t = pd.concat(rows, ignore_index=True).dropna(subset=["plr"])
     base = t[t.injection == 0.0].set_index(["system_id", "method"])
     out = t[t.injection != 0.0].copy()
