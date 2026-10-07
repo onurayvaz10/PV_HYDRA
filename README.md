@@ -5,8 +5,13 @@ Code and result tables for the study
 > O. Ayvaz and Ö. Tomak, “Power-fit accuracy does not guarantee degradation-rate accuracy: Known-rate benchmarking
 > of machine-learning normalization for photovoltaic performance loss rates.”
 
-Authors: **Onur Ayvaz** (ORCID 0009-0000-9522-7790) and **Özgür Tomak** (ORCID 0000-0003-2993-6913, corresponding
-author), Department of Electricity and Energy, Technical Sciences Vocational School, Giresun University, Türkiye.
+Authors: Onur Ayvaz¹ (ORCID: 0009-0000-9522-7790) and Özgür Tomak²* (ORCID: 0000-0003-2993-6913)
+
+¹ Department of Electrical and Electronics Engineering, Faculty of Engineering, Giresun University, Türkiye
+
+² Department of Computer Engineering, Faculty of Engineering, Giresun University, Türkiye
+
+* Corresponding author
 
 The repository contains:
 - the estimators: seven machine-learning performance models with a year-on-year trend, the RdTools reference, PVUSA,
